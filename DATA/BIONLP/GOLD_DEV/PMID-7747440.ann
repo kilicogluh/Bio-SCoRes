@@ -1,0 +1,27 @@
+T1	Protein 129 135	BZLF-1
+T2	Protein 154 157	RAZ
+T3	Protein 595 606	BamHI ZLF-1
+T4	Protein 621 626	ZEBRA
+T5	Protein 723 726	RAZ
+T6	Protein 760 766	BZLF-1
+T7	Protein 790 796	BRLF-1
+T8	Protein 828 833	ZEBRA
+T9	Protein 947 953	EBNA-1
+T10	Protein 1121 1130	gp350/220
+T11	Protein 1239 1245	LMP-2A
+T12	Protein 1249 1255	EBER-1
+T13	Exp 129 135	BZLF-1
+T14	Exp 140 143	its
+T15	Exp 505 512	B cells
+T16	Exp 513 518	where
+T17	Exp 696 727	a novel fusion transcript (RAZ)	711 721	transcript
+T18	Exp 729 734	which
+T19	Exp 1037 1055	the Cp/Wp promoter	1047 1055	promoter
+T20	Exp 1056 1061	which
+T21	Exp 1517 1539	a linear configuration	1526 1539	configuration
+T22	Exp 1545 1550	which
+R1	Coref Anaphora:T14 Antecedent:T13	[T1]
+R2	Coref Anaphora:T16 Antecedent:T15
+R3	Coref Anaphora:T18 Antecedent:T17	[T5]
+R4	Coref Anaphora:T20 Antecedent:T19
+R5	Coref Anaphora:T22 Antecedent:T21

@@ -1,0 +1,27 @@
+T1	Protein 215 248	Hepatocyte nuclear factor-1 alpha
+T2	Protein 250 261	HNF-1 alpha
+T3	Protein 328 364	dimerization cofactor of HNF-1 alpha
+T4	Protein 366 370	DCoH
+T5	Protein 496 507	HNF-1 alpha
+T6	Protein 553 557	DCoH
+T7	Protein 558 569	HNF-1 alpha
+T8	Protein 621 632	HNF-1 alpha
+T9	Protein 684 695	HNF-1 alpha
+T10	Protein 749 753	DCoH
+T11	Protein 856 860	DCoH
+T12	Exp 20 30	a cofactor
+T13	Exp 31 35	that
+T14	Exp 266 298	a homeodomain-containing protein	291 298	protein
+T15	Exp 299 303	that
+T16	Exp 516 577	The formation of a stable tetrameric DCoH-HNF-1 alpha complex	564 577	alpha complex
+T17	Exp 579 584	which
+T18	Exp 684 695	HNF-1 alpha
+T19	Exp 710 713	its
+T20	Exp 884 929	transcriptionally active tetrameric complexes	909 929	tetrameric complexes
+T21	Exp 985 996	the complex
+R1	Coref Anaphora:T13 Antecedent:T12
+R2	Coref Anaphora:T15 Antecedent:T14
+R3	Coref Anaphora:T17 Antecedent:T16	[T7, T6]
+R4	Coref Anaphora:T19 Antecedent:T18	[T9]
+R5	Coref Anaphora:T20 Antecedent:T16	[T7, T6]
+R6	Coref Anaphora:T21 Antecedent:T20

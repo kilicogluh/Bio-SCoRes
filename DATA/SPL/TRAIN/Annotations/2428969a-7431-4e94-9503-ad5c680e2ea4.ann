@@ -1,0 +1,67 @@
+T1	Drug_Class 2943 2972	Class Ia antiarrhythmic drugs
+T2	Drug 3016 3028	disopyramide
+T3	Drug 3030 3039	quinidine
+T4	Drug 3045 3057	procainamide
+T5	Drug_Class 3069 3084	class III drugs
+T6	Drug 3094 3104	amiodarone
+T7	Drug 3109 3116	sotalol
+T8	Drug 3157 3174	CORVERT Injection
+T10	Drug_Class 3284 3291;3311 3332	class I antiarrhythmic agents
+T11	Drug_Class 3301 3332	class III antiarrhythmic agents
+T13	Drug 3382 3400	ibutilide infusion
+T16	Drug 3562 3579	CORVERT Injection
+T17	Drug_Class 3619 3653	drugs that prolong the QT interval
+T18	Drug_Class 3663 3677	phenothiazines
+T19	Drug_Class 3679 3704	tricyclic antidepressants
+T20	Drug_Class 3706 3733	tetracyclic antidepressants
+T21	Drug_Class 3747 3766	antihistamine drugs
+T22	Drug_Class 3768 3791	H1 receptor antagonists
+T23	Drug_Class 4456 4480	calcium channel blockers
+T24	Drug_Class 4595 4626	beta-adrenergic blocking agents
+T25	Drug 23 40	CORVERT Injection
+T26	Drug 247 264	CORVERT Injection
+T27	Drug 488 505	CORVERT Injection
+T28	Drug 1053 1070	CORVERT Injection
+T29	Drug 2760 2777	CORVERT Injection
+T30	Drug 8958 8975	CORVERT Injection
+T31	Drug 9488 9505	CORVERT Injection
+T32	Drug 9657 9674	CORVERT Injection
+T34	Drug 4142 4149	digoxin
+T35	Drug 4238 4245	digoxin
+T36	Drug 4337 4344	digoxin
+T37	Drug 8008 8015	sotalol
+T38	Drug_Class 8755 8765	medication
+T9	IndefiniteNP 75 97	an antiarrhythmic drug
+T12	IndefiniteNP 509 564	an isotonic, clear, colorless, sterile aqueous solution
+T14	PossessivePronoun 834 837	Its
+T15	PossessivePronoun 876 879	its
+T39	Drug 687 705	ibutilide fumarate
+T40	IndefiniteNP 930 957	a white to off-white powder
+T41	Drug 908 926	Ibutilide fumarate
+T42	IndefiniteNP 2884 2919	any of the other product components
+T43	Substance 358 383	sodium acetate trihydrate
+T44	Substance 393 408	sodium chloride
+T45	Substance 410 427	hydrochloric acid
+T46	Substance 467 486	Water for Injection
+T47	PossessivePronoun 3217 3222	their
+T48	PersonalPronoun 4820 4822	it
+T49	Drug 4802 4809	CORVERT
+T50	DefiniteNP 9445 9467	The following diluents
+T51	Substance 9521 9542	5% Dextrose Injection
+T52	Substance 9545 9575	0.9% Sodium Chloride Injection
+T53	DefiniteNP 9755 9766	the product
+R1	PredicateNominative Attribute:T9 Head:T25
+R2	PredicateNominative Attribute:T12 Head:T27
+R3	Anaphora Anaphor:T14 Antecedent:T39
+R4	Anaphora Anaphor:T15 Antecedent:T39
+R5	PredicateNominative Attribute:T40 Head:T41
+R6	Anaphora Anaphor:T42 Antecedent:T43
+R7	Anaphora Anaphor:T42 Antecedent:T44
+R8	Anaphora Anaphor:T42 Antecedent:T45
+R9	Anaphora Anaphor:T42 Antecedent:T46
+R10	Anaphora Anaphor:T47 Antecedent:T1
+R11	Anaphora Anaphor:T47 Antecedent:T5
+R12	Anaphora Anaphor:T48 Antecedent:T49
+R13	Cataphora Cataphor:T50 Consequent:T51
+R14	Cataphora Cataphor:T50 Consequent:T52
+R15	Anaphora Anaphor:T53 Antecedent:T32

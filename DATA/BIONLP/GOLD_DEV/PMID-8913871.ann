@@ -1,0 +1,15 @@
+T1	Protein 897 908	VD receptor
+T2	Protein 910 913	VDR
+T3	Exp 324 337	a side effect
+T4	Exp 339 344	which
+T5	Exp 697 732	the compounds ZK161422 and ZK157202	701 710	compounds
+T6	Exp 734 739	which
+T7	Exp 842 856	Both compounds
+T8	Exp 949 954	their
+T9	Exp 1602 1609	a model
+T10	Exp 1614 1619	which
+R1	Coref Anaphora:T4 Antecedent:T3
+R2	Coref Anaphora:T6 Antecedent:T5
+R3	Coref Anaphora:T7 Antecedent:T5
+R4	Coref Anaphora:T8 Antecedent:T7
+R5	Coref Anaphora:T10 Antecedent:T9

@@ -1,0 +1,17 @@
+T1	Protein 0 5	HMG-I
+T2	Protein 112 117	HMG-I
+T3	Protein 167 172	HMG-I
+T4	Protein 315 321	GATA-1
+T5	Protein 386 391	HMG-I
+T6	Protein 544 549	HMG-I
+T7	Protein 657 662	HMG-I
+T8	Protein 713 718	HMG-I
+T9	Exp 601 643	GATA motifs from other globin cis-elements	606 611	motif
+T10	Exp 682 686	them
+T11	Exp 713 718	HMG-I
+T12	Exp 760 762	it
+T13	Exp 799 821	multiprotein complexes	812 821	complexes
+T14	Exp 822 826	that
+R1	Coref Anaphora:T10 Antecedent:T9
+R2	Coref Anaphora:T12 Antecedent:T11	[T8]
+R3	Coref Anaphora:T14 Antecedent:T13

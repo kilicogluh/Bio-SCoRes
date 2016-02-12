@@ -1,0 +1,43 @@
+T1	Protein 3 7	IL-2
+T2	Protein 38 63	IL-2 receptor alpha chain
+T3	Protein 107 112	Stat5
+T4	Protein 114 119	Elf-1
+T5	Protein 121 129	HMG-I(Y)
+T6	Protein 182 223	interleukin-2 (IL-2) receptor alpha chain
+T7	Protein 272 276	IL-2
+T8	Protein 331 335	IL-2
+T9	Protein 648 652	IL-2
+T10	Protein 715 719	IL-2
+T11	Protein 790 795	Stat5
+T12	Protein 797 802	Elf-1
+T13	Protein 804 812	HMG-I(Y)
+T14	Protein 850 854	IL-2
+T15	Protein 1093 1104	IL-2R alpha
+T16	Protein 1121 1125	IL-2
+T17	Protein 1134 1145	IL-2R alpha
+T18	Exp 76 95	a composite element	88 95	element
+T19	Exp 96 100	that
+T20	Exp 172 228	the human interleukin-2 (IL-2) receptor alpha chain gene	224 228	gene
+T21	Exp 256 259	its
+T22	Exp 309 352	an essential upstream IL-2 response element	345 352	element
+T23	Exp 353 357	that
+T24	Exp 412 448	two putative Ets binding sites (EBS)
+T25	Exp 457 462	which
+T26	Exp 501 513	a GATA motif	508 513	motif
+T27	Exp 515 520	which
+T28	Exp 588 629	the individual components of this element	603 613	components
+T29	Exp 617 629	this element
+T30	Exp 663 667	they
+T31	Exp 846 871	the IL-2 response element	864 871	element
+T32	Exp 946 958	this element
+T33	Exp 1173 1199	a complex upstream element	1192 1199	element
+T34	Exp 1201 1206	which
+R1	Coref Anaphora:T19 Antecedent:T18
+R2	Coref Anaphora:T21 Antecedent:T20	[T6]
+R3	Coref Anaphora:T23 Antecedent:T22	[T8]
+R4	Coref Anaphora:T25 Antecedent:T24
+R5	Coref Anaphora:T27 Antecedent:T26
+R6	Coref Anaphora:T29 Antecedent:T22	[T8]
+R7	Coref Anaphora:T30 Antecedent:T28
+R8	Coref Anaphora:T32 Antecedent:T31	[T14]
+R9	Coref Anaphora:T34 Antecedent:T33

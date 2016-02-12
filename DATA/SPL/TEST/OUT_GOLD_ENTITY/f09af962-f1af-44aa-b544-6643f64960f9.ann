@@ -1,0 +1,107 @@
+T29	ZeroArticleNP 0 10	Drug Label
+T30	ZeroArticleNP 15 35	drug brand Xylocaine
+T31	DefiniteNP 201 215	the amide type
+T32	IndefiniteNP 141 156	a known history
+T33	DefiniteNP 403 414	the absence
+T34	IndefiniteNP 418 441	an artificial pacemaker
+T35	ZeroArticleNP 544 563	RESUSCITATIVE DRUGS
+T36	DemonstrativeNP 1055 1067	this problem
+T37	ZeroArticleNP 1104 1123	ventilatory therapy
+T38	ZeroArticleNP 1157 1177	anticonvulsant drugs
+T39	IndefiniteNP 1338 1364	a short-acting barbiturate
+T40	DemonstrativeNP 1217 1228	such agents
+T41	DefiniteNP 1407 1418	the patient
+T42	IndefiniteNP 1440 1470	a short-acting muscle relaxant
+T43	ZeroArticleNP 1508 1527	Longer-acting drugs
+T44	DefiniteNP 1710 1735	the proper administration
+T45	DefiniteNP 1859 1875	the P-R interval
+T46	DefiniteNP 1895 1909	the appearance
+T47	DefiniteNP 2018 2042	the intravenous infusion
+T48	DemonstrativeNP 2046 2056	this agent
+T49	DefiniteNP 2250 2257	the use
+T50	DefiniteNP 2343 2351	the drug
+T51	DefiniteNP 2419 2432	the treatment
+T52	IndefiniteNP 2507 2516	all forms
+T53	DefiniteNP 2595 2613	the administration
+T54	DefiniteNP 2645 2660	the elimination
+T55	PossessivePronoun 3010 3019	their age
+T56	DefiniteNP 3041 3051	The safety
+T57	DemonstrativeNP 3232 3245	such patients
+T58	ZeroArticleNP 3061 3084	local anesthetic agents
+T59	PersonalPronoun 3387 3389	it
+T60	IndefiniteNP 3408 3427	a standard protocol
+T61	ZeroArticleNP 3278 3283	drugs
+T62	ZeroArticleNP 3307 3313	agents
+T63	PersonalPronoun 3464 3466	It
+T64	DemonstrativeNP 3510 3523	this reaction
+T65	DemonstrativeNP 3661 3678	these individuals
+T66	ZeroArticleNP 3616 3636	intravenous infusion
+T67	DefiniteNP 3903 3923	the triggering agent
+T68	ZeroArticleNP 3963 3977	oxygen therapy
+T69	DefiniteNP 4087 4098	The patient
+T70	DefiniteNP 4120 4143	the possible occurrence
+T71	DefiniteNP 4147 4162	the experiences
+T72	ZeroArticleNP 4380 4400	beta-blocking agents
+T73	DefiniteNP 4542 4561	The concomitant use
+T74	IndefiniteNP 4592 4614	an increased incidence
+T75	DemonstrativeNP 4565 4581	these two agents
+T76	DefiniteNP 4802 4842	the carcinogenic and mutagenic potential
+T77	DefiniteNP 4846 4856	the effect
+T78	DefiniteNP 5038 5049	the maximum
+T79	DemonstrativeNP 5265 5274	this drug
+T80	DefiniteNP 5353 5364	The effects
+T81	DefiniteNP 5381 5391	the mother
+T82	DefiniteNP 5396 5405	the fetus
+T83	DefiniteNP 5420 5434	the management
+T84	DefiniteNP 5526 5547	the placental barrier
+T85	PersonalPronoun 5568 5570	It
+T86	DemonstrativeNP 5592 5601	this drug
+T87	IndefiniteNP 5738 5753	a nursing woman
+T88	ZeroArticleNP 5637 5647	many drugs
+T89	DefiniteNP 5827 5851	the pediatric population
+T90	DemonstrativeNP 5888 5903	this population
+T91	PersonalPronoun 6075 6079	they
+T92	DefiniteNP 6210 6221	the elderly
+T93	DefiniteNP 6334 6345	the low end
+T94	DefiniteNP 6349 6365	the dosing range
+T95	DefiniteNP 6378 6399	the greater frequency
+T96	IndefiniteNP 6275 6293	an elderly patient
+T97	IndefiniteNP 6480 6498	other drug therapy
+T98	DefiniteNP 6571 6595	the active metabolite GX
+T99	DefiniteNP 6648 6663	the development
+T100	ZeroArticleNP 6602 6620	prolonged infusion
+T101	DefiniteNP 6771 6782	the low end
+T102	DefiniteNP 6786 6802	the dosing range
+T103	DefiniteNP 6815 6836	the greater frequency
+T104	IndefiniteNP 6712 6730	an elderly patient
+T105	IndefiniteNP 6917 6935	other drug therapy
+T1	Drug_Class 4380 4400	beta-blocking agents
+T2	Drug 4404 4414	cimetidine
+T5	Drug 4464 4473	lidocaine
+T8	Drug 4485 4494	Lidocaine
+T9	Drug 4499 4508	tocainide
+T10	Drug_Class 3067 3084	anesthetic agents
+T11	Drug 4303 4312	digitalis
+T12	Drug 48 57	LIDOCAINE
+T13	Drug 612 621	LIDOCAINE
+T14	Drug 3191 3200	lidocaine
+T15	Drug 3488 3497	lidocaine
+T16	Drug 5500 5509	Lidocaine
+T17	Drug 5709 5718	lidocaine
+T18	Drug_Class 1289 1301	barbiturates
+T19	Drug_Class 186 197	anesthetics
+T20	Drug 2752 2765	isoproterenol
+T6	Drug 2261 2270	Xylocaine
+T22	Drug 4873 4882	Xylocaine
+T24	Substance 6593 6595	GX
+T26	Drug 601 610	XYLOCAINE
+T106	SPAN 2974 3004	elderly patients, commensurate
+T107	SPAN 6006 6024	sufficient numbers
+R10	Anaphora Anaphor:T40 Antecedent:T38
+R11	Anaphora Anaphor:T48 Antecedent:T42
+R12	Anaphora Anaphor:T50 Antecedent:T6
+R13	Anaphora Anaphor:T67 Antecedent:T66
+R14	Anaphora Anaphor:T75 Antecedent:T8
+R15	Anaphora Anaphor:T75 Antecedent:T9
+R16	Anaphora Anaphor:T79 Antecedent:T22
+R17	Anaphora Anaphor:T86 Antecedent:T16

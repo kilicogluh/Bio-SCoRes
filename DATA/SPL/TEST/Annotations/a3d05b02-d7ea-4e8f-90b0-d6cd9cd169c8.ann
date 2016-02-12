@@ -1,0 +1,43 @@
+T2	Drug 2239 2248	digitalis
+T4	Drug 1298 1347	Dianeal Low Calcium peritoneal dialysis solutions
+T5	Drug_Class 2252 2265	similar drugs
+T7	Drug 2267 2276	digitalis
+T12	Drug 2433 2442	digitalis
+T16	Drug 2507 2516	digitalis
+T17	Drug 2603 2610	insulin
+T18	Substance 2659 2688	dextrose containing solutions
+T23	Substance 5376 5405	dextrose containing solutions
+T24	Drug 23 72	Dianeal Low Calcium peritoneal dialysis solutions
+T25	Drug_Class 5345 5363	dialysis solutions
+T26	Drug 946 958	the solution
+T27	Drug 1014 1026	the solution
+T28	Drug 1962 1974	the solution
+T29	Drug 4857 4869	The solution
+T30	Drug 5037 5049	the solution
+T31	Substance 2172 2181	potassium
+T32	Substance 2312 2321	potassium
+T1	DemonstrativeNP 2855 2867	this product
+T3	ZeroArticleNP 77 108	sterile, nonpyrogenic solutions
+T6	PersonalPronoun 173 177	They
+T8	DefiniteNP 1014 1026	the solution
+T9	DefiniteNP 1962 1974	the solution
+T10	PossessivePronoun 2872 2875	its
+T11	DefiniteNP 4857 4869	The solution
+T13	Drug 3550 3579	Dianeal Low Calcium solutions
+T14	DefiniteNP 5037 5049	the solution
+T15	ZeroArticleNP 5062 5076	fresh solution
+T19	ZeroArticleNP 1637 1645	solution
+T20	DefiniteNP 4428 4460	the peritoneal dialysis solution
+T21	DefiniteNP 4571 4592	the dialysis solution
+R2	PredicateNominative Attribute:T3 Head:T24
+R3	Anaphora Anaphor:T6 Antecedent:T24
+R4	Anaphora Anaphor:T8 Antecedent:T24
+R5	Anaphora Anaphor:T9 Antecedent:T19
+R1	Anaphora Anaphor:T10 Antecedent:T1
+R6	Anaphora Anaphor:T1 Antecedent:T9
+R7	Anaphora Anaphor:T11 Antecedent:T21
+R8	Anaphora Anaphor:T14 Antecedent:T11
+R9	Anaphora Anaphor:T15 Antecedent:T14
+R10	Anaphora Anaphor:T19 Antecedent:T4
+R11	Anaphora Anaphor:T20 Antecedent:T13
+R12	Anaphora Anaphor:T21 Antecedent:T20

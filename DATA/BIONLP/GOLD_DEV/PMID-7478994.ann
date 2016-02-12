@@ -1,0 +1,19 @@
+T1	Protein 41 56	15-lipoxygenase
+T2	Protein 117 132	15-lipoxygenase
+T3	Protein 134 137	lox
+T4	Protein 334 340	15-lox
+T5	Protein 935 938	lox
+T6	Exp 307 326	the 5' flanking DNA	323 326	DNA
+T7	Exp 330 345	the 15-lox gene	341 345	gene
+T8	Exp 355 364	sequences
+T9	Exp 365 370	which
+T10	Exp 385 388	its
+T11	Exp 476 487	The element
+T12	Exp 546 548	it
+T13	Exp 634 669	the first 900 bp of 5' flanking DNA	644 650	900 bp
+T14	Exp 671 676	which
+R1	Coref Anaphora:T9 Antecedent:T8
+R2	Coref Anaphora:T10 Antecedent:T7	[T4]
+R3	Coref Anaphora:T11 Antecedent:T6
+R4	Coref Anaphora:T12 Antecedent:T11
+R5	Coref Anaphora:T14 Antecedent:T13

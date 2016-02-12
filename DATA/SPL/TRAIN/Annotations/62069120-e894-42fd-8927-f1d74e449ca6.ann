@@ -1,0 +1,102 @@
+T6	Drug 225 235	nifedipine
+T2	Drug_Class 507 520	beta blockers
+T9	Drug 652 671	beta-blocking agent
+T10	Drug 723 752	high dose fentanyl anesthesia
+T8	Drug 625 635	nifedipine
+T12	Drug 775 793	high dose fentanyl
+T14	Drug_Class 851 863	beta blocker
+T13	Drug 834 844	nifedipine
+T17	Drug_Class 998 1017	narcotic analgesics
+T11	Drug 931 952	low doses of fentanyl
+T41	Drug 908 918	nifedipine
+T20	Drug 1090 1119	high dose fentanyl anesthesia
+T18	Drug 1042 1052	nifedipine
+T43	Drug_Class 2335 2347	beta blocker
+T45	Drug 2394 2404	nifedipine
+T51	Drug 2833 2843	nifedipine
+T50	Drug_Class 2930 2980	medications that are known to lower blood pressure
+T74	Drug_Class 5449 5458	diuretics
+T72	Drug 5316 5343	nifedipine extended-release
+T89	Drug 6735 6745	nifedipine
+T90	Drug_Class 6750 6770	beta-blocking agents
+T88	Drug 6618 6654	nifedipine extended-release capsules
+T97	Drug 7198 7208	nifedipine
+T56	Drug 7232 7239	digoxin
+T111	Drug 7661 7668	digoxin
+T113	Drug 7774 7784	nifedipine
+T118	Drug 7970 7980	nifedipine
+T117	Drug_Class 7938 7961	coumarin anticoagulants
+T121	Drug 8149 8159	nifedipine
+T122	Drug 8239 8249	cimetidine
+T64	Drug 8302 8312	Ranitidine
+T71	Drug 8273 8283	nifedipine
+T129	Drug 8539 8549	nifedipine
+T130	Drug 8604 8614	cimetidine
+T131	Drug_Class 5483 5507	calcium channel blockers
+T132	Drug_Class 6505 6536	Beta-adrenergic Blocking Agents
+T133	Drug_Class 1896 1909	beta blockers
+T134	Drug_Class 2020 2033	beta blockers
+T135	Drug_Class 1846 1858	Beta Blocker
+T136	Drug_Class 7835 7858	Coumarin Anticoagulants
+T137	Drug 3682 3709	nifedipine extended-release
+T138	Drug 3925 3952	nifedipine extended-release
+T139	Drug 3981 4016	Nifedipine extended-release tablets
+T140	Drug 4182 4209	nifedipine extended-release
+T141	Drug 4923 4950	nifedipine extended-release
+T142	Drug 5169 5196	nifedipine extended-release
+T143	Drug 10500 10527	Nifedipine extended-release
+T144	Drug 7214 7221	digoxin
+T145	Drug 7356 7363	digoxin
+T146	Drug 7519 7526	digoxin
+T147	Drug 7700 7707	digoxin
+T148	Drug 26 36	Nifedipine
+T149	Drug 49 59	nifedipine
+T150	Drug 118 128	nifedipine
+T151	Drug 1293 1303	nifedipine
+T152	Drug 1750 1760	nifedipine
+T153	Drug 1975 1985	nifedipine
+T154	Drug 2166 2176	nifedipine
+T155	Drug 2511 2521	nifedipine
+T156	Drug 2692 2702	nifedipine
+T157	Drug 4618 4628	nifedipine
+T158	Drug 5460 5470	Nifedipine
+T159	Drug 5708 5718	nifedipine
+T160	Drug 6004 6014	nifedipine
+T161	Drug 6125 6135	nifedipine
+T162	Drug 6416 6426	nifedipine
+T163	Drug 7007 7017	Nifedipine
+T164	Drug 8028 8038	nifedipine
+T165	Drug 8524 8534	nifedipine
+T166	Drug 8702 8712	Nifedipine
+T167	Drug 8833 8843	nifedipine
+T168	Drug 9097 9107	nifedipine
+T169	Drug 9230 9240	Nifedipine
+T170	Drug 9533 9543	Nifedipine
+T171	Drug 7169 7178	Digitalis
+T172	Drug 7559 7568	digitalis
+T173	Drug 9367 9376	phenytoin
+T174	Drug 8062 8072	Cimetidine
+T175	Drug 8412 8422	cimetidine
+T176	Drug_Class 5374 5382	diuretic
+T177	Drug_Class 6997 7005	Nitrates
+T178	Drug_Class 7053 7061	nitrates
+T179	Drug 4658 4663	cases
+T180	Drug 6255 6260	cases
+T181	Drug 6456 6461	cases
+T1	PersonalPronoun 1944 1948	them
+T3	ZeroArticleNP 4073 4080	tablets
+T4	DefiniteNP 4211 4225	the medication
+T5	DefiniteNP 4319 4327	the drug
+T7	DefiniteNP 6864 6879	the combination
+T15	DemonstrativeNP 7150 7166	this combination
+T16	Substance 8426 8450	hepatic cytochrome P-450
+T21	DefiniteNP 8452 8534	the enzyme system probably responsible for the first-pass metabolism of nifedipine
+R1	Anaphora Anaphor:T1 Antecedent:T133
+R2	Anaphora Anaphor:T3 Antecedent:T139
+R3	Anaphora Anaphor:T4 Antecedent:T140
+R4	Anaphora Anaphor:T5 Antecedent:T4
+R5	Anaphora Anaphor:T7 Antecedent:T89
+R7	Anaphora Anaphor:T7 Antecedent:T90
+R6	Anaphora Anaphor:T15 Antecedent:T163
+R8	Anaphora Anaphor:T15 Antecedent:T178
+R10	Appositive Attribute:T21 Head:T16

@@ -1,0 +1,23 @@
+T1	Protein 4 28	class II trans-activator
+T2	Protein 29 34	CIITA
+T3	Protein 54 57	TBP
+T4	Protein 76 83	TAFII32
+T5	Protein 90 115	class II trans- activator
+T6	Protein 117 122	CIITA
+T7	Protein 601 606	CIITA
+T8	Protein 620 625	CIITA
+T9	Protein 757 762	CIITA
+T10	Protein 841 848	TAFII32
+T11	Protein 914 919	CIITA
+T12	Protein 973 980	TAFII32
+T13	Protein 1020 1027	TAFII32
+T14	Protein 1032 1037	CIITA
+T15	Exp 86 123	The class II trans- activator (CIITA)
+T16	Exp 210 213	Its
+T17	Exp 618 633	a CIITA protein	626 633	protein
+T18	Exp 637 642	which
+T19	Exp 890 919	N-terminal deletions of CIITA	901 910	deletions
+T20	Exp 948 953	their
+R1	Coref Anaphora:T16 Antecedent:T15	[T6, T5]
+R2	Coref Anaphora:T18 Antecedent:T17	[T8]
+R3	Coref Anaphora:T20 Antecedent:T19	[T11]

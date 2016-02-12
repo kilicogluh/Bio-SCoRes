@@ -1,0 +1,33 @@
+T1	Protein 14 17	jun
+T2	Protein 22 25	fos
+T3	Protein 421 424	jun
+T4	Protein 429 432	fos
+T5	Protein 469 474	c-jun
+T6	Protein 670 675	c-jun
+T7	Protein 772 777	c-jun
+T8	Protein 870 875	c-jun
+T9	Protein 955 960	jun-B
+T10	Protein 1034 1039	c-jun
+T11	Protein 1085 1090	c-fos
+T12	Protein 1223 1228	c-fos
+T13	Protein 1263 1268	fos-B
+T14	Protein 1335 1340	fra-1
+T15	Protein 1380 1385	c-fos
+T16	Protein 1390 1395	fos-B
+T17	Exp 951 965	the jun-B gene
+T18	Exp 990 999	this gene
+T19	Exp 1198 1215	Maximal induction	1206 1215	induction
+T20	Exp 1250 1254	that
+T21	Exp 1285 1333	M-CSF-induced expression of the fos-related gene	1299 1309	expression
+T22	Exp 1335 1340	fra-1
+T23	Exp 1366 1370	that
+T24	Exp 1525 1539	jun/fos family	1533 1539	family
+T25	Exp 1563 1574	these genes
+T26	Exp 1595 1623	nuclear signaling mechanisms	1613 1623	mechanisms
+T27	Exp 1624 1628	that
+R1	Coref Anaphora:T18 Antecedent:T17	[T9]
+R2	Coref Anaphora:T20 Antecedent:T19
+R3	Coref Anaphora:T21 Antecedent:T22	[T14]
+R4	Coref Anaphora:T23 Antecedent:T21
+R5	Coref Anaphora:T25 Antecedent:T24
+R6	Coref Anaphora:T27 Antecedent:T26

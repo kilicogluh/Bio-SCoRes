@@ -1,0 +1,107 @@
+T1	Drug_Class 6132 6151	vasodilating agents
+T2	Drug 6160 6168	LETAIRIS
+T3	Drug_Class 7195 7226	endothelin receptor antagonists
+T4	Drug 7235 7243	LETAIRIS
+T7	Drug 8861 8873	cyclosporine
+T8	Drug 8922 8933	ambrisentan
+T9	Drug 8995 9006	ambrisentan
+T10	Drug 9052 9064	cyclosporine
+T12	Drug 9203 9214	ambrisentan
+T13	Drug 9150 9162	cyclosporine
+T14	Drug 9273 9285	cyclosporine
+T15	Drug_Class 2574 2605	endothelin receptor antagonists
+T16	Drug_Class 3632 3663	endothelin receptor antagonists
+T17	Drug_Class 5071 5102	endothelin receptor antagonists
+T18	Drug_Class 7135 7166	endothelin receptor antagonists
+T19	Drug_Class 7378 7409	endothelin receptor antagonists
+T20	Drug_Class 5672 5680	diuretic
+T21	Drug 10473 10480	alcohol
+T22	Drug 47 58	AMBRISENTAN
+T23	Drug 2227 2238	Ambrisentan
+T24	Drug 8845 8856	ambrisentan
+T25	Drug 9134 9145	ambrisentan
+T26	Drug 9379 9390	ambrisentan
+T27	Drug 9507 9518	ambrisentan
+T29	Drug 9758 9769	Ambrisentan
+T30	Drug 9857 9868	Ambrisentan
+T31	Drug 10014 10025	ambrisentan
+T32	Drug 10566 10577	ambrisentan
+T33	Drug 10634 10645	ambrisentan
+T34	Drug 26 34	Letairis
+T35	Drug 103 111	LETAIRIS
+T36	Drug 165 173	LETAIRIS
+T37	Drug 432 440	LETAIRIS
+T38	Drug 829 837	LETAIRIS
+T39	Drug 951 959	LETAIRIS
+T40	Drug 1019 1027	LETAIRIS
+T44	Drug 1210 1218	LETAIRIS
+T45	Drug 1336 1344	LETAIRIS
+T46	Drug 1933 1941	LETAIRIS
+T47	Drug 2158 2166	LETAIRIS
+T48	Drug 2639 2647	LETAIRIS
+T49	Drug 2667 2675	LETAIRIS
+T50	Drug 2968 2976	LETAIRIS
+T51	Drug 3120 3128	LETAIRIS
+T52	Drug 3458 3466	LETAIRIS
+T53	Drug 3864 3872	LETAIRIS
+T54	Drug 3931 3939	LETAIRIS
+T55	Drug 4047 4055	LETAIRIS
+T56	Drug 4196 4204	LETAIRIS
+T57	Drug 4436 4444	LETAIRIS
+T58	Drug 4683 4691	LETAIRIS
+T59	Drug 4775 4783	LETAIRIS
+T60	Drug 4859 4867	LETAIRIS
+T61	Drug 5298 5306	LETAIRIS
+T62	Drug 5624 5632	LETAIRIS
+T63	Drug 5933 5941	LETAIRIS
+T64	Drug 6038 6046	LETAIRIS
+T65	Drug 6261 6269	LETAIRIS
+T66	Drug 7453 7461	LETAIRIS
+T67	Drug 7538 7546	LETAIRIS
+T68	Drug 7670 7678	LETAIRIS
+T69	Drug 7895 7903	LETAIRIS
+T70	Drug 8497 8505	LETAIRIS
+T71	Drug 8564 8572	LETAIRIS
+T72	Drug 8772 8780	LETAIRIS
+T73	Drug 9348 9356	LETAIRIS
+T74	Drug 10092 10100	LETAIRIS
+T75	Drug 10533 10541	LETAIRIS
+T76	Drug 10600 10608	LETAIRIS
+T77	Drug 10647 10655	LETAIRIS
+T78	Drug 2529 2536	thyroid
+T5	PersonalPronoun 140 142	it
+T6	PersonalPronoun 296 298	it
+T79	PersonalPronoun 2321 2323	it
+T80	DemonstrativeNP 2739 2748	this drug
+T81	DemonstrativeNP 2823 2832	this drug
+T82	IndefiniteNP 6316 6354	another endothelin receptor antagonist
+T83	Drug 6356 6364	bosentan
+T84	DefiniteNP 9360 9390	the brand name for ambrisentan
+T85	IndefiniteNP 9392 9425	an endothelin receptor antagonist
+T86	PersonalPronoun 9604 9606	It
+T87	PersonalPronoun 9679 9681	It
+T88	IndefiniteNP 9773 9812	a white to off-white, crystalline solid
+T89	DefiniteNP 10208 10242	the following inactive ingredients
+T90	Substance 10244 10265	croscarmellose sodium
+T91	Substance 10267 10286	lactose monohydrate
+T92	Substance 10288 10306	magnesium stearate
+T93	Substance 10311 10337	microcrystalline cellulose
+T94	PersonalPronoun 9814 9816	It
+T95	IndefiniteNP 9820 9855	a carboxylic acid with a pKa of 4.0
+R1	Anaphora Anaphor:T5 Antecedent:T35
+R2	Anaphora Anaphor:T6 Antecedent:T36
+R4	Anaphora Anaphor:T79 Antecedent:T23
+R5	Anaphora Anaphor:T80 Antecedent:T49
+R6	Anaphora Anaphor:T81 Antecedent:T49
+R7	Appositive Attribute:T82 Head:T83
+R8	PredicateNominative Attribute:T84 Head:T73
+R9	Appositive Attribute:T85 Head:T26
+R10	Anaphora Anaphor:T86 Antecedent:T27
+R11	Anaphora Anaphor:T87 Antecedent:T27
+R12	PredicateNominative Attribute:T88 Head:T29
+R13	Cataphora Cataphor:T89 Consequent:T90
+R14	Cataphora Cataphor:T89 Consequent:T91
+R15	Cataphora Cataphor:T89 Consequent:T92
+R16	Cataphora Cataphor:T89 Consequent:T93
+R17	Anaphora Anaphor:T94 Antecedent:T29
+R18	PredicateNominative Attribute:T95 Head:T94

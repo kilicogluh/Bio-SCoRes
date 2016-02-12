@@ -1,0 +1,22 @@
+T1	Protein 91 100	p21Ha-ras
+T2	Protein 165 170	egr-1
+T3	Protein 172 177	c-fos
+T4	Protein 183 188	c-jun
+T5	Protein 380 388	p21(ras)
+T6	Protein 534 542	p21(ras)
+T7	Protein 795 803	p21(ras)
+T8	Protein 868 876	p21(ras)
+T9	Protein 1168 1175	p21(ras
+T10	Protein 1286 1290	IL-2
+T11	Protein 1358 1366	p2l(ras)
+T12	Exp 103 188	The induction of immediate-early (IE) response genes, such as egr-1, c-fos, and c-jun	107 116	induction
+T13	Exp 120 155	immediate-early (IE) response genes	150 155	genes
+T14	Exp 534 542	p21(ras)
+T15	Exp 629 632	its
+T16	Exp 687 717	the inductions of the IE genes	691 701	inductions
+T17	Exp 705 717	the IE genes	712 717	genes
+T18	Exp 809 814	their
+R1	Coref Anaphora:T15 Antecedent:T14	[T6]
+R2	Coref Anaphora:T16 Antecedent:T12	[T3, T2, T4]
+R3	Coref Anaphora:T17 Antecedent:T13
+R4	Coref Anaphora:T18 Antecedent:T16

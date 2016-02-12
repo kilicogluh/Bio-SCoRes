@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-9171108">
+    <text xml:space="preserve">The class II trans-activator CIITA interacts with the TBP-associated factor TAFII32. 
+The class II trans- activator (CIITA) is the main transcriptional co-activator for the expression of MHC class II proteins. Its N-terminal 125 amino acids function as an independent transcriptional activation domain. Analyses of the primary amino acid sequence of the activation domain predict the presence of three alpha-helices, each with a high proportion of acidic residues. Using site-directed mutagenesis, we found that two of these predicted alpha-helices are required for full transcriptional activation by CIITA. Moreover, a CIITA protein in which both functional alpha-helices have been deleted displays a dominant negative phenotype. This activation domain of CIITA interacts with the 32 kDa subunit of the general transcription complex TFIID, TAFII32. Decreased transcriptional activation by N-terminal deletions of CIITA is correlated directly with their reduced binding to TAFII32. We conclude that interactions between TAFII32 and CIITA are responsible for activation of class II genes. 
+</text>
+    <sentence charOffset="0-86" id="S1">
+        <text xml:space="preserve">The class II trans-activator CIITA interacts with the TBP-associated factor TAFII32. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="0-3" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="4-9" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_3" POS="CD" charOffset="10-12" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="13-28" text="trans-activator" lemma="trans-activator"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="29-34" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="35-44" text="interacts" lemma="interact"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="45-49" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="50-53" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="54-68" text="TBP-associated" lemma="tbp-associated"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="69-75" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="76-83" text="TAFII32" lemma="tafii32"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="83-84" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="num"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_11" type="prep_with"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_8" type="det"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="amod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT The) (NN class) (CD II) (NN trans-activator) (NN=H CIITA))
+            (VP=H (VBZ=H interacts)
+            (PP (IN=H with)
+            (NP (DT the) (JJ TBP-associated) (NN factor) (NN=H TAFII32))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="86-210" id="S2">
+        <text xml:space="preserve">The class II trans- activator (CIITA) is the main transcriptional co-activator for the expression of MHC class II proteins. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="86-89" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="90-95" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_3" POS="CD" charOffset="96-98" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="99-104" text="trans" lemma="tran"/>
+            <token xml:space="preserve" id="stt_5" POS=":" charOffset="104-105" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="106-115" text="activator" lemma="activator"/>
+            <token xml:space="preserve" id="stt_7" POS="-LRB-" charOffset="116-117" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="117-122" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_9" POS="-RRB-" charOffset="122-123" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_10" POS="VBZ" charOffset="124-126" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="127-130" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="131-135" text="main" lemma="main"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="136-151" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="152-164" text="co-activator" lemma="co-activator"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="165-168" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="169-172" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="173-183" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="184-186" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="187-190" text="MHC" lemma="mhc"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="191-196" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_21" POS="CD" charOffset="197-199" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_22" POS="NNS" charOffset="200-208" text="proteins" lemma="protein"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="208-209" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="num"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_14" type="dep"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="appos"/>
+            <dependency id="stp_6" t1="stt_14" t2="stt_17" type="prep_for"/>
+            <dependency id="stp_7" t1="stt_14" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_10" type="cop"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_11" type="det"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_12" type="amod"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_13" type="amod"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_16" type="det"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_22" type="dep"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (DT The) (NN class) (CD II) (NN=H trans))
+            (: -)
+            (S
+            (NP
+            (NP=H (NN=H activator))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H CIITA))
+            (-RRB- -RRB-)))
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H (DT the) (JJ main) (JJ transcriptional) (NN=H co-activator))
+            (PP (IN=H for)
+            (NP
+            (NP=H (DT the) (NN=H expression))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN MHC) (NN=H class))
+            (NP (CD II) (NNS=H proteins)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="210-303" id="S3">
+        <text xml:space="preserve">Its N-terminal 125 amino acids function as an independent transcriptional activation domain. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP$" charOffset="210-213" text="Its" lemma="its"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="214-224" text="N-terminal" lemma="n-terminal"/>
+            <token xml:space="preserve" id="stt_3" POS="CD" charOffset="225-228" text="125" lemma="125"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="229-234" text="amino" lemma="amino"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="235-240" text="acids" lemma="acid"/>
+            <token xml:space="preserve" id="stt_6" POS="VBP" charOffset="241-249" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="250-252" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="253-255" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="256-267" text="independent" lemma="independent"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="268-283" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="284-294" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="295-301" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="301-302" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_1" type="poss"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="num"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_12" type="prep_as"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_8" type="det"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_9" type="amod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP$ Its) (JJ N-terminal) (CD 125) (NN amino) (NNS=H acids))
+            (VP=H (VBP=H function)
+            (PP (IN=H as)
+            (NP (DT an) (JJ independent) (JJ transcriptional) (NN activation) (NN=H domain))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="303-465" id="S4">
+        <text xml:space="preserve">Analyses of the primary amino acid sequence of the activation domain predict the presence of three alpha-helices, each with a high proportion of acidic residues. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="303-311" text="Analyses" lemma="analysis"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="312-314" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="315-318" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="319-326" text="primary" lemma="primary"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="327-332" text="amino" lemma="amino"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="333-337" text="acid" lemma="acid"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="338-346" text="sequence" lemma="sequence"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="347-349" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="350-353" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="354-364" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="365-371" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_12" POS="VBP" charOffset="372-379" text="predict" lemma="predict"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="380-383" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="384-392" text="presence" lemma="presence"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="393-395" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_16" POS="CD" charOffset="396-401" text="three" lemma="three"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="402-415" text="alpha-helices" lemma="alpha-helix"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="415-416" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="DT" charOffset="417-421" text="each" lemma="each"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="422-426" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="427-428" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="429-433" text="high" lemma="high"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="434-444" text="proportion" lemma="proportion"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="445-447" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="448-454" text="acidic" lemma="acidic"/>
+            <token xml:space="preserve" id="stt_26" POS="NNS" charOffset="455-463" text="residues" lemma="residue"/>
+            <token xml:space="preserve" id="stt_27" POS="." charOffset="463-464" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_7" t2="stt_3" type="det"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_4" type="amod"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="nn"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="nn"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="dobj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="det"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="num"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_19" type="appos"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_23" type="prep_with"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_21" type="det"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_22" type="amod"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_26" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_25" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNS=H Analyses))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ primary) (NN amino) (NN acid) (NN=H sequence))
+            (PP (IN=H of)
+            (NP (DT the) (NN activation) (NN=H domain))))))
+            (VP=H (VBP=H predict)
+            (NP
+            (NP=H (DT the) (NN=H presence))
+            (PP (IN=H of)
+            (NP
+            (NP=H (CD three) (NNS=H alpha-helices))
+            (, ,)
+            (NP
+            (NP=H (DT=H each))
+            (PP (IN=H with)
+            (NP
+            (NP=H (DT a) (JJ high) (NN=H proportion))
+            (PP (IN=H of)
+            (NP (JJ acidic) (NNS=H residues))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="465-608" id="S5">
+        <text xml:space="preserve">Using site-directed mutagenesis, we found that two of these predicted alpha-helices are required for full transcriptional activation by CIITA. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VBG" charOffset="465-470" text="Using" lemma="use"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="471-484" text="site-directed" lemma="site-directed"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="485-496" text="mutagenesis" lemma="mutagenesis"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="496-497" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="PRP" charOffset="498-500" text="we" lemma="we"/>
+            <token xml:space="preserve" id="stt_6" POS="VBD" charOffset="501-506" text="found" lemma="find"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="507-511" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_8" POS="CD" charOffset="512-515" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="516-518" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="519-524" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="525-534" text="predicted" lemma="predict"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="535-548" text="alpha-helices" lemma="alpha-helix"/>
+            <token xml:space="preserve" id="stt_13" POS="VBP" charOffset="549-552" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="553-561" text="required" lemma="require"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="562-565" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="566-570" text="full" lemma="full"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="571-586" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="587-597" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="598-600" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="601-606" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_21" POS="." charOffset="606-607" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dobj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_1" type="vmod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_14" type="ccomp"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_11" type="vmod"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_12" type="dobj"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_18" type="prep_for"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_20" type="agent"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_7" type="mark"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_8" type="nsubjpass"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_13" type="auxpass"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_16" type="amod"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_17" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (VBG=H Using)
+            (NP (JJ site-directed) (NN=H mutagenesis))))
+            (, ,)
+            (NP (PRP=H we))
+            (VP=H (VBD=H found)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (CD=H two))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT=H these))
+            (VP (VBN=H predicted)
+            (NP (NNS=H alpha-helices))))))
+            (VP=H (VBP=H are)
+            (VP (VBN=H required)
+            (PP (IN=H for)
+            (NP (JJ full) (JJ transcriptional) (NN=H activation)))
+            (PP (IN=H by)
+            (NP (NN=H CIITA))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="608-731" id="S6">
+        <text xml:space="preserve">Moreover, a CIITA protein in which both functional alpha-helices have been deleted displays a dominant negative phenotype. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="608-616" text="Moreover" lemma="moreover"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="616-617" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="618-619" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="620-625" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="626-633" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="634-636" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="WDT" charOffset="637-642" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="643-647" text="both" lemma="both"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="648-658" text="functional" lemma="functional"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="659-672" text="alpha-helices" lemma="alpha-helix"/>
+            <token xml:space="preserve" id="stt_11" POS="VBP" charOffset="673-677" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="678-682" text="been" lemma="be"/>
+            <token xml:space="preserve" id="stt_13" POS="VBN" charOffset="683-690" text="deleted" lemma="delete"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="691-699" text="displays" lemma="display"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="700-701" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="702-710" text="dominant" lemma="dominant"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="711-719" text="negative" lemma="negative"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="720-729" text="phenotype" lemma="phenotype"/>
+            <token xml:space="preserve" id="stt_19" POS="." charOffset="729-730" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_7" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_8" type="prep"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_10" type="pobj"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_7" t1="stt_13" t2="stt_1" type="advmod"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_18" type="xcomp"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_5" type="nsubjpass"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="aux"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="auxpass"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_16" type="amod"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="amod"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_14" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_15" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Moreover))
+            (, ,)
+            (NP
+            (NP=H (DT a) (NN CIITA) (NN=H protein))
+            (WHPP (IN=H in)
+            (WHNP
+            (WHNP=H (WDT=H which))
+            (PP (CC=H both)
+            (NP (JJ functional) (NNS=H alpha-helices))))))
+            (VP=H (VBP=H have)
+            (VP (VBN=H been)
+            (VP (VBN=H deleted)
+            (S
+            (NP=H (NNS=H displays))
+            (NP (DT a) (JJ dominant) (JJ negative) (NN=H phenotype))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="731-850" id="S7">
+        <text xml:space="preserve">This activation domain of CIITA interacts with the 32 kDa subunit of the general transcription complex TFIID, TAFII32. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="731-735" text="This" lemma="this"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="736-746" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="747-753" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="754-756" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="757-762" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="763-772" text="interacts" lemma="interact"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="773-777" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="778-781" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="CD" charOffset="782-784" text="32" lemma="32"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="785-788" text="kDa" lemma="kda"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="789-796" text="subunit" lemma="subunit"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="797-799" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="800-803" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="804-811" text="general" lemma="general"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="812-825" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="826-833" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="834-839" text="TFIID" lemma="tfiid"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="839-840" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="841-848" text="TAFII32" lemma="tafii32"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="848-849" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_11" type="prep_with"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_8" type="det"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="num"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="nn"/>
+            <dependency id="stp_10" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_11" t1="stt_17" t2="stt_19" type="appos"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_13" type="det"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_14" type="amod"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_15" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT This) (NN activation) (NN=H domain))
+            (PP (IN=H of)
+            (NP (NN=H CIITA))))
+            (VP=H (VBZ=H interacts)
+            (PP (IN=H with)
+            (NP
+            (NP=H (DT the) (CD 32) (NN kDa) (NN=H subunit))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ general) (NN transcription) (NN complex) (NN=H TFIID))
+            (, ,)
+            (NP (NN=H TAFII32)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="850-982" id="S8">
+        <text xml:space="preserve">Decreased transcriptional activation by N-terminal deletions of CIITA is correlated directly with their reduced binding to TAFII32. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VBN" charOffset="850-859" text="Decreased" lemma="decrease"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="860-875" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="876-886" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="887-889" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="890-900" text="N-terminal" lemma="n-terminal"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="901-910" text="deletions" lemma="deletion"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="911-913" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="914-919" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="920-922" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="VBN" charOffset="923-933" text="correlated" lemma="correlate"/>
+            <token xml:space="preserve" id="stt_11" POS="RB" charOffset="934-942" text="directly" lemma="directly"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="943-947" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_13" POS="PRP$" charOffset="948-953" text="their" lemma="they"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="954-961" text="reduced" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="962-969" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_16" POS="TO" charOffset="970-972" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="973-980" text="TAFII32" lemma="tafii32"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="980-981" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="prep_by"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_1" type="csubjpass"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="auxpass"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_11" type="advmod"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_15" type="prep_with"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_17" type="prep_to"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_13" type="poss"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (VBN=H Decreased)
+            (NP (JJ transcriptional) (NN=H activation))
+            (PP (IN=H by)
+            (NP
+            (NP=H (JJ N-terminal) (NNS=H deletions))
+            (PP (IN=H of)
+            (NP (NN=H CIITA)))))))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H correlated)
+            (ADVP (RB=H directly))
+            (PP (IN=H with)
+            (NP
+            (NP=H (PRP$ their) (VBN reduced) (NN=H binding))
+            (PP (TO=H to)
+            (NP (NN=H TAFII32)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="982-1089" id="S9">
+        <text xml:space="preserve">We conclude that interactions between TAFII32 and CIITA are responsible for activation of class II genes. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="982-984" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="985-993" text="conclude" lemma="conclude"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="994-998" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="999-1011" text="interactions" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1012-1019" text="between" lemma="between"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1020-1027" text="TAFII32" lemma="tafii32"/>
+            <token xml:space="preserve" id="stt_7" POS="CC" charOffset="1028-1031" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1032-1037" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_9" POS="VBP" charOffset="1038-1041" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="1042-1053" text="responsible" lemma="responsible"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="1054-1057" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1058-1068" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1069-1071" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1072-1077" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_15" POS="CD" charOffset="1078-1080" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_16" POS="NNS" charOffset="1081-1086" text="genes" lemma="gene"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="1086-1087" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_16" t2="stt_14" type="nn"/>
+            <dependency id="stp_2" t1="stt_16" t2="stt_15" type="num"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_10" type="ccomp"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_6" type="prep_between"/>
+            <dependency id="stp_6" t1="stt_4" t2="stt_8" type="prep_between"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_8" type="conj_and"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_3" type="mark"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="cop"/>
+            <dependency id="stp_11" t1="stt_10" t2="stt_12" type="prep_for"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_16" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H conclude)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (NNS=H interactions))
+            (PP (IN=H between)
+            (NP (NN=H TAFII32)
+            (CC and)
+            (NN CIITA))))
+            (VP=H (VBP=H are)
+            (ADJP (JJ=H responsible)
+            (PP (IN=H for)
+            (NP
+            (NP=H (NN=H activation))
+            (PP (IN=H of)
+            (NP (NN class) (CD II) (NNS=H genes))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="4-28" headOffset="13-28" text="class II trans-activator"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="29-34" headOffset="29-34" text="CIITA"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="54-57" headOffset="54-57" text="TBP"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="76-83" headOffset="76-83" text="TAFII32"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="90-115" headOffset="106-115" text="class II trans- activator"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="117-122" headOffset="117-122" text="CIITA"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="601-606" headOffset="601-606" text="CIITA"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="620-625" headOffset="620-625" text="CIITA"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="757-762" headOffset="757-762" text="CIITA"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="841-848" headOffset="841-848" text="TAFII32"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="914-919" headOffset="914-919" text="CIITA"/>
+    <Term xml:space="preserve" id="T12" type="Protein" charOffset="973-980" headOffset="973-980" text="TAFII32"/>
+    <Term xml:space="preserve" id="T13" type="Protein" charOffset="1020-1027" headOffset="1020-1027" text="TAFII32"/>
+    <Term xml:space="preserve" id="T14" type="Protein" charOffset="1032-1037" headOffset="1032-1037" text="CIITA"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T16"/>
+        <Antecedent idref="T15"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T18"/>
+        <Antecedent idref="T17"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T20"/>
+        <Antecedent idref="T19"/>
+    </Relation>
+    <Term xml:space="preserve" id="T15" type="DefiniteNP" charOffset="86-123" headOffset="117-122" text="The class II trans- activator (CIITA)"/>
+    <Term xml:space="preserve" id="T16" type="PossessivePronoun" charOffset="210-213" headOffset="210-213" text="Its"/>
+    <Term xml:space="preserve" id="T17" type="IndefiniteNP" charOffset="618-633" headOffset="626-633" text="a CIITA protein"/>
+    <Term xml:space="preserve" id="T18" type="RelativePronoun" charOffset="637-642" headOffset="637-642" text="which"/>
+    <Term xml:space="preserve" id="T19" type="ZeroArticleNP" charOffset="890-919" headOffset="901-910" text="N-terminal deletions of CIITA"/>
+    <Term xml:space="preserve" id="T20" type="PossessivePronoun" charOffset="948-953" headOffset="948-953" text="their"/>
+</document>

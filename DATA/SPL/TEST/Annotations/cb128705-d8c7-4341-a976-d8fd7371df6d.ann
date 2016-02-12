@@ -1,0 +1,90 @@
+T1	Drug_Class 2270 2285	potassium salts
+T2	Drug_Class 2292 2318	potassium-sparing diuretic
+T3	Drug 2326 2340	spironolactone
+T4	Drug 2342 2353	triamterene
+T5	Drug 2358 2367	amiloride
+T7	Drug_Class 2517 2563	Angiotensin converting enzyme (ACE) inhibitors
+T8	Drug 2571 2580	captopril
+T9	Drug 2582 2591	enalapril
+T10	Drug_Class 2669 2690	Potassium supplements
+T11	Drug_Class 2729 2743	ACE inhibitors
+T12	Drug 1135 1180	solid oral dosage forms of potassium chloride
+T13	Drug 2799 2844	Solid oral dosage forms of potassium chloride
+T14	Drug_Class 2475 2515	Angiotensin Converting Enzyme Inhibitors
+T15	Drug_Class 7382 7422	angiotensin converting enzyme inhibitors
+T16	Drug_Class 5386 5413	alkalinizing potassium salt
+T17	Drug_Class 2170 2197	Potassium-Sparing Diuretics
+T18	Drug_Class 7353 7380	Potassium-sparing diuretics
+T19	Drug_Class 338 359	Potassium supplements
+T20	Drug_Class 1646 1661	potassium salts
+T21	Drug_Class 1924 1939	potassium salts
+T22	Drug_Class 758 784	potassium-sparing diuretic
+T23	Drug_Class 1029 1054	Potassium supplementation
+T24	Drug 5445 5462	potassium citrate
+T25	Drug_Class 1314 1336	anticholinergic agents
+T26	Drug_Class 4481 4501	anticholinergic drug
+T27	Drug 19 37	potassium chloride
+T28	Drug 87 105	potassium chloride
+T29	Drug 174 192	potassium chloride
+T30	Drug 237 255	potassium chloride
+T31	Drug 886 904	potassium chloride
+T32	Drug 2970 3019	enteric-coated preparations of potassium chloride
+T33	Drug 3547 3565	potassium chloride
+T34	Drug 3864 3882	potassium chloride
+T35	Drug 4407 4425	potassium chloride
+T36	Drug 4804 4850	controlled-release potassium chloride products
+T37	Drug 5486 5505	potassium gluconate
+T38	Drug 5464 5481	potassium acetate
+T39	Drug_Class 6723 6745	digitalis preparations
+T40	Drug 5422 5443	potassium bicarbonate
+T41	Drug_Class 6706 6715	diuretics
+T42	Drug 792 806	spironolactone
+T43	Drug 808 819	triamterene
+T44	Drug 821 830	amiloride
+T45	Substance 292 301	potassium
+T46	Substance 444 453	potassium
+T47	Substance 1613 1622	potassium
+T48	Substance 1751 1760	potassium
+T49	Substance 1823 1832	potassium
+T50	Substance 2017 2026	potassium
+T51	Substance 2092 2101	potassium
+T52	Substance 2611 2620	potassium
+T53	Substance 3634 3643	potassium
+T54	Substance 5548 5557	potassium
+T55	Substance 5679 5688	potassium
+T56	Substance 5726 5735	potassium
+T57	Substance 5871 5880	potassium
+T58	Substance 5933 5942	potassium
+T59	Substance 6024 6033	potassium
+T60	Substance 6052 6061	potassium
+T61	Substance 7008 7017	potassium
+T62	Substance 7166 7175	potassium
+T63	Substance 7582 7591	Potassium
+T64	Substance 7681 7690	potassium
+T65	Substance 7738 7747	Potassium
+T66	Substance 7838 7847	potassium
+T67	Substance 8098 8107	potassium
+T6	DemonstrativeNP 2411 2423	these agents
+T68	ZeroArticleNP 3359 3382	enteric-coated products
+T69	DefiniteNP 6547 6559	the capsules
+T70	DefiniteNP 6821 6833	the capsules
+T71	IndefiniteNP 7595 7623	a normal dietary constituent
+T72	DefiniteNP 8474 8485	the capsule
+T73	Drug 8302 8319	Micro-K Extencaps
+T74	DefiniteNP 8692 8709	the microcapsules
+T75	ZeroArticleNP 3448 3474	microencapsulated capsules
+T76	Drug 3423 3443	Micro-K 10 Extencaps
+T77	Drug 3401 3418	Micro-K Extencaps
+T78	Drug 5056 5073	Micro-K Extencaps
+T79	Drug 5078 5098	Micro-K 10 Extencaps
+R1	Anaphora Anaphor:T6 Antecedent:T1
+R2	Anaphora Anaphor:T6 Antecedent:T2
+R3	Anaphora Anaphor:T68 Antecedent:T32
+R4	Anaphora Anaphor:T69 Antecedent:T78
+R5	Anaphora Anaphor:T70 Antecedent:T69
+R6	PredicateNominative Attribute:T71 Head:T63
+R7	Anaphora Anaphor:T72 Antecedent:T73
+R8	Anaphora Anaphor:T74 Antecedent:T72
+R11	Anaphora Anaphor:T69 Antecedent:T79
+R9	PredicateNominative Head:T77 Attribute:T75
+R10	PredicateNominative Head:T76 Attribute:T75

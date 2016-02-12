@@ -1,0 +1,18 @@
+T1	Protein 99 111	IkappaBalpha
+T2	Protein 318 322	IL-2
+T3	Protein 343 347	IL-4
+T4	Protein 467 479	IkappaBalpha
+T5	Protein 562 574	IkappaBalpha
+T6	Protein 657 669	IkappaBalpha
+T7	Protein 708 712	IL-2
+T8	Protein 722 726	IL-4
+T9	Protein 855 867	IkappaBalpha
+T10	Protein 1182 1194	IkappaBalpha
+T11	Exp 454 479	the level of IkappaBalpha	458 463	level
+T12	Exp 480 484	that
+T13	Exp 811 823	the cytokine
+T14	Exp 824 828	that
+T15	Exp 938 957	the rescue cytokine	949 957	cytokine
+R1	Coref Anaphora:T12 Antecedent:T11	[T4]
+R2	Coref Anaphora:T14 Antecedent:T13
+R3	Coref Anaphora:T15 Antecedent:T13

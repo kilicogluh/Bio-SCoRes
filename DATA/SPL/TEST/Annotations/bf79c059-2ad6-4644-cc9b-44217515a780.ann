@@ -1,0 +1,60 @@
+T1	Substance 4528 4557	Solutions containing dextrose
+T6	Drug 5955 5964	digitalis
+T8	Drug 5900 5909	Lidocaine
+T9	Drug 6033 6044	propranolol
+T11	Drug 6105 6114	lidocaine
+T13	DefiniteNP 6171 6179	the drug
+T14	Drug_Class 6223 6243	antiarrhythmic drugs
+T15	Drug 6252 6261	phenytoin
+T16	Drug 6263 6275	procainamide
+T17	Drug 6277 6288	propranolol
+T18	Drug 6292 6301	quinidine
+T22	Drug 6186 6195	lidocaine
+T24	Drug 6390 6399	Phenytoin
+T25	Drug 6440 6449	lidocaine
+T26	Drug 26 35	Lidocaine
+T27	Drug 75 84	LIDOCAINE
+T28	Drug 132 141	Lidocaine
+T29	Drug 261 270	lidocaine
+T30	Drug 717 726	lidocaine
+T31	Drug 1458 1480	solutions of lidocaine
+T32	Drug 2500 2509	lidocaine
+T33	Drug 2674 2683	lidocaine
+T34	Drug 2936 2945	lidocaine
+T35	Drug 3185 3194	lidocaine
+T36	Drug 3260 3269	lidocaine
+T37	Drug 4056 4065	lidocaine
+T38	Drug 4935 4958	lidocaine hydrochloride
+T39	Drug 5231 5240	lidocaine
+T40	Drug 5352 5361	Lidocaine
+T41	Drug 5499 5508	Lidocaine
+T42	Drug 5566 5575	lidocaine
+T43	Drug 6050 6059	lidocaine
+T44	Drug_Class 212 223	anesthetics
+T45	Drug 4166 4179	isoproterenol
+T2	DemonstrativeNP 947 957	this agent
+T3	DemonstrativeNP 1265 1280	these solutions
+T4	DemonstrativeNP 1579 1592	this solution
+T5	DemonstrativeNP 2168 2179	such agents
+T7	Drug_Class 2108 2128	anticonvulsant drugs
+T10	IndefiniteNP 2325 2355	a short-acting muscle relaxant
+T12	Drug 2357 2372	succinylcholine
+T19	DefiniteNP 2787 2795	the drug
+T20	DefiniteNP 3006 3014	the drug
+T21	DefiniteNP 3363 3371	the drug
+T23	ZeroArticleNP 4674 4682	solution
+T46	ZeroArticleNP 4728 4742	unused portion
+T47	DemonstrativeNP 5116 5125	this drug
+T48	Substance 1167 1191	potassium-free solutions
+R1	Anaphora Anaphor:T13 Antecedent:T11
+R2	Anaphora Anaphor:T2 Antecedent:T30
+R3	Anaphora Anaphor:T3 Antecedent:T48
+R4	Anaphora Anaphor:T4 Antecedent:T31
+R5	Anaphora Anaphor:T5 Antecedent:T7
+R6	Appositive Attribute:T10 Head:T12
+R7	Anaphora Anaphor:T19 Antecedent:T33
+R8	Anaphora Anaphor:T20 Antecedent:T34
+R9	Anaphora Anaphor:T21 Antecedent:T36
+R10	Anaphora Anaphor:T23 Antecedent:T1
+R11	Anaphora Anaphor:T46 Antecedent:T23
+R12	Anaphora Anaphor:T47 Antecedent:T38

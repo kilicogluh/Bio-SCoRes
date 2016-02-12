@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-10229275">
+    <text xml:space="preserve">High molecular weight dextran sulfate increases the activity of NF-kappaB-regulated promoter in monocyte-derived macrophages. 
+It is known that sulfated polysaccharides can mimic the action of common T-cell mitogens. To investigate the molecular basis of the mitogenic effect of high molecular weight dextran sulfate (HMDS), monocyte-derived macrophages were transfected with recombinant plasmid containing chloramphenicol acetyl transferase (CAT) reporter gene under the control of the HIV-1 long terminal repeat (LTR) promoter, which is regulated by transcription factor NF-kappaB. We observed that HMDS, similar to bacterial lipopolysaccharide (LPS), increases the expression of CAT reporter gene suggesting increased activity of NF-kappaB. The activation of NF-kappaB correlated with the increased expression of B7.1 molecules. It was postulated that this NF-kappaB-regulated promoter might play a role in the activation of the accessory cells as well as the rate of replication of HIV-1 in monocyte-derived macrophages. 
+</text>
+    <sentence charOffset="0-127" id="S1">
+        <text xml:space="preserve">High molecular weight dextran sulfate increases the activity of NF-kappaB-regulated promoter in monocyte-derived macrophages. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="0-4" text="High" lemma="high"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="5-14" text="molecular" lemma="molecular"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="15-21" text="weight" lemma="weight"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="22-29" text="dextran" lemma="dextran"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="30-37" text="sulfate" lemma="sulfate"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="38-47" text="increases" lemma="increase"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="48-51" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="52-60" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="61-63" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="64-83" text="NF-kappaB-regulated" lemma="nf-kappab-regulated"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="84-92" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="93-95" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="96-112" text="monocyte-derived" lemma="monocyte-derived"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="113-124" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="124-125" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dep"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_14" type="prep_in"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_13" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ High) (JJ molecular) (NN=H weight))
+            (NP (NN dextran) (NN=H sulfate)))
+            (VP=H (VBZ=H increases)
+            (NP
+            (NP=H (DT the) (NN=H activity))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ NF-kappaB-regulated) (NN=H promoter))
+            (PP (IN=H in)
+            (NP (JJ monocyte-derived) (NNS=H macrophages)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="127-217" id="S2">
+        <text xml:space="preserve">It is known that sulfated polysaccharides can mimic the action of common T-cell mitogens. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="127-129" text="It" lemma="it"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="130-132" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="133-138" text="known" lemma="know"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="139-143" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="144-152" text="sulfated" lemma="sulfated"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="153-168" text="polysaccharides" lemma="polysaccharide"/>
+            <token xml:space="preserve" id="stt_7" POS="MD" charOffset="169-172" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_8" POS="VB" charOffset="173-178" text="mimic" lemma="mimic"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="179-182" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="183-189" text="action" lemma="action"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="190-192" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="193-199" text="common" lemma="common"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="200-206" text="T-cell" lemma="t-cell"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="207-215" text="mitogens" lemma="mitogen"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="215-216" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_8" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_4" type="mark"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="aux"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_10" type="dobj"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_9" type="det"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_14" type="prep_of"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_12" type="amod"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H It))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H known)
+            (SBAR (IN=H that)
+            (S
+            (NP (JJ sulfated) (NNS=H polysaccharides))
+            (VP=H (MD=H can)
+            (VP (VB=H mimic)
+            (NP
+            (NP=H (DT the) (NN=H action))
+            (PP (IN=H of)
+            (NP (JJ common) (NN T-cell) (NNS=H mitogens))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="217-584" id="S3">
+        <text xml:space="preserve">To investigate the molecular basis of the mitogenic effect of high molecular weight dextran sulfate (HMDS), monocyte-derived macrophages were transfected with recombinant plasmid containing chloramphenicol acetyl transferase (CAT) reporter gene under the control of the HIV-1 long terminal repeat (LTR) promoter, which is regulated by transcription factor NF-kappaB. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="TO" charOffset="217-219" text="To" lemma="to"/>
+            <token xml:space="preserve" id="stt_2" POS="VB" charOffset="220-231" text="investigate" lemma="investigate"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="232-235" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="236-245" text="molecular" lemma="molecular"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="246-251" text="basis" lemma="basis"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="252-254" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="255-258" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="259-268" text="mitogenic" lemma="mitogenic"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="269-275" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="276-278" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="279-283" text="high" lemma="high"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="284-293" text="molecular" lemma="molecular"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="294-300" text="weight" lemma="weight"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="301-308" text="dextran" lemma="dextran"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="309-316" text="sulfate" lemma="sulfate"/>
+            <token xml:space="preserve" id="stt_16" POS="-LRB-" charOffset="317-318" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="318-322" text="HMDS" lemma="hmd"/>
+            <token xml:space="preserve" id="stt_18" POS="-RRB-" charOffset="322-323" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_19" POS="," charOffset="323-324" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="325-341" text="monocyte-derived" lemma="monocyte-derived"/>
+            <token xml:space="preserve" id="stt_21" POS="NNS" charOffset="342-353" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_22" POS="VBD" charOffset="354-358" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_23" POS="VBN" charOffset="359-370" text="transfected" lemma="transfect"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="371-375" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="376-387" text="recombinant" lemma="recombinant"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="388-395" text="plasmid" lemma="plasmid"/>
+            <token xml:space="preserve" id="stt_27" POS="VBG" charOffset="396-406" text="containing" lemma="contain"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="407-422" text="chloramphenicol" lemma="chloramphenicol"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="423-429" text="acetyl" lemma="acetyl"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="430-441" text="transferase" lemma="transferase"/>
+            <token xml:space="preserve" id="stt_31" POS="-LRB-" charOffset="442-443" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="443-446" text="CAT" lemma="cat"/>
+            <token xml:space="preserve" id="stt_33" POS="-RRB-" charOffset="446-447" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_34" POS="NN" charOffset="448-456" text="reporter" lemma="reporter"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="457-461" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_36" POS="IN" charOffset="462-467" text="under" lemma="under"/>
+            <token xml:space="preserve" id="stt_37" POS="DT" charOffset="468-471" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_38" POS="NN" charOffset="472-479" text="control" lemma="control"/>
+            <token xml:space="preserve" id="stt_39" POS="IN" charOffset="480-482" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_40" POS="DT" charOffset="483-486" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_41" POS="NN" charOffset="487-492" text="HIV-1" lemma="hiv-1"/>
+            <token xml:space="preserve" id="stt_42" POS="JJ" charOffset="493-497" text="long" lemma="long"/>
+            <token xml:space="preserve" id="stt_43" POS="JJ" charOffset="498-506" text="terminal" lemma="terminal"/>
+            <token xml:space="preserve" id="stt_44" POS="NN" charOffset="507-513" text="repeat" lemma="repeat"/>
+            <token xml:space="preserve" id="stt_45" POS="-LRB-" charOffset="514-515" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_46" POS="NN" charOffset="515-518" text="LTR" lemma="ltr"/>
+            <token xml:space="preserve" id="stt_47" POS="-RRB-" charOffset="518-519" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_48" POS="NN" charOffset="520-528" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_49" POS="," charOffset="528-529" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_50" POS="WDT" charOffset="530-535" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_51" POS="VBZ" charOffset="536-538" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_52" POS="VBN" charOffset="539-548" text="regulated" lemma="regulate"/>
+            <token xml:space="preserve" id="stt_53" POS="IN" charOffset="549-551" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_54" POS="NN" charOffset="552-565" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_55" POS="NN" charOffset="566-572" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_56" POS="NN" charOffset="573-582" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_57" POS="." charOffset="582-583" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="aux"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="dobj"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_17" type="appos"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_7" type="det"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_15" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_11" type="amod"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_12" type="amod"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_13" type="nn"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_20" type="amod"/>
+            <dependency id="stp_15" t1="stt_23" t2="stt_2" type="advcl"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_21" type="nsubjpass"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_22" type="auxpass"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_26" type="prep_with"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_27" type="xcomp"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="amod"/>
+            <dependency id="stp_21" t1="stt_27" t2="stt_35" type="xcomp"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_32" type="appos"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_28" type="nn"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_29" type="nn"/>
+            <dependency id="stp_25" t1="stt_35" t2="stt_34" type="nn"/>
+            <dependency id="stp_26" t1="stt_35" t2="stt_38" type="prep_under"/>
+            <dependency id="stp_27" t1="stt_35" t2="stt_30" type="nsubj"/>
+            <dependency id="stp_28" t1="stt_38" t2="stt_48" type="prep_of"/>
+            <dependency id="stp_29" t1="stt_38" t2="stt_37" type="det"/>
+            <dependency id="stp_30" t1="stt_42" t2="stt_41" type="npadvmod"/>
+            <dependency id="stp_31" t1="stt_48" t2="stt_52" type="rcmod"/>
+            <dependency id="stp_32" t1="stt_48" t2="stt_40" type="det"/>
+            <dependency id="stp_33" t1="stt_48" t2="stt_42" type="amod"/>
+            <dependency id="stp_34" t1="stt_48" t2="stt_43" type="amod"/>
+            <dependency id="stp_35" t1="stt_48" t2="stt_44" type="nn"/>
+            <dependency id="stp_36" t1="stt_48" t2="stt_46" type="appos"/>
+            <dependency id="stp_37" t1="stt_52" t2="stt_50" type="nsubjpass"/>
+            <dependency id="stp_38" t1="stt_52" t2="stt_51" type="auxpass"/>
+            <dependency id="stp_39" t1="stt_52" t2="stt_56" type="agent"/>
+            <dependency id="stp_40" t1="stt_56" t2="stt_54" type="nn"/>
+            <dependency id="stp_41" t1="stt_56" t2="stt_55" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (TO=H To)
+            (VP (VB=H investigate)
+            (NP
+            (NP=H (DT the) (JJ molecular) (NN=H basis))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ mitogenic) (NN=H effect))
+            (PP (IN=H of)
+            (NP (JJ high) (JJ molecular) (NN weight) (NN dextran) (NN=H sulfate)))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H HMDS))
+            (-RRB- -RRB-))))))))
+            (, ,)
+            (NP (JJ monocyte-derived) (NNS=H macrophages))
+            (VP=H (VBD=H were)
+            (VP (VBN=H transfected)
+            (PP (IN=H with)
+            (NP (JJ recombinant) (NN=H plasmid)))
+            (S
+            (VP=H (VBG=H containing)
+            (S
+            (NP=H
+            (NP=H (NN chloramphenicol) (NN acetyl) (NN=H transferase))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H CAT))
+            (-RRB- -RRB-)))
+            (NP
+            (NP=H (NN reporter) (NN=H gene))
+            (PP (IN=H under)
+            (NP
+            (NP=H (DT the) (NN=H control))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the)
+            (ADJP (NN HIV-1) (JJ=H long))
+            (JJ terminal) (NN repeat)
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H LTR))
+            (-RRB- -RRB-))
+            (NN=H promoter))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBZ=H is)
+            (VP (VBN=H regulated)
+            (PP (IN=H by)
+            (NP (NN transcription) (NN factor) (NN=H NF-kappaB)))))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="584-744" id="S4">
+        <text xml:space="preserve">We observed that HMDS, similar to bacterial lipopolysaccharide (LPS), increases the expression of CAT reporter gene suggesting increased activity of NF-kappaB. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="584-586" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBD" charOffset="587-595" text="observed" lemma="observe"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="596-600" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="601-605" text="HMDS" lemma="hmd"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="605-606" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="607-614" text="similar" lemma="similar"/>
+            <token xml:space="preserve" id="stt_7" POS="TO" charOffset="615-617" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="618-627" text="bacterial" lemma="bacterial"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="628-646" text="lipopolysaccharide" lemma="lipopolysaccharide"/>
+            <token xml:space="preserve" id="stt_10" POS="-LRB-" charOffset="647-648" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="648-651" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_12" POS="-RRB-" charOffset="651-652" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_13" POS="," charOffset="652-653" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_14" POS="VBZ" charOffset="654-663" text="increases" lemma="increase"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="664-667" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="668-678" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="679-681" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="682-685" text="CAT" lemma="cat"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="686-694" text="reporter" lemma="reporter"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="695-699" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_21" POS="VBG" charOffset="700-710" text="suggesting" lemma="suggest"/>
+            <token xml:space="preserve" id="stt_22" POS="VBN" charOffset="711-720" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="721-729" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="730-732" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="733-742" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_26" POS="." charOffset="742-743" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_14" type="ccomp"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_6" type="amod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_9" type="prep_to"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_11" type="appos"/>
+            <dependency id="stp_7" t1="stt_14" t2="stt_16" type="dobj"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_3" type="mark"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_10" t1="stt_16" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_15" type="det"/>
+            <dependency id="stp_12" t1="stt_20" t2="stt_18" type="nn"/>
+            <dependency id="stp_13" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_21" type="vmod"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_23" type="dobj"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_22" type="amod"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_25" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBD=H observed)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (NN=H HMDS))
+            (, ,)
+            (ADJP (JJ=H similar)
+            (PP (TO=H to)
+            (NP
+            (NP=H (JJ bacterial) (NN=H lipopolysaccharide))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H LPS))
+            (-RRB- -RRB-)))))
+            (, ,))
+            (VP=H (VBZ=H increases)
+            (NP
+            (NP=H (DT the) (NN=H expression))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN CAT) (NN reporter) (NN=H gene))
+            (VP (VBG=H suggesting)
+            (NP
+            (NP=H (VBN increased) (NN=H activity))
+            (PP (IN=H of)
+            (NP (NN=H NF-kappaB))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="744-832" id="S5">
+        <text xml:space="preserve">The activation of NF-kappaB correlated with the increased expression of B7.1 molecules. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="744-747" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="748-758" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="759-761" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="762-771" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_5" POS="VBD" charOffset="772-782" text="correlated" lemma="correlate"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="783-787" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="788-791" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="792-801" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="802-812" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="813-815" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="816-818" text="B7" lemma="b7"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="818-820" text=".1" lemma=".1"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="821-830" text="molecules" lemma="molecule"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="830-831" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_9" type="prep_with"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_7" type="det"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_11" type="nn"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_12" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN=H activation))
+            (PP (IN=H of)
+            (NP (NN=H NF-kappaB))))
+            (VP=H (VBD=H correlated)
+            (PP (IN=H with)
+            (NP
+            (NP=H (DT the) (VBN increased) (NN=H expression))
+            (PP (IN=H of)
+            (NP (NN B7) (NN .1) (NNS=H molecules))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="832-1026" id="S6">
+        <text xml:space="preserve">It was postulated that this NF-kappaB-regulated promoter might play a role in the activation of the accessory cells as well as the rate of replication of HIV-1 in monocyte-derived macrophages. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="832-834" text="It" lemma="it"/>
+            <token xml:space="preserve" id="stt_2" POS="VBD" charOffset="835-838" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="839-849" text="postulated" lemma="postulate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="850-854" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="855-859" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="860-879" text="NF-kappaB-regulated" lemma="nf-kappab-regulated"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="880-888" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_8" POS="MD" charOffset="889-894" text="might" lemma="might"/>
+            <token xml:space="preserve" id="stt_9" POS="VB" charOffset="895-899" text="play" lemma="play"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="900-901" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="902-906" text="role" lemma="role"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="907-909" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="910-913" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="914-924" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="925-927" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="928-931" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="932-941" text="accessory" lemma="accessory"/>
+            <token xml:space="preserve" id="stt_18" POS="NNS" charOffset="942-947" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_19" POS="RB" charOffset="948-950" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_20" POS="RB" charOffset="951-955" text="well" lemma="well"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="956-958" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="959-962" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="963-967" text="rate" lemma="rate"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="968-970" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="971-982" text="replication" lemma="replication"/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="983-985" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="986-991" text="HIV-1" lemma="hiv-1"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="992-994" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="995-1011" text="monocyte-derived" lemma="monocyte-derived"/>
+            <token xml:space="preserve" id="stt_30" POS="NNS" charOffset="1012-1023" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="1023-1024" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_9" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="det"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_4" type="mark"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_23" type="dobj"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_8" type="aux"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_11" type="dobj"/>
+            <dependency id="stp_11" t1="stt_9" t2="stt_30" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_23" type="conj_and"/>
+            <dependency id="stp_13" t1="stt_11" t2="stt_10" type="det"/>
+            <dependency id="stp_14" t1="stt_11" t2="stt_14" type="prep_in"/>
+            <dependency id="stp_15" t1="stt_14" t2="stt_18" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_14" t2="stt_13" type="det"/>
+            <dependency id="stp_17" t1="stt_18" t2="stt_16" type="det"/>
+            <dependency id="stp_18" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_22" type="det"/>
+            <dependency id="stp_20" t1="stt_23" t2="stt_25" type="prep_of"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_27" type="prep_of"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_29" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H It))
+            (VP=H (VBD=H was)
+            (VP (VBN=H postulated)
+            (SBAR (IN=H that)
+            (S
+            (NP (DT this) (JJ NF-kappaB-regulated) (NN=H promoter))
+            (VP=H (MD=H might)
+            (VP (VB=H play)
+            (NP
+            (NP=H
+            (NP=H (DT a) (NN=H role))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H activation))
+            (PP (IN=H of)
+            (NP (DT the) (NN accessory) (NNS=H cells))))))
+            (CONJP (RB as) (RB=H well) (IN as))
+            (NP
+            (NP=H (DT the) (NN=H rate))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H replication))
+            (PP (IN=H of)
+            (NP (NN=H HIV-1)))))))
+            (PP (IN=H in)
+            (NP (JJ monocyte-derived) (NNS=H macrophages)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="407-441" headOffset="430-441" text="chloramphenicol acetyl transferase"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="443-446" headOffset="443-446" text="CAT"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="682-685" headOffset="682-685" text="CAT"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="816-820" headOffset="818-820" text="B7.1"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T6"/>
+        <Antecedent idref="T5"/>
+    </Relation>
+    <Term xml:space="preserve" id="T5" type="DefiniteNP" charOffset="483-528" headOffset="520-528" text="the HIV-1 long terminal repeat (LTR) promoter"/>
+    <Term xml:space="preserve" id="T6" type="RelativePronoun" charOffset="530-535" headOffset="530-535" text="which"/>
+</document>

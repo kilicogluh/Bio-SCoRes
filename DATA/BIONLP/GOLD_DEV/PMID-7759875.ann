@@ -1,0 +1,29 @@
+T1	Protein 27 31	IL-2
+T2	Protein 48 51	CD4
+T3	Protein 220 223	CD4
+T4	Protein 308 312	IL-2
+T5	Protein 555 561	p59fyn
+T6	Protein 566 574	CD3 zeta
+T7	Protein 737 741	IL-2
+T8	Protein 800 804	IL-2
+T9	Protein 950 953	p50
+T10	Protein 954 957	p65
+T11	Protein 1904 1908	IL-2
+T12	Exp 191 245	MRL-Ipr/Ipr (Ipr) peripheral CD4-CD8- (CD4-8-) T cells	240 245	cells
+T13	Exp 362 378	these same cells	373 378	cells
+T14	Exp 507 511	They
+T15	Exp 666 686	downstream signaling
+T16	Exp 687 691	that
+T17	Exp 772 825	the activation state of the IL-2 gene promoter region	787 792	state
+T18	Exp 885 889	that
+T19	Exp 1174 1201	the transactivating complex	1194 1201	complex
+T20	Exp 1304 1346	the levels of the activating NF-AT complex	1308 1314	levels
+T21	Exp 1359 1364	those
+T22	Exp 1491 1524	a novel specific binding activity	1516 1524	activity
+T23	Exp 1544 1549	which
+R1	Coref Anaphora:T13 Antecedent:T12	[T3]
+R2	Coref Anaphora:T14 Antecedent:T13
+R3	Coref Anaphora:T16 Antecedent:T15
+R4	Coref Anaphora:T18 Antecedent:T17	[T8]
+R5	Coref Anaphora:T21 Antecedent:T20
+R6	Coref Anaphora:T23 Antecedent:T22

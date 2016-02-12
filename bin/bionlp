@@ -1,0 +1,14 @@
+#!/bin/bash
+
+export CLASSPATH=""
+for file in `ls dist`
+do
+  export CLASSPATH=$CLASSPATH:dist/$file
+done
+for file in `ls lib`
+do
+  export CLASSPATH=$CLASSPATH:lib/$file
+done
+
+java -Xmx1G -Djava.util.logging.config.file=logging.properties tasks.coref.bionlp.BioNLPCoreferencePipeline DATA/BIONLP/XML_DEV DATA/BIONLP/OUT_DEV
+

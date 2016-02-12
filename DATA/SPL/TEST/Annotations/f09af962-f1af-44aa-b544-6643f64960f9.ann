@@ -1,0 +1,33 @@
+T1	Drug_Class 4380 4400	beta-blocking agents
+T2	Drug 4404 4414	cimetidine
+T5	Drug 4464 4473	lidocaine
+T8	Drug 4485 4494	Lidocaine
+T9	Drug 4499 4508	tocainide
+T10	Drug_Class 3067 3084	anesthetic agents
+T11	Drug 4303 4312	digitalis
+T12	Drug 48 57	LIDOCAINE
+T13	Drug 612 621	LIDOCAINE
+T14	Drug 3191 3200	lidocaine
+T15	Drug 3488 3497	lidocaine
+T16	Drug 5500 5509	Lidocaine
+T17	Drug 5709 5718	lidocaine
+T18	Drug_Class 1289 1301	barbiturates
+T19	Drug_Class 186 197	anesthetics
+T20	Drug 2752 2765	isoproterenol
+T3	DemonstrativeNP 2046 2056	this agent
+T4	DefiniteNP 2343 2351	the drug
+T6	Drug 2261 2270	Xylocaine
+T7	DemonstrativeNP 4565 4581	these two agents
+T21	DemonstrativeNP 5265 5274	this drug
+T22	Drug 4873 4882	Xylocaine
+T23	DemonstrativeNP 5592 5601	this drug
+T24	Substance 6593 6595	GX
+T25	DefiniteNP 6571 6592	the active metabolite
+T26	Drug 601 610	XYLOCAINE
+R1	Anaphora Anaphor:T3 Antecedent:T26
+R2	Anaphora Anaphor:T4 Antecedent:T6
+R3	Anaphora Anaphor:T7 Antecedent:T8
+R4	Anaphora Anaphor:T7 Antecedent:T9
+R5	Anaphora Anaphor:T21 Antecedent:T22
+R6	Anaphora Anaphor:T23 Antecedent:T16
+R7	Appositive Attribute:T25 Head:T24

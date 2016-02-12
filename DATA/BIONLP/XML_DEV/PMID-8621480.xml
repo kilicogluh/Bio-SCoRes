@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-8621480">
+    <text xml:space="preserve">A hydrophobic domain of Ca2+-modulating cyclophilin ligand modulates calcium influx signaling in T lymphocytes. 
+Ca2+-modulating cyclophilin ligand (CAML) was originally described as a cyclophilin B-binding protein whose overexpression in T cells causes a rise in intracellular calcium, thus activating transcription factors responsible for the early immune response. As reported here, structure-function analysis of the CAML gene in Jurkat T cells indicates that two of CAML's putative membrane-spanning domains are necessary and sufficient for the modulation of intracellular calcium. We propose that the hydrophobic C-terminal tail of CAML forms its effector domain, thus implicating the N-terminal hydrophilic domain in a regulatory role. These findings define a novel protein motif that functions in intracellular calcium signaling. 
+</text>
+    <sentence charOffset="0-113" id="S1">
+        <text xml:space="preserve">A hydrophobic domain of Ca2+-modulating cyclophilin ligand modulates calcium influx signaling in T lymphocytes. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="0-1" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="2-13" text="hydrophobic" lemma="hydrophobic"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="14-20" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="21-23" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="24-27" text="Ca2" lemma="ca2"/>
+            <token xml:space="preserve" id="stt_6" POS="CC" charOffset="27-28" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_7" POS=":" charOffset="28-29" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_8" POS="VBG" charOffset="29-39" text="modulating" lemma="modulate"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="40-51" text="cyclophilin" lemma="cyclophilin"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="52-58" text="ligand" lemma="ligand"/>
+            <token xml:space="preserve" id="stt_11" POS="VBZ" charOffset="59-68" text="modulates" lemma="modulate"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="69-76" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="77-83" text="influx" lemma="influx"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="84-93" text="signaling" lemma="signaling"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="94-96" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="97-98" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="99-110" text="lymphocytes" lemma="lymphocyte"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="110-111" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_6" type="rcmod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_8" type="dep"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_10" type="dobj"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_14" type="dobj"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_17" type="prep_in"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_12" type="nn"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="nn"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT A) (JJ hydrophobic) (NN=H domain))
+            (PP (IN=H of)
+            (NP
+            (NP=H
+            (NP=H (NN=H Ca2))
+            (SBAR
+            (S=H
+            (NP=H (CC=H +)))))
+            (: -)
+            (S
+            (VP=H (VBG=H modulating)
+            (NP (NN cyclophilin) (NN=H ligand)))))))
+            (VP=H (VBZ=H modulates)
+            (NP
+            (NP=H (NN calcium) (NN influx) (NN=H signaling))
+            (PP (IN=H in)
+            (NP (NN T) (NNS=H lymphocytes)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="113-368" id="S2">
+        <text xml:space="preserve">Ca2+-modulating cyclophilin ligand (CAML) was originally described as a cyclophilin B-binding protein whose overexpression in T cells causes a rise in intracellular calcium, thus activating transcription factors responsible for the early immune response. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="113-116" text="Ca2" lemma="ca2"/>
+            <token xml:space="preserve" id="stt_2" POS="CC" charOffset="116-117" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_3" POS=":" charOffset="117-118" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_4" POS="VBG" charOffset="118-128" text="modulating" lemma="modulate"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="129-140" text="cyclophilin" lemma="cyclophilin"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="141-147" text="ligand" lemma="ligand"/>
+            <token xml:space="preserve" id="stt_7" POS="-LRB-" charOffset="148-149" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="149-153" text="CAML" lemma="caml"/>
+            <token xml:space="preserve" id="stt_9" POS="-RRB-" charOffset="153-154" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_10" POS="VBD" charOffset="155-158" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="RB" charOffset="159-169" text="originally" lemma="originally"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="170-179" text="described" lemma="describe"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="180-182" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="183-184" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="185-196" text="cyclophilin" lemma="cyclophilin"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="197-206" text="B-binding" lemma="b-binding"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="207-214" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_18" POS="WP$" charOffset="215-220" text="whose" lemma="whose"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="221-235" text="overexpression" lemma="overexpression"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="236-238" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="239-240" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_22" POS="NNS" charOffset="241-246" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_23" POS="VBZ" charOffset="247-253" text="causes" lemma="cause"/>
+            <token xml:space="preserve" id="stt_24" POS="DT" charOffset="254-255" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="256-260" text="rise" lemma="rise"/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="261-263" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_27" POS="JJ" charOffset="264-277" text="intracellular" lemma="intracellular"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="278-285" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_29" POS="," charOffset="285-286" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_30" POS="RB" charOffset="287-291" text="thus" lemma="thus"/>
+            <token xml:space="preserve" id="stt_31" POS="VBG" charOffset="292-302" text="activating" lemma="activate"/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="303-316" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_33" POS="NNS" charOffset="317-324" text="factors" lemma="factor"/>
+            <token xml:space="preserve" id="stt_34" POS="JJ" charOffset="325-336" text="responsible" lemma="responsible"/>
+            <token xml:space="preserve" id="stt_35" POS="IN" charOffset="337-340" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_36" POS="DT" charOffset="341-344" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_37" POS="JJ" charOffset="345-350" text="early" lemma="early"/>
+            <token xml:space="preserve" id="stt_38" POS="JJ" charOffset="351-357" text="immune" lemma="immune"/>
+            <token xml:space="preserve" id="stt_39" POS="NN" charOffset="358-366" text="response" lemma="response"/>
+            <token xml:space="preserve" id="stt_40" POS="." charOffset="366-367" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="rcmod"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_39" type="prep_for"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_12" type="dep"/>
+            <dependency id="stp_4" t1="stt_1" t2="stt_31" type="vmod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_8" type="appos"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_17" type="prep_as"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_6" type="nsubjpass"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_10" type="auxpass"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_11" type="advmod"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_23" type="rcmod"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_14" type="det"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_15" type="nn"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_18" type="poss"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_22" type="prep_in"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="nn"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_19" type="nsubj"/>
+            <dependency id="stp_20" t1="stt_23" t2="stt_25" type="dobj"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_24" type="det"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_28" type="prep_in"/>
+            <dependency id="stp_23" t1="stt_28" t2="stt_27" type="amod"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_33" type="dobj"/>
+            <dependency id="stp_25" t1="stt_31" t2="stt_30" type="advmod"/>
+            <dependency id="stp_26" t1="stt_33" t2="stt_32" type="nn"/>
+            <dependency id="stp_27" t1="stt_33" t2="stt_34" type="amod"/>
+            <dependency id="stp_28" t1="stt_39" t2="stt_36" type="det"/>
+            <dependency id="stp_29" t1="stt_39" t2="stt_37" type="amod"/>
+            <dependency id="stp_30" t1="stt_39" t2="stt_38" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H
+            (NP=H (NN=H Ca2))
+            (SBAR
+            (S=H
+            (NP=H (CC=H +)))))
+            (: -)
+            (S
+            (NP
+            (NP=H (VBG modulating) (NN cyclophilin) (NN=H ligand))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H CAML))
+            (-RRB- -RRB-)))
+            (VP=H (VBD=H was)
+            (ADVP (RB=H originally))
+            (VP (VBN=H described)
+            (PP (IN=H as)
+            (NP
+            (NP=H (DT a) (NN cyclophilin) (JJ B-binding) (NN=H protein))
+            (SBAR
+            (WHNP=H
+            (NP=H (WP$ whose) (NN=H overexpression))
+            (PP (IN=H in)
+            (NP (NN T) (NNS=H cells))))
+            (S
+            (VP=H (VBZ=H causes)
+            (NP
+            (NP=H (DT a) (NN=H rise))
+            (PP (IN=H in)
+            (NP (JJ intracellular) (NN=H calcium))))))))))))
+            (, ,)
+            (VP
+            (ADVP (RB=H thus))
+            (VBG=H activating)
+            (NP
+            (NP=H (NN transcription) (NNS=H factors))
+            (ADJP (JJ=H responsible))))
+            (PP (IN=H for)
+            (NP (DT the) (JJ early) (JJ immune) (NN=H response)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="368-587" id="S3">
+        <text xml:space="preserve">As reported here, structure-function analysis of the CAML gene in Jurkat T cells indicates that two of CAML's putative membrane-spanning domains are necessary and sufficient for the modulation of intracellular calcium. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="368-370" text="As" lemma="as"/>
+            <token xml:space="preserve" id="stt_2" POS="VBN" charOffset="371-379" text="reported" lemma="report"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="380-384" text="here" lemma="here"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="384-385" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="386-404" text="structure-function" lemma="structure-function"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="405-413" text="analysis" lemma="analysis"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="414-416" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="417-420" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="421-425" text="CAML" lemma="caml"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="426-430" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="431-433" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="434-440" text="Jurkat" lemma="jurkat"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="441-442" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="443-448" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_15" POS="VBZ" charOffset="449-458" text="indicates" lemma="indicate"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="459-463" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_17" POS="CD" charOffset="464-467" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="468-470" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="471-475" text="CAML" lemma="caml"/>
+            <token xml:space="preserve" id="stt_20" POS="POS" charOffset="475-477" text="'s" lemma="'s"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="478-486" text="putative" lemma="putative"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="487-504" text="membrane-spanning" lemma="membrane-spanning"/>
+            <token xml:space="preserve" id="stt_23" POS="NNS" charOffset="505-512" text="domains" lemma="domain"/>
+            <token xml:space="preserve" id="stt_24" POS="VBP" charOffset="513-516" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="517-526" text="necessary" lemma="necessary"/>
+            <token xml:space="preserve" id="stt_26" POS="CC" charOffset="527-530" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_27" POS="JJ" charOffset="531-541" text="sufficient" lemma="sufficient"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="542-545" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_29" POS="DT" charOffset="546-549" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="550-560" text="modulation" lemma="modulation"/>
+            <token xml:space="preserve" id="stt_31" POS="IN" charOffset="561-563" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_32" POS="JJ" charOffset="564-577" text="intracellular" lemma="intracellular"/>
+            <token xml:space="preserve" id="stt_33" POS="NN" charOffset="578-585" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_34" POS="." charOffset="585-586" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="mark"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="advmod"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_10" t2="stt_8" type="det"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_14" type="prep_in"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_12" type="nn"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_13" type="nn"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_2" type="advcl"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_25" type="ccomp"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_27" type="ccomp"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_23" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_23" t2="stt_19" type="poss"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_21" type="amod"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_22" type="amod"/>
+            <dependency id="stp_18" t1="stt_25" t2="stt_16" type="mark"/>
+            <dependency id="stp_19" t1="stt_25" t2="stt_17" type="nsubj"/>
+            <dependency id="stp_20" t1="stt_25" t2="stt_24" type="cop"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_27" type="conj_and"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_30" type="prep_for"/>
+            <dependency id="stp_23" t1="stt_27" t2="stt_17" type="nsubj"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_33" type="prep_of"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_29" type="det"/>
+            <dependency id="stp_26" t1="stt_33" t2="stt_32" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR (IN=H As)
+            (S
+            (VP=H (VBN=H reported)
+            (ADVP (RB=H here)))))
+            (, ,)
+            (NP
+            (NP=H (JJ structure-function) (NN=H analysis))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (NN CAML) (NN=H gene))
+            (PP (IN=H in)
+            (NP (NN Jurkat) (NN T) (NNS=H cells))))))
+            (VP=H (VBZ=H indicates)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (CD=H two))
+            (PP (IN=H of)
+            (NP
+            (NP (NN CAML) (POS=H 's))
+            (JJ putative) (JJ membrane-spanning) (NNS=H domains))))
+            (VP=H (VBP=H are)
+            (ADJP (JJ=H necessary)
+            (CC and)
+            (JJ sufficient))
+            (PP (IN=H for)
+            (NP
+            (NP=H (DT the) (NN=H modulation))
+            (PP (IN=H of)
+            (NP (JJ intracellular) (NN=H calcium)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="587-743" id="S4">
+        <text xml:space="preserve">We propose that the hydrophobic C-terminal tail of CAML forms its effector domain, thus implicating the N-terminal hydrophilic domain in a regulatory role. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="587-589" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="590-597" text="propose" lemma="propose"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="598-602" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="603-606" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="607-618" text="hydrophobic" lemma="hydrophobic"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="619-629" text="C-terminal" lemma="c-terminal"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="630-634" text="tail" lemma="tail"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="635-637" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="638-642" text="CAML" lemma="caml"/>
+            <token xml:space="preserve" id="stt_10" POS="VBZ" charOffset="643-648" text="forms" lemma="form"/>
+            <token xml:space="preserve" id="stt_11" POS="PRP$" charOffset="649-652" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="653-661" text="effector" lemma="effector"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="662-668" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="668-669" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="RB" charOffset="670-674" text="thus" lemma="thus"/>
+            <token xml:space="preserve" id="stt_16" POS="VBG" charOffset="675-686" text="implicating" lemma="implicate"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="687-690" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="691-701" text="N-terminal" lemma="n-terminal"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="702-713" text="hydrophilic" lemma="hydrophilic"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="714-720" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="721-723" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="724-725" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="726-736" text="regulatory" lemma="regulatory"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="737-741" text="role" lemma="role"/>
+            <token xml:space="preserve" id="stt_25" POS="." charOffset="741-742" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_16" type="xcomp"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_10" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_5" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_3" type="mark"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_13" type="dobj"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_11" type="poss"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_12" type="nn"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_20" type="dobj"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_24" type="prep_in"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_15" type="advmod"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_17" type="det"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_18" type="amod"/>
+            <dependency id="stp_18" t1="stt_20" t2="stt_19" type="amod"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_22" type="det"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_23" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H propose)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (DT the) (JJ hydrophobic) (JJ C-terminal) (NN=H tail))
+            (PP (IN=H of)
+            (NP (NN=H CAML))))
+            (VP=H (VBZ=H forms)
+            (NP (PRP$ its) (NN effector) (NN=H domain)))))
+            (, ,)
+            (S
+            (ADVP (RB=H thus))
+            (VP=H (VBG=H implicating)
+            (NP (DT the) (JJ N-terminal) (JJ hydrophilic) (NN=H domain))
+            (PP (IN=H in)
+            (NP (DT a) (JJ regulatory) (NN=H role))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="743-839" id="S5">
+        <text xml:space="preserve">These findings define a novel protein motif that functions in intracellular calcium signaling. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="743-748" text="These" lemma="these"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="749-757" text="findings" lemma="finding"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="758-764" text="define" lemma="define"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="765-766" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="767-772" text="novel" lemma="novel"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="773-780" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="781-786" text="motif" lemma="motif"/>
+            <token xml:space="preserve" id="stt_8" POS="WDT" charOffset="787-791" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="792-801" text="functions" lemma="function"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="802-804" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="805-818" text="intracellular" lemma="intracellular"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="819-826" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="827-836" text="signaling" lemma="signaling"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="836-837" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="dobj"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_5" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="rcmod"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_13" type="prep_in"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="amod"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT These) (NNS=H findings))
+            (VP=H (VBP=H define)
+            (NP
+            (NP=H (DT a) (JJ novel) (NN protein) (NN=H motif))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H (VBZ=H functions)
+            (PP (IN=H in)
+            (NP (JJ intracellular) (NN calcium) (NN=H signaling))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="24-58" headOffset="52-58" text="Ca2+-modulating cyclophilin ligand"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="113-147" headOffset="141-147" text="Ca2+-modulating cyclophilin ligand"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="149-153" headOffset="149-153" text="CAML"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="185-198" headOffset="197-198" text="cyclophilin B"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="421-425" headOffset="421-425" text="CAML"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="471-475" headOffset="471-475" text="CAML"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="638-642" headOffset="638-642" text="CAML"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T9"/>
+        <Antecedent idref="T8"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T11"/>
+        <Antecedent idref="T10"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T13"/>
+        <Antecedent idref="T12"/>
+    </Relation>
+    <Term xml:space="preserve" id="T8" type="IndefiniteNP" charOffset="183-214" headOffset="207-214" text="a cyclophilin B-binding protein"/>
+    <Term xml:space="preserve" id="T9" type="RelativePronoun" charOffset="215-220" headOffset="215-220" text="whose"/>
+    <Term xml:space="preserve" id="T10" type="ZeroArticleNP" charOffset="638-642" headOffset="638-642" text="CAML"/>
+    <Term xml:space="preserve" id="T11" type="PossessivePronoun" charOffset="649-652" headOffset="649-652" text="its"/>
+    <Term xml:space="preserve" id="T12" type="IndefiniteNP" charOffset="765-786" headOffset="781-786" text="a novel protein motif"/>
+    <Term xml:space="preserve" id="T13" type="RelativePronoun" charOffset="787-791" headOffset="787-791" text="that"/>
+</document>

@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-1355356">
+    <text xml:space="preserve">Functional interaction between the two zinc finger domains of the v-erb A oncoprotein. 
+The v-erb A oncogene of avian erythroblastosis virus is a mutated and virally transduced copy of a host cell gene encoding a thyroid hormone receptor. The protein expressed by the v-erb A oncogene binds to DNA and acts as a dominant negative inhibitor of both the thyroid hormone receptor and the closely related retinoic acid receptor. The v-erb A protein has sustained two amino acid alterations within its DNA-binding domain relative to that of c-erb A, one of which, at serine 61, is known to be important for v-erb A function in the neoplastic cell. We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a mutation at position 61. Threonine 78 lies within the D-box of the v-erb A protein, a region thought to mediate receptor-receptor dimerizations, and is not in physical proximity to the serine at position 61. It therefore appears that an indirect interaction occurs between these two sites and that this interaction is crucial for v-erb A function. 
+</text>
+    <sentence charOffset="0-88" id="S1">
+        <text xml:space="preserve">Functional interaction between the two zinc finger domains of the v-erb A oncoprotein. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="0-10" text="Functional" lemma="functional"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="11-22" text="interaction" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="23-30" text="between" lemma="between"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="31-34" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_5" POS="CD" charOffset="35-38" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="39-43" text="zinc" lemma="zinc"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="44-50" text="finger" lemma="finger"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="51-58" text="domains" lemma="domain"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="59-61" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="62-65" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="66-71" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="72-73" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="74-85" text="oncoprotein" lemma="oncoprotein"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="85-86" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_8" type="prep_between"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_5" type="num"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_6" type="nn"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_10" type="det"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_11" type="nn"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_12" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (JJ Functional) (NN=H interaction))
+            (PP (IN=H between)
+            (NP (DT the) (CD two) (NN zinc) (NN finger) (NNS=H domains)))
+            (PP (IN=H of)
+            (NP (DT the) (NN v-erb) (NN A) (NN=H oncoprotein)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="88-239" id="S2">
+        <text xml:space="preserve">The v-erb A oncogene of avian erythroblastosis virus is a mutated and virally transduced copy of a host cell gene encoding a thyroid hormone receptor. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="88-91" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="92-97" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="98-99" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="100-108" text="oncogene" lemma="oncogene"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="109-111" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="112-117" text="avian" lemma="avian"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="118-134" text="erythroblastosis" lemma="erythroblastosis"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="135-140" text="virus" lemma="virus"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="141-143" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="144-145" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="146-153" text="mutated" lemma="mutate"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="154-157" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_13" POS="RB" charOffset="158-165" text="virally" lemma="virally"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="166-176" text="transduced" lemma="transduce"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="177-181" text="copy" lemma="copy"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="182-184" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="185-186" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="187-191" text="host" lemma="host"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="192-196" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="197-201" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_21" POS="VBG" charOffset="202-210" text="encoding" lemma="encode"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="211-212" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="213-220" text="thyroid" lemma="thyroid"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="221-228" text="hormone" lemma="hormone"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="229-237" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_26" POS="." charOffset="237-238" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_6" type="amod"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_9" type="cop"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_11" type="dep"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_14" type="dep"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_13" type="advmod"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_15" type="dobj"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_17" type="det"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_18" type="nn"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_18" t1="stt_20" t2="stt_21" type="vmod"/>
+            <dependency id="stp_19" t1="stt_21" t2="stt_25" type="dobj"/>
+            <dependency id="stp_20" t1="stt_25" t2="stt_22" type="det"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_23" type="nn"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_24" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN v-erb) (NN A) (NN=H oncogene))
+            (PP (IN=H of)
+            (NP (JJ avian) (NN erythroblastosis) (NN=H virus))))
+            (VP=H (VBZ=H is)
+            (NP (DT=H a)
+            (S
+            (S=H
+            (VP=H (VBN=H mutated)))
+            (CC and)
+            (ADVP (RB=H virally))
+            (S
+            (VP=H (VBN=H transduced)
+            (NP
+            (NP=H (NN=H copy))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT a) (NN host) (NN cell) (NN=H gene))
+            (VP (VBG=H encoding)
+            (NP (DT a) (NN thyroid) (NN hormone) (NN=H receptor)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="239-425" id="S3">
+        <text xml:space="preserve">The protein expressed by the v-erb A oncogene binds to DNA and acts as a dominant negative inhibitor of both the thyroid hormone receptor and the closely related retinoic acid receptor. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="239-242" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="243-250" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="251-260" text="expressed" lemma="express"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="261-263" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="264-267" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="268-273" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="274-275" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="276-284" text="oncogene" lemma="oncogene"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="285-290" text="binds" lemma="bind"/>
+            <token xml:space="preserve" id="stt_10" POS="TO" charOffset="291-293" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="294-297" text="DNA" lemma="dna"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="298-301" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_13" POS="VBZ" charOffset="302-306" text="acts" lemma="act"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="307-309" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="310-311" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="312-320" text="dominant" lemma="dominant"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="321-329" text="negative" lemma="negative"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="330-339" text="inhibitor" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="340-342" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_20" POS="CC" charOffset="343-347" text="both" lemma="both"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="348-351" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="352-359" text="thyroid" lemma="thyroid"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="360-367" text="hormone" lemma="hormone"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="368-376" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_25" POS="CC" charOffset="377-380" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="381-384" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_27" POS="RB" charOffset="385-392" text="closely" lemma="closely"/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="393-400" text="related" lemma="related"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="401-409" text="retinoic" lemma="retinoic"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="410-414" text="acid" lemma="acid"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="415-423" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_32" POS="." charOffset="423-424" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="vmod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_8" type="agent"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_5" type="det"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_6" type="nn"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_11" type="prep_to"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_13" type="conj_and"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_18" type="prep_as"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_16" type="amod"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="amod"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_24" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_15" type="det"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_31" type="prep_of"/>
+            <dependency id="stp_17" t1="stt_24" t2="stt_20" type="preconj"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_21" type="det"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_22" type="nn"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_23" type="nn"/>
+            <dependency id="stp_21" t1="stt_24" t2="stt_31" type="conj_and"/>
+            <dependency id="stp_22" t1="stt_28" t2="stt_27" type="advmod"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_26" type="det"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_28" type="amod"/>
+            <dependency id="stp_25" t1="stt_31" t2="stt_29" type="amod"/>
+            <dependency id="stp_26" t1="stt_31" t2="stt_30" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN=H protein))
+            (VP (VBN=H expressed)
+            (PP (IN=H by)
+            (NP (DT the) (NN v-erb) (NN A) (NN=H oncogene)))))
+            (VP=H
+            (VP=H (VBZ=H binds)
+            (PP (TO=H to)
+            (NP (NN=H DNA))))
+            (CC and)
+            (VP (VBZ=H acts)
+            (PP (IN=H as)
+            (NP
+            (NP=H (DT a) (JJ dominant) (JJ negative) (NN=H inhibitor))
+            (PP (IN=H of)
+            (NP (CC both)
+            (NP=H (DT the) (NN thyroid) (NN hormone) (NN=H receptor))
+            (CC and)
+            (NP (DT the)
+            (ADJP (RB closely) (JJ=H related))
+            (JJ retinoic) (NN acid) (NN=H receptor))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="425-643" id="S4">
+        <text xml:space="preserve">The v-erb A protein has sustained two amino acid alterations within its DNA-binding domain relative to that of c-erb A, one of which, at serine 61, is known to be important for v-erb A function in the neoplastic cell. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="425-428" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="429-434" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="435-436" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="437-444" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_5" POS="VBZ" charOffset="445-448" text="has" lemma="have"/>
+            <token xml:space="preserve" id="stt_6" POS="VBN" charOffset="449-458" text="sustained" lemma="sustain"/>
+            <token xml:space="preserve" id="stt_7" POS="CD" charOffset="459-462" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="463-468" text="amino" lemma="amino"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="469-473" text="acid" lemma="acid"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="474-485" text="alterations" lemma="alteration"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="486-492" text="within" lemma="within"/>
+            <token xml:space="preserve" id="stt_12" POS="PRP$" charOffset="493-496" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="497-508" text="DNA-binding" lemma="dna-binding"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="509-515" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="516-524" text="relative" lemma="relative"/>
+            <token xml:space="preserve" id="stt_16" POS="TO" charOffset="525-527" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="528-532" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="533-535" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="536-541" text="c-erb" lemma="c-erb"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="542-543" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_21" POS="," charOffset="543-544" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_22" POS="CD" charOffset="545-548" text="one" lemma="one"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="549-551" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="WDT" charOffset="552-557" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_25" POS="," charOffset="557-558" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="559-561" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="562-568" text="serine" lemma="serine"/>
+            <token xml:space="preserve" id="stt_28" POS="CD" charOffset="569-571" text="61" lemma="61"/>
+            <token xml:space="preserve" id="stt_29" POS="," charOffset="571-572" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_30" POS="VBZ" charOffset="573-575" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_31" POS="VBN" charOffset="576-581" text="known" lemma="know"/>
+            <token xml:space="preserve" id="stt_32" POS="TO" charOffset="582-584" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_33" POS="VB" charOffset="585-587" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_34" POS="JJ" charOffset="588-597" text="important" lemma="important"/>
+            <token xml:space="preserve" id="stt_35" POS="IN" charOffset="598-601" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_36" POS="NN" charOffset="602-607" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_37" POS="NN" charOffset="608-609" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_38" POS="NN" charOffset="610-618" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_39" POS="IN" charOffset="619-621" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_40" POS="DT" charOffset="622-625" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_41" POS="JJ" charOffset="626-636" text="neoplastic" lemma="neoplastic"/>
+            <token xml:space="preserve" id="stt_42" POS="NN" charOffset="637-641" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_43" POS="." charOffset="641-642" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="aux"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_10" type="xcomp"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_15" type="advmod"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_7" type="num"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_8" type="nn"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_11" t1="stt_10" t2="stt_14" type="prep_within"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_12" type="poss"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_13" type="amod"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_17" type="prep_to"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_31" type="rcmod"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_24" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_27" t2="stt_28" type="num"/>
+            <dependency id="stp_20" t1="stt_31" t2="stt_34" type="xcomp"/>
+            <dependency id="stp_21" t1="stt_31" t2="stt_22" type="nsubjpass"/>
+            <dependency id="stp_22" t1="stt_31" t2="stt_27" type="prep_at"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_30" type="auxpass"/>
+            <dependency id="stp_24" t1="stt_34" t2="stt_32" type="aux"/>
+            <dependency id="stp_25" t1="stt_34" t2="stt_33" type="cop"/>
+            <dependency id="stp_26" t1="stt_34" t2="stt_38" type="prep_for"/>
+            <dependency id="stp_27" t1="stt_38" t2="stt_36" type="nn"/>
+            <dependency id="stp_28" t1="stt_38" t2="stt_37" type="nn"/>
+            <dependency id="stp_29" t1="stt_38" t2="stt_42" type="prep_in"/>
+            <dependency id="stp_30" t1="stt_42" t2="stt_40" type="det"/>
+            <dependency id="stp_31" t1="stt_42" t2="stt_41" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT The) (NN v-erb) (NN A) (NN=H protein))
+            (VP=H (VBZ=H has)
+            (VP (VBN=H sustained)
+            (S
+            (NP=H
+            (NP=H (CD two) (NN amino) (NN acid) (NNS=H alterations))
+            (PP (IN=H within)
+            (NP (PRP$ its) (JJ DNA-binding) (NN=H domain)))))
+            (ADVP (JJ=H relative)
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT=H that))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN c-erb) (NN=H A))
+            (, ,)
+            (SBAR
+            (WHNP=H (CD one)
+            (WHPP=H (IN=H of)
+            (WHNP (WDT=H which))))
+            (S (, ,)
+            (PP (IN=H at)
+            (NP (NN=H serine) (CD 61)))
+            (, ,)
+            (VP=H (VBZ=H is)
+            (VP (VBN=H known)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H be)
+            (ADJP (JJ=H important)
+            (PP (IN=H for)
+            (NP
+            (NP=H (NN v-erb) (NN A) (NN=H function))
+            (PP (IN=H in)
+            (NP (DT the) (JJ neoplastic) (NN=H cell))))))))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="643-985" id="S5">
+        <text xml:space="preserve">We report here that the second alteration, at threonine 78, also plays an important, although more indirect, role: alteration of the sequence at threonine 78 such that it resembles that of c-erb A can act as an intragenic suppressor and can partially restore function to a v-erb A protein rendered defective due to a mutation at position 61. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="643-645" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="646-652" text="report" lemma="report"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="653-657" text="here" lemma="here"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="658-662" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="663-666" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="667-673" text="second" lemma="second"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="674-684" text="alteration" lemma="alteration"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="684-685" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="686-688" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="689-698" text="threonine" lemma="threonine"/>
+            <token xml:space="preserve" id="stt_11" POS="CD" charOffset="699-701" text="78" lemma="78"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="701-702" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="RB" charOffset="703-707" text="also" lemma="also"/>
+            <token xml:space="preserve" id="stt_14" POS="VBZ" charOffset="708-713" text="plays" lemma="play"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="714-716" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="717-726" text="important" lemma="important"/>
+            <token xml:space="preserve" id="stt_17" POS="," charOffset="726-727" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="728-736" text="although" lemma="although"/>
+            <token xml:space="preserve" id="stt_19" POS="JJR" charOffset="737-741" text="more" lemma="more"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="742-750" text="indirect" lemma="indirect"/>
+            <token xml:space="preserve" id="stt_21" POS="," charOffset="750-751" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="752-756" text="role" lemma="role"/>
+            <token xml:space="preserve" id="stt_23" POS=":" charOffset="756-757" text=":" lemma=":"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="758-768" text="alteration" lemma="alteration"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="769-771" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="772-775" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="776-784" text="sequence" lemma="sequence"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="785-787" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="788-797" text="threonine" lemma="threonine"/>
+            <token xml:space="preserve" id="stt_30" POS="CD" charOffset="798-800" text="78" lemma="78"/>
+            <token xml:space="preserve" id="stt_31" POS="JJ" charOffset="801-805" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_32" POS="IN" charOffset="806-810" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_33" POS="PRP" charOffset="811-813" text="it" lemma="it"/>
+            <token xml:space="preserve" id="stt_34" POS="VBZ" charOffset="814-823" text="resembles" lemma="resemble"/>
+            <token xml:space="preserve" id="stt_35" POS="DT" charOffset="824-828" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_36" POS="IN" charOffset="829-831" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_37" POS="NN" charOffset="832-837" text="c-erb" lemma="c-erb"/>
+            <token xml:space="preserve" id="stt_38" POS="NN" charOffset="838-839" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_39" POS="MD" charOffset="840-843" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_40" POS="VB" charOffset="844-847" text="act" lemma="act"/>
+            <token xml:space="preserve" id="stt_41" POS="IN" charOffset="848-850" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_42" POS="DT" charOffset="851-853" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_43" POS="JJ" charOffset="854-864" text="intragenic" lemma="intragenic"/>
+            <token xml:space="preserve" id="stt_44" POS="NN" charOffset="865-875" text="suppressor" lemma="suppressor"/>
+            <token xml:space="preserve" id="stt_45" POS="CC" charOffset="876-879" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_46" POS="MD" charOffset="880-883" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_47" POS="RB" charOffset="884-893" text="partially" lemma="partially"/>
+            <token xml:space="preserve" id="stt_48" POS="VB" charOffset="894-901" text="restore" lemma="restore"/>
+            <token xml:space="preserve" id="stt_49" POS="NN" charOffset="902-910" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_50" POS="TO" charOffset="911-913" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_51" POS="DT" charOffset="914-915" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_52" POS="NN" charOffset="916-921" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_53" POS="NN" charOffset="922-923" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_54" POS="NN" charOffset="924-931" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_55" POS="VBD" charOffset="932-940" text="rendered" lemma="render"/>
+            <token xml:space="preserve" id="stt_56" POS="JJ" charOffset="941-950" text="defective" lemma="defective"/>
+            <token xml:space="preserve" id="stt_57" POS="JJ" charOffset="951-954" text="due" lemma="due"/>
+            <token xml:space="preserve" id="stt_58" POS="TO" charOffset="955-957" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_59" POS="DT" charOffset="958-959" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_60" POS="NN" charOffset="960-968" text="mutation" lemma="mutation"/>
+            <token xml:space="preserve" id="stt_61" POS="IN" charOffset="969-971" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_62" POS="NN" charOffset="972-980" text="position" lemma="position"/>
+            <token xml:space="preserve" id="stt_63" POS="CD" charOffset="981-983" text="61" lemma="61"/>
+            <token xml:space="preserve" id="stt_64" POS="." charOffset="983-984" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="advmod"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_14" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="det"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_10" type="prep_at"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_11" type="num"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_16" type="dobj"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_4" type="mark"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_55" type="advcl"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="advmod"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_15" type="det"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_20" type="amod"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_22" type="appos"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_24" type="dep"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_31" type="amod"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_27" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_27" t2="stt_26" type="det"/>
+            <dependency id="stp_20" t1="stt_27" t2="stt_29" type="prep_at"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_30" type="num"/>
+            <dependency id="stp_22" t1="stt_31" t2="stt_48" type="ccomp"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_34" type="ccomp"/>
+            <dependency id="stp_24" t1="stt_34" t2="stt_32" type="mark"/>
+            <dependency id="stp_25" t1="stt_34" t2="stt_48" type="conj_and"/>
+            <dependency id="stp_26" t1="stt_34" t2="stt_33" type="nsubj"/>
+            <dependency id="stp_27" t1="stt_34" t2="stt_40" type="ccomp"/>
+            <dependency id="stp_28" t1="stt_35" t2="stt_38" type="prep_of"/>
+            <dependency id="stp_29" t1="stt_38" t2="stt_37" type="nn"/>
+            <dependency id="stp_30" t1="stt_40" t2="stt_35" type="nsubj"/>
+            <dependency id="stp_31" t1="stt_40" t2="stt_39" type="aux"/>
+            <dependency id="stp_32" t1="stt_40" t2="stt_44" type="prep_as"/>
+            <dependency id="stp_33" t1="stt_44" t2="stt_42" type="det"/>
+            <dependency id="stp_34" t1="stt_44" t2="stt_43" type="amod"/>
+            <dependency id="stp_35" t1="stt_48" t2="stt_33" type="nsubj"/>
+            <dependency id="stp_36" t1="stt_48" t2="stt_49" type="dobj"/>
+            <dependency id="stp_37" t1="stt_48" t2="stt_54" type="prep_to"/>
+            <dependency id="stp_38" t1="stt_48" t2="stt_46" type="aux"/>
+            <dependency id="stp_39" t1="stt_48" t2="stt_47" type="advmod"/>
+            <dependency id="stp_40" t1="stt_54" t2="stt_51" type="det"/>
+            <dependency id="stp_41" t1="stt_54" t2="stt_52" type="nn"/>
+            <dependency id="stp_42" t1="stt_54" t2="stt_53" type="nn"/>
+            <dependency id="stp_43" t1="stt_55" t2="stt_18" type="mark"/>
+            <dependency id="stp_44" t1="stt_55" t2="stt_19" type="nsubj"/>
+            <dependency id="stp_45" t1="stt_55" t2="stt_57" type="acomp"/>
+            <dependency id="stp_46" t1="stt_55" t2="stt_62" type="prep_at"/>
+            <dependency id="stp_47" t1="stt_57" t2="stt_56" type="amod"/>
+            <dependency id="stp_48" t1="stt_57" t2="stt_60" type="prep_to"/>
+            <dependency id="stp_49" t1="stt_60" t2="stt_59" type="det"/>
+            <dependency id="stp_50" t1="stt_62" t2="stt_63" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H report)
+            (ADVP (RB=H here))
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (DT the) (JJ second) (NN=H alteration))
+            (, ,)
+            (PP (IN=H at)
+            (NP (NN=H threonine) (CD 78)))
+            (, ,))
+            (VP=H
+            (ADVP (RB=H also))
+            (VBZ=H plays)
+            (NP (DT an) (JJ=H important))
+            (, ,)
+            (SBAR (IN=H although)
+            (S
+            (NP
+            (NP=H
+            (NP=H
+            (NP=H (JJR=H more) (JJ indirect))
+            (, ,)
+            (NP (NN=H role)))
+            (: :)
+            (NP
+            (NP=H (NN=H alteration))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (NN=H sequence))
+            (PP (IN=H at)
+            (NP (NN=H threonine) (CD 78)))))))
+            (ADJP (JJ=H such)
+            (SBAR (IN=H that)
+            (S
+            (NP (PRP=H it))
+            (VP=H
+            (VP=H (VBZ=H resembles)
+            (SBAR
+            (S=H
+            (NP
+            (NP=H (DT=H that))
+            (PP (IN=H of)
+            (NP (NN c-erb) (NN=H A))))
+            (VP=H (MD=H can)
+            (VP (VB=H act)
+            (PP (IN=H as)
+            (NP (DT an) (JJ intragenic) (NN=H suppressor))))))))
+            (CC and)
+            (VP (MD=H can)
+            (ADVP (RB=H partially))
+            (VP (VB=H restore)
+            (NP (NN=H function))
+            (PP (TO=H to)
+            (NP (DT a) (NN v-erb) (NN A) (NN=H protein))))))))))
+            (VP=H (VBD=H rendered)
+            (ADJP
+            (ADJP=H (JJ defective) (JJ=H due))
+            (PP (TO=H to)
+            (NP (DT a) (NN=H mutation))))
+            (PP (IN=H at)
+            (NP (NN=H position) (CD 61))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="985-1168" id="S6">
+        <text xml:space="preserve">Threonine 78 lies within the D-box of the v-erb A protein, a region thought to mediate receptor-receptor dimerizations, and is not in physical proximity to the serine at position 61. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="985-994" text="Threonine" lemma="threonine"/>
+            <token xml:space="preserve" id="stt_2" POS="CD" charOffset="995-997" text="78" lemma="78"/>
+            <token xml:space="preserve" id="stt_3" POS="VBZ" charOffset="998-1002" text="lies" lemma="lie"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1003-1009" text="within" lemma="within"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="1010-1013" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1014-1019" text="D-box" lemma="d-box"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1020-1022" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="1023-1026" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1027-1032" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1033-1034" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1035-1042" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="1042-1043" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="1044-1045" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1046-1052" text="region" lemma="region"/>
+            <token xml:space="preserve" id="stt_15" POS="VBD" charOffset="1053-1060" text="thought" lemma="think"/>
+            <token xml:space="preserve" id="stt_16" POS="TO" charOffset="1061-1063" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_17" POS="VB" charOffset="1064-1071" text="mediate" lemma="mediate"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="1072-1089" text="receptor-receptor" lemma="receptor-receptor"/>
+            <token xml:space="preserve" id="stt_19" POS="NNS" charOffset="1090-1103" text="dimerizations" lemma="dimerization"/>
+            <token xml:space="preserve" id="stt_20" POS="," charOffset="1103-1104" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_21" POS="CC" charOffset="1105-1108" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_22" POS="VBZ" charOffset="1109-1111" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_23" POS="RB" charOffset="1112-1115" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="1116-1118" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="1119-1127" text="physical" lemma="physical"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1128-1137" text="proximity" lemma="proximity"/>
+            <token xml:space="preserve" id="stt_27" POS="TO" charOffset="1138-1140" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_28" POS="DT" charOffset="1141-1144" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="1145-1151" text="serine" lemma="serine"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="1152-1154" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="1155-1163" text="position" lemma="position"/>
+            <token xml:space="preserve" id="stt_32" POS="CD" charOffset="1164-1166" text="61" lemma="61"/>
+            <token xml:space="preserve" id="stt_33" POS="." charOffset="1166-1167" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="num"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_6" type="prep_within"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="det"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_8" type="det"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_9" type="nn"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="nn"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_13" type="det"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_17" type="xcomp"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_3" type="ccomp"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_22" type="conj_and"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_14" type="nsubj"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_16" type="aux"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_19" type="dobj"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_18" type="amod"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_23" type="neg"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_26" type="prep_in"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_14" type="nsubj"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="amod"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_29" type="prep_to"/>
+            <dependency id="stp_22" t1="stt_29" t2="stt_28" type="det"/>
+            <dependency id="stp_23" t1="stt_29" t2="stt_31" type="prep_at"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_32" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (NP (NN=H Threonine) (CD 78))
+            (VP=H (VBZ=H lies)
+            (PP (IN=H within)
+            (NP
+            (NP=H (DT the) (NN=H D-box))
+            (PP (IN=H of)
+            (NP (DT the) (NN v-erb) (NN A) (NN=H protein)))))))
+            (, ,)
+            (NP (DT a) (NN=H region))
+            (VP=H
+            (VP=H (VBD=H thought)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H mediate)
+            (NP (JJ receptor-receptor) (NNS=H dimerizations))))))
+            (, ,)
+            (CC and)
+            (VP (VBZ=H is) (RB not)
+            (PP (IN=H in)
+            (NP
+            (NP=H (JJ physical) (NN=H proximity))
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT the) (NN=H serine))
+            (PP (IN=H at)
+            (NP (NN=H position) (CD 61)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1168-1309" id="S7">
+        <text xml:space="preserve">It therefore appears that an indirect interaction occurs between these two sites and that this interaction is crucial for v-erb A function. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="1168-1170" text="It" lemma="it"/>
+            <token xml:space="preserve" id="stt_2" POS="RB" charOffset="1171-1180" text="therefore" lemma="therefore"/>
+            <token xml:space="preserve" id="stt_3" POS="VBZ" charOffset="1181-1188" text="appears" lemma="appear"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1189-1193" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="1194-1196" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="1197-1205" text="indirect" lemma="indirect"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1206-1217" text="interaction" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_8" POS="VBZ" charOffset="1218-1224" text="occurs" lemma="occur"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1225-1232" text="between" lemma="between"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="1233-1238" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_11" POS="CD" charOffset="1239-1242" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="1243-1248" text="sites" lemma="site"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="1249-1252" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1253-1257" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="1258-1262" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1263-1274" text="interaction" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_17" POS="VBZ" charOffset="1275-1277" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="1278-1285" text="crucial" lemma="crucial"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="1286-1289" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="1290-1295" text="v-erb" lemma="v-erb"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1296-1297" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1298-1306" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="1306-1307" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="advmod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_18" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_8" type="ccomp"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_5" type="det"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_18" type="conj_and"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_4" type="mark"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_10" t1="stt_8" t2="stt_12" type="prep_between"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="num"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_15" type="det"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_16" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_17" type="cop"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_22" type="prep_for"/>
+            <dependency id="stp_17" t1="stt_18" t2="stt_14" type="mark"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_20" type="nn"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_21" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H It))
+            (ADVP (RB=H therefore))
+            (VP=H (VBZ=H appears)
+            (SBAR
+            (SBAR=H (IN=H that)
+            (S
+            (NP (DT an) (JJ indirect) (NN=H interaction))
+            (VP=H (VBZ=H occurs)
+            (PP (IN=H between)
+            (NP (DT these) (CD two) (NNS=H sites))))))
+            (CC and)
+            (SBAR (IN=H that)
+            (S
+            (NP (DT this) (NN=H interaction))
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H crucial)
+            (PP (IN=H for)
+            (NP (NN v-erb) (NN A) (NN=H function)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="66-73" headOffset="72-73" text="v-erb A"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="92-99" headOffset="98-99" text="v-erb A"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="268-275" headOffset="274-275" text="v-erb A"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="401-423" headOffset="415-423" text="retinoic acid receptor"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="429-436" headOffset="435-436" text="v-erb A"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="536-543" headOffset="542-543" text="c-erb A"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="602-609" headOffset="608-609" text="v-erb A"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="832-839" headOffset="838-839" text="c-erb A"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="916-923" headOffset="922-923" text="v-erb A"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="1027-1034" headOffset="1033-1034" text="v-erb A"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="1290-1297" headOffset="1296-1297" text="v-erb A"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T13"/>
+        <Antecedent idref="T12"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T16"/>
+        <Antecedent idref="T14"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T18"/>
+        <Antecedent idref="T17"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T19"/>
+        <Antecedent idref="T15"/>
+    </Relation>
+    <Relation id="R5" type="Anaphora">
+        <Anaphor idref="T21"/>
+        <Antecedent idref="T20"/>
+    </Relation>
+    <Relation id="R6" type="Anaphora">
+        <Anaphor idref="T22"/>
+        <Antecedent idref="T20"/>
+    </Relation>
+    <Term xml:space="preserve" id="T12" type="IndefiniteNP" charOffset="211-237" headOffset="229-237" text="a thyroid hormone receptor"/>
+    <Term xml:space="preserve" id="T13" type="DefiniteNP" charOffset="348-376" headOffset="368-376" text="the thyroid hormone receptor"/>
+    <Term xml:space="preserve" id="T14" type="DefiniteNP" charOffset="425-444" headOffset="437-444" text="The v-erb A protein"/>
+    <Term xml:space="preserve" id="T15" type="ZeroArticleNP" charOffset="459-485" headOffset="474-485" text="two amino acid alterations"/>
+    <Term xml:space="preserve" id="T16" type="PossessivePronoun" charOffset="493-496" headOffset="493-496" text="its"/>
+    <Term xml:space="preserve" id="T17" type="ZeroArticleNP" charOffset="497-515" headOffset="509-515" text="DNA-binding domain"/>
+    <Term xml:space="preserve" id="T18" type="DemonstrativePronoun" charOffset="528-532" headOffset="528-532" text="that"/>
+    <Term xml:space="preserve" id="T19" type="RelativePronoun" charOffset="552-557" headOffset="552-557" text="which"/>
+    <Term xml:space="preserve" id="T20" type="DefiniteNP" charOffset="772-800" headOffset="776-784" text="the sequence at threonine 78"/>
+    <Term xml:space="preserve" id="T21" type="PersonalPronoun" charOffset="811-813" headOffset="811-813" text="it"/>
+    <Term xml:space="preserve" id="T22" type="DemonstrativePronoun" charOffset="824-828" headOffset="824-828" text="that"/>
+</document>

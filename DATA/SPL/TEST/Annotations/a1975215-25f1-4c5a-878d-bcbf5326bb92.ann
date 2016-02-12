@@ -1,0 +1,21 @@
+T0	Drug 1162 1172	Probenecid
+T1	Drug 1266 1276	probenecid
+T2	DemonstrativeNP 128 140	this product
+T3	PossessivePronoun 147 150	its
+T5	Drug 63 84	aminohippurate sodium
+T6	Drug 26 50	AMINOHIPPURATE SODIUMPAH
+T7	DemonstrativeNP 758 770	this product
+T4	DemonstrativeNP 1064 1079	These compounds
+T8	Drug_Class 1020 1032	sulfonamides
+T9	Drug 1034 1042	procaine
+T10	Drug 1047 1062	thiazolesulfone
+T11	DemonstrativeNP 1822 1831	this drug
+T12	ZeroArticleNP 599 612	PAH solutions
+R2	Anaphora Anaphor:T2 Antecedent:T6
+R3	Anaphora Anaphor:T3 Antecedent:T2
+R4	Anaphora Anaphor:T7 Antecedent:T12
+R1	Anaphora Anaphor:T4 Antecedent:T8
+R5	Anaphora Anaphor:T4 Antecedent:T9
+R6	Anaphora Anaphor:T4 Antecedent:T10
+R7	Anaphora Anaphor:T11 Antecedent:T7
+R8	Anaphora Anaphor:T12 Antecedent:T3

@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-7760810">
+    <text xml:space="preserve">Ligand-dependent repression of the erythroid transcription factor GATA-1 by the estrogen receptor. 
+High-dose estrogen administration induces anemia in mammals. In chickens, estrogens stimulate outgrowth of bone marrow-derived erythroid progenitor cells and delay their maturation. This delay is associated with down-regulation of many erythroid cell-specific genes, including alpha- and beta-globin, band 3, band 4.1, and the erythroid cell-specific histone H5. We show here that estrogens also reduce the number of erythroid progenitor cells in primary human bone marrow cultures. To address potential mechanisms by which estrogens suppress erythropoiesis, we have examined their effects on GATA-1, an erythroid transcription factor that participates in the regulation of the majority of erythroid cell-specific genes and is necessary for full maturation of erythrocytes. We demonstrate that the transcriptional activity of GATA-1 is strongly repressed by the estrogen receptor (ER) in a ligand-dependent manner and that this repression is reversible in the presence of 4-hydroxytamoxifen. ER-mediated repression of GATA-1 activity occurs on an artificial promoter containing a single GATA-binding site, as well as in the context of an intact promoter which is normally regulated by GATA-1. GATA-1 and ER bind to each other in vitro in the absence of DNA. In coimmunoprecipitation experiments using transfected COS cells, GATA-1 and ER associate in a ligand-dependent manner. Mapping experiments indicate that GATA-1 and the ER form at least two contacts, which involve the finger region and the N-terminal activation domain of GATA-1. We speculate that estrogens exert effects on erythropoiesis by modulating GATA-1 activity through protein-protein interaction with the ER. (ABSTRACT TRUNCATED AT 250 WORDS) 
+</text>
+    <sentence charOffset="0-100" id="S1">
+        <text xml:space="preserve">Ligand-dependent repression of the erythroid transcription factor GATA-1 by the estrogen receptor. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="0-16" text="Ligand-dependent" lemma="ligand-dependent"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="17-27" text="repression" lemma="repression"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="28-30" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="31-34" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="35-44" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="45-58" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="59-65" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="66-72" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="73-75" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="76-79" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="80-88" text="estrogen" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="89-97" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="97-98" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_12" type="prep_by"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_5" type="amod"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_6" type="nn"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (JJ Ligand-dependent) (NN=H repression))
+            (PP (IN=H of)
+            (NP (DT the) (JJ erythroid) (NN transcription) (NN factor) (NN=H GATA-1)))
+            (PP (IN=H by)
+            (NP (DT the) (NN estrogen) (NN=H receptor)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="100-161" id="S2">
+        <text xml:space="preserve">High-dose estrogen administration induces anemia in mammals. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="100-109" text="High-dose" lemma="high-dose"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="110-118" text="estrogen" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="119-133" text="administration" lemma="administration"/>
+            <token xml:space="preserve" id="stt_4" POS="VBZ" charOffset="134-141" text="induces" lemma="induce"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="142-148" text="anemia" lemma="anemia"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="149-151" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="152-159" text="mammals" lemma="mammal"/>
+            <token xml:space="preserve" id="stt_8" POS="." charOffset="159-160" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_5" type="dobj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="prep_in"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ High-dose) (NN estrogen) (NN=H administration))
+            (VP=H (VBZ=H induces)
+            (NP
+            (NP=H (NN=H anemia))
+            (PP (IN=H in)
+            (NP (NNS=H mammals)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="161-282" id="S3">
+        <text xml:space="preserve">In chickens, estrogens stimulate outgrowth of bone marrow-derived erythroid progenitor cells and delay their maturation. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="161-163" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="164-172" text="chickens" lemma="chicken"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="172-173" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="174-183" text="estrogens" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_5" POS="VBP" charOffset="184-193" text="stimulate" lemma="stimulate"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="194-203" text="outgrowth" lemma="outgrowth"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="204-206" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="207-211" text="bone" lemma="bone"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="212-226" text="marrow-derived" lemma="marrow-derived"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="227-236" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="237-247" text="progenitor" lemma="progenitor"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="248-253" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="254-257" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="VB" charOffset="258-263" text="delay" lemma="delay"/>
+            <token xml:space="preserve" id="stt_15" POS="PRP$" charOffset="264-269" text="their" lemma="they"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="270-280" text="maturation" lemma="maturation"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="280-281" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_16" t2="stt_15" type="poss"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="prep_in"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_6" type="dobj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_8" type="nn"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_16" type="dobj"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_4" type="nsubj"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (NNS=H chickens)))
+            (, ,)
+            (NP (NNS=H estrogens))
+            (VP=H
+            (VP=H (VBP=H stimulate)
+            (NP
+            (NP=H (NN=H outgrowth))
+            (PP (IN=H of)
+            (NP (NN bone)
+            (ADJP (JJ marrow-derived) (JJ=H erythroid))
+            (NN progenitor) (NNS=H cells)))))
+            (CC and)
+            (VP (VB=H delay)
+            (NP (PRP$ their) (NN=H maturation))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="282-463" id="S4">
+        <text xml:space="preserve">This delay is associated with down-regulation of many erythroid cell-specific genes, including alpha- and beta-globin, band 3, band 4.1, and the erythroid cell-specific histone H5. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="282-286" text="This" lemma="this"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="287-292" text="delay" lemma="delay"/>
+            <token xml:space="preserve" id="stt_3" POS="VBZ" charOffset="293-295" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="296-306" text="associated" lemma="associate"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="307-311" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="312-327" text="down-regulation" lemma="down-regulation"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="328-330" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="331-335" text="many" lemma="many"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="336-345" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="346-359" text="cell-specific" lemma="cell-specific"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="360-365" text="genes" lemma="gene"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="365-366" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="VBG" charOffset="367-376" text="including" lemma="include"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="377-382" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_15" POS=":" charOffset="382-383" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_16" POS="CC" charOffset="384-387" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="388-399" text="beta-globin" lemma="beta-globin"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="399-400" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="401-405" text="band" lemma="band"/>
+            <token xml:space="preserve" id="stt_20" POS="CD" charOffset="406-407" text="3" lemma="3"/>
+            <token xml:space="preserve" id="stt_21" POS="," charOffset="407-408" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="409-413" text="band" lemma="band"/>
+            <token xml:space="preserve" id="stt_23" POS="CD" charOffset="414-417" text="4.1" lemma="4.1"/>
+            <token xml:space="preserve" id="stt_24" POS="," charOffset="417-418" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_25" POS="CC" charOffset="419-422" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="423-426" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_27" POS="JJ" charOffset="427-436" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="437-450" text="cell-specific" lemma="cell-specific"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="451-458" text="histone" lemma="histone"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="459-461" text="H5" lemma="h5"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="461-462" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_17" type="prep_including"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_19" type="prep_including"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_22" type="prep_including"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_9" t1="stt_6" t2="stt_14" type="prep_including"/>
+            <dependency id="stp_10" t1="stt_6" t2="stt_30" type="prep_including"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_8" type="amod"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_9" type="amod"/>
+            <dependency id="stp_13" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_14" t1="stt_14" t2="stt_17" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_14" t2="stt_19" type="conj_and"/>
+            <dependency id="stp_16" t1="stt_14" t2="stt_22" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_14" t2="stt_30" type="conj_and"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_20" type="num"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_23" type="num"/>
+            <dependency id="stp_20" t1="stt_30" t2="stt_26" type="det"/>
+            <dependency id="stp_21" t1="stt_30" t2="stt_27" type="amod"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_28" type="amod"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_29" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT This) (NN=H delay))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H associated)
+            (PP (IN=H with)
+            (NP
+            (NP=H (NN=H down-regulation))
+            (PP (IN=H of)
+            (NP (JJ many) (JJ erythroid) (JJ cell-specific) (NNS=H genes)))
+            (, ,)
+            (PP (VBG=H including)
+            (NP
+            (NP=H (NN=H alpha))
+            (: -)
+            (CC and)
+            (NP (NN=H beta-globin))
+            (, ,)
+            (NP (NN=H band) (CD 3))
+            (, ,)
+            (NP (NN=H band) (CD 4.1))
+            (, ,)
+            (CC and)
+            (NP (DT the) (JJ erythroid) (JJ cell-specific) (NN histone) (NN=H H5))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="463-583" id="S5">
+        <text xml:space="preserve">We show here that estrogens also reduce the number of erythroid progenitor cells in primary human bone marrow cultures. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="463-465" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="466-470" text="show" lemma="show"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="471-475" text="here" lemma="here"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="476-480" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="481-490" text="estrogens" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_6" POS="RB" charOffset="491-495" text="also" lemma="also"/>
+            <token xml:space="preserve" id="stt_7" POS="VB" charOffset="496-502" text="reduce" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="503-506" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="507-513" text="number" lemma="number"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="514-516" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="517-526" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="527-537" text="progenitor" lemma="progenitor"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="538-543" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="544-546" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="547-554" text="primary" lemma="primary"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="555-560" text="human" lemma="human"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="561-565" text="bone" lemma="bone"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="566-572" text="marrow" lemma="marrow"/>
+            <token xml:space="preserve" id="stt_19" POS="NNS" charOffset="573-581" text="cultures" lemma="culture"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="581-582" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="advmod"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_7" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_4" type="mark"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="advmod"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="dobj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="det"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_19" type="prep_in"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_11" type="amod"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_12" type="nn"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_16" type="amod"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_17" type="nn"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_18" type="nn"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_15" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H show)
+            (ADVP (RB=H here))
+            (SBAR (IN=H that)
+            (S
+            (NP (NNS=H estrogens))
+            (ADVP (RB=H also))
+            (VP=H (VB=H reduce)
+            (NP
+            (NP=H (DT the) (NN=H number))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ erythroid) (NN progenitor) (NNS=H cells))
+            (PP (IN=H in)
+            (NP (JJ primary) (JJ human) (NN bone) (NN marrow) (NNS=H cultures))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="583-874" id="S6">
+        <text xml:space="preserve">To address potential mechanisms by which estrogens suppress erythropoiesis, we have examined their effects on GATA-1, an erythroid transcription factor that participates in the regulation of the majority of erythroid cell-specific genes and is necessary for full maturation of erythrocytes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="TO" charOffset="583-585" text="To" lemma="to"/>
+            <token xml:space="preserve" id="stt_2" POS="VB" charOffset="586-593" text="address" lemma="address"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="594-603" text="potential" lemma="potential"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="604-614" text="mechanisms" lemma="mechanism"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="615-617" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_6" POS="WDT" charOffset="618-623" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="624-633" text="estrogens" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_8" POS="VBP" charOffset="634-642" text="suppress" lemma="suppress"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="643-657" text="erythropoiesis" lemma="erythropoiesis"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="657-658" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="PRP" charOffset="659-661" text="we" lemma="we"/>
+            <token xml:space="preserve" id="stt_12" POS="VBP" charOffset="662-666" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_13" POS="VBN" charOffset="667-675" text="examined" lemma="examine"/>
+            <token xml:space="preserve" id="stt_14" POS="PRP$" charOffset="676-681" text="their" lemma="they"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="682-689" text="effects" lemma="effect"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="690-692" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="693-699" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="699-700" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="DT" charOffset="701-703" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="704-713" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="714-727" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="728-734" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_23" POS="WDT" charOffset="735-739" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_24" POS="VBZ" charOffset="740-752" text="participates" lemma="participate"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="753-755" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="756-759" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="760-770" text="regulation" lemma="regulation"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="771-773" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_29" POS="DT" charOffset="774-777" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="778-786" text="majority" lemma="majority"/>
+            <token xml:space="preserve" id="stt_31" POS="IN" charOffset="787-789" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_32" POS="JJ" charOffset="790-799" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_33" POS="JJ" charOffset="800-813" text="cell-specific" lemma="cell-specific"/>
+            <token xml:space="preserve" id="stt_34" POS="NNS" charOffset="814-819" text="genes" lemma="gene"/>
+            <token xml:space="preserve" id="stt_35" POS="CC" charOffset="820-823" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_36" POS="VBZ" charOffset="824-826" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_37" POS="JJ" charOffset="827-836" text="necessary" lemma="necessary"/>
+            <token xml:space="preserve" id="stt_38" POS="IN" charOffset="837-840" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_39" POS="JJ" charOffset="841-845" text="full" lemma="full"/>
+            <token xml:space="preserve" id="stt_40" POS="NN" charOffset="846-856" text="maturation" lemma="maturation"/>
+            <token xml:space="preserve" id="stt_41" POS="IN" charOffset="857-859" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_42" POS="NNS" charOffset="860-872" text="erythrocytes" lemma="erythrocyte"/>
+            <token xml:space="preserve" id="stt_43" POS="." charOffset="872-873" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="aux"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="dobj"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_8" type="prepc_by"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_6" type="dobj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_9" type="dobj"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_17" type="prep_on"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_2" type="advcl"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="aux"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_15" type="dobj"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_14" type="poss"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_22" type="appos"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_19" type="det"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_20" type="amod"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_21" type="nn"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_37" type="rcmod"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_24" type="rcmod"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_37" type="conj_and"/>
+            <dependency id="stp_21" t1="stt_24" t2="stt_23" type="nsubj"/>
+            <dependency id="stp_22" t1="stt_24" t2="stt_27" type="prep_in"/>
+            <dependency id="stp_23" t1="stt_27" t2="stt_26" type="det"/>
+            <dependency id="stp_24" t1="stt_27" t2="stt_30" type="prep_of"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_34" type="prep_of"/>
+            <dependency id="stp_26" t1="stt_30" t2="stt_29" type="det"/>
+            <dependency id="stp_27" t1="stt_34" t2="stt_32" type="amod"/>
+            <dependency id="stp_28" t1="stt_34" t2="stt_33" type="amod"/>
+            <dependency id="stp_29" t1="stt_37" t2="stt_36" type="cop"/>
+            <dependency id="stp_30" t1="stt_37" t2="stt_23" type="nsubj"/>
+            <dependency id="stp_31" t1="stt_37" t2="stt_40" type="prep_for"/>
+            <dependency id="stp_32" t1="stt_40" t2="stt_39" type="amod"/>
+            <dependency id="stp_33" t1="stt_40" t2="stt_42" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (TO=H To)
+            (VP (VB=H address)
+            (NP (JJ potential) (NNS=H mechanisms))
+            (PP (IN=H by)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (NP (NNS=H estrogens))
+            (VP=H (VBP=H suppress)
+            (NP (NN=H erythropoiesis)))))))))
+            (, ,)
+            (NP (PRP=H we))
+            (VP=H (VBP=H have)
+            (VP (VBN=H examined)
+            (NP (PRP$ their) (NNS=H effects))
+            (PP (IN=H on)
+            (NP
+            (NP=H (NN=H GATA-1))
+            (, ,)
+            (NP
+            (NP=H (DT an) (JJ erythroid) (NN transcription) (NN=H factor))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H
+            (VP=H (VBZ=H participates)
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H regulation))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (NN=H majority))
+            (PP (IN=H of)
+            (NP (JJ erythroid) (JJ cell-specific) (NNS=H genes))))))))
+            (CC and)
+            (VP (VBZ=H is)
+            (ADJP (JJ=H necessary)
+            (PP (IN=H for)
+            (NP
+            (NP=H (JJ full) (NN=H maturation))
+            (PP (IN=H of)
+            (NP (NNS=H erythrocytes)))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="874-1092" id="S7">
+        <text xml:space="preserve">We demonstrate that the transcriptional activity of GATA-1 is strongly repressed by the estrogen receptor (ER) in a ligand-dependent manner and that this repression is reversible in the presence of 4-hydroxytamoxifen. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="874-876" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="877-888" text="demonstrate" lemma="demonstrate"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="889-893" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="894-897" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="898-913" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="914-922" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="923-925" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="926-932" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="933-935" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="936-944" text="strongly" lemma="strongly"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="945-954" text="repressed" lemma="repress"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="955-957" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="958-961" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="962-970" text="estrogen" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="971-979" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_16" POS="-LRB-" charOffset="980-981" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="981-983" text="ER" lemma="er"/>
+            <token xml:space="preserve" id="stt_18" POS="-RRB-" charOffset="983-984" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="985-987" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="988-989" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="990-1006" text="ligand-dependent" lemma="ligand-dependent"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1007-1013" text="manner" lemma="manner"/>
+            <token xml:space="preserve" id="stt_23" POS="CC" charOffset="1014-1017" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="1018-1022" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_25" POS="DT" charOffset="1023-1027" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1028-1038" text="repression" lemma="repression"/>
+            <token xml:space="preserve" id="stt_27" POS="VBZ" charOffset="1039-1041" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="1042-1052" text="reversible" lemma="reversible"/>
+            <token xml:space="preserve" id="stt_29" POS="IN" charOffset="1053-1055" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_30" POS="DT" charOffset="1056-1059" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="1060-1068" text="presence" lemma="presence"/>
+            <token xml:space="preserve" id="stt_32" POS="IN" charOffset="1069-1071" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_33" POS="NN" charOffset="1072-1090" text="4-hydroxytamoxifen" lemma="4-hydroxytamoxifen"/>
+            <token xml:space="preserve" id="stt_34" POS="." charOffset="1090-1091" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_11" type="ccomp"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_28" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_3" type="mark"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_6" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_9" type="auxpass"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="advmod"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_28" type="conj_and"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_15" type="agent"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_17" type="appos"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_22" type="prep_in"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_13" type="det"/>
+            <dependency id="stp_16" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_20" type="det"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="amod"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_25" type="det"/>
+            <dependency id="stp_20" t1="stt_28" t2="stt_24" type="mark"/>
+            <dependency id="stp_21" t1="stt_28" t2="stt_26" type="nsubj"/>
+            <dependency id="stp_22" t1="stt_28" t2="stt_27" type="cop"/>
+            <dependency id="stp_23" t1="stt_28" t2="stt_31" type="prep_in"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_33" type="prep_of"/>
+            <dependency id="stp_25" t1="stt_31" t2="stt_30" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H demonstrate)
+            (SBAR
+            (SBAR=H (IN=H that)
+            (S
+            (NP
+            (NP=H (DT the) (JJ transcriptional) (NN=H activity))
+            (PP (IN=H of)
+            (NP (NN=H GATA-1))))
+            (VP=H (VBZ=H is)
+            (ADVP (RB=H strongly))
+            (VP (VBN=H repressed)
+            (PP (IN=H by)
+            (NP
+            (NP=H
+            (NP=H (DT the) (NN estrogen) (NN=H receptor))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H ER))
+            (-RRB- -RRB-)))
+            (PP (IN=H in)
+            (NP (DT a) (JJ ligand-dependent) (NN=H manner)))))))))
+            (CC and)
+            (SBAR (IN=H that)
+            (S
+            (NP (DT this) (NN=H repression))
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H reversible)
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H presence))
+            (PP (IN=H of)
+            (NP (NN=H 4-hydroxytamoxifen)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1092-1293" id="S8">
+        <text xml:space="preserve">ER-mediated repression of GATA-1 activity occurs on an artificial promoter containing a single GATA-binding site, as well as in the context of an intact promoter which is normally regulated by GATA-1. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="1092-1103" text="ER-mediated" lemma="er-mediated"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1104-1114" text="repression" lemma="repression"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1115-1117" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1118-1124" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1125-1133" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="1134-1140" text="occurs" lemma="occur"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1141-1143" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="1144-1146" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="1147-1157" text="artificial" lemma="artificial"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1158-1166" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_11" POS="VBG" charOffset="1167-1177" text="containing" lemma="contain"/>
+            <token xml:space="preserve" id="stt_12" POS="DT" charOffset="1178-1179" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="1180-1186" text="single" lemma="single"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="1187-1199" text="GATA-binding" lemma="gata-binding"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1200-1204" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_16" POS="," charOffset="1204-1205" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_17" POS="RB" charOffset="1206-1208" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_18" POS="RB" charOffset="1209-1213" text="well" lemma="well"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="1214-1216" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="1217-1219" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="1220-1223" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1224-1231" text="context" lemma="context"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="1232-1234" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="DT" charOffset="1235-1237" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="1238-1244" text="intact" lemma="intact"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1245-1253" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_27" POS="WDT" charOffset="1254-1259" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_28" POS="VBZ" charOffset="1260-1262" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_29" POS="RB" charOffset="1263-1271" text="normally" lemma="normally"/>
+            <token xml:space="preserve" id="stt_30" POS="VBN" charOffset="1272-1281" text="regulated" lemma="regulate"/>
+            <token xml:space="preserve" id="stt_31" POS="IN" charOffset="1282-1284" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="1285-1291" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_33" POS="." charOffset="1291-1292" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_6" type="conj_and"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_22" type="prep_in"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_10" type="prep_on"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_8" type="det"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_11" t1="stt_10" t2="stt_11" type="vmod"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_15" type="dobj"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_12" type="det"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_13" type="amod"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_14" type="amod"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="det"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_26" type="prep_of"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_24" type="det"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_25" type="amod"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_30" type="rcmod"/>
+            <dependency id="stp_21" t1="stt_30" t2="stt_32" type="agent"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_27" type="nsubjpass"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_28" type="auxpass"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_29" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ ER-mediated) (NN=H repression))
+            (PP (IN=H of)
+            (NP (NN GATA-1) (NN=H activity))))
+            (VP=H (VBZ=H occurs)
+            (PP
+            (PP=H (IN=H on)
+            (NP
+            (NP=H (DT an) (JJ artificial) (NN=H promoter))
+            (VP (VBG=H containing)
+            (NP (DT a) (JJ single) (JJ GATA-binding) (NN=H site)))))
+            (, ,)
+            (CONJP (RB as) (RB=H well) (IN as))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H context))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT an) (JJ intact) (NN=H promoter))
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBZ=H is)
+            (ADVP (RB=H normally))
+            (VP (VBN=H regulated)
+            (PP (IN=H by)
+            (NP (NN=H GATA-1)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1293-1358" id="S9">
+        <text xml:space="preserve">GATA-1 and ER bind to each other in vitro in the absence of DNA. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1293-1299" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_2" POS="CC" charOffset="1300-1303" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1304-1306" text="ER" lemma="er"/>
+            <token xml:space="preserve" id="stt_4" POS="VBP" charOffset="1307-1311" text="bind" lemma="bind"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="1312-1314" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="1315-1319" text="each" lemma="each"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="1320-1325" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_8" POS="FW" charOffset="1326-1328" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_9" POS="FW" charOffset="1329-1334" text="vitro" lemma="vitro"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1335-1337" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="1338-1341" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1342-1349" text="absence" lemma="absence"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1350-1352" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1353-1356" text="DNA" lemma="dna"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="1356-1357" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="conj_and"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_7" type="prep_to"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_9" type="advmod"/>
+            <dependency id="stp_6" t1="stt_4" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_6" type="det"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="det"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H GATA-1)
+            (CC and)
+            (NN ER))
+            (VP=H (VBP=H bind)
+            (PP (TO=H to)
+            (NP (DT each) (JJ=H other)))
+            (ADVP (FW in) (FW=H vitro))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H absence))
+            (PP (IN=H of)
+            (NP (NN=H DNA))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1358-1478" id="S10">
+        <text xml:space="preserve">In coimmunoprecipitation experiments using transfected COS cells, GATA-1 and ER associate in a ligand-dependent manner. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="1358-1360" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1361-1382" text="coimmunoprecipitation" lemma="coimmunoprecipitation"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="1383-1394" text="experiments" lemma="experiment"/>
+            <token xml:space="preserve" id="stt_4" POS="VBG" charOffset="1395-1400" text="using" lemma="use"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="1401-1412" text="transfected" lemma="transfect"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1413-1416" text="COS" lemma="cos"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="1417-1422" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="1422-1423" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1424-1430" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="1431-1434" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1435-1437" text="ER" lemma="er"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1438-1447" text="associate" lemma="associate"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1448-1450" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="1451-1452" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="1453-1469" text="ligand-dependent" lemma="ligand-dependent"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1470-1476" text="manner" lemma="manner"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="1476-1477" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="pobj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_4" type="vmod"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_5" type="dep"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_16" type="prep_in"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_7" type="dobj"/>
+            <dependency id="stp_7" t1="stt_5" t2="stt_9" type="dobj"/>
+            <dependency id="stp_8" t1="stt_5" t2="stt_12" type="dobj"/>
+            <dependency id="stp_9" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_10" t1="stt_7" t2="stt_9" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_7" t2="stt_12" type="conj_and"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_14" type="det"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_15" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (FRAG=H
+            (PP=H (IN=H In)
+            (NP
+            (NP=H (NN coimmunoprecipitation) (NNS=H experiments))
+            (VP (VBG=H using)
+            (VP (VBN=H transfected)
+            (NP
+            (NP=H (NN COS) (NNS=H cells))
+            (, ,)
+            (NP (NN=H GATA-1))
+            (CC and)
+            (NP (NN ER) (NN=H associate)))
+            (PP (IN=H in)
+            (NP (DT a) (JJ ligand-dependent) (NN=H manner)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1478-1638" id="S11">
+        <text xml:space="preserve">Mapping experiments indicate that GATA-1 and the ER form at least two contacts, which involve the finger region and the N-terminal activation domain of GATA-1. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1478-1485" text="Mapping" lemma="mapping"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1486-1497" text="experiments" lemma="experiment"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="1498-1506" text="indicate" lemma="indicate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1507-1511" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1512-1518" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_6" POS="CC" charOffset="1519-1522" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="1523-1526" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1527-1529" text="ER" lemma="er"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1530-1534" text="form" lemma="form"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1535-1537" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_11" POS="JJS" charOffset="1538-1543" text="least" lemma="least"/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="1544-1547" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="1548-1556" text="contacts" lemma="contact"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="1556-1557" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="WDT" charOffset="1558-1563" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_16" POS="VBP" charOffset="1564-1571" text="involve" lemma="involve"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="1572-1575" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1576-1582" text="finger" lemma="finger"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="1583-1589" text="region" lemma="region"/>
+            <token xml:space="preserve" id="stt_20" POS="CC" charOffset="1590-1593" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="1594-1597" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="1598-1608" text="N-terminal" lemma="n-terminal"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="1609-1619" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1620-1626" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="1627-1629" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1630-1636" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_27" POS="." charOffset="1636-1637" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_9" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_8" type="conj_and"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_4" type="mark"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_13" type="dobj"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_11" type="mwe"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="quantmod"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_16" type="rcmod"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_12" type="num"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_19" type="dobj"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_24" type="dobj"/>
+            <dependency id="stp_16" t1="stt_16" t2="stt_15" type="nsubj"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_17" type="det"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_18" type="nn"/>
+            <dependency id="stp_19" t1="stt_19" t2="stt_24" type="conj_and"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_21" type="det"/>
+            <dependency id="stp_21" t1="stt_24" t2="stt_22" type="amod"/>
+            <dependency id="stp_22" t1="stt_24" t2="stt_23" type="nn"/>
+            <dependency id="stp_23" t1="stt_24" t2="stt_26" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN Mapping) (NNS=H experiments))
+            (VP=H (VBP=H indicate)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (NN=H GATA-1))
+            (CC and)
+            (NP (DT the) (NN=H ER)))
+            (VP=H (NN=H form)
+            (NP
+            (NP=H
+            (QP
+            (XS (IN=H at) (JJS least))
+            (CD=H two))
+            (NNS=H contacts))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBP=H involve)
+            (NP
+            (NP=H (DT the) (NN finger) (NN=H region))
+            (CC and)
+            (NP
+            (NP=H (DT the) (JJ N-terminal) (NN activation) (NN=H domain))
+            (PP (IN=H of)
+            (NP (NN=H GATA-1)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1638-1777" id="S12">
+        <text xml:space="preserve">We speculate that estrogens exert effects on erythropoiesis by modulating GATA-1 activity through protein-protein interaction with the ER. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="1638-1640" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="1641-1650" text="speculate" lemma="speculate"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1651-1655" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="1656-1665" text="estrogens" lemma="estrogen"/>
+            <token xml:space="preserve" id="stt_5" POS="VBP" charOffset="1666-1671" text="exert" lemma="exert"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="1672-1679" text="effects" lemma="effect"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1680-1682" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1683-1697" text="erythropoiesis" lemma="erythropoiesis"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1698-1700" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_10" POS="VBG" charOffset="1701-1711" text="modulating" lemma="modulate"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1712-1718" text="GATA-1" lemma="gata-1"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1719-1727" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1728-1735" text="through" lemma="through"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="1736-1751" text="protein-protein" lemma="protein-protein"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1752-1763" text="interaction" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="1764-1768" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="1769-1772" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1773-1775" text="ER" lemma="er"/>
+            <token xml:space="preserve" id="stt_19" POS="." charOffset="1775-1776" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="ccomp"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="mark"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_6" type="dobj"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_10" type="prepc_by"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_8" type="prep_on"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_12" type="dobj"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_15" type="prep_through"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_18" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="amod"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H speculate)
+            (SBAR (IN=H that)
+            (S
+            (NP (NNS=H estrogens))
+            (VP=H (VBP=H exert)
+            (NP
+            (NP=H (NNS=H effects))
+            (PP (IN=H on)
+            (NP (NN=H erythropoiesis))))
+            (PP (IN=H by)
+            (S
+            (VP=H (VBG=H modulating)
+            (NP (NN GATA-1) (NN=H activity))
+            (PP (IN=H through)
+            (NP
+            (NP=H (JJ protein-protein) (NN=H interaction))
+            (PP (IN=H with)
+            (NP (DT the) (NN=H ER))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1777-1812" id="S13">
+        <text xml:space="preserve">(ABSTRACT TRUNCATED AT 250 WORDS) 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="-LRB-" charOffset="1777-1778" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1778-1786" text="ABSTRACT" lemma="abstract"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="1787-1796" text="TRUNCATED" lemma="truncate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1797-1799" text="AT" lemma="at"/>
+            <token xml:space="preserve" id="stt_5" POS="CD" charOffset="1800-1803" text="250" lemma="250"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="1804-1809" text="WORDS" lemma="word"/>
+            <token xml:space="preserve" id="stt_7" POS="-RRB-" charOffset="1809-1810" text=")" lemma=")"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_3" type="vmod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_6" type="prep_at"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_5" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (PRN=H (-LRB- -LRB-)
+            (NP=H
+            (NP=H (NN=H ABSTRACT))
+            (VP (VBN=H TRUNCATED)
+            (PP (IN=H AT)
+            (NP (CD 250) (NNS=H WORDS)))))
+            (-RRB- -RRB-)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="66-72" headOffset="66-72" text="GATA-1"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="80-97" headOffset="89-97" text="estrogen receptor"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="459-461" headOffset="459-461" text="H5"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="693-699" headOffset="693-699" text="GATA-1"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="926-932" headOffset="926-932" text="GATA-1"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="962-979" headOffset="971-979" text="estrogen receptor"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="981-983" headOffset="981-983" text="ER"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="1092-1094" headOffset="1092-1094" text="ER"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="1118-1124" headOffset="1118-1124" text="GATA-1"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="1285-1291" headOffset="1285-1291" text="GATA-1"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="1293-1299" headOffset="1293-1299" text="GATA-1"/>
+    <Term xml:space="preserve" id="T12" type="Protein" charOffset="1304-1306" headOffset="1304-1306" text="ER"/>
+    <Term xml:space="preserve" id="T13" type="Protein" charOffset="1424-1430" headOffset="1424-1430" text="GATA-1"/>
+    <Term xml:space="preserve" id="T14" type="Protein" charOffset="1435-1437" headOffset="1435-1437" text="ER"/>
+    <Term xml:space="preserve" id="T15" type="Protein" charOffset="1512-1518" headOffset="1512-1518" text="GATA-1"/>
+    <Term xml:space="preserve" id="T16" type="Protein" charOffset="1527-1529" headOffset="1527-1529" text="ER"/>
+    <Term xml:space="preserve" id="T17" type="Protein" charOffset="1630-1636" headOffset="1630-1636" text="GATA-1"/>
+    <Term xml:space="preserve" id="T18" type="Protein" charOffset="1712-1718" headOffset="1712-1718" text="GATA-1"/>
+    <Term xml:space="preserve" id="T19" type="Protein" charOffset="1773-1775" headOffset="1773-1775" text="ER"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T21"/>
+        <Antecedent idref="T20"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T23"/>
+        <Antecedent idref="T22"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T24"/>
+        <Antecedent idref="T22"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T26"/>
+        <Antecedent idref="T25"/>
+    </Relation>
+    <Relation id="R5" type="Anaphora">
+        <Anaphor idref="T28"/>
+        <Antecedent idref="T27"/>
+    </Relation>
+    <Relation id="R6" type="Anaphora">
+        <Anaphor idref="T30"/>
+        <Antecedent idref="T29"/>
+    </Relation>
+    <Term xml:space="preserve" id="T20" type="ZeroArticleNP" charOffset="207-253" headOffset="248-253" text="bone marrow-derived erythroid progenitor cells"/>
+    <Term xml:space="preserve" id="T21" type="PossessivePronoun" charOffset="264-269" headOffset="264-269" text="their"/>
+    <Term xml:space="preserve" id="T22" type="ZeroArticleNP" charOffset="594-614" headOffset="604-614" text="potential mechanisms"/>
+    <Term xml:space="preserve" id="T23" type="RelativePronoun" charOffset="618-623" headOffset="618-623" text="which"/>
+    <Term xml:space="preserve" id="T24" type="PossessivePronoun" charOffset="676-681" headOffset="676-681" text="their"/>
+    <Term xml:space="preserve" id="T25" type="IndefiniteNP" charOffset="701-734" headOffset="728-734" text="an erythroid transcription factor"/>
+    <Term xml:space="preserve" id="T26" type="RelativePronoun" charOffset="735-739" headOffset="735-739" text="that"/>
+    <Term xml:space="preserve" id="T27" type="IndefiniteNP" charOffset="1235-1253" headOffset="1245-1253" text="an intact promoter"/>
+    <Term xml:space="preserve" id="T28" type="RelativePronoun" charOffset="1254-1259" headOffset="1254-1259" text="which"/>
+    <Term xml:space="preserve" id="T29" type="ZeroArticleNP" charOffset="1544-1556" headOffset="1548-1556" text="two contacts"/>
+    <Term xml:space="preserve" id="T30" type="RelativePronoun" charOffset="1558-1563" headOffset="1558-1563" text="which"/>
+</document>

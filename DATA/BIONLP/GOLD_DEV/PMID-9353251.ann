@@ -1,0 +1,45 @@
+T1	Protein 0 4	CD30
+T2	Protein 30 35	TRAF2
+T3	Protein 127 131	CD30
+T4	Protein 277 281	CD30
+T5	Protein 414 418	CD30
+T6	Protein 496 533	type 1 tumor necrosis factor receptor
+T7	Protein 535 540	TNFR1
+T8	Protein 612 616	CD30
+T9	Protein 686 691	TRAF2
+T10	Protein 749 754	TNFR1
+T11	Protein 845 849	CD30
+T12	Protein 896 901	TRAF2
+T13	Protein 931 935	CD30
+T14	Protein 970 975	TRAF2
+T15	Protein 1003 1008	TRAF1
+T16	Protein 1061 1065	CD30
+T17	Protein 1160 1165	TRAF2
+T18	Protein 1194 1199	TRAF2
+T19	Protein 1351 1356	TNFR1
+T20	Protein 1433 1438	TRAF2
+T21	Protein 1463 1468	TNFR1
+T22	Protein 1543 1547	CD30
+T23	Exp 135 158	a cell-surface receptor	150 158	receptor
+T24	Exp 159 163	that
+T25	Exp 219 222	its
+T26	Exp 644 656	the proteins
+T27	Exp 657 661	that
+T28	Exp 693 723	a signal transduction molecule	715 723	molecule
+T29	Exp 724 728	that
+T30	Exp 1044 1051	a model
+T31	Exp 1055 1060	which
+T32	Exp 1061 1065	CD30
+T33	Exp 1073 1076	its
+T34	Exp 1180 1199	intracellular TRAF2	1194 1199	TRAF2
+T35	Exp 1204 1207	its
+T36	Exp 1507 1528	a potential mechanism	1519 1528	mechanism
+T37	Exp 1537 1542	which
+R1	Coref Anaphora:T24 Antecedent:T23
+R2	Coref Anaphora:T25 Antecedent:T23
+R3	Coref Anaphora:T27 Antecedent:T26
+R4	Coref Anaphora:T29 Antecedent:T28
+R5	Coref Anaphora:T31 Antecedent:T30
+R6	Coref Anaphora:T33 Antecedent:T32	[T16]
+R7	Coref Anaphora:T35 Antecedent:T34	[T18]
+R8	Coref Anaphora:T37 Antecedent:T36

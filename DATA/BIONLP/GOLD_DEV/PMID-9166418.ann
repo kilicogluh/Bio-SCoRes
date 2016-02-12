@@ -1,0 +1,24 @@
+T1	Protein 110 133	class II transactivator
+T2	Protein 262 285	class II transactivator
+T3	Protein 287 292	CIITA
+T4	Protein 650 655	CIITA
+T5	Protein 783 788	CIITA
+T6	Protein 865 870	CIITA
+T7	Protein 997 1002	CIITA
+T8	Protein 1049 1054	CIITA
+T9	Protein 1383 1388	CIITA
+T10	Exp 0 86	An isotype-specific activator of major histocompatibility complex (MHC) class II genes	20 29	activator
+T11	Exp 87 91	that
+T12	Exp 248 293	a gene termed class II transactivator (CIITA)	250 254	gene
+T13	Exp 295 300	which
+T14	Exp 503 508	HLADQ
+T15	Exp 554 557	its
+T16	Exp 669 679	a mutation
+T17	Exp 680 684	that
+T18	Exp 1302 1348	an HLA-DQ isotype-specific trans-acting factor	1342 1348	factor
+T19	Exp 1350 1355	which
+R1	Coref Anaphora:T11 Antecedent:T10
+R2	Coref Anaphora:T13 Antecedent:T12	[T3, T2]
+R3	Coref Anaphora:T15 Antecedent:T14
+R4	Coref Anaphora:T17 Antecedent:T16
+R5	Coref Anaphora:T19 Antecedent:T18

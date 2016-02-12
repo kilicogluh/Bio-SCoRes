@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-10101001">
+    <text xml:space="preserve">Essential role of alveolar macrophages in intrapulmonary activation of NF-kappaB. 
+Acute inflammatory injury in rat lung induced by deposition of immunoglobulin G immune complexes requires expression of cytokines and chemokines as well as activation of the transcription factor nuclear factor (NF)-kappaB. There is little direct evidence regarding the role of alveolar macrophages in these activation events. In the present studies, rat lungs were depleted of alveolar macrophages by airway instillation of liposome-encapsulated dichloromethylene diphosphonate. These procedures, which greatly reduced the number of retrievable alveolar macrophages, suppressed activation of lung NF-kappaB in the inflammatory model. In addition, bronchoalveolar lavage levels of tumor necrosis factor-alpha (TNF-alpha) and the CXC chemokine, macrophage inflammatory protein-2, were substantially reduced. In parallel, upregulation of the lung vascular adhesion molecule, intercellular adhesion molecule-1, was greatly reduced by intrapulmonary instillation of phosphonate-containing liposomes. Neutrophil accumulation and development of lung injury were also substantially diminished. Lung instillation of TNF-alpha in alveolar macrophage-depleted rats restored the NF-kappaB activation response in whole lung. These data suggest that, in this inflammatory model, initial activation of NF-kappaB occurs in alveolar macrophages and the ensuing production of TNF-alpha may propagate NF-kappaB activation to other cell types in the lung. 
+</text>
+    <sentence charOffset="0-83" id="S1">
+        <text xml:space="preserve">Essential role of alveolar macrophages in intrapulmonary activation of NF-kappaB. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="0-9" text="Essential" lemma="essential"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="10-14" text="role" lemma="role"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="15-17" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="18-26" text="alveolar" lemma="alveolar"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="27-38" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="39-41" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="42-56" text="intrapulmonary" lemma="intrapulmonary"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="57-67" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="68-70" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="71-80" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_11" POS="." charOffset="80-81" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_8" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (JJ Essential) (NN=H role))
+            (PP (IN=H of)
+            (NP (JJ alveolar) (NNS=H macrophages)))
+            (PP (IN=H in)
+            (NP (JJ intrapulmonary) (NN=H activation)))
+            (PP (IN=H of)
+            (NP (NN=H NF-kappaB)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="83-306" id="S2">
+        <text xml:space="preserve">Acute inflammatory injury in rat lung induced by deposition of immunoglobulin G immune complexes requires expression of cytokines and chemokines as well as activation of the transcription factor nuclear factor (NF)-kappaB. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="83-88" text="Acute" lemma="acute"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="89-101" text="inflammatory" lemma="inflammatory"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="102-108" text="injury" lemma="injury"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="109-111" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="112-115" text="rat" lemma="rat"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="116-120" text="lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_7" POS="VBN" charOffset="121-128" text="induced" lemma="induce"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="129-131" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="132-142" text="deposition" lemma="deposition"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="143-145" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="146-160" text="immunoglobulin" lemma="immunoglobulin"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="161-162" text="G" lemma="g"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="163-169" text="immune" lemma="immune"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="170-179" text="complexes" lemma="complex"/>
+            <token xml:space="preserve" id="stt_15" POS="VBZ" charOffset="180-188" text="requires" lemma="require"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="189-199" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="200-202" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_18" POS="NNS" charOffset="203-212" text="cytokines" lemma="cytokine"/>
+            <token xml:space="preserve" id="stt_19" POS="CC" charOffset="213-216" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_20" POS="NNS" charOffset="217-227" text="chemokines" lemma="chemokine"/>
+            <token xml:space="preserve" id="stt_21" POS="RB" charOffset="228-230" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_22" POS="RB" charOffset="231-235" text="well" lemma="well"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="236-238" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="239-249" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="250-252" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="253-256" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="257-270" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="271-277" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="278-285" text="nuclear" lemma="nuclear"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="286-292" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_31" POS="-LRB-" charOffset="293-294" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="294-296" text="NF" lemma="nf"/>
+            <token xml:space="preserve" id="stt_33" POS="-RRB-" charOffset="296-297" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_34" POS=":" charOffset="297-298" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="298-304" text="kappaB" lemma="kappab"/>
+            <token xml:space="preserve" id="stt_36" POS="." charOffset="304-305" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_6" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_7" type="vmod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="agent"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_14" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_11" type="nn"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_12" type="nn"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_13" type="amod"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_16" type="dobj"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_24" type="dobj"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_18" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_16" t2="stt_24" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_18" t2="stt_20" type="conj_and"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_30" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_30" t2="stt_32" type="appos"/>
+            <dependency id="stp_20" t1="stt_30" t2="stt_35" type="dep"/>
+            <dependency id="stp_21" t1="stt_30" t2="stt_26" type="det"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_27" type="nn"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_28" type="nn"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_29" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Acute) (JJ inflammatory) (NN=H injury))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NN rat) (NN=H lung))
+            (VP (VBN=H induced)
+            (PP (IN=H by)
+            (NP
+            (NP=H (NN=H deposition))
+            (PP (IN=H of)
+            (NP (NN immunoglobulin) (NN G) (JJ immune) (NNS=H complexes)))))))))
+            (VP=H (VBZ=H requires)
+            (NP
+            (NP=H
+            (NP=H (NN=H expression))
+            (PP (IN=H of)
+            (NP (NNS=H cytokines)
+            (CC and)
+            (NNS chemokines))))
+            (CONJP (RB as) (RB=H well) (IN as))
+            (NP
+            (NP=H (NN=H activation))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (NN transcription) (NN factor) (JJ nuclear) (NN=H factor))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H NF))
+            (-RRB- -RRB-))
+            (: -)
+            (NP (NN=H kappaB)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="306-409" id="S3">
+        <text xml:space="preserve">There is little direct evidence regarding the role of alveolar macrophages in these activation events. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="EX" charOffset="306-311" text="There" lemma="there"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="312-314" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="315-321" text="little" lemma="little"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="322-328" text="direct" lemma="direct"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="329-337" text="evidence" lemma="evidence"/>
+            <token xml:space="preserve" id="stt_6" POS="VBG" charOffset="338-347" text="regarding" lemma="regard"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="348-351" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="352-356" text="role" lemma="role"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="357-359" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="360-368" text="alveolar" lemma="alveolar"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="369-380" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="381-383" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="384-389" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="390-400" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="401-407" text="events" lemma="event"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="407-408" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="expl"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="amod"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_8" type="prep_regarding"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_15" type="prep_in"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_13" type="det"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_14" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (EX=H There))
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H (JJ little) (JJ direct) (NN=H evidence))
+            (PP (VBG=H regarding)
+            (NP
+            (NP=H (DT the) (NN=H role))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ alveolar) (NNS=H macrophages))
+            (PP (IN=H in)
+            (NP (DT these) (NN activation) (NNS=H events)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="409-562" id="S4">
+        <text xml:space="preserve">In the present studies, rat lungs were depleted of alveolar macrophages by airway instillation of liposome-encapsulated dichloromethylene diphosphonate. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="409-411" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="412-415" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="416-423" text="present" lemma="present"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="424-431" text="studies" lemma="study"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="431-432" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="433-436" text="rat" lemma="rat"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="437-442" text="lungs" lemma="lung"/>
+            <token xml:space="preserve" id="stt_8" POS="VBD" charOffset="443-447" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="448-456" text="depleted" lemma="deplete"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="457-459" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="460-468" text="alveolar" lemma="alveolar"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="469-480" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="481-483" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="484-490" text="airway" lemma="airway"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="491-503" text="instillation" lemma="instillation"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="504-506" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="507-528" text="liposome-encapsulated" lemma="liposome-encapsulated"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="529-546" text="dichloromethylene" lemma="dichloromethylene"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="547-560" text="diphosphonate" lemma="diphosphonate"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="560-561" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_2" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_4" t1="stt_9" t2="stt_4" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_7" type="nsubjpass"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="auxpass"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_15" type="agent"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_19" type="prep_of"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_12" t1="stt_19" t2="stt_17" type="amod"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_18" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (DT the) (JJ present) (NNS=H studies)))
+            (, ,)
+            (NP (NN rat) (NNS=H lungs))
+            (VP=H (VBD=H were)
+            (VP (VBN=H depleted)
+            (PP (IN=H of)
+            (NP (JJ alveolar) (NNS=H macrophages)))
+            (PP (IN=H by)
+            (NP
+            (NP=H (NN airway) (NN=H instillation))
+            (PP (IN=H of)
+            (NP (JJ liposome-encapsulated) (NN dichloromethylene) (NN=H diphosphonate)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="562-717" id="S5">
+        <text xml:space="preserve">These procedures, which greatly reduced the number of retrievable alveolar macrophages, suppressed activation of lung NF-kappaB in the inflammatory model. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="562-567" text="These" lemma="these"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="568-578" text="procedures" lemma="procedure"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="578-579" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="WDT" charOffset="580-585" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_5" POS="RB" charOffset="586-593" text="greatly" lemma="greatly"/>
+            <token xml:space="preserve" id="stt_6" POS="VBD" charOffset="594-601" text="reduced" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="602-605" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="606-612" text="number" lemma="number"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="613-615" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="616-627" text="retrievable" lemma="retrievable"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="628-636" text="alveolar" lemma="alveolar"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="637-648" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_13" POS="," charOffset="648-649" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_14" POS="VBD" charOffset="650-660" text="suppressed" lemma="suppress"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="661-671" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="672-674" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="675-679" text="lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="680-689" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="690-692" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="693-696" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="697-709" text="inflammatory" lemma="inflammatory"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="710-715" text="model" lemma="model"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="715-716" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_6" type="rcmod"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="advmod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_22" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_15" type="dobj"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_18" type="prep_of"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_20" type="det"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT These) (NNS=H procedures))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (ADVP (RB=H greatly))
+            (VP=H (VBD=H reduced)
+            (NP
+            (NP=H (DT the) (NN=H number))
+            (PP (IN=H of)
+            (NP (JJ retrievable) (JJ alveolar) (NNS=H macrophages)))))))
+            (, ,))
+            (VP=H (VBD=H suppressed)
+            (NP
+            (NP=H (NN=H activation))
+            (PP (IN=H of)
+            (NP (NN lung) (NN=H NF-kappaB))))
+            (PP (IN=H in)
+            (NP (DT the) (JJ inflammatory) (NN=H model))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="717-889" id="S6">
+        <text xml:space="preserve">In addition, bronchoalveolar lavage levels of tumor necrosis factor-alpha (TNF-alpha) and the CXC chemokine, macrophage inflammatory protein-2, were substantially reduced. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="717-719" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="720-728" text="addition" lemma="addition"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="728-729" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="730-745" text="bronchoalveolar" lemma="bronchoalveolar"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="746-752" text="lavage" lemma="lavage"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="753-759" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="760-762" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="763-768" text="tumor" lemma="tumor"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="769-777" text="necrosis" lemma="necrosis"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="778-790" text="factor-alpha" lemma="factor-alpha"/>
+            <token xml:space="preserve" id="stt_11" POS="-LRB-" charOffset="791-792" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="792-801" text="TNF-alpha" lemma="tnf-alpha"/>
+            <token xml:space="preserve" id="stt_13" POS="-RRB-" charOffset="801-802" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_14" POS="CC" charOffset="803-806" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="807-810" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="811-814" text="CXC" lemma="cxc"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="815-824" text="chemokine" lemma="chemokine"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="824-825" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="826-836" text="macrophage" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="837-849" text="inflammatory" lemma="inflammatory"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="850-859" text="protein-2" lemma="protein-2"/>
+            <token xml:space="preserve" id="stt_22" POS="," charOffset="859-860" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_23" POS="VBD" charOffset="861-865" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_24" POS="RB" charOffset="866-879" text="substantially" lemma="substantially"/>
+            <token xml:space="preserve" id="stt_25" POS="VBN" charOffset="880-887" text="reduced" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_26" POS="." charOffset="887-888" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_6" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_10" t2="stt_17" type="conj_and"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_8" type="nn"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_12" type="appos"/>
+            <dependency id="stp_9" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_10" t1="stt_17" t2="stt_21" type="appos"/>
+            <dependency id="stp_11" t1="stt_17" t2="stt_15" type="det"/>
+            <dependency id="stp_12" t1="stt_21" t2="stt_19" type="nn"/>
+            <dependency id="stp_13" t1="stt_21" t2="stt_20" type="amod"/>
+            <dependency id="stp_14" t1="stt_25" t2="stt_2" type="prep_in"/>
+            <dependency id="stp_15" t1="stt_25" t2="stt_6" type="nsubjpass"/>
+            <dependency id="stp_16" t1="stt_25" t2="stt_23" type="auxpass"/>
+            <dependency id="stp_17" t1="stt_25" t2="stt_24" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (NN=H addition)))
+            (, ,)
+            (NP
+            (NP=H (JJ bronchoalveolar) (NN lavage) (NNS=H levels))
+            (PP (IN=H of)
+            (NP
+            (NP=H
+            (NP=H (NN tumor) (NN necrosis) (NN=H factor-alpha))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H TNF-alpha))
+            (-RRB- -RRB-)))
+            (CC and)
+            (NP
+            (NP=H (DT the) (NN CXC) (NN=H chemokine))
+            (, ,)
+            (NP (NN macrophage) (JJ inflammatory) (NN=H protein-2))
+            (, ,)))))
+            (VP=H (VBD=H were)
+            (VP
+            (ADVP (RB=H substantially))
+            (VBN=H reduced)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="889-1078" id="S7">
+        <text xml:space="preserve">In parallel, upregulation of the lung vascular adhesion molecule, intercellular adhesion molecule-1, was greatly reduced by intrapulmonary instillation of phosphonate-containing liposomes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="889-891" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="892-900" text="parallel" lemma="parallel"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="900-901" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="902-914" text="upregulation" lemma="upregulation"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="915-917" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="918-921" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="922-926" text="lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="927-935" text="vascular" lemma="vascular"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="936-944" text="adhesion" lemma="adhesion"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="945-953" text="molecule" lemma="molecule"/>
+            <token xml:space="preserve" id="stt_11" POS="," charOffset="953-954" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="955-968" text="intercellular" lemma="intercellular"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="969-977" text="adhesion" lemma="adhesion"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="978-988" text="molecule-1" lemma="molecule-1"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="988-989" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="VBD" charOffset="990-993" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_17" POS="RB" charOffset="994-1001" text="greatly" lemma="greatly"/>
+            <token xml:space="preserve" id="stt_18" POS="VBN" charOffset="1002-1009" text="reduced" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="1010-1012" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="1013-1027" text="intrapulmonary" lemma="intrapulmonary"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1028-1040" text="instillation" lemma="instillation"/>
+            <token xml:space="preserve" id="stt_22" POS="IN" charOffset="1041-1043" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="1044-1066" text="phosphonate-containing" lemma="phosphonate-containing"/>
+            <token xml:space="preserve" id="stt_24" POS="NNS" charOffset="1067-1076" text="liposomes" lemma="liposome"/>
+            <token xml:space="preserve" id="stt_25" POS="." charOffset="1076-1077" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_14" type="appos"/>
+            <dependency id="stp_3" t1="stt_10" t2="stt_6" type="det"/>
+            <dependency id="stp_4" t1="stt_10" t2="stt_7" type="nn"/>
+            <dependency id="stp_5" t1="stt_10" t2="stt_8" type="amod"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_7" t1="stt_14" t2="stt_12" type="amod"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_13" type="nn"/>
+            <dependency id="stp_9" t1="stt_18" t2="stt_16" type="auxpass"/>
+            <dependency id="stp_10" t1="stt_18" t2="stt_17" type="advmod"/>
+            <dependency id="stp_11" t1="stt_18" t2="stt_2" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_4" type="nsubjpass"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_21" type="agent"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_20" type="amod"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_24" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_24" t2="stt_23" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (NN=H parallel)))
+            (, ,)
+            (NP
+            (NP=H
+            (NP=H (NN=H upregulation))
+            (PP (IN=H of)
+            (NP (DT the) (NN lung) (JJ vascular) (NN adhesion) (NN=H molecule))))
+            (, ,)
+            (NP (JJ intercellular) (NN adhesion) (NN=H molecule-1))
+            (, ,))
+            (VP=H (VBD=H was)
+            (ADVP (RB=H greatly))
+            (VP (VBN=H reduced)
+            (PP (IN=H by)
+            (NP
+            (NP=H (JJ intrapulmonary) (NN=H instillation))
+            (PP (IN=H of)
+            (NP (JJ phosphonate-containing) (NNS=H liposomes)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1078-1169" id="S8">
+        <text xml:space="preserve">Neutrophil accumulation and development of lung injury were also substantially diminished. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1078-1088" text="Neutrophil" lemma="neutrophil"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1089-1101" text="accumulation" lemma="accumulation"/>
+            <token xml:space="preserve" id="stt_3" POS="CC" charOffset="1102-1105" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1106-1117" text="development" lemma="development"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1118-1120" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1121-1125" text="lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1126-1132" text="injury" lemma="injury"/>
+            <token xml:space="preserve" id="stt_8" POS="VBD" charOffset="1133-1137" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_9" POS="RB" charOffset="1138-1142" text="also" lemma="also"/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="1143-1156" text="substantially" lemma="substantially"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="1157-1167" text="diminished" lemma="diminish"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="1167-1168" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="conj_and"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_4" type="nsubjpass"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_8" type="auxpass"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="advmod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN Neutrophil) (NN=H accumulation)
+            (CC and)
+            (NN development))
+            (PP (IN=H of)
+            (NP (NN lung) (NN=H injury))))
+            (VP=H (VBD=H were)
+            (ADVP (RB=H also))
+            (ADJP (RB substantially) (VBN=H diminished)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1169-1295" id="S9">
+        <text xml:space="preserve">Lung instillation of TNF-alpha in alveolar macrophage-depleted rats restored the NF-kappaB activation response in whole lung. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1169-1173" text="Lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1174-1186" text="instillation" lemma="instillation"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1187-1189" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1190-1199" text="TNF-alpha" lemma="tnf-alpha"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1200-1202" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="1203-1211" text="alveolar" lemma="alveolar"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="1212-1231" text="macrophage-depleted" lemma="macrophage-depleted"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="1232-1236" text="rats" lemma="rat"/>
+            <token xml:space="preserve" id="stt_9" POS="VBD" charOffset="1237-1245" text="restored" lemma="restore"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="1246-1249" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1250-1259" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1260-1270" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="1271-1279" text="response" lemma="response"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1280-1282" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="1283-1288" text="whole" lemma="whole"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1289-1293" text="lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="1293-1294" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_8" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_6" type="amod"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_16" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_13" type="dobj"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_10" type="det"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="nn"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="nn"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_15" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN Lung) (NN=H instillation))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H TNF-alpha))
+            (PP (IN=H in)
+            (NP (JJ alveolar) (JJ macrophage-depleted) (NNS=H rats))))))
+            (VP=H (VBD=H restored)
+            (NP (DT the) (NN NF-kappaB) (NN activation) (NN=H response))
+            (PP (IN=H in)
+            (NP (JJ whole) (NN=H lung))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1295-1520" id="S10">
+        <text xml:space="preserve">These data suggest that, in this inflammatory model, initial activation of NF-kappaB occurs in alveolar macrophages and the ensuing production of TNF-alpha may propagate NF-kappaB activation to other cell types in the lung. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="1295-1300" text="These" lemma="these"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1301-1305" text="data" lemma="datum"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="1306-1313" text="suggest" lemma="suggest"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1314-1318" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="1318-1319" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="1320-1322" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="1323-1327" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="1328-1340" text="inflammatory" lemma="inflammatory"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1341-1346" text="model" lemma="model"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="1346-1347" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="1348-1355" text="initial" lemma="initial"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1356-1366" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1367-1369" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1370-1379" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_15" POS="VBZ" charOffset="1380-1386" text="occurs" lemma="occur"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="1387-1389" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="1390-1398" text="alveolar" lemma="alveolar"/>
+            <token xml:space="preserve" id="stt_18" POS="NNS" charOffset="1399-1410" text="macrophages" lemma="macrophage"/>
+            <token xml:space="preserve" id="stt_19" POS="CC" charOffset="1411-1414" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="1415-1418" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_21" POS="VBG" charOffset="1419-1426" text="ensuing" lemma="ensue"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1427-1437" text="production" lemma="production"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="1438-1440" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1441-1450" text="TNF-alpha" lemma="tnf-alpha"/>
+            <token xml:space="preserve" id="stt_25" POS="MD" charOffset="1451-1454" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_26" POS="VB" charOffset="1455-1464" text="propagate" lemma="propagate"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="1465-1474" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="1475-1485" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_29" POS="TO" charOffset="1486-1488" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_30" POS="JJ" charOffset="1489-1494" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="1495-1499" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_32" POS="NNS" charOffset="1500-1505" text="types" lemma="type"/>
+            <token xml:space="preserve" id="stt_33" POS="IN" charOffset="1506-1508" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_34" POS="DT" charOffset="1509-1512" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="1513-1517" text="lung" lemma="lung"/>
+            <token xml:space="preserve" id="stt_36" POS="." charOffset="1517-1518" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_26" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_15" type="ccomp"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_7" type="det"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_14" type="prep_of"/>
+            <dependency id="stp_9" t1="stt_15" t2="stt_18" type="prep_in"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_4" type="mark"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_9" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_26" type="conj_and"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_17" type="amod"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_20" type="det"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="amod"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_24" type="prep_of"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_32" type="prep_to"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_22" type="nsubj"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="aux"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_28" type="dobj"/>
+            <dependency id="stp_22" t1="stt_28" t2="stt_27" type="nn"/>
+            <dependency id="stp_23" t1="stt_32" t2="stt_35" type="prep_in"/>
+            <dependency id="stp_24" t1="stt_32" t2="stt_30" type="amod"/>
+            <dependency id="stp_25" t1="stt_32" t2="stt_31" type="nn"/>
+            <dependency id="stp_26" t1="stt_35" t2="stt_34" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT These) (NNS=H data))
+            (VP=H (VBP=H suggest)
+            (SBAR (IN=H that) (, ,)
+            (S
+            (S=H
+            (PP (IN=H in)
+            (NP (DT this) (JJ inflammatory) (NN=H model)))
+            (, ,)
+            (NP
+            (NP=H (JJ initial) (NN=H activation))
+            (PP (IN=H of)
+            (NP (NN=H NF-kappaB))))
+            (VP=H (VBZ=H occurs)
+            (PP (IN=H in)
+            (NP (JJ alveolar) (NNS=H macrophages)))))
+            (CC and)
+            (S
+            (NP
+            (NP=H (DT the) (VBG ensuing) (NN=H production))
+            (PP (IN=H of)
+            (NP (NN=H TNF-alpha))))
+            (VP=H (MD=H may)
+            (VP (VB=H propagate)
+            (NP (NN NF-kappaB) (NN=H activation))
+            (PP (TO=H to)
+            (NP
+            (NP=H (JJ other) (NN cell) (NNS=H types))
+            (PP (IN=H in)
+            (NP (DT the) (NN=H lung)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="763-790" headOffset="778-790" text="tumor necrosis factor-alpha"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="792-801" headOffset="792-801" text="TNF-alpha"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="826-859" headOffset="850-859" text="macrophage inflammatory protein-2"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="955-988" headOffset="978-988" text="intercellular adhesion molecule-1"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="1190-1199" headOffset="1190-1199" text="TNF-alpha"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="1441-1450" headOffset="1441-1450" text="TNF-alpha"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T8"/>
+        <Antecedent idref="T7"/>
+    </Relation>
+    <Term xml:space="preserve" id="T7" type="DemonstrativeNP" charOffset="562-578" headOffset="568-578" text="These procedures"/>
+    <Term xml:space="preserve" id="T8" type="RelativePronoun" charOffset="580-585" headOffset="580-585" text="which"/>
+    <Term xml:space="preserve" id="T9" type="DefiniteNP" charOffset="918-953" headOffset="945-953" text="the lung vascular adhesion molecule"/>
+    <Term xml:space="preserve" id="T10" type="ZeroArticleNP" charOffset="955-988" headOffset="978-988" text="intercellular adhesion molecule-1"/>
+</document>

@@ -1,0 +1,32 @@
+T1	Protein 40 65	latent membrane protein 1
+T2	Protein 78 108	tumor necrosis factor receptor
+T3	Protein 235 260	latent membrane protein 1
+T4	Protein 262 266	LMP1
+T5	Protein 400 404	LMP1
+T6	Protein 1272 1334	tumor necrosis factor receptor-associated death domain protein
+T7	Protein 1336 1341	TRADD
+T8	Protein 1344 1349	TRADD
+T9	Protein 1445 1450	TRADD
+T10	Protein 1477 1481	LMP1
+T11	Protein 1514 1518	LMP1
+T12	Protein 1543 1548	TRADD
+T13	Protein 1580 1584	LMP1
+T14	Protein 1635 1640	TRADD
+T15	Protein 1645 1649	TES2
+T16	Protein 1736 1740	LMP1
+T17	Protein 1754 1759	TRADD
+T18	Exp 387 394	a model
+T19	Exp 395 399	that
+T20	Exp 400 404	LMP1
+T21	Exp 408 443	a constitutively activated receptor	435 443	receptor
+T22	Exp 444 448	that
+T23	Exp 495 498	its
+T24	Exp 867 874	a virus
+T25	Exp 875 879	that
+T26	Exp 1354 1370	the only protein	1363 1370	protein
+T27	Exp 1371 1375	that
+R1	Coref Anaphora:T19 Antecedent:T18
+R2	Coref Anaphora:T22 Antecedent:T21
+R3	Coref Anaphora:T23 Antecedent:T20	[T5]
+R4	Coref Anaphora:T25 Antecedent:T24
+R5	Coref Anaphora:T27 Antecedent:T26

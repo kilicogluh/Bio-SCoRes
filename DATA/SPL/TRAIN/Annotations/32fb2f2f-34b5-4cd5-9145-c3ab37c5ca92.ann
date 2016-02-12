@@ -1,0 +1,65 @@
+T1	Drug 194 200	DEMSER
+T2	Drug_Class 265 296	alpha-adrenergic blocking drugs
+T6	Drug 1302 1308	DEMSER
+T8	Drug 1344 1351	alcohol
+T9	Drug_Class 1362 1377	CNS depressants
+T10	Drug_Class 1385 1394	hypnotics
+T11	Drug_Class 1396 1405	sedatives
+T12	Drug_Class 1411 1424	tranquilizers
+T14	Drug 2819 2825	DEMSER
+T15	Drug 2866 2873	alcohol
+T16	Drug_Class 2884 2899	CNS depressants
+T17	Drug_Class 2907 2916	hypnotics
+T18	Drug_Class 2918 2927	sedatives
+T19	Drug_Class 2933 2946	tranquilizers
+T20	Drug 3104 3110	DEMSER
+T21	Drug_Class 3133 3147	phenothiazines
+T22	Drug 3151 3162	haloperidol
+T24	Drug 3308 3314	DEMSER
+T25	Drug 3320 3327	alcohol
+T26	Drug_Class 3337 3352	CNS depressants
+T27	Drug 1293 1300	Alcohol
+T28	Drug 814 823	lidocaine
+T29	Drug_Class 798 810	beta-blocker
+T30	Drug 0 6	DEMSER
+T31	Drug 48 54	DEMSER
+T32	Drug 980 986	DEMSER
+T33	Drug 1097 1103	DEMSER
+T34	Drug 1608 1614	DEMSER
+T35	Drug 2516 2522	DEMSER
+T36	Drug 2649 2655	DEMSER
+T37	Drug 3562 3568	DEMSER
+T38	Drug 3901 3907	DEMSER
+T39	Drug 3938 3944	DEMSER
+T40	Drug 4041 4047	DEMSER
+T41	Drug 4150 4156	DEMSER
+T42	Drug 4264 4270	DEMSER
+T43	Drug 4459 4465	DEMSER
+T44	Drug 5038 5044	DEMSER
+T45	Drug 5300 5306	DEMSER
+T46	Drug 5388 5394	DEMSER
+T47	Drug 5894 5900	DEMSER
+T48	Drug 5981 5987	DEMSER
+T3	DemonstrativeNP 115 128	this compound
+T4	DefiniteNP 1210 1244	the alpha-adrenergic blocking drug
+T5	Drug 1246 1258	phentolamine
+T7	DefiniteNP 2283 2291	the drug
+T13	Drug 2047 2057	metyrosine
+T23	Drug 1616 1626	Metyrosine
+T49	DefiniteNP 2179 2187	the drug
+T50	DemonstrativeNP 3201 3212	these drugs
+T51	PossessivePronoun 3366 3371	their
+T52	DefiniteNP 3607 3615	the drug
+T53	IndefiniteNP 5902 5936	an alpha-adrenergic blocking agent
+T54	Drug 5938 5954	phenoxybenzamine
+T55	Drug 1996 2006	Metyrosine
+R1	Anaphora Anaphor:T3 Antecedent:T31
+R2	Appositive Attribute:T4 Head:T5
+R3	Anaphora Anaphor:T7 Antecedent:T55
+R4	Anaphora Anaphor:T49 Antecedent:T55
+R5	Anaphora Anaphor:T50 Antecedent:T21
+R6	Anaphora Anaphor:T50 Antecedent:T22
+R7	Anaphora Anaphor:T51 Antecedent:T26
+R8	Anaphora Anaphor:T51 Antecedent:T25
+R9	Anaphora Anaphor:T52 Antecedent:T37
+R10	Appositive Attribute:T53 Head:T54

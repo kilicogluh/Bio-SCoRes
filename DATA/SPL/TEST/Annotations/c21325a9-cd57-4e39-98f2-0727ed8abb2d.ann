@@ -1,0 +1,58 @@
+T1	Drug 414 434	isosorbide dinitrate
+T2	Drug_Class 438 466	phosphodiesterase inhibitors
+T3	Drug 475 485	sildenafil
+T4	Drug 487 497	vardenafil
+T5	Drug 502 511	tadalafil
+T8	Drug_Class 2433 2461	monoamine-oxidase inhibitors
+T9	Drug 2401 2412	hydralazine
+T11	Drug_Class 2564 2604	potent parenteral antihypertensive agent
+T12	Drug 2542 2547	BiDil
+T14	Drug 2709 2714	BiDil
+T15	Drug_Class 2718 2730	vasodilators
+T16	Substance 2741 2748	alcohol
+T17	Drug_Class 341 357	organic nitrates
+T18	Drug 37 57	isosorbide dinitrate
+T19	Drug 118 138	isosorbide dinitrate
+T20	Drug 2270 2290	Isosorbide dinitrate
+T21	Drug 0 5	BIDIL
+T22	Drug 81 86	BiDil
+T23	Drug 284 289	BiDil
+T24	Drug 856 861	BiDil
+T25	Drug 1132 1137	BiDil
+T26	Drug 1158 1163	BiDil
+T27	Drug 1583 1588	BiDil
+T28	Drug 1601 1606	BiDil
+T29	Drug 1906 1911	BiDil
+T30	Drug 2229 2234	BiDil
+T31	Drug 2426 2431	BiDil
+T32	Drug 2512 2517	BiDil
+T33	Drug 2809 2814	BiDil
+T34	Drug 2852 2857	BiDil
+T35	Drug 2881 2886	BiDil
+T36	Drug 2950 2955	BiDil
+T37	Drug 3044 3049	BiDil
+T38	Drug 3155 3160	BiDil
+T39	Drug 3340 3345	BiDil
+T40	Drug 7 18	hydralazine
+T41	Drug 199 224	hydralazine hydrochloride
+T42	Drug 927 938	hydralazine
+T43	Drug 1307 1318	hydralazine
+T44	Drug 1729 1740	Hydralazine
+T45	Drug 2027 2052	Hydralazine hydrochloride
+T46	Drug_Class 1423 1431	steroids
+T6	IndefiniteNP 90 262	a fixed-dose combination of isosorbide dinitrate, a vasodilator with effects on both arteries and veins, and hydralazine hydrochloride, a predominantly arterial vasodilator
+T7	IndefiniteNP 140 193	a vasodilator with effects on both arteries and veins
+T10	IndefiniteNP 226 262	a predominantly arterial vasodilator
+T13	PossessivePronoun 895 898	its
+T47	DistributiveNP 887 909	each of its components
+T48	DefiniteNP 2397 2422	the hydralazine component
+T49	ZeroArticleNP 3109 3130	individual components
+R1	PredicateNominative Attribute:T6 Head:T22
+R2	Appositive Attribute:T7 Head:T19
+R3	Appositive Attribute:T10 Head:T41
+R5	Anaphora Anaphor:T47 Antecedent:T19
+R4	Anaphora Anaphor:T13 Antecedent:T24
+R6	Anaphora Anaphor:T47 Antecedent:T41
+R7	Anaphora Anaphor:T48 Antecedent:T45
+R8	Anaphora Anaphor:T49 Antecedent:T20
+R9	Anaphora Anaphor:T49 Antecedent:T45

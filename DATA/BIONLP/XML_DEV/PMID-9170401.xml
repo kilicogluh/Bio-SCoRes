@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-9170401">
+    <text xml:space="preserve">Induction of cytokine expression in leukocytes by binding of thrombin-stimulated platelets. 
+BACKGROUND: Activated platelets tether and activate myeloid leukocytes. To investigate the potential relevance of this mechanism in acute myocardial infarction (AMI), we examined cytokine induction by leukocyte-platelet adhesion and the occurrence of leukocyte-platelet conjugates in patients with AMI. METHODS AND RESULTS: We obtained peripheral venous blood samples in 20 patients with AMI before and daily for 5 days after direct percutaneous transluminal coronary angioplasty (PTCA) and in 20 patients undergoing elective PTCA. Throughout the study period, CD41 immunofluorescence of leukocytes (flow cytometry) revealed increased leukocyte-platelet adhesion in patients with AMI compared with control patients (mean +/- SE of fluorescence [channels] before PTCA: 77 +/- 16 versus 35 +/- 9; P = .003). In vitro, thrombin-stimulated fixed platelets bound to neutrophils and monocytes. Within 2 hours, this resulted in increased mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 in unfractionated leukocytes. After 4 hours, IL-1 beta and IL-8 concentration of the cell-free supernatant had increased by 268 +/- 36% and 210 +/- 7%, respectively, and cellular MCP-1 content had increased by 170 +/- 8%. Addition of activated platelets to adherent monocytes had a similar effect and was associated with nuclear factor-kappa B activation. Inhibition of binding by anti-P selectin antibodies reduced the effect of activated platelets on cytokine production. CONCLUSIONS: In patients with AMI, leukocyte-platelet adhesion is increased. Binding of activated platelets induces IL-1 beta, IL-8, and MCP-1 in leukocytes. Our findings suggest that leukocyte-platelet adhesion contributes to the regulation of inflammatory responses in AMI. 
+</text>
+    <sentence charOffset="0-93" id="S1">
+        <text xml:space="preserve">Induction of cytokine expression in leukocytes by binding of thrombin-stimulated platelets. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="0-9" text="Induction" lemma="induction"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="10-12" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="13-21" text="cytokine" lemma="cytokine"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="22-32" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="33-35" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="36-46" text="leukocytes" lemma="leukocyte"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="47-49" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="50-57" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="58-60" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="61-80" text="thrombin-stimulated" lemma="thrombin-stimulated"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="81-90" text="platelets" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="90-91" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="prep_in"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="prep_by"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_10" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H Induction))
+            (PP (IN=H of)
+            (NP (NN cytokine) (NN=H expression)))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H leukocytes))
+            (PP (IN=H by)
+            (NP (NN=H binding)))))
+            (PP (IN=H of)
+            (NP (JJ thrombin-stimulated) (NNS=H platelets)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="93-165" id="S2">
+        <text xml:space="preserve">BACKGROUND: Activated platelets tether and activate myeloid leukocytes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="93-103" text="BACKGROUND" lemma="background"/>
+            <token xml:space="preserve" id="stt_2" POS=":" charOffset="103-104" text=":" lemma=":"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="105-114" text="Activated" lemma="activate"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="115-124" text="platelets" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_5" POS="VBP" charOffset="125-131" text="tether" lemma="tether"/>
+            <token xml:space="preserve" id="stt_6" POS="CC" charOffset="132-135" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_7" POS="VBP" charOffset="136-144" text="activate" lemma="activate"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="145-152" text="myeloid" lemma="myeloid"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="153-163" text="leukocytes" lemma="leukocyte"/>
+            <token xml:space="preserve" id="stt_10" POS="." charOffset="163-164" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="dep"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_5" type="ccomp"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="conj_and"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_9" type="dobj"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (X=H
+            (NP (NN=H BACKGROUND))
+            (: :)
+            (VP=H (VBN=H Activated)
+            (SBAR
+            (S=H
+            (NP (NNS=H platelets))
+            (VP=H (VBP=H tether)
+            (CC and)
+            (VBP activate)
+            (NP (JJ myeloid) (NNS=H leukocytes))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="165-396" id="S3">
+        <text xml:space="preserve">To investigate the potential relevance of this mechanism in acute myocardial infarction (AMI), we examined cytokine induction by leukocyte-platelet adhesion and the occurrence of leukocyte-platelet conjugates in patients with AMI. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="TO" charOffset="165-167" text="To" lemma="to"/>
+            <token xml:space="preserve" id="stt_2" POS="VB" charOffset="168-179" text="investigate" lemma="investigate"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="180-183" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="184-193" text="potential" lemma="potential"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="194-203" text="relevance" lemma="relevance"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="204-206" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="207-211" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="212-221" text="mechanism" lemma="mechanism"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="222-224" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="225-230" text="acute" lemma="acute"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="231-241" text="myocardial" lemma="myocardial"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="242-252" text="infarction" lemma="infarction"/>
+            <token xml:space="preserve" id="stt_13" POS="-LRB-" charOffset="253-254" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_14" POS="NNP" charOffset="254-257" text="AMI" lemma="AMI"/>
+            <token xml:space="preserve" id="stt_15" POS="-RRB-" charOffset="257-258" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_16" POS="," charOffset="258-259" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_17" POS="PRP" charOffset="260-262" text="we" lemma="we"/>
+            <token xml:space="preserve" id="stt_18" POS="VBD" charOffset="263-271" text="examined" lemma="examine"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="272-280" text="cytokine" lemma="cytokine"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="281-290" text="induction" lemma="induction"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="291-293" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="294-312" text="leukocyte-platelet" lemma="leukocyte-platelet"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="313-321" text="adhesion" lemma="adhesion"/>
+            <token xml:space="preserve" id="stt_24" POS="CC" charOffset="322-325" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_25" POS="DT" charOffset="326-329" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="330-340" text="occurrence" lemma="occurrence"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="341-343" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="344-362" text="leukocyte-platelet" lemma="leukocyte-platelet"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="363-373" text="conjugates" lemma="conjugate"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="374-376" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_31" POS="NNS" charOffset="377-385" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_32" POS="IN" charOffset="386-390" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_33" POS="NNP" charOffset="391-394" text="AMI" lemma="AMI"/>
+            <token xml:space="preserve" id="stt_34" POS="." charOffset="394-395" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="aux"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="dobj"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="appos"/>
+            <dependency id="stp_11" t1="stt_18" t2="stt_17" type="nsubj"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_2" type="advcl"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_20" type="dobj"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_23" type="prep_by"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_26" type="prep_by"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_31" type="prep_in"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_22" type="amod"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_26" type="conj_and"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="det"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_29" type="prep_of"/>
+            <dependency id="stp_22" t1="stt_29" t2="stt_28" type="amod"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_33" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (TO=H To)
+            (VP (VB=H investigate)
+            (NP
+            (NP=H (DT the) (JJ potential) (NN=H relevance))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT this) (NN=H mechanism))
+            (PP (IN=H in)
+            (NP
+            (NP=H
+            (ADJP (JJ acute) (JJ=H myocardial))
+            (NN=H infarction))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NNP=H AMI))
+            (-RRB- -RRB-))))))))))
+            (, ,)
+            (NP (PRP=H we))
+            (VP=H (VBD=H examined)
+            (NP (NN cytokine) (NN=H induction))
+            (PP (IN=H by)
+            (NP
+            (NP=H (JJ leukocyte-platelet) (NN=H adhesion))
+            (CC and)
+            (NP
+            (NP=H (DT the) (NN=H occurrence))
+            (PP (IN=H of)
+            (NP (JJ leukocyte-platelet) (NNS=H conjugates))))))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP (NNP=H AMI))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="396-625" id="S4">
+        <text xml:space="preserve">METHODS AND RESULTS: We obtained peripheral venous blood samples in 20 patients with AMI before and daily for 5 days after direct percutaneous transluminal coronary angioplasty (PTCA) and in 20 patients undergoing elective PTCA. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="396-403" text="METHODS" lemma="method"/>
+            <token xml:space="preserve" id="stt_2" POS="CC" charOffset="404-407" text="AND" lemma="and"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="408-415" text="RESULTS" lemma="result"/>
+            <token xml:space="preserve" id="stt_4" POS=":" charOffset="415-416" text=":" lemma=":"/>
+            <token xml:space="preserve" id="stt_5" POS="PRP" charOffset="417-419" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_6" POS="VBD" charOffset="420-428" text="obtained" lemma="obtain"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="429-439" text="peripheral" lemma="peripheral"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="440-446" text="venous" lemma="venous"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="447-452" text="blood" lemma="blood"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="453-460" text="samples" lemma="sample"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="461-463" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="464-466" text="20" lemma="20"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="467-475" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="476-480" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_15" POS="NNP" charOffset="481-484" text="AMI" lemma="AMI"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="485-491" text="before" lemma="before"/>
+            <token xml:space="preserve" id="stt_17" POS="CC" charOffset="492-495" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="496-501" text="daily" lemma="daily"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="502-505" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_20" POS="CD" charOffset="506-507" text="5" lemma="5"/>
+            <token xml:space="preserve" id="stt_21" POS="NNS" charOffset="508-512" text="days" lemma="day"/>
+            <token xml:space="preserve" id="stt_22" POS="IN" charOffset="513-518" text="after" lemma="after"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="519-525" text="direct" lemma="direct"/>
+            <token xml:space="preserve" id="stt_24" POS="JJ" charOffset="526-538" text="percutaneous" lemma="percutaneous"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="539-551" text="transluminal" lemma="transluminal"/>
+            <token xml:space="preserve" id="stt_26" POS="JJ" charOffset="552-560" text="coronary" lemma="coronary"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="561-572" text="angioplasty" lemma="angioplasty"/>
+            <token xml:space="preserve" id="stt_28" POS="-LRB-" charOffset="573-574" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="574-578" text="PTCA" lemma="ptca"/>
+            <token xml:space="preserve" id="stt_30" POS="-RRB-" charOffset="578-579" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_31" POS="CC" charOffset="580-583" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_32" POS="IN" charOffset="584-586" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_33" POS="CD" charOffset="587-589" text="20" lemma="20"/>
+            <token xml:space="preserve" id="stt_34" POS="NNS" charOffset="590-598" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_35" POS="VBG" charOffset="599-609" text="undergoing" lemma="undergo"/>
+            <token xml:space="preserve" id="stt_36" POS="JJ" charOffset="610-618" text="elective" lemma="elective"/>
+            <token xml:space="preserve" id="stt_37" POS="NN" charOffset="619-623" text="PTCA" lemma="ptca"/>
+            <token xml:space="preserve" id="stt_38" POS="." charOffset="623-624" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="conj_and"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="dep"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_16" type="prep"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_32" type="prep"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_22" type="prep"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_10" type="dobj"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_13" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_7" type="amod"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_8" type="amod"/>
+            <dependency id="stp_11" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_12" type="num"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_15" type="prep_with"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_32" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_22" type="conj_and"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_21" type="prep_for"/>
+            <dependency id="stp_17" t1="stt_21" t2="stt_20" type="num"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_18" type="npadvmod"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_27" type="pobj"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_23" type="amod"/>
+            <dependency id="stp_21" t1="stt_27" t2="stt_24" type="amod"/>
+            <dependency id="stp_22" t1="stt_27" t2="stt_25" type="amod"/>
+            <dependency id="stp_23" t1="stt_27" t2="stt_26" type="amod"/>
+            <dependency id="stp_24" t1="stt_27" t2="stt_29" type="appos"/>
+            <dependency id="stp_25" t1="stt_32" t2="stt_34" type="pobj"/>
+            <dependency id="stp_26" t1="stt_34" t2="stt_33" type="num"/>
+            <dependency id="stp_27" t1="stt_34" t2="stt_35" type="vmod"/>
+            <dependency id="stp_28" t1="stt_35" t2="stt_37" type="dobj"/>
+            <dependency id="stp_29" t1="stt_37" t2="stt_36" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (FRAG=H
+            (NP (NNS=H METHODS)
+            (CC AND)
+            (NNS RESULTS))
+            (: :)
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBD=H obtained)
+            (NP (JJ peripheral) (JJ venous) (NN blood) (NNS=H samples))
+            (PP (IN=H in)
+            (NP
+            (NP=H (CD 20) (NNS=H patients))
+            (PP (IN=H with)
+            (NP (NNP=H AMI)))))
+            (PP
+            (PP=H (IN=H before))
+            (CC and)
+            (PP
+            (NP
+            (NP=H (JJ=H daily))
+            (PP (IN=H for)
+            (NP (CD 5) (NNS=H days))))
+            (IN=H after)
+            (NP
+            (NP=H
+            (ADJP (JJ direct) (JJ=H percutaneous))
+            (JJ transluminal) (JJ coronary) (NN=H angioplasty))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H PTCA))
+            (-RRB- -RRB-))))
+            (CC and)
+            (PP (IN=H in)
+            (NP
+            (NP=H (CD 20) (NNS=H patients))
+            (VP (VBG=H undergoing)
+            (NP (JJ elective) (NN=H PTCA))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="625-899" id="S5">
+        <text xml:space="preserve">Throughout the study period, CD41 immunofluorescence of leukocytes (flow cytometry) revealed increased leukocyte-platelet adhesion in patients with AMI compared with control patients (mean +/- SE of fluorescence [channels] before PTCA: 77 +/- 16 versus 35 +/- 9; P = .003). </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="625-635" text="Throughout" lemma="throughout"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="636-639" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="640-645" text="study" lemma="study"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="646-652" text="period" lemma="period"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="652-653" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="654-658" text="CD41" lemma="cd41"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="659-677" text="immunofluorescence" lemma="immunofluorescence"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="678-680" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="681-691" text="leukocytes" lemma="leukocyte"/>
+            <token xml:space="preserve" id="stt_10" POS="-LRB-" charOffset="692-693" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="693-697" text="flow" lemma="flow"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="698-707" text="cytometry" lemma="cytometry"/>
+            <token xml:space="preserve" id="stt_13" POS="-RRB-" charOffset="707-708" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_14" POS="VBD" charOffset="709-717" text="revealed" lemma="reveal"/>
+            <token xml:space="preserve" id="stt_15" POS="VBN" charOffset="718-727" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="728-746" text="leukocyte-platelet" lemma="leukocyte-platelet"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="747-755" text="adhesion" lemma="adhesion"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="756-758" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_19" POS="NNS" charOffset="759-767" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="768-772" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_21" POS="NNP" charOffset="773-776" text="AMI" lemma="AMI"/>
+            <token xml:space="preserve" id="stt_22" POS="VBN" charOffset="777-785" text="compared" lemma="compare"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="786-790" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="791-798" text="control" lemma="control"/>
+            <token xml:space="preserve" id="stt_25" POS="NNS" charOffset="799-807" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_26" POS="-LRB-" charOffset="808-809" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="809-813" text="mean" lemma="mean"/>
+            <token xml:space="preserve" id="stt_28" POS="CC" charOffset="814-815" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_29" POS=":" charOffset="815-816" text="/" lemma="/"/>
+            <token xml:space="preserve" id="stt_30" POS=":" charOffset="816-817" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="818-820" text="SE" lemma="se"/>
+            <token xml:space="preserve" id="stt_32" POS="IN" charOffset="821-823" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_33" POS="NN" charOffset="824-836" text="fluorescence" lemma="fluorescence"/>
+            <token xml:space="preserve" id="stt_34" POS="-LRB-" charOffset="837-838" text="[" lemma="["/>
+            <token xml:space="preserve" id="stt_35" POS="NNS" charOffset="838-846" text="channels" lemma="channel"/>
+            <token xml:space="preserve" id="stt_36" POS="-RRB-" charOffset="846-847" text="]" lemma="]"/>
+            <token xml:space="preserve" id="stt_37" POS="IN" charOffset="848-854" text="before" lemma="before"/>
+            <token xml:space="preserve" id="stt_38" POS="NNP" charOffset="855-859" text="PTCA" lemma="PTCA"/>
+            <token xml:space="preserve" id="stt_39" POS=":" charOffset="859-860" text=":" lemma=":"/>
+            <token xml:space="preserve" id="stt_40" POS="CD" charOffset="861-863" text="77" lemma="77"/>
+            <token xml:space="preserve" id="stt_41" POS="CC" charOffset="864-865" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_42" POS=":" charOffset="865-866" text="/" lemma="/"/>
+            <token xml:space="preserve" id="stt_43" POS=":" charOffset="866-867" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_44" POS="CD" charOffset="868-870" text="16" lemma="16"/>
+            <token xml:space="preserve" id="stt_45" POS="CC" charOffset="871-877" text="versus" lemma="versus"/>
+            <token xml:space="preserve" id="stt_46" POS="CD" charOffset="878-880" text="35" lemma="35"/>
+            <token xml:space="preserve" id="stt_47" POS="CC" charOffset="881-882" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_48" POS=":" charOffset="882-883" text="/" lemma="/"/>
+            <token xml:space="preserve" id="stt_49" POS=":" charOffset="883-884" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_50" POS="CD" charOffset="885-886" text="9" lemma="9"/>
+            <token xml:space="preserve" id="stt_51" POS=":" charOffset="886-887" text=";" lemma=";"/>
+            <token xml:space="preserve" id="stt_52" POS="NN" charOffset="888-889" text="P" lemma="p"/>
+            <token xml:space="preserve" id="stt_53" POS="JJ" charOffset="890-891" text="=" lemma="="/>
+            <token xml:space="preserve" id="stt_54" POS="CD" charOffset="892-896" text=".003" lemma=".003"/>
+            <token xml:space="preserve" id="stt_55" POS="-RRB-" charOffset="896-897" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_56" POS="." charOffset="897-898" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_2" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_12" type="appos"/>
+            <dependency id="stp_6" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_7" t1="stt_14" t2="stt_17" type="dobj"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_4" type="prep_throughout"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_21" type="prep_with"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_23" type="prepc_compared_with"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_25" type="pobj"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_19" type="prep_in"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_15" type="amod"/>
+            <dependency id="stp_16" t1="stt_25" t2="stt_24" type="nn"/>
+            <dependency id="stp_17" t1="stt_25" t2="stt_27" type="dep"/>
+            <dependency id="stp_18" t1="stt_27" t2="stt_50" type="dep"/>
+            <dependency id="stp_19" t1="stt_27" t2="stt_35" type="dep"/>
+            <dependency id="stp_20" t1="stt_27" t2="stt_54" type="dep"/>
+            <dependency id="stp_21" t1="stt_27" t2="stt_28" type="rcmod"/>
+            <dependency id="stp_22" t1="stt_27" t2="stt_44" type="dep"/>
+            <dependency id="stp_23" t1="stt_27" t2="stt_46" type="dep"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_33" type="prep_of"/>
+            <dependency id="stp_25" t1="stt_31" t2="stt_34" type="punct"/>
+            <dependency id="stp_26" t1="stt_35" t2="stt_36" type="punct"/>
+            <dependency id="stp_27" t1="stt_35" t2="stt_38" type="prep_before"/>
+            <dependency id="stp_28" t1="stt_35" t2="stt_42" type="punct"/>
+            <dependency id="stp_29" t1="stt_35" t2="stt_29" type="punct"/>
+            <dependency id="stp_30" t1="stt_35" t2="stt_31" type="dep"/>
+            <dependency id="stp_31" t1="stt_38" t2="stt_40" type="dep"/>
+            <dependency id="stp_32" t1="stt_40" t2="stt_41" type="cc"/>
+            <dependency id="stp_33" t1="stt_44" t2="stt_48" type="punct"/>
+            <dependency id="stp_34" t1="stt_44" t2="stt_46" type="conj_versus"/>
+            <dependency id="stp_35" t1="stt_46" t2="stt_47" type="cc"/>
+            <dependency id="stp_36" t1="stt_50" t2="stt_52" type="dep"/>
+            <dependency id="stp_37" t1="stt_54" t2="stt_53" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H Throughout)
+            (NP (DT the) (NN study) (NN=H period)))
+            (, ,)
+            (NP
+            (NP=H (NN CD41) (NN=H immunofluorescence))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NNS=H leukocytes))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN flow) (NN=H cytometry))
+            (-RRB- -RRB-)))))
+            (VP=H (VBD=H revealed)
+            (NP
+            (NP=H (VBN increased) (JJ leukocyte-platelet) (NN=H adhesion))
+            (PP (IN=H in)
+            (NP (NNS=H patients))))
+            (PP (IN=H with)
+            (NP (NNP=H AMI)))
+            (PP (VBN=H compared)
+            (PP (IN=H with)
+            (NP
+            (NP=H (NN control) (NNS=H patients))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H
+            (NP=H
+            (NP=H
+            (NP=H
+            (NP=H (NN=H mean))
+            (SBAR
+            (S=H
+            (NP=H (CC=H +)))))
+            (PRN (: /)
+            (NP=H
+            (NP=H
+            (PRN (: -)
+            (NP=H
+            (NP=H (NN=H SE))
+            (PP (IN=H of)
+            (NP (NN=H fluorescence))))
+            (-LRB- -LSB-))
+            (NNS=H channels))
+            (PP (-RRB- -RSB-) (IN=H before)
+            (NP
+            (NP=H (NNP=H PTCA))
+            (: :)
+            (NP (CD=H 77)
+            (CC +)))))
+            (: /)))
+            (PRN (: -)
+            (NP=H
+            (NP=H (CD=H 16))
+            (CC versus)
+            (NP (CD=H 35)
+            (CC +)))
+            (: /)))
+            (: -)
+            (NP
+            (NP=H (CD=H 9))
+            (: ;)
+            (NP (NN=H P))))
+            (NP (JJ =) (CD=H .003)))
+            (-RRB- -RRB-))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="899-981" id="S6">
+        <text xml:space="preserve">In vitro, thrombin-stimulated fixed platelets bound to neutrophils and monocytes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="FW" charOffset="899-901" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="FW" charOffset="902-907" text="vitro" lemma="vitro"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="907-908" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="909-928" text="thrombin-stimulated" lemma="thrombin-stimulated"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="929-934" text="fixed" lemma="fix"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="935-944" text="platelets" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_7" POS="VBD" charOffset="945-950" text="bound" lemma="bind"/>
+            <token xml:space="preserve" id="stt_8" POS="TO" charOffset="951-953" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="954-965" text="neutrophils" lemma="neutrophil"/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="966-969" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="970-979" text="monocytes" lemma="monocyte"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="979-980" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_6" type="appos"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="prep_to"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_11" type="prep_to"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_11" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (FW In) (FW=H vitro))
+            (, ,)
+            (NP
+            (ADJP (JJ=H thrombin-stimulated))
+            (VBN fixed) (NNS=H platelets)))
+            (VP=H (VBD=H bound)
+            (PP (TO=H to)
+            (NP (NNS=H neutrophils)
+            (CC and)
+            (NNS monocytes))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="981-1139" id="S7">
+        <text xml:space="preserve">Within 2 hours, this resulted in increased mRNA for interleukin (IL),1 beta, IL-8, and monocyte chemoattractant protein (MCP)-1 in unfractionated leukocytes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="981-987" text="Within" lemma="within"/>
+            <token xml:space="preserve" id="stt_2" POS="CD" charOffset="988-989" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="990-995" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="995-996" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="997-1001" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_6" POS="VBD" charOffset="1002-1010" text="resulted" lemma="result"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1011-1013" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="1014-1023" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1024-1028" text="mRNA" lemma="mrna"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1029-1032" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1033-1044" text="interleukin" lemma="interleukin"/>
+            <token xml:space="preserve" id="stt_12" POS="-LRB-" charOffset="1045-1046" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="1046-1048" text="IL" lemma="il"/>
+            <token xml:space="preserve" id="stt_14" POS="-RRB-" charOffset="1048-1049" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_15" POS="CD" charOffset="1049-1051" text=",1" lemma=",1"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1052-1056" text="beta" lemma="beta"/>
+            <token xml:space="preserve" id="stt_17" POS="," charOffset="1056-1057" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1058-1062" text="IL-8" lemma="il-8"/>
+            <token xml:space="preserve" id="stt_19" POS="," charOffset="1062-1063" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_20" POS="CC" charOffset="1064-1067" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1068-1076" text="monocyte" lemma="monocyte"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1077-1092" text="chemoattractant" lemma="chemoattractant"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="1093-1100" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_24" POS="-LRB-" charOffset="1101-1102" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="1102-1105" text="MCP" lemma="mcp"/>
+            <token xml:space="preserve" id="stt_26" POS="-RRB-" charOffset="1105-1106" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_27" POS="CD" charOffset="1106-1108" text="-1" lemma="-1"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="1109-1111" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="1112-1126" text="unfractionated" lemma="unfractionated"/>
+            <token xml:space="preserve" id="stt_30" POS="NNS" charOffset="1127-1137" text="leukocytes" lemma="leukocyte"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="1137-1138" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_2" type="num"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_16" type="dobj"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_18" type="dobj"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_3" type="prep_within"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_23" type="dobj"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_9" type="prep_in"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_11" type="prep_for"/>
+            <dependency id="stp_9" t1="stt_6" t2="stt_30" type="prep_in"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_13" type="appos"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_18" type="conj_and"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_23" type="conj_and"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_15" type="num"/>
+            <dependency id="stp_15" t1="stt_23" t2="stt_21" type="nn"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_22" type="nn"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_25" type="appos"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_27" type="dep"/>
+            <dependency id="stp_19" t1="stt_30" t2="stt_29" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H Within)
+            (NP (CD 2) (NNS=H hours)))
+            (, ,)
+            (NP (DT=H this))
+            (VP=H (VBD=H resulted)
+            (PP (IN=H in)
+            (NP (VBN increased) (NN=H mRNA)))
+            (PP (IN=H for)
+            (NP
+            (NP=H (NN=H interleukin))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H IL))
+            (-RRB- -RRB-))))
+            (NP
+            (NP=H (CD ,1) (NN=H beta))
+            (, ,)
+            (NP (NN=H IL-8))
+            (, ,)
+            (CC and)
+            (NP
+            (NP=H (NN monocyte) (NN chemoattractant) (NN=H protein))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H MCP))
+            (-RRB- -RRB-))
+            (NP (CD=H -1))))
+            (PP (IN=H in)
+            (NP (JJ unfractionated) (NNS=H leukocytes))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1139-1331" id="S8">
+        <text xml:space="preserve">After 4 hours, IL-1 beta and IL-8 concentration of the cell-free supernatant had increased by 268 +/- 36% and 210 +/- 7%, respectively, and cellular MCP-1 content had increased by 170 +/- 8%. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="1139-1144" text="After" lemma="after"/>
+            <token xml:space="preserve" id="stt_2" POS="CD" charOffset="1145-1146" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="1147-1152" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="1152-1153" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1154-1158" text="IL-1" lemma="il-1"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1159-1163" text="beta" lemma="beta"/>
+            <token xml:space="preserve" id="stt_7" POS="CC" charOffset="1164-1167" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1168-1172" text="IL-8" lemma="il-8"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1173-1186" text="concentration" lemma="concentration"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1187-1189" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="1190-1193" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="1194-1203" text="cell-free" lemma="cell-free"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="1204-1215" text="supernatant" lemma="supernatant"/>
+            <token xml:space="preserve" id="stt_14" POS="VBD" charOffset="1216-1219" text="had" lemma="have"/>
+            <token xml:space="preserve" id="stt_15" POS="VBN" charOffset="1220-1229" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="1230-1232" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_17" POS="CD" charOffset="1233-1236" text="268" lemma="268"/>
+            <token xml:space="preserve" id="stt_18" POS="CC" charOffset="1237-1238" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_19" POS=":" charOffset="1238-1239" text="/" lemma="/"/>
+            <token xml:space="preserve" id="stt_20" POS=":" charOffset="1239-1240" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_21" POS="CD" charOffset="1241-1243" text="36" lemma="36"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1243-1244" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_23" POS="CC" charOffset="1245-1248" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_24" POS="CD" charOffset="1249-1252" text="210" lemma="210"/>
+            <token xml:space="preserve" id="stt_25" POS="CC" charOffset="1253-1254" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_26" POS=":" charOffset="1254-1255" text="/" lemma="/"/>
+            <token xml:space="preserve" id="stt_27" POS=":" charOffset="1255-1256" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_28" POS="CD" charOffset="1257-1258" text="7" lemma="7"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="1258-1259" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_30" POS="," charOffset="1259-1260" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_31" POS="RB" charOffset="1261-1273" text="respectively" lemma="respectively"/>
+            <token xml:space="preserve" id="stt_32" POS="," charOffset="1273-1274" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_33" POS="CC" charOffset="1275-1278" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_34" POS="JJ" charOffset="1279-1287" text="cellular" lemma="cellular"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="1288-1293" text="MCP-1" lemma="mcp-1"/>
+            <token xml:space="preserve" id="stt_36" POS="NN" charOffset="1294-1301" text="content" lemma="content"/>
+            <token xml:space="preserve" id="stt_37" POS="VBD" charOffset="1302-1305" text="had" lemma="have"/>
+            <token xml:space="preserve" id="stt_38" POS="VBN" charOffset="1306-1315" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_39" POS="IN" charOffset="1316-1318" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_40" POS="CD" charOffset="1319-1322" text="170" lemma="170"/>
+            <token xml:space="preserve" id="stt_41" POS="CC" charOffset="1323-1324" text="+" lemma="+"/>
+            <token xml:space="preserve" id="stt_42" POS=":" charOffset="1324-1325" text="/" lemma="/"/>
+            <token xml:space="preserve" id="stt_43" POS=":" charOffset="1325-1326" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_44" POS="CD" charOffset="1327-1328" text="8" lemma="8"/>
+            <token xml:space="preserve" id="stt_45" POS="NN" charOffset="1328-1329" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_46" POS="." charOffset="1329-1330" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dep"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_22" type="dep"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_24" type="dep"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_3" type="dep"/>
+            <dependency id="stp_5" t1="stt_2" t2="stt_19" type="punct"/>
+            <dependency id="stp_6" t1="stt_2" t2="stt_15" type="dep"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_9" type="conj_and"/>
+            <dependency id="stp_9" t1="stt_6" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_11" type="det"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_12" type="amod"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_17" type="prep_by"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_18" type="xcomp"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_16" t1="stt_15" t2="stt_9" type="nsubj"/>
+            <dependency id="stp_17" t1="stt_15" t2="stt_14" type="aux"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="num"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_24" type="conj_and"/>
+            <dependency id="stp_20" t1="stt_22" t2="stt_45" type="dep"/>
+            <dependency id="stp_21" t1="stt_24" t2="stt_38" type="dep"/>
+            <dependency id="stp_22" t1="stt_24" t2="stt_25" type="cc"/>
+            <dependency id="stp_23" t1="stt_29" t2="stt_34" type="conj_and"/>
+            <dependency id="stp_24" t1="stt_29" t2="stt_36" type="dep"/>
+            <dependency id="stp_25" t1="stt_29" t2="stt_28" type="num"/>
+            <dependency id="stp_26" t1="stt_29" t2="stt_31" type="dep"/>
+            <dependency id="stp_27" t1="stt_34" t2="stt_35" type="dep"/>
+            <dependency id="stp_28" t1="stt_38" t2="stt_34" type="nsubj"/>
+            <dependency id="stp_29" t1="stt_38" t2="stt_37" type="aux"/>
+            <dependency id="stp_30" t1="stt_38" t2="stt_40" type="prep_by"/>
+            <dependency id="stp_31" t1="stt_38" t2="stt_41" type="xcomp"/>
+            <dependency id="stp_32" t1="stt_38" t2="stt_26" type="punct"/>
+            <dependency id="stp_33" t1="stt_38" t2="stt_42" type="punct"/>
+            <dependency id="stp_34" t1="stt_38" t2="stt_29" type="nsubj"/>
+            <dependency id="stp_35" t1="stt_45" t2="stt_44" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H
+            (NP=H
+            (NP=H
+            (NP=H (IN=H After))
+            (SBAR
+            (FRAG=H
+            (ADVP
+            (ADVP=H (CD=H 4))
+            (NP (NNS=H hours)))
+            (, ,)
+            (S=H
+            (NP
+            (NP=H
+            (NP=H (NN IL-1) (NN=H beta))
+            (CC and)
+            (NP (NN IL-8) (NN=H concentration)))
+            (PP (IN=H of)
+            (NP (DT the) (JJ cell-free) (NN=H supernatant))))
+            (VP=H (VBD=H had)
+            (VP (VBN=H increased)
+            (PP (IN=H by)
+            (NP (CD=H 268)))
+            (S
+            (NP=H (CC=H +))))))
+            (: /))))
+            (: -)
+            (NP
+            (NP=H
+            (NP=H (CD 36) (NN=H %))
+            (CC and)
+            (NP
+            (NP=H (CD=H 210)
+            (CC +))
+            (PRN (: /)
+            (S=H
+            (NP
+            (NP=H (: -)
+            (NP=H
+            (NP=H (CD 7) (NN=H %))
+            (PRN (, ,)
+            (ADVP=H (RB=H respectively))
+            (, ,)))
+            (CC and)
+            (NP
+            (NP=H (JJ=H cellular))
+            (NP (NN=H MCP-1))))
+            (NP (NN=H content)))
+            (VP=H (VBD=H had)
+            (VP (VBN=H increased)
+            (PP (IN=H by)
+            (NP (CD=H 170)))
+            (S
+            (NP=H (CC=H +))))))
+            (: /))))
+            (: -)
+            (NP
+            (QP (CD=H 8))
+            (NN=H %)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1331-1465" id="S9">
+        <text xml:space="preserve">Addition of activated platelets to adherent monocytes had a similar effect and was associated with nuclear factor-kappa B activation. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1331-1339" text="Addition" lemma="addition"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="1340-1342" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="1343-1352" text="activated" lemma="activate"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="1353-1362" text="platelets" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="1363-1365" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="1366-1374" text="adherent" lemma="adherent"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="1375-1384" text="monocytes" lemma="monocyte"/>
+            <token xml:space="preserve" id="stt_8" POS="VBD" charOffset="1385-1388" text="had" lemma="have"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="1389-1390" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="1391-1398" text="similar" lemma="similar"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1399-1405" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="1406-1409" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_13" POS="VBD" charOffset="1410-1413" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="1414-1424" text="associated" lemma="associate"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="1425-1429" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="1430-1437" text="nuclear" lemma="nuclear"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1438-1450" text="factor-kappa" lemma="factor-kappa"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1451-1452" text="B" lemma="b"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="1453-1463" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="1463-1464" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_7" type="prep_to"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_11" type="dobj"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_19" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="auxpass"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_16" type="amod"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_17" type="nn"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_18" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN=H Addition))
+            (PP (IN=H of)
+            (NP
+            (NP=H (VBN activated) (NNS=H platelets))
+            (PP (TO=H to)
+            (NP (JJ adherent) (NNS=H monocytes))))))
+            (VP=H
+            (VP=H (VBD=H had)
+            (NP (DT a) (JJ similar) (NN=H effect)))
+            (CC and)
+            (VP (VBD=H was)
+            (VP (VBN=H associated)
+            (PP (IN=H with)
+            (NP (JJ nuclear) (NN factor-kappa) (NN B) (NN=H activation))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1465-1583" id="S10">
+        <text xml:space="preserve">Inhibition of binding by anti-P selectin antibodies reduced the effect of activated platelets on cytokine production. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1465-1475" text="Inhibition" lemma="inhibition"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="1476-1478" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1479-1486" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1487-1489" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="1490-1496" text="anti-P" lemma="anti-p"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1497-1505" text="selectin" lemma="selectin"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="1506-1516" text="antibodies" lemma="antibody"/>
+            <token xml:space="preserve" id="stt_8" POS="VBD" charOffset="1517-1524" text="reduced" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="1525-1528" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1529-1535" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="1536-1538" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="1539-1548" text="activated" lemma="activate"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="1549-1558" text="platelets" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1559-1561" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1562-1570" text="cytokine" lemma="cytokine"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1571-1581" text="production" lemma="production"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="1581-1582" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_16" t2="stt_15" type="nn"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_3" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="prep_by"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_10" type="dobj"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_9" type="det"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_16" type="prep_on"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN=H Inhibition))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H binding))
+            (PP (IN=H by)
+            (NP (JJ anti-P) (NN selectin) (NNS=H antibodies))))))
+            (VP=H (VBD=H reduced)
+            (NP
+            (NP=H (DT the) (NN=H effect))
+            (PP (IN=H of)
+            (NP
+            (NP=H (VBN activated) (NNS=H platelets))
+            (PP (IN=H on)
+            (NP (NN cytokine) (NN=H production)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1583-1660" id="S11">
+        <text xml:space="preserve">CONCLUSIONS: In patients with AMI, leukocyte-platelet adhesion is increased. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="1583-1594" text="CONCLUSIONS" lemma="conclusion"/>
+            <token xml:space="preserve" id="stt_2" POS=":" charOffset="1594-1595" text=":" lemma=":"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1596-1598" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="1599-1607" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1608-1612" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_6" POS="NNP" charOffset="1613-1616" text="AMI" lemma="AMI"/>
+            <token xml:space="preserve" id="stt_7" POS="," charOffset="1616-1617" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="1618-1636" text="leukocyte-platelet" lemma="leukocyte-platelet"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1637-1645" text="adhesion" lemma="adhesion"/>
+            <token xml:space="preserve" id="stt_10" POS="VBZ" charOffset="1646-1648" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="1649-1658" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="1658-1659" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_11" type="dep"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_3" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_4" t1="stt_11" t2="stt_4" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_9" type="nsubjpass"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_10" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (FRAG=H
+            (NP (NNS=H CONCLUSIONS))
+            (: :)
+            (S=H
+            (PP (IN=H In)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP (NNP=H AMI)))))
+            (, ,)
+            (NP (JJ leukocyte-platelet) (NN=H adhesion))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H increased))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1660-1741" id="S12">
+        <text xml:space="preserve">Binding of activated platelets induces IL-1 beta, IL-8, and MCP-1 in leukocytes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1660-1667" text="Binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="1668-1670" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="1671-1680" text="activated" lemma="activate"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="1681-1690" text="platelets" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_5" POS="VBZ" charOffset="1691-1698" text="induces" lemma="induce"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1699-1703" text="IL-1" lemma="il-1"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1704-1708" text="beta" lemma="beta"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="1708-1709" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1710-1714" text="IL-8" lemma="il-8"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="1714-1715" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="CC" charOffset="1716-1719" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1720-1725" text="MCP-1" lemma="mcp-1"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1726-1728" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="1729-1739" text="leukocytes" lemma="leukocyte"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="1739-1740" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_7" type="dobj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_9" type="dobj"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_12" type="dobj"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_9" type="conj_and"/>
+            <dependency id="stp_9" t1="stt_7" t2="stt_12" type="conj_and"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="prep_in"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN=H Binding))
+            (PP (IN=H of)
+            (NP (VBN activated) (NNS=H platelets))))
+            (VP=H (VBZ=H induces)
+            (NP
+            (NP=H (NN IL-1) (NN=H beta))
+            (, ,)
+            (NP (NN=H IL-8))
+            (, ,)
+            (CC and)
+            (NP
+            (NP=H (NN=H MCP-1))
+            (PP (IN=H in)
+            (NP (NNS=H leukocytes))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1741-1860" id="S13">
+        <text xml:space="preserve">Our findings suggest that leukocyte-platelet adhesion contributes to the regulation of inflammatory responses in AMI. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP$" charOffset="1741-1744" text="Our" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1745-1753" text="findings" lemma="finding"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="1754-1761" text="suggest" lemma="suggest"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1762-1766" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="1767-1785" text="leukocyte-platelet" lemma="leukocyte-platelet"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1786-1794" text="adhesion" lemma="adhesion"/>
+            <token xml:space="preserve" id="stt_7" POS="VBZ" charOffset="1795-1806" text="contributes" lemma="contribute"/>
+            <token xml:space="preserve" id="stt_8" POS="TO" charOffset="1807-1809" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="1810-1813" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1814-1824" text="regulation" lemma="regulation"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="1825-1827" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="1828-1840" text="inflammatory" lemma="inflammatory"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="1841-1850" text="responses" lemma="response"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1851-1853" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_15" POS="NNP" charOffset="1854-1857" text="AMI" lemma="AMI"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="1857-1858" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="poss"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_4" type="mark"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_10" type="prep_to"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_9" type="det"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_12" type="amod"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_15" type="prep_in"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP$ Our) (NNS=H findings))
+            (VP=H (VBP=H suggest)
+            (SBAR (IN=H that)
+            (S
+            (NP (JJ leukocyte-platelet) (NN=H adhesion))
+            (VP=H (VBZ=H contributes)
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT the) (NN=H regulation))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ inflammatory) (NNS=H responses))
+            (PP (IN=H in)
+            (NP (NNP=H AMI)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="654-658" headOffset="654-658" text="CD41"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="909-917" headOffset="909-917" text="thrombin"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="1033-1056" headOffset="1052-1056" text="interleukin (IL),1 beta"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="1058-1062" headOffset="1058-1062" text="IL-8"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="1068-1108" headOffset="1102-1105" text="monocyte chemoattractant protein (MCP)-1"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="1154-1163" headOffset="1159-1163" text="IL-1 beta"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="1168-1172" headOffset="1168-1172" text="IL-8"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="1288-1293" headOffset="1288-1293" text="MCP-1"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="1495-1505" headOffset="1497-1505" text="P selectin"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="1699-1708" headOffset="1704-1708" text="IL-1 beta"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="1710-1714" headOffset="1710-1714" text="IL-8"/>
+    <Term xml:space="preserve" id="T12" type="Protein" charOffset="1720-1725" headOffset="1720-1725" text="MCP-1"/>
+</document>

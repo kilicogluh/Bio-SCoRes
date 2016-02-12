@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="34a29fae-b549-41ed-bd7d-e98fe2110bef">
+    <text xml:space="preserve">PHOSLO (calcium acetate) capsule
+
+PhosLo acts as a phosphate binder.  Its chemical name is calcium acetate.
+
+4  CONTRAINDICATIONS
+
+Patients with hypercalcemia.
+
+5  WARNINGS AND PRECAUTIONS
+
+5.1 Hypercalcemia
+
+Patients with end stage renal disease may develop hypercalcemia when treated with calcium, including calcium acetate (PhosLo).  Avoid the use of calcium supplements, including calcium-based nonprescription antacids, concurrently with PhosLo.
+
+An overdose of PhosLo may lead to progressive hypercalcemia, which may require emergency measures.  Therefore, early in the treatment phase during the dosage adjustment period, monitor serum calcium levels twice weekly.  Should hypercalcemia develop, reduce the PhosLo dosage or discontinue the treatment, depending on the severity of hypercalcemia.
+
+More severe hypercalcemia (Ca&gt;12 mg/dL) is associated with confusion, delirium, stupor and coma.  Severe hypercalcemia can be treated by acute hemodialysis and discontinuing PhosLo therapy.
+
+Mild hypercalcemia (10.5 to 11.9 mg/dL) may be asymptomatic or manifest as constipation, anorexia, nausea, and vomiting.  Mild hypercalcemia is usually controlled by reducing the PhosLo dose or temporarily discontinuing therapy.  Decreasing or discontinuing Vitamin D therapy is recommended as well.
+
+Chronic hypercalcemia may lead to vascular calcification and other soft-tissue calcification.  Radiographic evaluation of suspected anatomical regions may be helpful in early detection of soft tissue calcification.  The long term effect of PhosLo on the progression of vascular or soft tissue calcification has not been determined.
+
+Hypercalcemia (&gt;11 mg/dL) was reported in 16% of patients in a 3-month study of a solid dose formulation of calcium acetate; all cases resolved upon lowering the dose or discontinuing treatment.
+
+Maintain the serum calcium-phosphorus (Ca x P) product below 55 mg2/dL2.
+
+5.2 Concomitant Use with Medications
+
+Hypercalcemia may aggravate digitalis toxicity.
+
+7  DRUG INTERACTIONS
+
+The drug interaction of PhosLo is characterized by the potential of calcium to bind to drugs with anionic functions (e.g., carboxyl and hydroxyl groups).  PhosLo may decrease the bioavailability of tetracyclines or fluoroquinolones via this mechanism.
+
+There are no empirical data on avoiding drug interactions between calcium acetate or PhosLo and most concomitant drugs.  When administering an oral medication with PhosLo where a reduction in the bioavailability of that medication would have a clinically significant effect on its safety or efficacy, administer the drug one hour before or three hours after PhosLo or calcium acetate.  Monitor blood levels of the concomitant drugs that have a narrow therapeutic range.  Patients taking anti-arrhythmic medications for the control of arrhythmias and anti-seizure medications for the control of seizure disorders were excluded from the clinical trials with all forms of calcium acetate.
+
+7.1 Ciprofloxacin
+
+In a study of 15 healthy subjects, a co-administered single dose of 4 calcium acetate tablets approximately 2.7 g, decreased the bioavailability of ciprofloxacin by approximately 50%.
+
+2  DOSAGE &amp; ADMINISTRATION
+
+The recommended initial dose of PhosLo for the adult dialysis patient is 2 gelcaps with each meal.  Increase the dose gradually to lower serum phosphorus levels to the target range, as long as hypercalcemia does not develop.  Most patients require 3-4 gelcaps with each meal.
+</text>
+    <sentence charOffset="0-34" id="S1">
+        <text xml:space="preserve">PHOSLO (calcium acetate) capsule
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="0-6" text="PHOSLO" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_2" POS="-LRB-" charOffset="7-8" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="8-15" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="16-23" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_5" POS="-RRB-" charOffset="23-24" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="25-32" text="capsule" lemma="capsule"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="appos"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="dep"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H PHOSLO))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN calcium) (NN=H acetate))
+            (-RRB- -RRB-))
+            (NP (NN=H capsule))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="34-70" id="S2">
+        <text xml:space="preserve">PhosLo acts as a phosphate binder.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="34-40" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="41-45" text="acts" lemma="act"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="46-48" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="49-50" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="51-60" text="phosphate" lemma="phosphate"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="61-67" text="binder" lemma="binder"/>
+            <token xml:space="preserve" id="stt_7" POS="." charOffset="67-68" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_6" type="prep_as"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="det"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H PhosLo))
+            (VP=H (VBZ=H acts)
+            (PP (IN=H as)
+            (NP (DT a) (NN phosphate) (NN=H binder))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="70-109" id="S3">
+        <text xml:space="preserve">Its chemical name is calcium acetate.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP$" charOffset="70-73" text="Its" lemma="its"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="74-82" text="chemical" lemma="chemical"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="83-87" text="name" lemma="name"/>
+            <token xml:space="preserve" id="stt_4" POS="VBZ" charOffset="88-90" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="91-98" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="99-106" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_7" POS="." charOffset="106-107" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="poss"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_4" type="cop"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP$ Its) (NN chemical) (NN=H name))
+            (VP=H (VBZ=H is)
+            (NP (NN calcium) (NN=H acetate)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="109-131" id="S4">
+        <text xml:space="preserve">4  CONTRAINDICATIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="109-110" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="112-129" text="CONTRAINDICATIONS" lemma="contraindication"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (X=H
+            (NP=H (CD 4) (NNS=H CONTRAINDICATIONS))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="131-161" id="S5">
+        <text xml:space="preserve">Patients with hypercalcemia.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="131-139" text="Patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="140-144" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="145-158" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_4" POS="." charOffset="158-159" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NNS=H Patients))
+            (PP (IN=H with)
+            (NP (NN=H hypercalcemia)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="161-190" id="S6">
+        <text xml:space="preserve">5  WARNINGS AND PRECAUTIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="161-162" text="5" lemma="5"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="164-172" text="WARNINGS" lemma="warning"/>
+            <token xml:space="preserve" id="stt_3" POS="CC" charOffset="173-176" text="AND" lemma="and"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="177-188" text="PRECAUTIONS" lemma="precaution"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dep"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_4" type="dep"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_4" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (FRAG=H
+            (NP (CD=H 5))
+            (NP=H (NNS=H WARNINGS)
+            (CC AND)
+            (NNS PRECAUTIONS))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="190-209" id="S7">
+        <text xml:space="preserve">5.1 Hypercalcemia
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="190-193" text="5.1" lemma="5.1"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="194-207" text="Hypercalcemia" lemma="hypercalcemia"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H (CD 5.1) (NN=H Hypercalcemia)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="209-337" id="S8">
+        <text xml:space="preserve">Patients with end stage renal disease may develop hypercalcemia when treated with calcium, including calcium acetate (PhosLo).  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="209-217" text="Patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="218-222" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="223-226" text="end" lemma="end"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="227-232" text="stage" lemma="stage"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="233-238" text="renal" lemma="renal"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="239-246" text="disease" lemma="disease"/>
+            <token xml:space="preserve" id="stt_7" POS="MD" charOffset="247-250" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_8" POS="VB" charOffset="251-258" text="develop" lemma="develop"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="259-272" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_10" POS="WRB" charOffset="273-277" text="when" lemma="when"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="278-285" text="treated" lemma="treat"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="286-290" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="291-298" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="298-299" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="VBG" charOffset="300-309" text="including" lemma="include"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="310-317" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="318-325" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_18" POS="-LRB-" charOffset="326-327" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="327-333" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_20" POS="-RRB-" charOffset="333-334" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_21" POS="." charOffset="334-335" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="aux"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_9" type="dobj"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_11" type="advcl"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_17" type="prep_including"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="advmod"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_13" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_19" type="appos"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNS=H Patients))
+            (PP (IN=H with)
+            (NP (NN end) (NN stage) (JJ renal) (NN=H disease))))
+            (VP=H (MD=H may)
+            (VP (VB=H develop)
+            (NP (NN=H hypercalcemia))
+            (SBAR
+            (WHADVP=H (WRB=H when))
+            (S
+            (VP=H (VBN=H treated)
+            (PP (IN=H with)
+            (NP (NN=H calcium)))
+            (, ,)
+            (PP (VBG=H including)
+            (NP
+            (NP=H (NN calcium) (NN=H acetate))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H PhosLo))
+            (-RRB- -RRB-)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="337-452" id="S9">
+        <text xml:space="preserve">Avoid the use of calcium supplements, including calcium-based nonprescription antacids, concurrently with PhosLo.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VB" charOffset="337-342" text="Avoid" lemma="avoid"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="343-346" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="347-350" text="use" lemma="use"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="351-353" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="354-361" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="362-373" text="supplements" lemma="supplement"/>
+            <token xml:space="preserve" id="stt_7" POS="," charOffset="373-374" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_8" POS="VBG" charOffset="375-384" text="including" lemma="include"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="385-398" text="calcium-based" lemma="calcium-based"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="399-414" text="nonprescription" lemma="nonprescription"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="415-423" text="antacids" lemma="antacid"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="423-424" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="RB" charOffset="425-437" text="concurrently" lemma="concurrently"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="438-442" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="443-449" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="449-450" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_13" type="advmod"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_15" type="prep_with"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_2" type="det"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_3" t2="stt_11" type="prep_including"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="amod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (VB=H Avoid)
+            (NP
+            (NP=H (DT the) (NN=H use))
+            (PP (IN=H of)
+            (NP (NN calcium) (NNS=H supplements)))
+            (, ,)
+            (PP (VBG=H including)
+            (NP (JJ calcium-based) (JJ nonprescription) (NNS=H antacids))))
+            (, ,)
+            (ADVP (RB=H concurrently))
+            (PP (IN=H with)
+            (NP (NN=H PhosLo))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="452-552" id="S10">
+        <text xml:space="preserve">An overdose of PhosLo may lead to progressive hypercalcemia, which may require emergency measures.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="452-454" text="An" lemma="a"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="455-463" text="overdose" lemma="overdose"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="464-466" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="467-473" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_5" POS="MD" charOffset="474-477" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_6" POS="VB" charOffset="478-482" text="lead" lemma="lead"/>
+            <token xml:space="preserve" id="stt_7" POS="TO" charOffset="483-485" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="486-497" text="progressive" lemma="progressive"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="498-511" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="511-512" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="WDT" charOffset="513-518" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_12" POS="MD" charOffset="519-522" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_13" POS="VB" charOffset="523-530" text="require" lemma="require"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="531-540" text="emergency" lemma="emergency"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="541-549" text="measures" lemma="measure"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="549-550" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="aux"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_9" type="prep_to"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_13" type="rcmod"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_11" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_12" type="aux"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_15" type="dobj"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_14" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT An) (NN=H overdose))
+            (PP (IN=H of)
+            (NP (NN=H PhosLo))))
+            (VP=H (MD=H may)
+            (VP (VB=H lead)
+            (PP (TO=H to)
+            (NP
+            (NP=H (JJ progressive) (NN=H hypercalcemia))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (MD=H may)
+            (VP (VB=H require)
+            (NP (NN emergency) (NNS=H measures))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="552-673" id="S11">
+        <text xml:space="preserve">Therefore, early in the treatment phase during the dosage adjustment period, monitor serum calcium levels twice weekly.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="552-561" text="Therefore" lemma="therefore"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="561-562" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="563-568" text="early" lemma="early"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="569-571" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="572-575" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="576-585" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="586-591" text="phase" lemma="phase"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="592-598" text="during" lemma="during"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="599-602" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="603-609" text="dosage" lemma="dosage"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="610-620" text="adjustment" lemma="adjustment"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="621-627" text="period" lemma="period"/>
+            <token xml:space="preserve" id="stt_13" POS="," charOffset="627-628" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="629-636" text="monitor" lemma="monitor"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="637-642" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="643-650" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="651-657" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_18" POS="RB" charOffset="658-663" text="twice" lemma="twice"/>
+            <token xml:space="preserve" id="stt_19" POS="RB" charOffset="664-670" text="weekly" lemma="weekly"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="670-671" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_19" type="advmod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_18" type="advmod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_5" type="det"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_12" type="prep_during"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_17" type="appos"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_9" type="det"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_10" type="nn"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_14" type="nn"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_15" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (FRAG=H
+            (ADVP (RB=H Therefore))
+            (, ,)
+            (ADVP=H (RB=H early)
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN treatment) (NN=H phase))
+            (PP (IN=H during)
+            (NP
+            (NP=H (DT the) (NN dosage) (NN adjustment) (NN=H period))
+            (, ,)
+            (NP (NN monitor) (NN serum) (NN calcium) (NNS=H levels))))
+            (ADVP (RB=H twice)))
+            (ADVP (RB=H weekly))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="673-803" id="S12">
+        <text xml:space="preserve">Should hypercalcemia develop, reduce the PhosLo dosage or discontinue the treatment, depending on the severity of hypercalcemia.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="MD" charOffset="673-679" text="Should" lemma="should"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="680-693" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_3" POS="VB" charOffset="694-701" text="develop" lemma="develop"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="701-702" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="VB" charOffset="703-709" text="reduce" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="710-713" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="714-720" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="721-727" text="dosage" lemma="dosage"/>
+            <token xml:space="preserve" id="stt_9" POS="CC" charOffset="728-730" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_10" POS="VB" charOffset="731-742" text="discontinue" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="743-746" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="747-756" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_13" POS="," charOffset="756-757" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_14" POS="VBG" charOffset="758-767" text="depending" lemma="depend"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="768-770" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="771-774" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="775-783" text="severity" lemma="severity"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="784-786" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="787-800" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="800-801" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="aux"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="conj_or"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_10" type="conj_or"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_8" type="dobj"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_6" type="det"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_17" type="pobj"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_10" t2="stt_12" type="dobj"/>
+            <dependency id="stp_12" t1="stt_10" t2="stt_15" type="prepc_depending_on"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_11" type="det"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_16" type="det"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_19" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (SQ=H (MD=H Should)
+            (NP (NN=H hypercalcemia))
+            (VP
+            (VP=H (VB=H develop))
+            (, ,)
+            (VP (VB=H reduce)
+            (NP (DT the) (NN PhosLo) (NN=H dosage)))
+            (CC or)
+            (VP (VB=H discontinue)
+            (NP (DT the) (NN=H treatment))
+            (, ,)
+            (PP (VBG=H depending)
+            (PP (IN=H on)
+            (NP
+            (NP=H (DT the) (NN=H severity))
+            (PP (IN=H of)
+            (NP (NN=H hypercalcemia))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="803-901" id="S13">
+        <text xml:space="preserve">More severe hypercalcemia (Ca&gt;12 mg/dL) is associated with confusion, delirium, stupor and coma.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RBR" charOffset="803-807" text="More" lemma="more"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="808-814" text="severe" lemma="severe"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="815-828" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_4" POS="-LRB-" charOffset="829-830" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="830-832" text="Ca" lemma="ca"/>
+            <token xml:space="preserve" id="stt_6" POS="JJR" charOffset="832-833" text="&gt;" lemma="&gt;"/>
+            <token xml:space="preserve" id="stt_7" POS="CD" charOffset="833-835" text="12" lemma="12"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="836-841" text="mg/dL" lemma="mg/dl"/>
+            <token xml:space="preserve" id="stt_9" POS="-RRB-" charOffset="841-842" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_10" POS="VBZ" charOffset="843-845" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="846-856" text="associated" lemma="associate"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="857-861" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="862-871" text="confusion" lemma="confusion"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="871-872" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="873-881" text="delirium" lemma="delirium"/>
+            <token xml:space="preserve" id="stt_16" POS="," charOffset="881-882" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="883-889" text="stupor" lemma="stupor"/>
+            <token xml:space="preserve" id="stt_18" POS="CC" charOffset="890-893" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="894-898" text="coma" lemma="coma"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="898-899" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dep"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_6" type="dep"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="dep"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="num"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_17" type="prep_with"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_19" type="prep_with"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="auxpass"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_13" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_15" type="prep_with"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_17" type="conj_and"/>
+            <dependency id="stp_14" t1="stt_13" t2="stt_19" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_13" t2="stt_15" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H
+            (ADJP (RBR More) (JJ=H severe))
+            (NN=H hypercalcemia))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (NN=H Ca))
+            (NP
+            (NP=H (JJR=H &gt;))
+            (NP (CD 12) (NN=H mg/dL))))
+            (-RRB- -RRB-)))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H associated)
+            (PP (IN=H with)
+            (NP (NN confusion) (, ,) (NN delirium) (, ,) (NN=H stupor)
+            (CC and)
+            (NN coma)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="901-994" id="S14">
+        <text xml:space="preserve">Severe hypercalcemia can be treated by acute hemodialysis and discontinuing PhosLo therapy.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="901-907" text="Severe" lemma="severe"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="908-921" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_3" POS="MD" charOffset="922-925" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_4" POS="VB" charOffset="926-928" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="929-936" text="treated" lemma="treat"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="937-939" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="940-945" text="acute" lemma="acute"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="946-958" text="hemodialysis" lemma="hemodialysis"/>
+            <token xml:space="preserve" id="stt_9" POS="CC" charOffset="959-962" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_10" POS="VBG" charOffset="963-976" text="discontinuing" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="977-983" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="984-991" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="991-992" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="aux"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="auxpass"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_8" type="agent"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_10" type="conj_and"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_12" type="dobj"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ Severe) (NN=H hypercalcemia))
+            (VP=H (MD=H can)
+            (VP (VB=H be)
+            (VP
+            (VP=H (VBN=H treated)
+            (PP (IN=H by)
+            (NP (JJ acute) (NN=H hemodialysis))))
+            (CC and)
+            (VP (VBG=H discontinuing)
+            (NP (NN PhosLo) (NN=H therapy))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="994-1116" id="S15">
+        <text xml:space="preserve">Mild hypercalcemia (10.5 to 11.9 mg/dL) may be asymptomatic or manifest as constipation, anorexia, nausea, and vomiting.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="994-998" text="Mild" lemma="mild"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="999-1012" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_3" POS="-LRB-" charOffset="1013-1014" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_4" POS="CD" charOffset="1014-1018" text="10.5" lemma="10.5"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="1019-1021" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="CD" charOffset="1022-1026" text="11.9" lemma="11.9"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1027-1032" text="mg/dL" lemma="mg/dl"/>
+            <token xml:space="preserve" id="stt_8" POS="-RRB-" charOffset="1032-1033" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_9" POS="MD" charOffset="1034-1037" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_10" POS="VB" charOffset="1038-1040" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="1041-1053" text="asymptomatic" lemma="asymptomatic"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="1054-1056" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="1057-1065" text="manifest" lemma="manifest"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1066-1068" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1069-1081" text="constipation" lemma="constipation"/>
+            <token xml:space="preserve" id="stt_16" POS="," charOffset="1081-1082" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1083-1091" text="anorexia" lemma="anorexia"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="1091-1092" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="1093-1099" text="nausea" lemma="nausea"/>
+            <token xml:space="preserve" id="stt_20" POS="," charOffset="1099-1100" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_21" POS="CC" charOffset="1101-1104" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1105-1113" text="vomiting" lemma="vomiting"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="1113-1114" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="dep"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_7" type="prep_to"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_6" type="num"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_9" type="aux"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_10" type="cop"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_13" type="conj_or"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_15" type="prep_as"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_17" type="appos"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_19" type="appos"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_22" type="appos"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_19" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_22" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Mild) (NN=H hypercalcemia))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (CD=H 10.5))
+            (PP (TO=H to)
+            (NP (CD 11.9) (NN=H mg/dL))))
+            (-RRB- -RRB-)))
+            (VP=H (MD=H may)
+            (VP (VB=H be)
+            (ADJP (JJ=H asymptomatic)
+            (CC or)
+            (JJ manifest))
+            (PP (IN=H as)
+            (NP
+            (NP=H (NN=H constipation))
+            (, ,)
+            (NP (NN anorexia) (, ,) (NN nausea) (, ,)
+            (CC and)
+            (NN=H vomiting))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1116-1224" id="S16">
+        <text xml:space="preserve">Mild hypercalcemia is usually controlled by reducing the PhosLo dose or temporarily discontinuing therapy.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="1116-1120" text="Mild" lemma="mild"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1121-1134" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_3" POS="VBZ" charOffset="1135-1137" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="1138-1145" text="usually" lemma="usually"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="1146-1156" text="controlled" lemma="control"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="1157-1159" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_7" POS="VBG" charOffset="1160-1168" text="reducing" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="1169-1172" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1173-1179" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1180-1184" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_11" POS="CC" charOffset="1185-1187" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_12" POS="RB" charOffset="1188-1199" text="temporarily" lemma="temporarily"/>
+            <token xml:space="preserve" id="stt_13" POS="VBG" charOffset="1200-1213" text="discontinuing" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1214-1221" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="1221-1222" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="advmod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="agent"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_13" type="agent"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_10" type="dobj"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_13" type="conj_or"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_8" type="det"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="advmod"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_14" type="dobj"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ Mild) (NN=H hypercalcemia))
+            (VP=H (VBZ=H is)
+            (ADVP (RB=H usually))
+            (VP (VBN=H controlled)
+            (PP (IN=H by)
+            (S
+            (VP=H
+            (VP=H (VBG=H reducing)
+            (NP (DT the) (NN PhosLo) (NN=H dose)))
+            (CC or)
+            (VP
+            (ADVP (RB=H temporarily))
+            (VBG=H discontinuing)
+            (NP (NN=H therapy))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1224-1295" id="S17">
+        <text xml:space="preserve">Decreasing or discontinuing Vitamin D therapy is recommended as well.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VBG" charOffset="1224-1234" text="Decreasing" lemma="decrease"/>
+            <token xml:space="preserve" id="stt_2" POS="CC" charOffset="1235-1237" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_3" POS="VBG" charOffset="1238-1251" text="discontinuing" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1252-1259" text="Vitamin" lemma="vitamin"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1260-1261" text="D" lemma="d"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1262-1269" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_7" POS="VBZ" charOffset="1270-1272" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="1273-1284" text="recommended" lemma="recommend"/>
+            <token xml:space="preserve" id="stt_9" POS="RB" charOffset="1285-1287" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="1288-1292" text="well" lemma="well"/>
+            <token xml:space="preserve" id="stt_11" POS="." charOffset="1292-1293" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="conj_or"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="dobj"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_1" type="csubjpass"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_3" type="csubjpass"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="auxpass"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_10" type="advmod"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_9" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (VBG=H Decreasing)
+            (CC or)
+            (VBG discontinuing)
+            (NP (NN Vitamin) (NN D) (NN=H therapy))))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H recommended)
+            (ADVP (RB as) (RB=H well))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1295-1390" id="S18">
+        <text xml:space="preserve">Chronic hypercalcemia may lead to vascular calcification and other soft-tissue calcification.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="1295-1302" text="Chronic" lemma="chronic"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1303-1316" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_3" POS="MD" charOffset="1317-1320" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_4" POS="VB" charOffset="1321-1325" text="lead" lemma="lead"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="1326-1328" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="1329-1337" text="vascular" lemma="vascular"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1338-1351" text="calcification" lemma="calcification"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="1352-1355" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="1356-1361" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="1362-1373" text="soft-tissue" lemma="soft-tissue"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1374-1387" text="calcification" lemma="calcification"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="1387-1388" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="aux"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_7" type="prep_to"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_11" type="prep_to"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_11" type="conj_and"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="amod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ Chronic) (NN=H hypercalcemia))
+            (VP=H (MD=H may)
+            (VP (VB=H lead)
+            (PP (TO=H to)
+            (NP
+            (NP=H (JJ vascular) (NN=H calcification))
+            (CC and)
+            (NP (JJ other) (JJ soft-tissue) (NN=H calcification))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1390-1511" id="S19">
+        <text xml:space="preserve">Radiographic evaluation of suspected anatomical regions may be helpful in early detection of soft tissue calcification.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="1390-1402" text="Radiographic" lemma="radiographic"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1403-1413" text="evaluation" lemma="evaluation"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1414-1416" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="1417-1426" text="suspected" lemma="suspect"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="1427-1437" text="anatomical" lemma="anatomical"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="1438-1445" text="regions" lemma="region"/>
+            <token xml:space="preserve" id="stt_7" POS="MD" charOffset="1446-1449" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_8" POS="VB" charOffset="1450-1452" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="1453-1460" text="helpful" lemma="helpful"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1461-1463" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="1464-1469" text="early" lemma="early"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1470-1479" text="detection" lemma="detection"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1480-1482" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="1483-1487" text="soft" lemma="soft"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1488-1494" text="tissue" lemma="tissue"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1495-1508" text="calcification" lemma="calcification"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="1508-1509" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="aux"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="cop"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_16" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_14" type="amod"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_15" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Radiographic) (NN=H evaluation))
+            (PP (IN=H of)
+            (NP (VBN suspected) (JJ anatomical) (NNS=H regions))))
+            (VP=H (MD=H may)
+            (VP (VB=H be)
+            (ADJP (JJ=H helpful)
+            (PP (IN=H in)
+            (NP
+            (NP=H (JJ early) (NN=H detection))
+            (PP (IN=H of)
+            (NP (JJ soft) (NN tissue) (NN=H calcification))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1511-1628" id="S20">
+        <text xml:space="preserve">The long term effect of PhosLo on the progression of vascular or soft tissue calcification has not been determined.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="1511-1514" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="1515-1519" text="long" lemma="long"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1520-1524" text="term" lemma="term"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1525-1531" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1532-1534" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1535-1541" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1542-1544" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="1545-1548" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1549-1560" text="progression" lemma="progression"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1561-1563" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="1564-1572" text="vascular" lemma="vascular"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="1573-1575" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="1576-1580" text="soft" lemma="soft"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1581-1587" text="tissue" lemma="tissue"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1588-1601" text="calcification" lemma="calcification"/>
+            <token xml:space="preserve" id="stt_16" POS="VBZ" charOffset="1602-1605" text="has" lemma="have"/>
+            <token xml:space="preserve" id="stt_17" POS="RB" charOffset="1606-1609" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_18" POS="VBN" charOffset="1610-1614" text="been" lemma="be"/>
+            <token xml:space="preserve" id="stt_19" POS="VBN" charOffset="1615-1625" text="determined" lemma="determine"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="1625-1626" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_9" type="prep_on"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="det"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_15" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_13" type="conj_or"/>
+            <dependency id="stp_9" t1="stt_15" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_13" type="amod"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_12" t1="stt_19" t2="stt_16" type="aux"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_17" type="neg"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_18" type="auxpass"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_4" type="nsubjpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (JJ long) (NN term) (NN=H effect))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H PhosLo))
+            (PP (IN=H on)
+            (NP
+            (NP=H (DT the) (NN=H progression))
+            (PP (IN=H of)
+            (NP
+            (ADJP (JJ=H vascular)
+            (CC or)
+            (JJ soft))
+            (NN tissue) (NN=H calcification))))))))
+            (VP=H (VBZ=H has) (RB not)
+            (VP (VBN=H been)
+            (VP (VBN=H determined))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1628-1824" id="S21">
+        <text xml:space="preserve">Hypercalcemia (&gt;11 mg/dL) was reported in 16% of patients in a 3-month study of a solid dose formulation of calcium acetate; all cases resolved upon lowering the dose or discontinuing treatment.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1628-1641" text="Hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_2" POS="-LRB-" charOffset="1642-1643" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_3" POS="JJR" charOffset="1643-1644" text="&gt;" lemma="&gt;"/>
+            <token xml:space="preserve" id="stt_4" POS="CD" charOffset="1644-1646" text="11" lemma="11"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1647-1652" text="mg/dL" lemma="mg/dl"/>
+            <token xml:space="preserve" id="stt_6" POS="-RRB-" charOffset="1652-1653" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_7" POS="VBD" charOffset="1654-1657" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="1658-1666" text="reported" lemma="report"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1667-1669" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_10" POS="CD" charOffset="1670-1672" text="16" lemma="16"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1672-1673" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="1674-1676" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="1677-1685" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1686-1688" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="1689-1690" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="1691-1698" text="3-month" lemma="3-month"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1699-1704" text="study" lemma="study"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="1705-1707" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="DT" charOffset="1708-1709" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="1710-1715" text="solid" lemma="solid"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1716-1720" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1721-1732" text="formulation" lemma="formulation"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="1733-1735" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1736-1743" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="1744-1751" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_26" POS=":" charOffset="1751-1752" text=";" lemma=";"/>
+            <token xml:space="preserve" id="stt_27" POS="DT" charOffset="1753-1756" text="all" lemma="all"/>
+            <token xml:space="preserve" id="stt_28" POS="NNS" charOffset="1757-1762" text="cases" lemma="case"/>
+            <token xml:space="preserve" id="stt_29" POS="VBN" charOffset="1763-1771" text="resolved" lemma="resolve"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="1772-1776" text="upon" lemma="upon"/>
+            <token xml:space="preserve" id="stt_31" POS="VBG" charOffset="1777-1785" text="lowering" lemma="lower"/>
+            <token xml:space="preserve" id="stt_32" POS="DT" charOffset="1786-1789" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_33" POS="NN" charOffset="1790-1794" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_34" POS="CC" charOffset="1795-1797" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_35" POS="VBG" charOffset="1798-1811" text="discontinuing" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_36" POS="NN" charOffset="1812-1821" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_37" POS="." charOffset="1821-1822" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_5" type="dep"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="num"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="auxpass"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_11" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_29" type="parataxis"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="num"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_17" type="prep_in"/>
+            <dependency id="stp_11" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_22" type="prep_of"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_15" type="det"/>
+            <dependency id="stp_14" t1="stt_22" t2="stt_19" type="det"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_20" type="amod"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="nn"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_25" type="prep_of"/>
+            <dependency id="stp_18" t1="stt_25" t2="stt_24" type="nn"/>
+            <dependency id="stp_19" t1="stt_28" t2="stt_27" type="det"/>
+            <dependency id="stp_20" t1="stt_29" t2="stt_35" type="prepc_upon"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_28" type="nsubj"/>
+            <dependency id="stp_22" t1="stt_29" t2="stt_31" type="prepc_upon"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_33" type="dobj"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_35" type="conj_or"/>
+            <dependency id="stp_25" t1="stt_33" t2="stt_32" type="det"/>
+            <dependency id="stp_26" t1="stt_35" t2="stt_36" type="dobj"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S=H
+            (NP
+            (NP=H (NN=H Hypercalcemia))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (JJR=H &gt;))
+            (NP (CD 11) (NN=H mg/dL)))
+            (-RRB- -RRB-)))
+            (VP=H (VBD=H was)
+            (VP (VBN=H reported)
+            (PP (IN=H in)
+            (NP
+            (NP=H (CD 16) (NN=H %))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT a) (JJ 3-month) (NN=H study))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT a) (JJ solid) (NN dose) (NN=H formulation))
+            (PP (IN=H of)
+            (NP (NN calcium) (NN=H acetate))))))))))))))
+            (: ;)
+            (S
+            (NP (DT all) (NNS=H cases))
+            (VP=H (VBN=H resolved)
+            (PP (IN=H upon)
+            (S
+            (VP=H
+            (VP=H (VBG=H lowering)
+            (NP (DT the) (NN=H dose)))
+            (CC or)
+            (VP (VBG=H discontinuing)
+            (NP (NN=H treatment))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1824-1898" id="S22">
+        <text xml:space="preserve">Maintain the serum calcium-phosphorus (Ca x P) product below 55 mg2/dL2.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VB" charOffset="1824-1832" text="Maintain" lemma="maintain"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="1833-1836" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1837-1842" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1843-1861" text="calcium-phosphorus" lemma="calcium-phosphorus"/>
+            <token xml:space="preserve" id="stt_5" POS="-LRB-" charOffset="1862-1863" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1863-1865" text="Ca" lemma="ca"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1866-1867" text="x" lemma="x"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1868-1869" text="P" lemma="p"/>
+            <token xml:space="preserve" id="stt_9" POS="-RRB-" charOffset="1869-1870" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1871-1878" text="product" lemma="product"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="1879-1884" text="below" lemma="below"/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="1885-1887" text="55" lemma="55"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="1888-1895" text="mg2/dL2" lemma="mg2/dl2"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="1895-1896" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_10" type="dobj"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_8" type="dep"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_6" type="nn"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_2" type="det"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_4" type="nn"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_13" type="prep_below"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_12" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (VB=H Maintain)
+            (NP
+            (NP=H (DT the)
+            (NP
+            (NP=H (NN serum) (NN=H calcium-phosphorus))
+            (-LRB- -LRB-)
+            (NP (NN Ca) (NN x) (NN=H P))
+            (-RRB- -RRB-))
+            (NN=H product))
+            (PP (IN=H below)
+            (NP (CD 55) (NN=H mg2/dL2)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1898-1936" id="S23">
+        <text xml:space="preserve">5.2 Concomitant Use with Medications
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="1898-1901" text="5.2" lemma="5.2"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="1902-1913" text="Concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1914-1917" text="Use" lemma="use"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1918-1922" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="1923-1934" text="Medications" lemma="medication"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (CD=H 5.2))
+            (NP
+            (NP=H (JJ Concomitant) (NN=H Use))
+            (PP (IN=H with)
+            (NP (NNS=H Medications))))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1936-1985" id="S24">
+        <text xml:space="preserve">Hypercalcemia may aggravate digitalis toxicity.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1936-1949" text="Hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_2" POS="MD" charOffset="1950-1953" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_3" POS="VB" charOffset="1954-1963" text="aggravate" lemma="aggravate"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1964-1973" text="digitalis" lemma="digitali"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1974-1982" text="toxicity" lemma="toxicity"/>
+            <token xml:space="preserve" id="stt_6" POS="." charOffset="1982-1983" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="aux"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dobj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H Hypercalcemia))
+            (VP=H (MD=H may)
+            (VP (VB=H aggravate)
+            (NP (NN digitalis) (NN=H toxicity))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1985-2007" id="S25">
+        <text xml:space="preserve">7  DRUG INTERACTIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="1985-1986" text="7" lemma="7"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1988-1992" text="DRUG" lemma="drug"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="1993-2005" text="INTERACTIONS" lemma="interaction"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (CD 7) (NN=H DRUG))
+            (NP (NNS=H INTERACTIONS))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2007-2162" id="S26">
+        <text xml:space="preserve">The drug interaction of PhosLo is characterized by the potential of calcium to bind to drugs with anionic functions (e.g., carboxyl and hydroxyl groups).  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="2007-2010" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2011-2015" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2016-2027" text="interaction" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2028-2030" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2031-2037" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="2038-2040" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_7" POS="VBN" charOffset="2041-2054" text="characterized" lemma="characterize"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="2055-2057" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="2058-2061" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="2062-2071" text="potential" lemma="potential"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="2072-2074" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="2075-2082" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_13" POS="TO" charOffset="2083-2085" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_14" POS="VB" charOffset="2086-2090" text="bind" lemma="bind"/>
+            <token xml:space="preserve" id="stt_15" POS="TO" charOffset="2091-2093" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_16" POS="NNS" charOffset="2094-2099" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="2100-2104" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="2105-2112" text="anionic" lemma="anionic"/>
+            <token xml:space="preserve" id="stt_19" POS="NNS" charOffset="2113-2122" text="functions" lemma="function"/>
+            <token xml:space="preserve" id="stt_20" POS="-LRB-" charOffset="2123-2124" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_21" POS="FW" charOffset="2124-2128" text="e.g." lemma="e.g."/>
+            <token xml:space="preserve" id="stt_22" POS="," charOffset="2128-2129" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="2130-2138" text="carboxyl" lemma="carboxyl"/>
+            <token xml:space="preserve" id="stt_24" POS="CC" charOffset="2139-2142" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="2143-2151" text="hydroxyl" lemma="hydroxyl"/>
+            <token xml:space="preserve" id="stt_26" POS="NNS" charOffset="2152-2158" text="groups" lemma="group"/>
+            <token xml:space="preserve" id="stt_27" POS="-RRB-" charOffset="2158-2159" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_28" POS="." charOffset="2159-2160" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="auxpass"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_10" type="agent"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_14" type="xcomp"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_9" type="det"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_16" type="prep_to"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_13" type="aux"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_19" type="prep_with"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_18" type="amod"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_21" type="dep"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_26" type="appos"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_25" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_26" t2="stt_23" type="nn"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_25" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN drug) (NN=H interaction))
+            (PP (IN=H of)
+            (NP (NN=H PhosLo))))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H characterized)
+            (PP (IN=H by)
+            (NP
+            (NP=H (DT the) (NN=H potential))
+            (PP (IN=H of)
+            (NP (NN=H calcium)))))
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H bind)
+            (PP (TO=H to)
+            (NP
+            (NP=H (NNS=H drugs))
+            (PP (IN=H with)
+            (NP
+            (NP=H (JJ anionic) (NNS=H functions))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (FW=H e.g.))
+            (, ,)
+            (NP
+            (NP (NN=H carboxyl)
+            (CC and)
+            (NN hydroxyl))
+            (NNS=H groups)))
+            (-RRB- -RRB-)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2162-2260" id="S27">
+        <text xml:space="preserve">PhosLo may decrease the bioavailability of tetracyclines or fluoroquinolones via this mechanism.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2162-2168" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_2" POS="MD" charOffset="2169-2172" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_3" POS="VB" charOffset="2173-2181" text="decrease" lemma="decrease"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="2182-2185" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2186-2201" text="bioavailability" lemma="bioavailability"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2202-2204" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="2205-2218" text="tetracyclines" lemma="tetracycline"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="2219-2221" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="2222-2238" text="fluoroquinolones" lemma="fluoroquinolone"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="2239-2242" text="via" lemma="via"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="2243-2247" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="2248-2257" text="mechanism" lemma="mechanism"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="2257-2258" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="aux"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dobj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="conj_or"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_12" type="prep_via"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H PhosLo))
+            (VP=H (MD=H may)
+            (VP (VB=H decrease)
+            (NP
+            (NP=H (DT the) (NN=H bioavailability))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NNS=H tetracyclines)
+            (CC or)
+            (NNS fluoroquinolones))
+            (PP (IN=H via)
+            (NP (DT this) (NN=H mechanism))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2260-2381" id="S28">
+        <text xml:space="preserve">There are no empirical data on avoiding drug interactions between calcium acetate or PhosLo and most concomitant drugs.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="EX" charOffset="2260-2265" text="There" lemma="there"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="2266-2269" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="2270-2272" text="no" lemma="no"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="2273-2282" text="empirical" lemma="empirical"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="2283-2287" text="data" lemma="datum"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2288-2290" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_7" POS="VBG" charOffset="2291-2299" text="avoiding" lemma="avoid"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="2300-2304" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="2305-2317" text="interactions" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="2318-2325" text="between" lemma="between"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="2326-2333" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="2334-2341" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="2342-2344" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="2345-2351" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_15" POS="CC" charOffset="2352-2355" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_16" POS="RBS" charOffset="2356-2360" text="most" lemma="most"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="2361-2372" text="concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_18" POS="NNS" charOffset="2373-2378" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_19" POS="." charOffset="2378-2379" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="expl"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="prepc_on"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="dobj"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_18" type="prep_between"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_12" type="prep_between"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_14" type="prep_between"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_18" type="conj_and"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_14" type="conj_or"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_16" type="advmod"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_17" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (EX=H There))
+            (VP=H (VBP=H are)
+            (NP
+            (NP=H (DT no) (JJ empirical) (NNS=H data))
+            (PP (IN=H on)
+            (S
+            (VP=H (VBG=H avoiding)
+            (NP
+            (NP=H (NN drug) (NNS=H interactions))
+            (PP (IN=H between)
+            (NP
+            (NP=H (NN calcium) (NN=H acetate)
+            (CC or)
+            (NN PhosLo))
+            (CC and)
+            (NP (RBS most) (JJ concomitant) (NNS=H drugs))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2381-2646" id="S29">
+        <text xml:space="preserve">When administering an oral medication with PhosLo where a reduction in the bioavailability of that medication would have a clinically significant effect on its safety or efficacy, administer the drug one hour before or three hours after PhosLo or calcium acetate.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="WRB" charOffset="2381-2385" text="When" lemma="when"/>
+            <token xml:space="preserve" id="stt_2" POS="VBG" charOffset="2386-2399" text="administering" lemma="administer"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="2400-2402" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="2403-2407" text="oral" lemma="oral"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2408-2418" text="medication" lemma="medication"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2419-2423" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="2424-2430" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_8" POS="WRB" charOffset="2431-2436" text="where" lemma="where"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="2437-2438" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="2439-2448" text="reduction" lemma="reduction"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="2449-2451" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_12" POS="DT" charOffset="2452-2455" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="2456-2471" text="bioavailability" lemma="bioavailability"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="2472-2474" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="2475-2479" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="2480-2490" text="medication" lemma="medication"/>
+            <token xml:space="preserve" id="stt_17" POS="MD" charOffset="2491-2496" text="would" lemma="would"/>
+            <token xml:space="preserve" id="stt_18" POS="VB" charOffset="2497-2501" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_19" POS="DT" charOffset="2502-2503" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_20" POS="RB" charOffset="2504-2514" text="clinically" lemma="clinically"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="2515-2526" text="significant" lemma="significant"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="2527-2533" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="2534-2536" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_24" POS="PRP$" charOffset="2537-2540" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="2541-2547" text="safety" lemma="safety"/>
+            <token xml:space="preserve" id="stt_26" POS="CC" charOffset="2548-2550" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="2551-2559" text="efficacy" lemma="efficacy"/>
+            <token xml:space="preserve" id="stt_28" POS="," charOffset="2559-2560" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_29" POS="VB" charOffset="2561-2571" text="administer" lemma="administer"/>
+            <token xml:space="preserve" id="stt_30" POS="DT" charOffset="2572-2575" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="2576-2580" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_32" POS="CD" charOffset="2581-2584" text="one" lemma="one"/>
+            <token xml:space="preserve" id="stt_33" POS="NN" charOffset="2585-2589" text="hour" lemma="hour"/>
+            <token xml:space="preserve" id="stt_34" POS="IN" charOffset="2590-2596" text="before" lemma="before"/>
+            <token xml:space="preserve" id="stt_35" POS="CC" charOffset="2597-2599" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_36" POS="CD" charOffset="2600-2605" text="three" lemma="three"/>
+            <token xml:space="preserve" id="stt_37" POS="NNS" charOffset="2606-2611" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_38" POS="IN" charOffset="2612-2617" text="after" lemma="after"/>
+            <token xml:space="preserve" id="stt_39" POS="NN" charOffset="2618-2624" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_40" POS="CC" charOffset="2625-2627" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_41" POS="NN" charOffset="2628-2635" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_42" POS="NN" charOffset="2636-2643" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_43" POS="." charOffset="2643-2644" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_18" type="advcl"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_5" type="dobj"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_7" type="prep_with"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="det"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_13" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_16" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_12" type="det"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_15" type="det"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_17" type="aux"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_22" type="dobj"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_8" type="advmod"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_10" type="nsubj"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_20" type="advmod"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_19" type="det"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="amod"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_25" type="prep_on"/>
+            <dependency id="stp_20" t1="stt_22" t2="stt_27" type="prep_on"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_24" type="poss"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_27" type="conj_or"/>
+            <dependency id="stp_23" t1="stt_29" t2="stt_2" type="advcl"/>
+            <dependency id="stp_24" t1="stt_29" t2="stt_34" type="advmod"/>
+            <dependency id="stp_25" t1="stt_29" t2="stt_37" type="advmod"/>
+            <dependency id="stp_26" t1="stt_29" t2="stt_42" type="prep_after"/>
+            <dependency id="stp_27" t1="stt_29" t2="stt_31" type="dobj"/>
+            <dependency id="stp_28" t1="stt_31" t2="stt_30" type="det"/>
+            <dependency id="stp_29" t1="stt_33" t2="stt_32" type="num"/>
+            <dependency id="stp_30" t1="stt_34" t2="stt_33" type="npadvmod"/>
+            <dependency id="stp_31" t1="stt_34" t2="stt_37" type="conj_or"/>
+            <dependency id="stp_32" t1="stt_37" t2="stt_36" type="num"/>
+            <dependency id="stp_33" t1="stt_39" t2="stt_41" type="conj_or"/>
+            <dependency id="stp_34" t1="stt_42" t2="stt_39" type="nn"/>
+            <dependency id="stp_35" t1="stt_42" t2="stt_41" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR
+            (WHADVP=H (WRB=H When))
+            (S
+            (VP=H (VBG=H administering)
+            (NP (DT an) (JJ oral) (NN=H medication))
+            (PP (IN=H with)
+            (NP (NN=H PhosLo)))
+            (SBAR
+            (WHADVP=H (WRB=H where))
+            (S
+            (NP
+            (NP=H (DT a) (NN=H reduction))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H bioavailability))
+            (PP (IN=H of)
+            (NP (DT that) (NN=H medication))))))
+            (VP=H (MD=H would)
+            (VP (VB=H have)
+            (NP
+            (NP=H (DT a)
+            (ADJP (RB clinically) (JJ=H significant))
+            (NN=H effect))
+            (PP (IN=H on)
+            (NP (PRP$ its) (NN=H safety)
+            (CC or)
+            (NN efficacy)))))))))))
+            (, ,)
+            (VP=H (VB=H administer)
+            (NP (DT the) (NN=H drug))
+            (ADVP
+            (ADVP=H
+            (NP (CD one) (NN=H hour))
+            (IN=H before))
+            (CC or)
+            (NP (CD three) (NNS=H hours)))
+            (PP (IN=H after)
+            (NP
+            (NP (NN=H PhosLo)
+            (CC or)
+            (NN calcium))
+            (NN=H acetate))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2646-2731" id="S30">
+        <text xml:space="preserve">Monitor blood levels of the concomitant drugs that have a narrow therapeutic range.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="2646-2653" text="Monitor" lemma="Monitor"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2654-2659" text="blood" lemma="blood"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="2660-2666" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2667-2669" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="2670-2673" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="2674-2685" text="concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="2686-2691" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_8" POS="WDT" charOffset="2692-2696" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_9" POS="VBP" charOffset="2697-2701" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="2702-2703" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="2704-2710" text="narrow" lemma="narrow"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="2711-2722" text="therapeutic" lemma="therapeutic"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="2723-2728" text="range" lemma="range"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="2728-2729" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="det"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="rcmod"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_13" type="dobj"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_10" type="det"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="amod"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NNP Monitor) (NN blood) (NNS=H levels))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ concomitant) (NNS=H drugs))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H (VBP=H have)
+            (NP (DT a) (JJ narrow) (JJ therapeutic) (NN=H range)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2731-2947" id="S31">
+        <text xml:space="preserve">Patients taking anti-arrhythmic medications for the control of arrhythmias and anti-seizure medications for the control of seizure disorders were excluded from the clinical trials with all forms of calcium acetate.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="2731-2739" text="Patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_2" POS="VBG" charOffset="2740-2746" text="taking" lemma="take"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="2747-2762" text="anti-arrhythmic" lemma="anti-arrhythmic"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="2763-2774" text="medications" lemma="medication"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="2775-2778" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="2779-2782" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="2783-2790" text="control" lemma="control"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="2791-2793" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="2794-2805" text="arrhythmias" lemma="arrhythmia"/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="2806-2809" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="2810-2822" text="anti-seizure" lemma="anti-seizure"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="2823-2834" text="medications" lemma="medication"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="2835-2838" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="2839-2842" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="2843-2850" text="control" lemma="control"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="2851-2853" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="2854-2861" text="seizure" lemma="seizure"/>
+            <token xml:space="preserve" id="stt_18" POS="NNS" charOffset="2862-2871" text="disorders" lemma="disorder"/>
+            <token xml:space="preserve" id="stt_19" POS="VBD" charOffset="2872-2876" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_20" POS="VBN" charOffset="2877-2885" text="excluded" lemma="exclude"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="2886-2890" text="from" lemma="from"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="2891-2894" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="2895-2903" text="clinical" lemma="clinical"/>
+            <token xml:space="preserve" id="stt_24" POS="NNS" charOffset="2904-2910" text="trials" lemma="trial"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="2911-2915" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="2916-2919" text="all" lemma="all"/>
+            <token xml:space="preserve" id="stt_27" POS="NNS" charOffset="2920-2925" text="forms" lemma="form"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="2926-2928" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="2929-2936" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="2937-2944" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="2944-2945" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="vmod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="dobj"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_7" type="prep_for"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_12" type="prep_for"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="det"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_12" type="conj_and"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_15" type="prep_for"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_18" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="det"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_19" type="auxpass"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_24" type="prep_from"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_27" type="prep_with"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_22" type="det"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_23" type="amod"/>
+            <dependency id="stp_20" t1="stt_27" t2="stt_26" type="det"/>
+            <dependency id="stp_21" t1="stt_27" t2="stt_30" type="prep_of"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_29" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNS=H Patients))
+            (VP (VBG=H taking)
+            (NP (JJ anti-arrhythmic) (NNS=H medications))
+            (PP (IN=H for)
+            (NP
+            (NP=H
+            (NP=H (DT the) (NN=H control))
+            (PP (IN=H of)
+            (NP (NNS=H arrhythmias))))
+            (CC and)
+            (NP
+            (NP=H (JJ anti-seizure) (NNS=H medications))
+            (PP (IN=H for)
+            (NP
+            (NP=H (DT the) (NN=H control))
+            (PP (IN=H of)
+            (NP (NN seizure) (NNS=H disorders))))))))))
+            (VP=H (VBD=H were)
+            (VP (VBN=H excluded)
+            (PP (IN=H from)
+            (NP (DT the) (JJ clinical) (NNS=H trials)))
+            (PP (IN=H with)
+            (NP
+            (NP=H (DT all) (NNS=H forms))
+            (PP (IN=H of)
+            (NP (NN calcium) (NN=H acetate)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2947-2966" id="S32">
+        <text xml:space="preserve">7.1 Ciprofloxacin
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="2947-2950" text="7.1" lemma="7.1"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2951-2964" text="Ciprofloxacin" lemma="ciprofloxacin"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H (CD 7.1) (NN=H Ciprofloxacin)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2966-3151" id="S33">
+        <text xml:space="preserve">In a study of 15 healthy subjects, a co-administered single dose of 4 calcium acetate tablets approximately 2.7 g, decreased the bioavailability of ciprofloxacin by approximately 50%.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="2966-2968" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="2969-2970" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2971-2976" text="study" lemma="study"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2977-2979" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="CD" charOffset="2980-2982" text="15" lemma="15"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="2983-2990" text="healthy" lemma="healthy"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="2991-2999" text="subjects" lemma="subject"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="2999-3000" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="3001-3002" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="3003-3018" text="co-administered" lemma="co-administered"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="3019-3025" text="single" lemma="single"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="3026-3030" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="3031-3033" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="CD" charOffset="3034-3035" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="3036-3043" text="calcium" lemma="calcium"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="3044-3051" text="acetate" lemma="acetate"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="3052-3059" text="tablets" lemma="tablet"/>
+            <token xml:space="preserve" id="stt_18" POS="RB" charOffset="3060-3073" text="approximately" lemma="approximately"/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="3074-3077" text="2.7" lemma="2.7"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="3078-3079" text="g" lemma="g"/>
+            <token xml:space="preserve" id="stt_21" POS="," charOffset="3079-3080" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_22" POS="VBD" charOffset="3081-3090" text="decreased" lemma="decrease"/>
+            <token xml:space="preserve" id="stt_23" POS="DT" charOffset="3091-3094" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="3095-3110" text="bioavailability" lemma="bioavailability"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="3111-3113" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="3114-3127" text="ciprofloxacin" lemma="ciprofloxacin"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="3128-3130" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_28" POS="RB" charOffset="3131-3144" text="approximately" lemma="approximately"/>
+            <token xml:space="preserve" id="stt_29" POS="CD" charOffset="3145-3147" text="50" lemma="50"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="3147-3148" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="3148-3149" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_2" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_5" type="num"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_5" t1="stt_12" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_12" t2="stt_19" type="dep"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_9" type="det"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_11" t1="stt_17" t2="stt_14" type="num"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_15" type="nn"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_18" type="quantmod"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_20" type="dep"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_3" type="prep_in"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_24" type="dobj"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_30" type="prep_by"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_23" type="det"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_26" type="prep_of"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_28" type="quantmod"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_29" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP
+            (NP=H (DT a) (NN=H study))
+            (PP (IN=H of)
+            (NP (CD 15) (JJ healthy) (NNS=H subjects)))))
+            (, ,)
+            (NP
+            (NP=H (DT a) (JJ co-administered) (JJ single) (NN=H dose))
+            (PP (IN=H of)
+            (NP (CD 4) (NN calcium) (NN acetate) (NNS=H tablets)))
+            (NP
+            (NP=H
+            (QP=H (RB approximately) (CD=H 2.7)))
+            (NP (NN=H g)))
+            (, ,))
+            (VP=H (VBD=H decreased)
+            (NP
+            (NP=H (DT the) (NN=H bioavailability))
+            (PP (IN=H of)
+            (NP (NN=H ciprofloxacin))))
+            (PP (IN=H by)
+            (NP
+            (QP (RB approximately) (CD=H 50))
+            (NN=H %))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3151-3179" id="S34">
+        <text xml:space="preserve">2  DOSAGE &amp; ADMINISTRATION
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="3151-3152" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_2" POS="NNP" charOffset="3154-3160" text="DOSAGE" lemma="DOSAGE"/>
+            <token xml:space="preserve" id="stt_3" POS="CC" charOffset="3161-3162" text="&amp;" lemma="&amp;"/>
+            <token xml:space="preserve" id="stt_4" POS="NNP" charOffset="3163-3177" text="ADMINISTRATION" lemma="ADMINISTRATION"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dep"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_4" type="dep"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_4" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (CD=H 2))
+            (NP (NNP=H DOSAGE)
+            (CC &amp;)
+            (NNP ADMINISTRATION))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3179-3279" id="S35">
+        <text xml:space="preserve">The recommended initial dose of PhosLo for the adult dialysis patient is 2 gelcaps with each meal.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="3179-3182" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="VBN" charOffset="3183-3194" text="recommended" lemma="recommend"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="3195-3202" text="initial" lemma="initial"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="3203-3207" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="3208-3210" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="3211-3217" text="PhosLo" lemma="phoslo"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="3218-3221" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="3222-3225" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="3226-3231" text="adult" lemma="adult"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="3232-3240" text="dialysis" lemma="dialysis"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="3241-3248" text="patient" lemma="patient"/>
+            <token xml:space="preserve" id="stt_12" POS="VBZ" charOffset="3249-3251" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_13" POS="CD" charOffset="3252-3253" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="3254-3261" text="gelcaps" lemma="gelcap"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="3262-3266" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="3267-3271" text="each" lemma="each"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="3272-3276" text="meal" lemma="meal"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="3276-3277" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_11" type="prep_for"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_8" type="det"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_9" type="amod"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="nn"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_17" type="prep_with"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_12" type="cop"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="num"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (VBN recommended) (JJ initial) (NN=H dose))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H PhosLo))
+            (PP (IN=H for)
+            (NP (DT the) (JJ adult) (NN dialysis) (NN=H patient))))))
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H (CD 2) (NNS=H gelcaps))
+            (PP (IN=H with)
+            (NP (DT each) (NN=H meal)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3279-3405" id="S36">
+        <text xml:space="preserve">Increase the dose gradually to lower serum phosphorus levels to the target range, as long as hypercalcemia does not develop.  </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VB" charOffset="3279-3287" text="Increase" lemma="increase"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="3288-3291" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="3292-3296" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="3297-3306" text="gradually" lemma="gradually"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="3307-3309" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="JJR" charOffset="3310-3315" text="lower" lemma="lower"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="3316-3321" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="3322-3332" text="phosphorus" lemma="phosphorus"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="3333-3339" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_10" POS="TO" charOffset="3340-3342" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="3343-3346" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="3347-3353" text="target" lemma="target"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="3354-3359" text="range" lemma="range"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="3359-3360" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="RB" charOffset="3361-3363" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_16" POS="RB" charOffset="3364-3368" text="long" lemma="long"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="3369-3371" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="3372-3385" text="hypercalcemia" lemma="hypercalcemia"/>
+            <token xml:space="preserve" id="stt_19" POS="VBZ" charOffset="3386-3390" text="does" lemma="do"/>
+            <token xml:space="preserve" id="stt_20" POS="RB" charOffset="3391-3394" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_21" POS="VB" charOffset="3395-3402" text="develop" lemma="develop"/>
+            <token xml:space="preserve" id="stt_22" POS="." charOffset="3402-3403" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_21" type="advcl"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_13" type="prep_to"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_2" type="det"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_4" type="advmod"/>
+            <dependency id="stp_6" t1="stt_4" t2="stt_9" type="prep_to"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_6" type="amod"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_7" type="nn"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="det"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="nn"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_15" type="advmod"/>
+            <dependency id="stp_13" t1="stt_21" t2="stt_16" type="advmod"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_17" type="mark"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_18" type="nsubj"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_19" type="aux"/>
+            <dependency id="stp_17" t1="stt_21" t2="stt_20" type="neg"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (VB=H Increase)
+            (NP
+            (NP=H (DT the) (NN=H dose))
+            (ADVP (RB=H gradually)
+            (PP (TO=H to)
+            (NP (JJR lower) (NN serum) (NN phosphorus) (NNS=H levels)))))
+            (PP (TO=H to)
+            (NP (DT the) (NN target) (NN=H range)))
+            (, ,)
+            (SBAR
+            (ADVP (RB as) (RB=H long))
+            (IN=H as)
+            (S
+            (NP (NN=H hypercalcemia))
+            (VP=H (VBZ=H does) (RB not)
+            (VP (VB=H develop))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3405-3455" id="S37">
+        <text xml:space="preserve">Most patients require 3-4 gelcaps with each meal.
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJS" charOffset="3405-3409" text="Most" lemma="most"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="3410-3418" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="3419-3426" text="require" lemma="require"/>
+            <token xml:space="preserve" id="stt_4" POS="CD" charOffset="3427-3430" text="3-4" lemma="3-4"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="3431-3438" text="gelcaps" lemma="gelcap"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="3439-3443" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="3444-3448" text="each" lemma="each"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="3449-3453" text="meal" lemma="meal"/>
+            <token xml:space="preserve" id="stt_9" POS="." charOffset="3453-3454" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dobj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="num"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_8" type="prep_with"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJS Most) (NNS=H patients))
+            (VP=H (VBP=H require)
+            (NP
+            (NP=H (CD 3-4) (NNS=H gelcaps))
+            (PP (IN=H with)
+            (NP (DT each) (NN=H meal)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Drug" charOffset="2162-2168" headOffset="2162-2168" text="PhosLo"/>
+    <Term xml:space="preserve" id="T2" type="Drug_Class" charOffset="2205-2218" headOffset="2205-2218" text="tetracyclines"/>
+    <Term xml:space="preserve" id="T3" type="Drug_Class" charOffset="2222-2238" headOffset="2222-2238" text="fluoroquinolones"/>
+    <Term xml:space="preserve" id="T5" type="Drug" charOffset="3036-3059" headOffset="3052-3059" text="calcium acetate tablets"/>
+    <Term xml:space="preserve" id="T6" type="Drug" charOffset="3114-3127" headOffset="3114-3127" text="ciprofloxacin"/>
+    <Term xml:space="preserve" id="T10" type="Drug" charOffset="2618-2624" headOffset="2618-2624" text="PhosLo"/>
+    <Term xml:space="preserve" id="T11" type="Drug_Class" charOffset="2810-2834" headOffset="2823-2834" text="anti-seizure medications"/>
+    <Term xml:space="preserve" id="T12" type="Drug_Class" charOffset="2747-2774" headOffset="2763-2774" text="anti-arrhythmic medications"/>
+    <Term xml:space="preserve" id="T13" type="Drug" charOffset="1252-1261" headOffset="1260-1261" text="Vitamin D"/>
+    <Term xml:space="preserve" id="T14" type="Drug" charOffset="1964-1973" headOffset="1964-1973" text="digitalis"/>
+    <Term xml:space="preserve" id="T15" type="Drug" charOffset="2951-2964" headOffset="2951-2964" text="Ciprofloxacin"/>
+    <Term xml:space="preserve" id="T16" type="Drug" charOffset="0-6" headOffset="0-6" text="PHOSLO"/>
+    <Term xml:space="preserve" id="T17" type="Drug" charOffset="34-40" headOffset="34-40" text="PhosLo"/>
+    <Term xml:space="preserve" id="T18" type="Drug" charOffset="327-333" headOffset="327-333" text="PhosLo"/>
+    <Term xml:space="preserve" id="T19" type="Drug" charOffset="443-449" headOffset="443-449" text="PhosLo"/>
+    <Term xml:space="preserve" id="T20" type="Drug" charOffset="467-473" headOffset="467-473" text="PhosLo"/>
+    <Term xml:space="preserve" id="T21" type="Drug" charOffset="714-720" headOffset="714-720" text="PhosLo"/>
+    <Term xml:space="preserve" id="T22" type="Drug" charOffset="977-983" headOffset="977-983" text="PhosLo"/>
+    <Term xml:space="preserve" id="T23" type="Drug" charOffset="1173-1179" headOffset="1173-1179" text="PhosLo"/>
+    <Term xml:space="preserve" id="T24" type="Drug" charOffset="1535-1541" headOffset="1535-1541" text="PhosLo"/>
+    <Term xml:space="preserve" id="T25" type="Drug" charOffset="2031-2037" headOffset="2031-2037" text="PhosLo"/>
+    <Term xml:space="preserve" id="T26" type="Drug" charOffset="2345-2351" headOffset="2345-2351" text="PhosLo"/>
+    <Term xml:space="preserve" id="T27" type="Drug" charOffset="2424-2430" headOffset="2424-2430" text="PhosLo"/>
+    <Term xml:space="preserve" id="T28" type="Drug" charOffset="3211-3217" headOffset="3211-3217" text="PhosLo"/>
+    <Term xml:space="preserve" id="T29" type="Drug_Class" charOffset="415-423" headOffset="415-423" text="antacids"/>
+    <Term xml:space="preserve" id="T32" type="Drug_Class" charOffset="1923-1934" headOffset="1923-1934" text="Medications"/>
+    <Term xml:space="preserve" id="T8" type="Drug_Class" charOffset="2403-2418" headOffset="2408-2418" text="oral medication"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T4"/>
+        <Antecedent idref="T17"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T31"/>
+        <Antecedent idref="T8"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T30"/>
+        <Antecedent idref="T8"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T7"/>
+        <Antecedent idref="T8"/>
+    </Relation>
+    <Term xml:space="preserve" id="T31" type="DemonstrativeNP" charOffset="2475-2490" headOffset="2480-2490" text="that medication"/>
+    <Term xml:space="preserve" id="T4" type="PossessivePronoun" charOffset="70-73" headOffset="70-73" text="Its"/>
+    <Term xml:space="preserve" id="T30" type="DefiniteNP" charOffset="2572-2580" headOffset="2576-2580" text="the drug"/>
+    <Term xml:space="preserve" id="T7" type="PossessivePronoun" charOffset="2537-2540" headOffset="2537-2540" text="its"/>
+</document>

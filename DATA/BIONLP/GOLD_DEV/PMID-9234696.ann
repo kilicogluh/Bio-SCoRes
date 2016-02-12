@@ -1,0 +1,33 @@
+T1	Protein 30 43	interleukin 2
+T2	Protein 45 49	IL-2
+T3	Protein 78 83	c-Raf
+T4	Protein 105 109	IL-2
+T5	Protein 347 360	interleukin 2
+T6	Protein 361 366	(IL-2
+T7	Protein 516 521	c-Raf
+T8	Protein 591 595	IL-2
+T9	Protein 743 747	IL-2
+T10	Protein 779 783	IL-2
+T11	Protein 832 836	IL-2
+T12	Protein 1296 1300	IL-2
+T13	Protein 1375 1379	IL-2
+T14	Protein 1427 1430	BXB
+T15	Protein 1465 1470	c-Raf
+T16	Protein 1644 1649	c-Raf
+T17	Protein 1868 1872	IL-2
+T18	Exp 399 432	Prominent protein kinase cascades	424 432	cascades
+T19	Exp 437 442	those
+T20	Exp 443 447	that
+T21	Exp 516 521	c-Raf
+T22	Exp 523 528	which
+T23	Exp 767 792	this distal IL-2 enhancer	784 792	enhancer
+T24	Exp 819 854	the proximal IL-2 promoter-enhancer	837 854	promoter-enhancer
+T25	Exp 862 864	it
+T26	Exp 1073 1092	the distal enhancer	1084 1092	enhancer
+T27	Exp 1094 1099	which
+R1	Coref Anaphora:T19 Antecedent:T18
+R2	Coref Anaphora:T20 Antecedent:T18
+R3	Coref Anaphora:T22 Antecedent:T21	[T7]
+R4	Coref Anaphora:T25 Antecedent:T24	[T11]
+R5	Coref Anaphora:T26 Antecedent:T23	[T10]
+R6	Coref Anaphora:T27 Antecedent:T26

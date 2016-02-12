@@ -1,0 +1,94 @@
+T0	Drug_Class 449 483	monoamine oxidase (MAO) inhibitors
+T1	Drug_Class 4238 4273	halogenated hydrocarbon anesthetics
+T2	Drug_Class 4747 4782	halogenated hydrocarbon anesthetics
+T3	Drug_Class 1150 1179	Solutions containing dextrose
+T4	Drug_Class 4372 4413	intravenously administered catecholamines
+T5	Drug 5311 5332	low-dose dopamine HCl
+T6	Drug_Class 5337 5352	diuretic agents
+T7	Drug_Class 5417 5442	Tricyclic antidepressants
+T8	Drug 2032 2044	dopamine HCl
+T9	Drug 2343 2355	dopamine HCl
+T10	Drug 4092 4104	dopamine HCl
+T11	Drug 4696 4708	dopamine HCl
+T12	Drug 5681 5693	dopamine HCl
+T13	Drug 6226 6238	dopamine HCl
+T14	Drug 6340 6352	dopamine HCl
+T15	Drug 6585 6597	dopamine HCl
+T16	Drug 6601 6613	Dopamine HCl
+T17	Drug 6990 7002	dopamine HCl
+T18	Drug 7491 7503	dopamine HCl
+T19	Drug 7621 7633	dopamine HCl
+T20	Drug 7905 7917	dopamine HCl
+T21	Drug 8392 8404	dopamine HCl
+T22	Drug 8436 8448	Dopamine HCl
+T23	Drug 8920 8932	dopamine HCl
+T24	Drug_Class 5092 5106	MAO inhibitors
+T25	Drug 26 48	Dopamine Hydrochloride
+T26	Drug 74 96	DOPAMINE HYDROCHLORIDE
+T27	Drug 120 142	Dopamine hydrochloride
+T28	Drug 686 708	Dopamine Hydrochloride
+T29	Drug 3128 3150	Dopamine Hydrochloride
+T30	Drug 5205 5227	dopamine hydrochloride
+T31	Drug_Class 1777 1793	adrenergic agent
+T32	Drug_Class 5488 5505	adrenergic agents
+T33	Drug_Class 6124 6138	oxytocic drugs
+T34	Drug_Class 8714 8728	oxytocic drugs
+T35	Substance 394 411	alkaline solution
+T36	Substance 4956 4973	monoamine oxidase
+T37	Drug 1724 1741	dopamine infusion
+T38	Drug 2943 2960	dopamine infusion
+T39	Drug 6012 6029	dopamine infusion
+T40	Drug 4906 4917	propranolol
+T41	Drug 5597 5608	propranolol
+T42	Drug 2427 2441	norepinephrine
+T43	Drug 6194 6203	phenytoin
+T44	Drug 6370 6379	phenytoin
+T45	Drug 5613 5623	metoprolol
+T46	Drug_Class 5911 5925	phenothiazines
+T47	Drug 4222 4234	Cyclopropane
+T48	Drug 4731 4743	cyclopropane
+T49	Drug 5894 5905	haloperidol
+T50	Drug 197 205	Dopamine
+T51	Drug 367 375	dopamine
+T52	Drug 511 519	dopamine
+T53	Drug 1939 1947	dopamine
+T54	Drug 3879 3899	Infusion of dopamine
+T55	Drug 4423 4431	dopamine
+T56	Drug 4828 4836	dopamine
+T57	Drug 4929 4937	dopamine
+T58	Drug 5046 5054	dopamine
+T59	Drug 5164 5172	dopamine
+T60	Drug 5528 5536	dopamine
+T61	Drug 5745 5753	Dopamine
+T62	Drug 8987 8995	Dopamine
+T63	Drug 9335 9343	dopamine
+T64	Drug 9583 9591	dopamine
+T65	Substance 1329 1353	potassium-free solutions
+T66	Drug_Class 5870 5884	Butyrophenones
+T67	Drug_Class 6404 6418	anticonvulsant
+T68	Drug 6103 6113	ergonovine
+T69	Drug 3934 3941	thyroid
+T70	Drug_Class 6056 6068	vasopressors
+T71	Drug_Class 631 642	medications
+T73	DefiniteNP 567 577	the latter
+T74	DemonstrativeNP 671 684	this solution
+T75	Drug 26 61	Dopamine Hydrochloride and Dextrose
+T76	IndefiniteNP 770 779	a sulfite
+T77	Substance 748 768	sodium metabisulfite
+T78	DemonstrativeNP 1429 1444	these solutions
+T80	DefiniteNP 3088 3100	the infusion
+T81	DefiniteNP 4024 4036	the infusion
+T83	DemonstrativeNP 4550 4570	these catecholamines
+T84	DemonstrativeNP 4995 5006	this enzyme
+T85	DemonstrativeNP 8803 8812	this drug
+T86	Drug_Class 6070 6093	vasoconstricting agents
+T88	Drug_Class 8594 8611	vasopressor drugs
+R2	Anaphora Anaphor:T73 Antecedent:T52
+R3	Anaphora Anaphor:T74 Antecedent:T75
+R4	Appositive Attribute:T76 Head:T77
+R5	Anaphora Anaphor:T78 Antecedent:T65
+R7	Anaphora Anaphor:T80 Antecedent:T38
+R8	Anaphora Anaphor:T81 Antecedent:T54
+R12	Anaphora Anaphor:T83 Antecedent:T4
+R13	Anaphora Anaphor:T84 Antecedent:T36
+R14	Anaphora Anaphor:T85 Antecedent:T22

@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<project name="Coref-Tasks" default="main" basedir=".">
+  <property name="src.dir" location="src/" />
+  <property name="build.dir" location="classes/" />
+  <property name="dist.dir" location="dist/" />
+  <property name="docs.dir" location="javadoc/" />
+  <property name="ling.src.dir" value="${src.dir}/gov/nih/nlm/ling"></property>
+  <property name="ling.docs.dir" value="${docs.dir}/gov/nih/nlm/ling"></property>		
+  <property name="bioscores.src.dir" value="${src.dir}/gov/nih/nlm/bioscores"></property>
+  <property name="bioscores.docs.dir" value="${docs.dir}/gov/nih/nlm/bioscores"></property>		
+  <property name="coreftasks.src.dir" value="${src.dir}/tasks/coref"></property>
+  <property name="coreftasks.docs.dir" value="${docs.dir}/tasks/coref"></property>	
+
+
+  <path id="class-path">
+    <pathelement location="lib/xom.jar"/>
+    <pathelement location="lib/stanford-corenlp-3.3.1.jar"/>
+    <pathelement location="lib/jaws-bin.jar"/>   	
+    <pathelement location="lib/jgrapht-core-0.9.0.jar"/> 
+    <pathelement location="lib/collections-generic-4.01.jar"/>   
+    <pathelement location="dist/ling.jar"/>  	
+    <pathelement location="dist/bioscores.jar"/> 
+    <pathelement location="dist/coref-tasks.jar"/>  	
+  </path>
+        	
+  <!-- Deletes the existing build, docs and dist directory-->
+  <target name="clean">
+    <delete dir="${build.dir}" />
+    <delete dir="${docs.dir}" />
+    <delete dir="${dist.dir}" />
+  </target>
+
+  <!-- Creates the  build, docs and dist directory-->
+  <target name="makedir" >
+    <mkdir dir="${dist.dir}" />
+    <mkdir dir="${build.dir}" />
+    <mkdir dir="${docs.dir}" />
+  </target>
+
+  <!-- Compiles the java code (including the usage of library for JUnit -->
+	
+	
+  <target name="compile" depends="compile-ling,compile-bioscores,compile-coreftasks"/>
+		
+  <target name="compile-ling">
+		<javac srcdir="${ling.src.dir}" destdir="${build.dir}" debug="true" includeantruntime="false" debuglevel="lines,vars,source">
+			<classpath refid="class-path"></classpath>
+		</javac>
+   </target>	
+	  
+	<target name="compile-bioscores" depends="jar-ling">
+		<javac srcdir="${bioscores.src.dir}" destdir="${build.dir}" debug="true" includeantruntime="false" debuglevel="lines,vars,source">
+			<classpath refid="class-path"></classpath>
+		</javac>
+	</target>	
+	
+  <target name="compile-coreftasks" depends="jar-ling, jar-bioscores">
+		<javac srcdir="${coreftasks.src.dir}" destdir="${build.dir}" debug="true" includeantruntime="false" debuglevel="lines,vars,source">
+			<classpath refid="class-path"></classpath>
+		</javac>
+  </target>	
+	
+  <target name="jar" depends="jar-ling,jar-bioscores,jar-coreftasks"/>
+
+	<target name="jar-ling" depends="compile-ling">
+		<jar destfile="${dist.dir}/ling.jar">
+			<manifest>
+			</manifest>
+			<fileset dir="${build.dir}" includes="gov/nih/nlm/ling/**"/>
+		</jar>
+	  </target>	
+	
+	<target name="jar-bioscores" depends="compile-bioscores">
+		<jar destfile="${dist.dir}/bioscores.jar">
+			<manifest>
+		    	<attribute name="Main-Class" value="gov.nih.nlm.bioscores.core.GenericCoreferencePipeline" />
+			</manifest>
+			<fileset dir="${build.dir}" includes="gov/nih/nlm/bioscores/**"/>
+		</jar>
+	  </target>	
+	
+	<target name="jar-coreftasks" depends="compile-coreftasks">
+		<jar destfile="${dist.dir}/coref_tasks.jar">
+			<manifest>
+		    	<attribute name="Main-Class" value="tasks.coref.spl.SPLCoreferencePipeline" />
+			</manifest>
+			<fileset dir="${build.dir}" includes="tasks/**"/>
+		</jar>
+	  </target>	
+	
+  <!-- Creates Javadoc -->	
+	  <target name="docs">
+	    <javadoc packagenames="gov.nih.nlm.ling.*,gov.nih.nlm.bioscores.*,tasks.coref.*" sourcepath="${src.dir}" destdir="${docs.dir}"
+	    	author="true" version="true" use="true" splitindex="true" bottom="Copyright © 2016 National Library of Medicine." >
+			<classpath refid="class-path"></classpath>
+	    	<fileset dir="${src.dir}">
+	                <include name="**.java" />
+	           </fileset>
+	    </javadoc> 
+	  </target>
+
+	
+  <target name="main" depends="clean, makedir, compile, jar, docs">
+    <description>Main target</description>
+  </target>
+
+</project> 

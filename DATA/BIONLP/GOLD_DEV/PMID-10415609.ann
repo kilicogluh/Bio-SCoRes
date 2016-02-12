@@ -1,0 +1,19 @@
+T1	Protein 490 494	IL-2
+T2	Protein 496 500	IL-6
+T3	Protein 502 511	TNF-alpha
+T4	Protein 513 518	IL-10
+T5	Exp 99 138	Different glucocorticoid hormones (GCH)
+T6	Exp 196 201	their
+T7	Exp 229 262	The mechanism(s) of action of GCH	233 245	mechanism(s)
+T8	Exp 314 318	they
+T9	Exp 397 413	prednisone (PDN)
+T10	Exp 672 695	the three GCH molecules	686 695	molecules
+T11	Exp 976 996	the binding activity	988 996	activity
+T12	Exp 1016 1020	that
+T13	Exp 1087 1110	different GCH compounds	1101 1110	compounds
+T14	Exp 1127 1132	their
+R1	Coref Anaphora:T6 Antecedent:T5
+R2	Coref Anaphora:T8 Antecedent:T7
+R3	Coref Anaphora:T10 Antecedent:T9
+R4	Coref Anaphora:T12 Antecedent:T11
+R5	Coref Anaphora:T14 Antecedent:T13

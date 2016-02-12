@@ -1,0 +1,27 @@
+T1	Drug_Class 1838 1866	nitric oxide donor compounds
+T2	Drug 1878 1898	sodium nitroprusside
+T3	Drug 1903 1916	nitroglycerin
+T5	Drug 1951 1957	INOmax
+T6	Drug 2026 2036	prilocaine
+T10	Drug 1710 1720	dobutamine
+T11	Drug 1700 1708	dopamine
+T12	Drug 0 6	INOMAX
+T13	Drug 28 34	INOmax
+T14	Drug 130 136	INOmax
+T15	Drug 188 194	INOmax
+T16	Drug 369 375	INOmax
+T17	Drug 745 751	INOmax
+T18	Drug 815 821	INOmax
+T19	Drug 1654 1660	INOmax
+T20	Drug_Class 1722 1730	steroids
+T21	Drug_Class 1541 1552	medications
+T4	IndefiniteNP 57 90	a drug administered by inhalation
+T7	DefiniteNP 106 136	the active substance in INOmax
+T8	Drug 92 104	Nitric oxide
+T9	IndefiniteNP 141 164	a pulmonary vasodilator
+T22	DefiniteNP 2196 2205	the drugs
+R1	PredicateNominative Attribute:T4 Head:T13
+R2	Appositive Attribute:T7 Head:T8
+R3	PredicateNominative Attribute:T9 Head:T8
+R4	Anaphora Anaphor:T22 Antecedent:T1
+R5	Anaphora Anaphor:T22 Antecedent:T5

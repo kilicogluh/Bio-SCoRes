@@ -1,0 +1,35 @@
+T1	Protein 50 76	mineralocorticoid receptor
+T2	Protein 249 275	mineralocorticoid receptor
+T3	Protein 278 280	MR
+T4	Protein 478 480	MR
+T5	Protein 619 621	MR
+T6	Protein 662 664	MR
+T7	Protein 690 692	MR
+T8	Protein 918 920	MR
+T9	Protein 960 962	MR
+T10	Protein 1065 1067	MR
+T11	Protein 1328 1330	MR
+T12	Protein 1356 1358	MR
+T13	Protein 1433 1438	hsp90
+T14	Protein 1471 1474	hMR
+T15	Exp 505 513	mAb 18C7
+T16	Exp 531 534	its
+T17	Exp 564 577	This antibody	569 577	antibody
+T18	Exp 857 869	the antibody
+T19	Exp 927 931	18C7
+T20	Exp 964 966	it
+T21	Exp 1001 1012	the hormone
+T22	Exp 1018 1021	its
+T23	Exp 1041 1045	18C7
+T24	Exp 1104 1116	the antibody
+T25	Exp 1164 1168	18C7
+T26	Exp 1374 1377	its
+R1	Coref Anaphora:T16 Antecedent:T15
+R2	Coref Anaphora:T17 Antecedent:T15
+R3	Coref Anaphora:T18 Antecedent:T17
+R4	Coref Anaphora:T20 Antecedent:T19
+R5	Coref Anaphora:T22 Antecedent:T21
+R6	Coref Anaphora:T23 Antecedent:T19
+R7	Coref Anaphora:T24 Antecedent:T23
+R8	Coref Anaphora:T25 Antecedent:T23
+R9	Coref Anaphora:T26 Antecedent:T25

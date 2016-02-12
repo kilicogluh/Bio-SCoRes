@@ -1,0 +1,75 @@
+T17	ZeroArticleNP 46 54	solution
+T18	ZeroArticleNP 78 94	Sterile Solution
+T19	ZeroArticleNP 99 121	intravascular infusion
+T20	ZeroArticleNP 364 372	Solution
+T21	DefiniteNP 471 485	the first hour
+T22	ZeroArticleNP 489 502	drug infusion
+T23	PersonalPronoun 793 795	it
+T24	ZeroArticleNP 732 769	PROSTIN VR PEDIATRIC Sterile Solution
+T25	DefiniteNP 878 896	The administration
+T26	DefiniteNP 1087 1095	the drug
+T27	DemonstrativeNP 1007 1018	This effect
+T28	ZeroArticleNP 1056 1063	therapy
+T29	DefiniteNP 1321 1338	the shortest time
+T30	DefiniteNP 1346 1361	the lowest dose
+T31	DefiniteNP 1380 1399	the desired effects
+T32	PossessivePronoun 1549 1567	its administration
+T33	DefiniteNP 1401 1410	The risks
+T34	DefiniteNP 1483 1504	the possible benefits
+T35	ZeroArticleNP 1414 1432	long-term infusion
+T36	DefiniteNP 1630 1644	the long bones
+T37	ZeroArticleNP 1711 1745	long-term infusions of alprostadil
+T38	DefiniteNP 1747 1773	The cortical proliferation
+T39	DefiniteNP 1815 1823	the drug
+T40	DefiniteNP 1874 1889	the usual doses
+T41	DefiniteNP 1997 2007	the ductus
+T42	DefiniteNP 2114 2152	the medial and internal elastic lamina
+T43	IndefiniteNP 2063 2073	a decrease
+T44	IndefiniteNP 2240 2248	a series
+T45	DefiniteNP 2327 2340	The incidence
+T46	DemonstrativeNP 2344 2371	such structural alterations
+T47	IndefiniteNP 2609 2633	A differential diagnosis
+T48	IndefiniteNP 2918 2926	an X-ray
+T49	IndefiniteNP 3009 3021	all neonates
+T50	IndefiniteNP 3128 3148	a Doppler transducer
+T51	DefiniteNP 3204 3212	the rate
+T52	ZeroArticleNP 3216 3224	infusion
+T53	DefiniteNP 3602 3622	the therapy standard
+T54	ZeroArticleNP 3685 3701	Standard therapy
+T55	ZeroArticleNP 3833 3842	diuretics
+T56	DefiniteNP 3999 4007	The Ames
+T57	DefiniteNP 4101 4120	The preferred route
+T58	IndefiniteNP 4221 4233	a large vein
+T59	ZeroArticleNP 4172 4180	Solution
+T60	ZeroArticleNP 4184 4215	continuous intravenous infusion
+T61	DefiniteNP 4338 4356	the ductal opening
+T62	IndefiniteNP 4299 4327	an umbilical artery catheter
+T63	DistributivePronoun 4444 4450	either
+T64	DefiniteNP 4398 4406	the same
+T65	DefiniteNP 4432 4440	the drug
+T66	DistributiveNP 4444 4456	either route
+T67	ZeroArticleNP 4483 4491	infusion
+T68	IndefiniteNP 4572 4587	A starting dose
+T69	IndefiniteNP 4765 4780	a starting dose
+T70	DefiniteNP 5050 5067	the infusion rate
+T71	DefiniteNP 5079 5105	the lowest possible dosage
+T72	DefiniteNP 5121 5133	the response
+T73	IndefiniteNP 4846 4868	a therapeutic response
+T74	DefiniteNP 5172 5182	the dosage
+T75	ZeroArticleNP 5459 5480	higher infusion rates
+T0	Drug_Class 3809 3827	cardiac glycosides
+T1	Drug_Class 3833 3842	diuretics
+T2	Drug 221 228	alcohol
+T3	Drug 3852 3862	furosemide
+T4	Drug 3781 3789	dopamine
+T5	Drug 3794 3807	isoproterenol
+T6	Drug_Class 3759 3771	vasopressors
+T11	Drug 732 769	PROSTIN VR PEDIATRIC Sterile Solution
+T13	Drug 1436 1456	PROSTIN VR PEDIATRIC
+T14	Drug 1721 1745	infusions of alprostadil
+T15	Drug 4250 4270	PROSTIN VR PEDIATRIC
+R6	Anaphora Anaphor:T23 Antecedent:T11
+R7	Anaphora Anaphor:T26 Antecedent:T28
+R8	Anaphora Anaphor:T32 Antecedent:T35
+R9	Anaphora Anaphor:T39 Antecedent:T13
+R10	Anaphora Anaphor:T65 Antecedent:T15
