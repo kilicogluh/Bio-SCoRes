@@ -285,6 +285,7 @@ public class StandoffAnnotationEvaluator {
 		map.put(RelationAnnotation.class, Arrays.asList("Coreference")); 
 		List<String> parseTypes= new ArrayList<>();
 		parseTypes.addAll(map.get(TermAnnotation.class));
+		parseTypes.addAll(map.get(RelationAnnotation.class));
 		if (useReference) parseTypes.add("Reference");
 		
 		int fileNum = 0;
