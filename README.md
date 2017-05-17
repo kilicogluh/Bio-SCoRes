@@ -14,6 +14,7 @@ coreference resolution pipelines that were used to evaluate the tool. These
 components are implemented in Java and are availabe from the URL: 
 https://github.com/kilicogluh/Bio-SCoRes.
 
+
 ------------------------
 Prerequisites
 ------------------------
@@ -178,8 +179,7 @@ Halil Kilicoglu
 CONTACT
 ---------
 
-- Halil Kilicoglu:      kilicogluh@mail.nlm.nih.gov
-- Dina Demner-Fushman:	ddemner@mail.nih.gov
+- Halil Kilicoglu:      kilicogluh@mail.nih.gov
 
 
 ---------

@@ -10,7 +10,8 @@
   <property name="bioscores.docs.dir" value="${docs.dir}/gov/nih/nlm/bioscores"></property>		
   <property name="coreftasks.src.dir" value="${src.dir}/tasks/coref"></property>
   <property name="coreftasks.docs.dir" value="${docs.dir}/tasks/coref"></property>	
-
+  <property name="factualitytasks.src.dir" value="${src.dir}/tasks/factuality"></property>
+  <property name="factualitytasks.docs.dir" value="${docs.dir}/tasks/factuality"></property>
 
   <path id="class-path">
     <pathelement location="lib/xom.jar"/>
@@ -21,6 +22,7 @@
     <pathelement location="dist/ling.jar"/>  	
     <pathelement location="dist/bioscores.jar"/> 
     <pathelement location="dist/coref-tasks.jar"/>  	
+    <pathelement location="dist/factuality-tasks.jar"/>    	
   </path>
         	
   <!-- Deletes the existing build, docs and dist directory-->
@@ -40,7 +42,7 @@
   <!-- Compiles the java code (including the usage of library for JUnit -->
 	
 	
-  <target name="compile" depends="compile-ling,compile-bioscores,compile-coreftasks"/>
+  <target name="compile" depends="compile-ling,compile-bioscores,compile-coreftasks,compile-factualitytasks"/>
 		
   <target name="compile-ling">
 		<javac srcdir="${ling.src.dir}" destdir="${build.dir}" debug="true" includeantruntime="false" debuglevel="lines,vars,source">
@@ -60,7 +62,13 @@
 		</javac>
   </target>	
 	
-  <target name="jar" depends="jar-ling,jar-bioscores,jar-coreftasks"/>
+  <target name="compile-factualitytasks" depends="jar-ling">
+		<javac srcdir="${factualitytasks.src.dir}" destdir="${build.dir}" debug="true" includeantruntime="false" debuglevel="lines,vars,source">
+			<classpath refid="class-path"></classpath>
+		</javac>
+  </target>		
+	
+  <target name="jar" depends="jar-ling,jar-bioscores,jar-coreftasks,jar-factualitytasks"/>
 
 	<target name="jar-ling" depends="compile-ling">
 		<jar destfile="${dist.dir}/ling.jar">
@@ -84,13 +92,22 @@
 			<manifest>
 		    	<attribute name="Main-Class" value="tasks.coref.spl.SPLCoreferencePipeline" />
 			</manifest>
-			<fileset dir="${build.dir}" includes="tasks/**"/>
+			<fileset dir="${build.dir}" includes="tasks/coref/**"/>
 		</jar>
 	  </target>	
 	
+	<target name="jar-factualitytasks" depends="compile-factualitytasks">
+		<jar destfile="${dist.dir}/factuality_tasks.jar">
+			<manifest>
+		    	<attribute name="Main-Class" value="tasks.factuality.semrep.SemRepFactualityPipeline" />
+			</manifest>
+			<fileset dir="${build.dir}" includes="tasks/factuality/**"/>
+		</jar>
+	  </target>		
+	
   <!-- Creates Javadoc -->	
 	  <target name="docs">
-	    <javadoc packagenames="gov.nih.nlm.ling.*,gov.nih.nlm.bioscores.*,tasks.coref.*" sourcepath="${src.dir}" destdir="${docs.dir}"
+	    <javadoc packagenames="gov.nih.nlm.ling.*,gov.nih.nlm.bioscores.*,tasks.coref.*,tasks.factuality.*" sourcepath="${src.dir}" destdir="${docs.dir}"
 	    	author="true" version="true" use="true" splitindex="true" bottom="Copyright © 2016 National Library of Medicine." >
 			<classpath refid="class-path"></classpath>
 	    	<fileset dir="${src.dir}">
