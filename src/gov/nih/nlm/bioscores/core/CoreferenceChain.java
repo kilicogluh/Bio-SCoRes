@@ -7,6 +7,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import gov.nih.nlm.ling.core.Document;
+import gov.nih.nlm.ling.core.Sentence;
 import gov.nih.nlm.ling.core.SurfaceElement;
 import gov.nih.nlm.ling.sem.AbstractRelation;
 import gov.nih.nlm.ling.sem.Argument;
@@ -296,6 +297,23 @@ public class CoreferenceChain extends AbstractRelation {
 	 */
 	public static CoreferenceChain getChainWithAnaphor(Term term) {
 		return getChainsWithTerm(term,"Anaphor").iterator().next();
+	}
+	
+	/**
+	 * Determines whether this coreference chain is inter-sentential or not.
+	 * 
+	 * @return  true if the chain spans multiple sentences.
+	 */
+	public boolean interSentential() {
+		List<SemanticItem> args = getArgItems();
+		if (args == null || args.size() < 2) {
+			throw new IllegalStateException("Incomplete coreference chain.." + id);
+		}
+		Sentence s = ((Term)args.get(0)).getSurfaceElement().getSentence();
+		for (int i=1; i< args.size(); i++) {
+			if (((Term)args.get(i)).getSurfaceElement().getSentence().equals(s) == false) return true;
+		}
+		return false;
 	}
 	
 }
