@@ -50,7 +50,7 @@ public class SPLCountTypes {
 			id = id.substring(id.lastIndexOf(File.separator)+1);
 			log.info("Processing " + id + ":" + ++fileNum);
 			String goldFilename = goldDir.getAbsolutePath() + File.separator + id + ".ann";
-			Map<String,List<String>> goldLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(goldFilename),parseTypes);
+			Map<StandoffAnnotationReader.AnnotationType,List<String>> goldLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(goldFilename),null,parseTypes);
 			Map<Class,List<Annotation>> gold = StandoffAnnotationReader.parseAnnotations(id,goldLines,null);
 			List<Annotation> corefs = gold.get(RelationAnnotation.class);
 			if (corefs == null) continue;

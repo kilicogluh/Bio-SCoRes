@@ -13,9 +13,8 @@ import java.util.logging.Logger;
 
 import gov.nih.nlm.bioscores.core.CoreferenceSemanticItemFactory;
 import gov.nih.nlm.bioscores.core.GenericCoreferencePipeline;
+import gov.nih.nlm.ling.brat.AbstractAnnotation;
 import gov.nih.nlm.ling.brat.Annotation;
-import gov.nih.nlm.ling.brat.EventAnnotation;
-import gov.nih.nlm.ling.brat.EventModificationAnnotation;
 import gov.nih.nlm.ling.brat.RelationAnnotation;
 import gov.nih.nlm.ling.brat.StandoffAnnotationReader;
 import gov.nih.nlm.ling.brat.TermAnnotation;
@@ -58,13 +57,11 @@ public class BioNLPCorefXMLWriter {
 		SemanticItemFactory csif = new CoreferenceSemanticItemFactory(doc,new HashMap<Class<? extends SemanticItem>,Integer>());
 		doc.setSemanticItemFactory(csif);
 		GenericCoreferencePipeline.analyze(doc,segmenter);
-		Map<String,List<String>> lines = StandoffAnnotationReader.readAnnotationFiles(annFilenames, parseTypes);
+		Map<StandoffAnnotationReader.AnnotationType,List<String>> lines = StandoffAnnotationReader.readAnnotationFiles(annFilenames, null,  parseTypes);
 		Map<Class,List<Annotation>> annotations = StandoffAnnotationReader.parseAnnotations(id, lines, null);
 		CoreferenceSemanticItemFactory sif = (CoreferenceSemanticItemFactory)doc.getSemanticItemFactory();	
-		Class[] processOrder = new Class[]{TermAnnotation.class,RelationAnnotation.class,
-				EventAnnotation.class,EventModificationAnnotation.class};
-		for (int i=0; i < processOrder.length; i++) {
-			Class c = processOrder[i];
+		for (int i=0; i < AbstractAnnotation.COMPLEXITY_ORDER.size(); i++) {
+			Class c = AbstractAnnotation.COMPLEXITY_ORDER.get(i);
 			List<Annotation> anns = annotations.get(c);
 			if (anns == null) continue;
 			for (Annotation ann: anns) {

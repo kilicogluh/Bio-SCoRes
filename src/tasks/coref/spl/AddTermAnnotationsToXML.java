@@ -48,7 +48,7 @@ public class AddTermAnnotationsToXML {
 	 * @return	XML representation of the document after adding annotations.
 	 */
 	public static Element processSingleFile(Document doc, String annFilename) {
-		Map<String,List<String>> lines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFilename), Constants.UMLS_SEMTYPES);
+		Map<StandoffAnnotationReader.AnnotationType,List<String>> lines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFilename), null, Constants.UMLS_SEMTYPES);
 		Map<Class,List<Annotation>> annotations = StandoffAnnotationReader.parseAnnotations(doc.getId(), lines, null);
 		SemanticItemFactory sif = doc.getSemanticItemFactory();	
 		Class[] processOrder = new Class[]{TermAnnotation.class,Reference.class};

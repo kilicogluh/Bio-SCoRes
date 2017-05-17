@@ -253,6 +253,7 @@ public class GenericCoreferencePipeline {
 		doc.setSentences(sentences);
 		for (int i=0; i < doc.getSentences().size(); i++) {
 			Sentence sent = doc.getSentences().get(i);
+			log.log(Level.FINE,"Extracted sentence: {0}", sent.getText());
 			sent.setDocument(doc);
 			// create word list, parse and dependencies to sentence
 			CoreNLPWrapper.coreNLP(sent);
@@ -534,7 +535,7 @@ public class GenericCoreferencePipeline {
 		SemanticItemFactory csif = new CoreferenceSemanticItemFactory(doc,new HashMap<Class<? extends SemanticItem>,Integer>());
 		doc.setSemanticItemFactory(csif);
 		analyze(doc,sentenceSegmenter);
-		Map<String,List<String>> lines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFile), null);
+		Map<StandoffAnnotationReader.AnnotationType,List<String>> lines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFile), null, null);
 		Map<Class,List<Annotation>> annotations = StandoffAnnotationReader.parseAnnotations(id, lines, null);
 		CoreferenceSemanticItemFactory sif = (CoreferenceSemanticItemFactory)doc.getSemanticItemFactory();	
 		List<Annotation> anns = annotations.get(TermAnnotation.class);

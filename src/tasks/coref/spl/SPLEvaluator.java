@@ -111,7 +111,7 @@ public class SPLEvaluator {
 			log.info("Processing " + id + ":" + ++fileNum);
 			String annFilename = annDir.getAbsolutePath() + File.separator + id + ".ann";
 			String goldFilename = goldDir.getAbsolutePath() + File.separator + id + ".ann";
-			StandoffAnnotationFileComparator.compare(id, annFilename, goldFilename, parseTypes, null, 
+			StandoffAnnotationFileComparator.compare(id, annFilename, goldFilename, null, parseTypes, null, 
 					approximateMatch, true, usedTermMatchOnly, false, annoTP, annoFP, annoFN);
 		}
 		PrintWriter pw = new PrintWriter(System.out);
