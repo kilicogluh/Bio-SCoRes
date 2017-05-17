@@ -137,7 +137,7 @@ public class TermAnnotation extends AbstractAnnotation {
 	public boolean exactMatch(Annotation a) {
 		if (a instanceof TermAnnotation == false) return false;
 		TermAnnotation at = (TermAnnotation) a;
-		return (type.equals(at.getType()) && span.equals(at.getSpan()));
+		return (type.equals(at.getType()) && span.equals(at.getSpan()) && text.equals(at.getText()));
 	}
 	
 	/**

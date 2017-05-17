@@ -139,6 +139,11 @@ public class PredicationAnnotation extends EventAnnotation {
 		return 1;	
 	}
 	
+	public boolean equals(Annotation a) {
+		if (a == null) return false;
+		return (a instanceof PredicationAnnotation && exactMatch(a));
+	}
+		
 	public int hashCode() {
 		return super.hashCode() +  59 * scale.hashCode() + new Double(value).hashCode();
 	}

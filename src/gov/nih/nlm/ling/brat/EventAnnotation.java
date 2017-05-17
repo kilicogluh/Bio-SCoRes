@@ -1,8 +1,8 @@
 package gov.nih.nlm.ling.brat;
 
-import gov.nih.nlm.ling.core.SpanList;
-
 import java.util.List;
+
+import gov.nih.nlm.ling.core.SpanList;
 
 /**
  * The class to represent an event annotation. An event is essentially
@@ -125,8 +125,8 @@ public class EventAnnotation extends RelationAnnotation {
 		return (predicate.referenceMatch(approximateMatch,aPred));
 	}
 	
-	public int compareTo(Annotation a) {
-		if (a instanceof EventModificationAnnotation) return -1;
+	public int compareTo(Annotation a) {	
+		if (a instanceof ModificationAnnotation) return -1;
 		if (a instanceof TermAnnotation) return 1;
 		if (a instanceof EventAnnotation) {
 			EventAnnotation ea = (EventAnnotation)a;
@@ -151,11 +151,12 @@ public class EventAnnotation extends RelationAnnotation {
 		return 1;	
 	}
 	
+	public boolean equals(Annotation a) {
+		if (a == null) return false;
+		return (a instanceof EventAnnotation && exactMatch(a));
+	}
+	
 	public int hashCode() {
-		int code = 73 * getSpan().hashCode() + 191 * predicate.hashCode();
-		for (AnnotationArgument aa: getArguments()) {
-			code += 103 * aa.hashCode();
-		}
-		return code;
+		return super.hashCode() + 191 * predicate.hashCode();
 	}	
 }

@@ -14,7 +14,8 @@ import gov.nih.nlm.ling.core.SpanList;
 public abstract class AbstractAnnotation implements Annotation {
 
 	public static final List<Class<? extends AbstractAnnotation>> COMPLEXITY_ORDER = 
-			Arrays.asList(TermAnnotation.class,RelationAnnotation.class,EventAnnotation.class,EventModificationAnnotation.class);
+			Arrays.asList(TermAnnotation.class,RelationAnnotation.class,EventAnnotation.class,
+					ModificationAnnotation.class);
 	
 	public final String id;
 	public final String docId;
@@ -27,13 +28,15 @@ public abstract class AbstractAnnotation implements Annotation {
 	 */
 	public static final Comparator<Annotation> SPAN_ORDER = new Comparator<Annotation>() {
 		public int compare(Annotation a1,Annotation a2) {
-			SpanList a1Sp = a1.getSpan();
-			SpanList a2Sp = a2.getSpan();
-			if (SpanList.atLeft(a2Sp,a1Sp)) return 1;
-			else if (a2Sp.equals(a1Sp)) {
-				int a1i = COMPLEXITY_ORDER.indexOf(a1.getClass());
-				int a2i = COMPLEXITY_ORDER.indexOf(a1.getClass());
-				if (a1i == a2i) {
+			int a1i = COMPLEXITY_ORDER.indexOf(a1.getClass());
+			int a2i = COMPLEXITY_ORDER.indexOf(a2.getClass());
+			int diff = a1i - a2i;
+			if (a1i == a2i) {
+				SpanList a1Sp = a1.getSpan();
+				SpanList a2Sp = a2.getSpan();
+				if (SpanList.atLeft(a2Sp,a1Sp)) return 1;
+				else if (SpanList.atLeft(a1Sp,a2Sp)) return -1;
+				else if (a2Sp.equals(a1Sp)) {
 					String a1Id = a1.getId(); String a2Id = a2.getId();
 					if (a1Id.equals(a2Id)) {
 						String a1Type = a1.getType(); String a2Type = a2.getType();
@@ -43,10 +46,10 @@ public abstract class AbstractAnnotation implements Annotation {
 						else return a1Type.compareTo(a2Type);
 					} else return a1Id.compareTo(a2Id);
 				}
-				else return a1i - a2i;
+				return 0;
 			}
-			else return -1;
-		}	
+			else return diff;
+		}
 	};
 	
 	/**

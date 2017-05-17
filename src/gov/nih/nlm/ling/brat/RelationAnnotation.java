@@ -1,10 +1,10 @@
 package gov.nih.nlm.ling.brat;
 
-import gov.nih.nlm.ling.core.SpanList;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+
+import gov.nih.nlm.ling.core.SpanList;
 
 /**
  * Represents a n-ary relation annotation. Each argument is associated with a specific role. 
@@ -281,7 +281,7 @@ public class RelationAnnotation extends AbstractAnnotation {
 	
 	public int compareTo(Annotation a) {
 		if (a instanceof TermAnnotation) return 1;
-		if (a instanceof EventAnnotation || a instanceof EventModificationAnnotation) return -1;
+		if (a instanceof EventAnnotation || a instanceof ModificationAnnotation) return -1;
 		RelationAnnotation rt = (RelationAnnotation)a;
 		int c = getSpan().compareTo(rt.getSpan());
 		if (c == 0) {
@@ -300,8 +300,14 @@ public class RelationAnnotation extends AbstractAnnotation {
 		return c;
 	}
 	
+	public boolean equals(Annotation a) {
+		if (a == null) return false;
+		return (a instanceof RelationAnnotation && exactMatch(a));
+	}
+	
 	public int hashCode() {
-		int code = 73 * getSpan().hashCode();
+//		int code = 73 * getSpan().hashCode() + 89 * type.hashCode() + 113 * id.hashCode();
+		int code = 89 * type.hashCode();
 		for (AnnotationArgument aa: getArguments()) {
 			code += 119 * aa.hashCode();
 		}

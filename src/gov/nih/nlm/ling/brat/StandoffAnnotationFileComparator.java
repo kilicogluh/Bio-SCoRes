@@ -12,10 +12,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-import java.util.TreeSet;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import gov.nih.nlm.ling.brat.StandoffAnnotationReader.AnnotationType;
 import gov.nih.nlm.ling.core.SpanList;
 import gov.nih.nlm.ling.util.CollectionUtils;
 
@@ -37,6 +37,7 @@ public class StandoffAnnotationFileComparator {
 	 * @param id 				document id, presumably compared files have the same id
 	 * @param annFilename 		the first file to compare
 	 * @param goldFilename 		the second file to compare (or the gold file in the case of evaluation)
+	 * @param prefixMap			a map that defines which prefix corresponds to which annotation type (e.g., 'T' -&gt; 'Term'), if null, defaults are used
 	 * @param parseTypes 		the semantic types to compare
 	 * @param ignoreArgTypes  	the relation argument types to ignore in comparison (Cue, etc.), if any
 	 * @param approximateMatch 	whether to perform approximate span matching  
@@ -49,14 +50,14 @@ public class StandoffAnnotationFileComparator {
 	 * 
 	 * @throws IOException	if there is a problem with reading annotation or gold standard files 
 	 */
-	public static void compare(String id, String annFilename, String goldFilename, List<String> parseTypes, List<String> ignoreArgTypes,
+	public static void compare(String id, String annFilename, String goldFilename, Map<String,AnnotationType> prefixMap, List<String> parseTypes, List<String> ignoreArgTypes,
 							   boolean approximateMatch, boolean useReference, boolean matchUsedTermsOnly, boolean evaluateSPAN,
 							   Map<String,List<Annotation>> annoTP, 
 							   Map<String,List<Annotation>> annoFP, 
 							   Map<String,List<Annotation>> annoFN) 
 								throws IOException {
-		Map<String,List<String>> annLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFilename),parseTypes);
-		Map<String,List<String>> goldLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(goldFilename),parseTypes);
+		Map<StandoffAnnotationReader.AnnotationType,List<String>> annLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFilename),prefixMap,parseTypes);
+		Map<StandoffAnnotationReader.AnnotationType,List<String>> goldLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(goldFilename),prefixMap,parseTypes);
 		Map<Class,List<Annotation>> anns = StandoffAnnotationReader.parseAnnotations(id,annLines,ignoreArgTypes);
 		Map<Class,List<Annotation>> gold = StandoffAnnotationReader.parseAnnotations(id,goldLines,ignoreArgTypes);
 		if (evaluateSPAN) {
@@ -66,7 +67,7 @@ public class StandoffAnnotationFileComparator {
 		compareTerms(anns, gold, approximateMatch, matchUsedTermsOnly, annoTP, annoFP, annoFN);
 		compareRelations(anns, gold, approximateMatch, useReference, evaluateSPAN, annoTP, annoFP, annoFN);
 		compareEvents(anns, gold, approximateMatch, useReference, evaluateSPAN, annoTP, annoFP, annoFN);	
-		compareEventModifications(anns, gold, approximateMatch, annoTP, annoFP, annoFN);
+		compareModifications(anns, gold, approximateMatch, annoTP, annoFP, annoFN);
 	}
 		
 	private static boolean isUsed(TermAnnotation t, Map<Class,List<Annotation>> anns1, Map<Class,List<Annotation>> anns2) {
@@ -256,7 +257,7 @@ public class StandoffAnnotationFileComparator {
 					}
 				}
 			}
-			for (Annotation a : anns1) {
+			for (Annotation a : anns1) {	
 				if (ann1Pairs.contains(a) == false) addEvaluation(evaluateSPAN,a,annoFP);
 			}
 			for (Annotation b : anns2) {
@@ -324,7 +325,7 @@ public class StandoffAnnotationFileComparator {
 	}
 	
 	/**
-	 * Compares {@link EventModificationAnnotation} objects
+	 * Compares {@link ModificationAnnotation} objects
 	 * 
 	 * @param annotations1  all annotations from the first file
 	 * @param annotations2  all annotations from the second file
@@ -334,12 +335,12 @@ public class StandoffAnnotationFileComparator {
 	 * @param annoFN  returned false negative annotations
 	 * 
 	 */
-	public static void compareEventModifications(Map<Class,List<Annotation>> annotations1, Map<Class,List<Annotation>> annotations2, 
-			   									 boolean approximateMatch,  
-			   									 Map<String,List<Annotation>> annoTP, Map<String,List<Annotation>> annoFP, 
-			   									 Map<String,List<Annotation>> annoFN) {
-		List<Annotation> anns1 = annotations1.get(EventModificationAnnotation.class);
-		List<Annotation> anns2 = annotations2.get(EventModificationAnnotation.class);
+	public static void compareModifications(Map<Class,List<Annotation>> annotations1, Map<Class,List<Annotation>> annotations2, 
+			boolean approximateMatch,  
+			Map<String,List<Annotation>> annoTP, Map<String,List<Annotation>> annoFP, 
+			Map<String,List<Annotation>> annoFN) {
+		List<Annotation> anns1 = annotations1.get(ModificationAnnotation.class);
+		List<Annotation> anns2 = annotations2.get(ModificationAnnotation.class);
 		if (anns1 == null && anns2 == null) return;
 		if (anns1 == null) {
 			for (Annotation b: anns2) addEvaluation(false,b,annoFN);
@@ -350,12 +351,12 @@ public class StandoffAnnotationFileComparator {
 			Set<Annotation> ann1Pairs = new HashSet<>();
 			Set<Annotation> ann2Pairs = new HashSet<>();
 			for (Annotation a : anns1) {
-				EventModificationAnnotation ea = (EventModificationAnnotation)a;
+				ModificationAnnotation ea = (ModificationAnnotation)a;
 				for (Annotation b : anns2) {
-					EventModificationAnnotation eb = (EventModificationAnnotation)b;
+					ModificationAnnotation eb = (ModificationAnnotation)b;
 					if (!(ann1Pairs.contains(ea)) && !(ann2Pairs.contains(eb))) {
 						if ((!approximateMatch && ea.exactMatch(eb)) ||
-							(approximateMatch && ea.approximateMatch(eb))) {
+								(approximateMatch && ea.approximateMatch(eb))) {
 							ann1Pairs.add(ea);
 							ann2Pairs.add(eb);
 							addEvaluation(false,a,annoTP);
@@ -365,14 +366,16 @@ public class StandoffAnnotationFileComparator {
 				}
 			}
 			for (Annotation a : anns1) {
-				if (ann1Pairs.contains(a) == false) addEvaluation(false,a,annoFP);
+				if (ann1Pairs.contains(a) == false) {
+					addEvaluation(false,a,annoFP);
+				}
 			}
 			for (Annotation b : anns2) {
 				if (ann2Pairs.contains(b) == false) addEvaluation(false,b,annoFN);
 			}
 		}
-	}
-		
+	}	
+	
 	private static void mapSPANTerms(List<Annotation> goldTerms) {
 		for (Annotation g: goldTerms) {
 			if (isSPANAnnotation(g)) {
@@ -500,7 +503,7 @@ public class StandoffAnnotationFileComparator {
 		parseTypes.addAll(map.get(TermAnnotation.class));
 		parseTypes.addAll(map.get(RelationAnnotation.class));
 		parseTypes.addAll(map.get(EventAnnotation.class));
-		compare(filenameNoExt,annFile,goldFile,parseTypes,null,
+		compare(filenameNoExt,annFile,goldFile,null,parseTypes,null,
 				approximateMatch,useReference,usedTermMatchOnly,evaluateSPAN,
 				annoTP,annoFP,annoFN);
 		PrintWriter pw = new PrintWriter(System.out);

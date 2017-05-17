@@ -13,6 +13,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import gov.nih.nlm.ling.brat.StandoffAnnotationReader.AnnotationType;
 import gov.nih.nlm.ling.core.Document;
 import gov.nih.nlm.ling.core.Span;
 import gov.nih.nlm.ling.core.SpanList;
@@ -118,10 +119,10 @@ public class StandoffPreAnnotator {
 					final Map<String, String> preAnns, final Map<String,Integer> preAnnCounts, String outAnnFile) {
 		List<String> newLines = new ArrayList<>();
 		Document doc = StandoffAnnotationReader.readTextFile(id,textFile);
-		Map<String,List<String>> annotationLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFile), null);
+		Map<StandoffAnnotationReader.AnnotationType,List<String>> annotationLines = StandoffAnnotationReader.readAnnotationFiles(Arrays.asList(annFile), null, null);
 		// Currently, we are only pre-annotating entities
-		int max = maxId(annotationLines.get("Term"));
-		Map<SpanList,String> spanMap = createSpanMap(annotationLines.get("Term"));
+		int max = maxId(annotationLines.get(AnnotationType.Term));
+		Map<SpanList,String> spanMap = createSpanMap(annotationLines.get(AnnotationType.Term));
 		String docLowerCase = doc.getText().toLowerCase();
 		List<String> preAnnStrs = new ArrayList<String>(preAnns.keySet());
 		// sort by counts

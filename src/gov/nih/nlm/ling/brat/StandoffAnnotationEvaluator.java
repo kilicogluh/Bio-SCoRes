@@ -295,7 +295,7 @@ public class StandoffAnnotationEvaluator {
 			log.log(Level.INFO,"Processing {0}: {1}", new Object[]{id,++fileNum});
 			String annFilename = annDir.getAbsolutePath() + File.separator + id + ".ann";
 			String goldFilename = goldDir.getAbsolutePath() + File.separator + id + ".ann";
-			StandoffAnnotationFileComparator.compare(id, annFilename, goldFilename, parseTypes, null,
+			StandoffAnnotationFileComparator.compare(id, annFilename, goldFilename, null, parseTypes, null,
 					approximateMatch, useReference, usedTermMatchOnly, evaluateSPAN, annoTP, annoFP, annoFN);
 		}
 		PrintWriter pw = new PrintWriter(System.out);

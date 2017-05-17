@@ -65,4 +65,13 @@ public class AnnotationArgument implements Comparable<AnnotationArgument> {
 		} else return rc;
 	}
 	
+	public boolean equals(AnnotationArgument a) {
+		if (a == null) return false;
+		return (role.equals(a.getRole()) && arg.equals(a.getArg()));
+	}
+	
+	public int hashCode() {
+		return 67 * role.hashCode() + 83 * arg.hashCode();
+	}
+	
 }

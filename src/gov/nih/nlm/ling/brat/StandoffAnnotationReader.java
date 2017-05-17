@@ -35,6 +35,41 @@ import gov.nih.nlm.ling.util.FileUtils;
 public class StandoffAnnotationReader {
 	private static Logger log = Logger.getLogger(StandoffAnnotationReader.class.getName());	
 	
+	/**
+	 * An enum that associates annotation classes with the prefixes that correspond to it.
+	 * 
+	 * We could have used the annotation classes that implement {#link Annotation} interface directly,
+	 * but for some standoff annotation types we encountered (such as Equiv, Annotator Note), we 
+	 * do not currently have corresponding annotation classes, so we use this enum instead.
+	 * 
+	 * @author Halil Kilicoglu
+	 *
+	 */
+	public enum AnnotationType {
+		Equiv, Term, Relation, Event, Modification, Reference, AnnotatorNote;
+		
+		private String prefix;
+		
+		public static AnnotationType getDefault(String prefix) {
+			if (prefix.equals("*")) return Equiv;
+			else if (prefix.equals("T")) return Term;
+			else if (prefix.equals("R")) return Relation;
+			else if (prefix.equals("E")) return Event;
+			else if (prefix.equals("A")) return Modification;
+			else if (prefix.equals("N")) return Reference;
+			else if (prefix.equals("#")) return AnnotatorNote;
+			return null;
+		}
+			
+		public String getPrefix() {
+			return prefix;
+		}
+
+		public void setPrefix(String prefix) {
+			this.prefix = prefix;
+		}
+	}
+	
 	protected static final String DEFAULT_ENCODING = "UTF-8";
 	protected static final String FIELD_DELIMITER = "[ ]+";
 	
@@ -86,10 +121,12 @@ public class StandoffAnnotationReader {
 	 * If <var>parseTypes</var> is null, it will try to load all semantic types.
 	 * 
 	 * @param annFileNames	the list of standoff annotation files
+	 * @param prefixMap		the prefix map to use for associating lines with annotation classes; if null, defaults are used
 	 * @param parseTypes  	the list of semantic types to parse
-	 * @return  a <code>Map</code> of semantic class/lines key-value pairs.
+	 * 
+	 * @return  a <code>Map</code> of annotation class/lines key-value pairs.
 	 */
-	public static Map<String,List<String>> readAnnotationFiles(List<String> annFileNames, List<String> parseTypes) {
+	public static Map<AnnotationType,List<String>> readAnnotationFiles(List<String> annFileNames, Map<String,AnnotationType> prefixMap, List<String> parseTypes) {
 		String strLine;
 		List<String> termLines = new ArrayList<>();
  		List<String> eventLines = new ArrayList<>();
@@ -98,7 +135,7 @@ public class StandoffAnnotationReader {
 		List<String> modificationLines = new ArrayList<>();
 		List<String> referenceLines = new ArrayList<>();
 		
-		Map<String,List<String>> anns= new HashMap<>();
+		Map<AnnotationType,List<String>> anns= new HashMap<>();
 		if (annFileNames != null) {
 			anns = new HashMap<>();
 			for (String annFileName: annFileNames) {
@@ -108,21 +145,30 @@ public class StandoffAnnotationReader {
 						// should this be trimmed?
 						strLine = lines.get(i).trim();
 						if (strLine.length() == 0) continue;
+						AnnotationType pa = parseAs(strLine,prefixMap);
+						if (pa == null) continue;
 						if (parseTypes != null && parseTypes.contains(getSemType(strLine)) == false) continue;
 						log.log(Level.FINEST, "Read standoff annotation line: {0}.", strLine);
-						if (strLine.startsWith("T")) {
+
+						if (pa == AnnotationType.Term) {
+//						if (strLine.startsWith("T")) {
 							termLines.add(strLine);
-						} else if (strLine.startsWith("*")) {
+						} else if (pa == AnnotationType.Equiv) {
+//						} else if (strLine.startsWith("*")) {
 							equivLines.add(strLine);
 							//event lines
-						} else if (strLine.startsWith("E")) {
+						} else if (pa == AnnotationType.Event) {
+//						} else if (strLine.startsWith("E")) {
 							eventLines.add(strLine);
-						} else if (strLine.startsWith("R")) {
+						} else if (pa == AnnotationType.Relation) {
+//						} else if (strLine.startsWith("R")) {
 							relationLines.add(strLine);
-						// TODO M in BioNLP, A in brat, maybe we should have a way of associating prefixes with types
-						} else if (strLine.startsWith("M") || strLine.startsWith("A")) {
+					    } else if (pa == AnnotationType.Modification) {
+//						} else if (strLine.startsWith("M") || strLine.startsWith("A")) {
+//						} else if (strLine.startsWith("M")) {							
 							modificationLines.add(strLine);
-						} else if (strLine.startsWith("#") || strLine.startsWith("N")) {
+					    } else if (pa == AnnotationType.Reference) {
+//						} else if (strLine.startsWith("#") || strLine.startsWith("N")) {
 //						} else if (strLine.startsWith("#") || strLine.startsWith("N") || strLine.startsWith("A")) {							
 							referenceLines.add(strLine);
 						}
@@ -131,14 +177,25 @@ public class StandoffAnnotationReader {
 					log.log(Level.SEVERE,"Unable to read standoff annotation file {0}.", annFileName);
 				}
 			}
-			anns.put("Term", termLines);
-			anns.put("Equiv", equivLines);
-			anns.put("Relation", relationLines);
-			anns.put("Event", orderEventLines(eventLines));
-			anns.put("Modification", modificationLines);
-			anns.put("Reference", referenceLines);
+			anns.put(AnnotationType.Term, termLines);
+			anns.put(AnnotationType.Equiv, equivLines);
+			anns.put(AnnotationType.Relation, relationLines);
+			anns.put(AnnotationType.Event, orderEventLines(eventLines));
+			anns.put(AnnotationType.Modification, modificationLines);
+			anns.put(AnnotationType.Reference, referenceLines);
 		}
 		return anns;
+	}
+	
+	private static AnnotationType parseAs(String line, Map<String,AnnotationType> prefixMap) {
+		String prefix = line.substring(0,1);
+		if (prefixMap == null || prefixMap.size() == 0) {
+			return AnnotationType.getDefault(prefix);
+		}
+		if (prefixMap.containsKey(prefix)) {
+			return prefixMap.get(prefix);
+		}
+		return null;
 	}
 	
 	// events can be nested, it's important to sort them such that
@@ -189,10 +246,10 @@ public class StandoffAnnotationReader {
 	 * 
 	 * @return the <code>Map</code> object of annotation class/annotation objects pairs
 	 */
-	public static Map<Class,List<Annotation>> parseAnnotations(String docId, Map<String,List<String>> lines, List<String> ignoreArgTypes) {
+	public static Map<Class,List<Annotation>> parseAnnotations(String docId, Map<AnnotationType,List<String>> lines, List<String> ignoreArgTypes) {
 		Map<Class,List<Annotation>> annotations = new HashMap<>();
 		annotationIdMap = new HashMap<>();
-		List<String> termLines = lines.get("Term");
+		List<String> termLines = lines.get(AnnotationType.Term);
 		if (termLines != null) {
 			for (String term: termLines) {
 				TermAnnotation t = readTermLine(docId, term);
@@ -209,13 +266,13 @@ public class StandoffAnnotationReader {
 				annotationIdMap.put(t.getId(), t);
 			}
 		}
-		List<String> refLines = lines.get("Reference");
+		List<String> refLines = lines.get(AnnotationType.Reference);
 		if (refLines != null) {
 			for (String ref : refLines) {
 				readReferenceLine(docId,ref);	
 			}
 		}
-		List<String> relLines = lines.get("Relation");
+		List<String> relLines = lines.get(AnnotationType.Relation);
 		if (relLines != null) {
 			for (String rel: relLines) {
 				RelationAnnotation r = readRelationLine(docId, rel, ignoreArgTypes);
@@ -233,7 +290,7 @@ public class StandoffAnnotationReader {
 				annotationIdMap.put(r.getId(), r);
 			}
 		}
-		List<String> eventLines = lines.get("Event");
+		List<String> eventLines = lines.get(AnnotationType.Event);
 		if (eventLines != null) {
 			for (String ev: eventLines) {
 				EventAnnotation e = readEventLine(docId, ev, ignoreArgTypes);
@@ -250,20 +307,20 @@ public class StandoffAnnotationReader {
 				annotationIdMap.put(e.getId(), e);
 			}
 		}
-		List<String> modLines = lines.get("Modification");
+		List<String> modLines = lines.get(AnnotationType.Modification);
 		if (modLines != null) {
 			for (String mod: modLines) {
-				EventModificationAnnotation e = readModificationLine(docId, mod, ignoreArgTypes);
+				ModificationAnnotation e = readModificationLine(docId, mod, ignoreArgTypes);
 				if (mod == null) {
 					log.log(Level.WARNING, "Unable to parse the modification annotation line: {0}.", mod);
 					continue;
 				}	
-				List<Annotation> modAnns = annotations.get(EventModificationAnnotation.class);
+				List<Annotation> modAnns = annotations.get(ModificationAnnotation.class);
 				if (modAnns == null) {
 					modAnns = new ArrayList<>();
 				}
 				modAnns.add(e);
-				annotations.put(EventModificationAnnotation.class, modAnns);
+				annotations.put(ModificationAnnotation.class, modAnns);
 				annotationIdMap.put(e.getId(), e);
 			}
 		}
@@ -456,30 +513,32 @@ public class StandoffAnnotationReader {
 	 * @return  a <code>EventModificationAnnotation</code> object, or null for a line with unexpected format
 	 */
 	// TODO Not thoroughly tested.
-	 protected static EventModificationAnnotation readModificationLine(String docId, String line, List<String> ignoreArgTypes) {
+	 protected static ModificationAnnotation readModificationLine(String docId, String line, List<String> ignoreArgTypes) {
 		log.log(Level.FINEST, "Reading modification line: {0}.", new Object[]{line});
 		String[] tabbedStrs = line.split("[\t]");	
 	 	String id = tabbedStrs[0];
-    	String[] els = tabbedStrs[1].split(FIELD_DELIMITER);
+	 	String[] els = tabbedStrs[1].split(FIELD_DELIMITER);
+//    	String[] els = tabbedStrs[1].split("[:]");
     	String sem = els[0];
     	// there should really be just one event
     	if (els.length < 2) return null;
-    	String evId = els[1];
-    	if (evId.length() == 0) return null;
-    	if (ignoreArgTypes != null && ignoreArgTypes.contains("Event")) return null;
-	    Annotation ann = annotationIdMap.get(evId);
+    	String semId = els[1];
+    	if (semId.length() == 0) return null;
+	    Annotation ann = annotationIdMap.get(semId);
 	    if (ann == null) {
-		    log.log(Level.SEVERE,"The modification annotation has an unresolved event argument: {0}.", evId);
+		    log.log(Level.SEVERE,"The modification annotation has an unresolved argument: {0}.", semId);
 		    return null;
     	}
 	    String value = null;
 	    if (els.length > 2) {
+//	    if (tabbedStrs.length > 2) {
 	    	value = els[2];
+//	    	value = tabbedStrs[2];
 	    } 
 	    if (value == null)
-	    	return new EventModificationAnnotation(id,docId,sem,(EventAnnotation)ann);
+	    	return new ModificationAnnotation(id,docId,sem,ann);
 	    else 
-	    	return new EventModificationAnnotation(id,docId,sem,(EventAnnotation)ann,value);
+	    	return new ModificationAnnotation(id,docId,sem,ann,value);
 	}
 	 
 	/**
@@ -513,7 +572,7 @@ public class StandoffAnnotationReader {
 		String textFile = args[1];
 		String annFile = args[2];
 		Document doc = readTextFile(id,textFile);
-		Map<String,List<String>> annotationLines = readAnnotationFiles(Arrays.asList(annFile), null);
+		Map<AnnotationType,List<String>> annotationLines = readAnnotationFiles(Arrays.asList(annFile), null,null);
 		Map<Class,List<Annotation>> annotations = parseAnnotations(doc.getId(),annotationLines,null);
 		for (Class c: annotations.keySet()) {
 			List<Annotation> anns = annotations.get(c);
