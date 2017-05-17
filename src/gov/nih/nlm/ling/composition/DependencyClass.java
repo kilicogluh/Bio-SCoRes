@@ -156,7 +156,8 @@ public class DependencyClass {
 		List<DependencyClass> mappings = new ArrayList<>();
 		
 		mappings.add(new DependencyClass("OBJ","NN",Arrays.asList("prep_of","prepc_of","nn","amod","quantmod","measure","poss")));
-		mappings.add(new DependencyClass("OBJ","VB",Arrays.asList("dobj","nsubjpass","xsubjpass","csubjpass","partmod","vmod")));
+//		mappings.add(new DependencyClass("OBJ","VB",Arrays.asList("dobj","nsubjpass","xsubjpass","csubjpass","partmod","vmod")));
+		mappings.add(new DependencyClass("OBJ","VB",Arrays.asList("dobj","nsubjpass","xsubjpass","csubjpass")));
 		mappings.add(new DependencyClass("OBJ","JJ",Arrays.asList("amod","xcomp","infmod","purpcl")));
 		mappings.add(new DependencyClass("OBJ","IN",Arrays.asList("pobj")));
 		mappings.add(new DependencyClass("SUBJ","NN",Arrays.asList("prep_by","prepc_by","prep_with","prepc_with","prepc_via","prep_via","agent",
@@ -172,7 +173,7 @@ public class DependencyClass {
 		mappings.add(new DependencyClass("PREP","*",Arrays.asList("prep_about","prepc_about","prep_on","prepc_on", "prep_upon","prepc_upon",
 				"prep_at","prepc_at","prep_as","prepc_as","prep_between","prepc_between",
 				"prep_from","prepc_from","prep_against","prepc_against",
-				"prep_except","prepc_except", "prep_without", "prepc_without")));
+				"prep_except","prepc_except", "prep_without", "prepc_without","prep","prepc")));
 		mappings.add(new DependencyClass("PREP_IN","*",Arrays.asList("prep_in","prepc_in")));
 		mappings.add(new DependencyClass("PREP_TO","*",Arrays.asList("prep_to","prepc_to")));
 		mappings.add(new DependencyClass("PREP_OF","*",Arrays.asList("prep_of","prepc_of")));

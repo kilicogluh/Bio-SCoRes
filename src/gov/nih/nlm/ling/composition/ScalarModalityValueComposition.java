@@ -29,7 +29,7 @@ public class ScalarModalityValueComposition {
 	private static Logger log = Logger.getLogger(ScalarModalityValueComposition.class.getName());	
 	
 	// TODO Should we not just get these from the categorization?
-	private enum ScaleShift {
+	public enum ScaleShift {
 		NEGATE, INCREASE, LOWER, HEDGE;
 	}
 		
@@ -83,6 +83,7 @@ public class ScalarModalityValueComposition {
 		LinkedHashSet<SemanticItem> scopalInfluence = new LinkedHashSet<>();
 		List<SemanticItem> sources = new ArrayList<>();
 		sources.addAll(pred.getSources());
+//		sources = new ArrayList<>(new HashSet<SemanticItem>(sources));
 		getScopalInfluence(pred,pred,0,sources,scopalInfluence);
 		if (scopalInfluence.size() == 0) {
 			log.log(Level.FINE, "Predication {0} has no predication in scope. Skipping scalar modality value propagation.", new Object[]{pred.getId()});
@@ -143,11 +144,12 @@ public class ScalarModalityValueComposition {
 						continue;
 				
 					// This gives slightly better results than the following commented out loop on GENIA factuality
-					sources.addAll(child.getSources());
-/*					for (SemanticItem source: child.getSources()) {
+//					sources.addAll(child.getSources());
+					// this is more correct, though, but reduces the results just a slight bit, so keeping this
+					for (SemanticItem source: child.getSources()) {
 						if (sources.contains(source)) continue;
 						sources.add(source);
-					}*/
+					} 
 					if (EmbeddingCategorization.isScaleShifter(childPr))  {
 						out.add(child);
 						getScopalInfluence(embedding,child,intervening,sources,out);
@@ -176,7 +178,11 @@ public class ScalarModalityValueComposition {
 						if (sources.size() >= 2 && CollectionUtils.containsAny(sources, child.getSources()))
 //						if (!sources.contains(child.getSource()) && sources.size() >= 2)
 							continue;
-						sources.addAll(child.getSources());
+//						sources.addAll(child.getSources());
+						for (SemanticItem source: child.getSources()) {
+							if (sources.contains(source)) continue;
+							if (EmbeddingCategorization.isSuccess(childPr) == false) sources.add(source);
+						}
 						if (EmbeddingCategorization.isEpistemicScalar(childPr) || EmbeddingCategorization.isScaleShifter(childPr)) {
 							out.add(child);
 							getScopalInfluence(embedding,child,intervening,sources,out);
@@ -202,7 +208,11 @@ public class ScalarModalityValueComposition {
 						if (sources.size() >= 2 && CollectionUtils.containsAny(sources, child.getSources()))						
 //						if (!sources.contains(child.getSource()) && sources.size() >= 2)
 							continue;
-						sources.addAll(child.getSources());
+//						sources.addAll(child.getSources());
+						for (SemanticItem source: child.getSources()) {
+							if (sources.contains(source)) continue;
+							if (EmbeddingCategorization.isSuccess(childPr) == false) sources.add(source);
+						}
 						if (EmbeddingCategorization.isScaleShifter(childPr)) {
 							out.add(child);
 							getScopalInfluence(embedding,child,intervening,sources,out);
@@ -217,7 +227,15 @@ public class ScalarModalityValueComposition {
 		}
 	}
 	
-	private static List<SemanticItem> getScopalArguments(Predication pred) {
+	/**
+	 * Returns the arguments of a predication that are under its scope.
+	 * 
+	 * It returns an empty list if the predication has no arguments or no in-scope arguments.
+	 * 
+	 * @param pred	the predication
+	 * @return		the arguments of the predication under its scopal influence
+	 */
+	public static List<SemanticItem> getScopalArguments(Predication pred) {
 		if (pred.getArguments() == null) return new ArrayList<>();
 		List<SemanticItem> children = Argument.getArgItems(pred.getArgs(ArgumentRule.SCOPE_ARGUMENT_TYPES));	
 		List<SemanticItem> out = new ArrayList<>();
@@ -267,7 +285,7 @@ public class ScalarModalityValueComposition {
 		// probably not X => X (0.25)
 		else if (initValue == 0.0) return 1.0 - priorScalarValue;
 		// probably might X => X (0.7)
-		else if (initValue >= 0.5 && priorScalarValue > initValue ) 
+		else if (initValue >= 0.5 && priorScalarValue > initValue && priorScalarValue < 1.0 ) 
 			return Math.min(0.9,initValue + 0.2);
 		// might probably X => X (0.55)
 		else if (initValue > 0.5 && priorScalarValue <= initValue  && priorScalarValue >= 0.5) 
@@ -281,7 +299,14 @@ public class ScalarModalityValueComposition {
 		return initValue;
 	}
 	
-	private static void updateScaleValues(ScaleShift shiftType, List<ScalarModalityValue> scalarValues) {
+	/**
+	 * Update the scale values associated with a predication, according to a scale shifting operation 
+	 * 
+	 * 
+	 * @param shiftType		the scale shifting operation (NEGATE, INCREASE, LOWER, HEDGE)
+	 * @param scalarValues	the scalar values associated with a predication
+	 */
+	public static void updateScaleValues(ScaleShift shiftType, List<ScalarModalityValue> scalarValues) {
 		if (scalarValues == null) return;
 		for (ScalarModalityValue smv : scalarValues) {
 			Interval i = smv.getValue();

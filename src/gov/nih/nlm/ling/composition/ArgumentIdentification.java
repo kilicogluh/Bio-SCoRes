@@ -23,6 +23,7 @@ import gov.nih.nlm.ling.graph.Node;
 import gov.nih.nlm.ling.graph.SemanticGraph;
 import gov.nih.nlm.ling.sem.Argument;
 import gov.nih.nlm.ling.sem.Entity;
+import gov.nih.nlm.ling.sem.HasPredicate;
 import gov.nih.nlm.ling.sem.Predicate;
 import gov.nih.nlm.ling.sem.Predication;
 import gov.nih.nlm.ling.sem.RelationDefinition;
@@ -252,7 +253,10 @@ public class ArgumentIdentification {
 				log.log(Level.WARNING,"No associated semantic object with the nodes via edge {0}. Skipping..", new Object[]{sd.getType()}); 
 				continue;
 			}
+//			List<SemanticItem> orderedSoss = orderByProximity(sd.getDependent(),sos);
 			for (SemanticItem sem: sos) {
+				// for semantic path constraint, comment the following out
+				if (satisfiesPathLengthRequirement(pr,sem) == false) continue;
 				// rule determined from dictionary
 				if (argName != null) {
 					if (relDef.argSatisfiesRole(argName, sem) == false) continue;
@@ -271,7 +275,6 @@ public class ArgumentIdentification {
 				}
 				// argument from general argument rules
 				else {
-					if (relDef.argSatisfiesRole(air.getArgumentType(), sem) == false) continue;
 					arguments.add(new Argument(air.getArgumentType(),sem));
 					log.log(Level.FINEST,"Adding (with general argument rule) semantic object {0} as argument with the type {1}.", 
 							new Object[]{sem.getId(),air.getArgumentType()});
@@ -313,13 +316,18 @@ public class ArgumentIdentification {
 				others.removeAll(vArgs);	
 			}
 			Collection<List<Argument>> permutations = CollectionUtils.generatePermutations(violatingArgGroups);
+			Set<Argument> smvPropagated = new HashSet<>();
 			for (List<Argument> perm: permutations) {
 				List<Argument> nperm = new ArrayList<>(perm);
 				nperm.addAll(others);
 				if (Predication.coreArgsResolved(nperm, relDef)) {
 					Predication pred = sif.newPredication(doc, pr, nperm, null, null);
 					pred.setSource(true);					
-					ScalarModalityValueComposition.propagateScalarModalityValues(pred);
+					// perm seemed to make more sense, but did not work as well.
+					if (org.apache.commons.collections15.CollectionUtils.containsAny(nperm,smvPropagated) ==false) {
+						ScalarModalityValueComposition.propagateScalarModalityValues(pred);
+						smvPropagated.addAll(nperm);
+					}
 					SourcePropagation.propagateSource(pred);
 					predications.add(pred);
 					predications.addAll(handleNegatedArguments(pred,argStructure));
@@ -329,6 +337,30 @@ public class ArgumentIdentification {
 		return predications;
 	}
 	
+	private static boolean satisfiesPathLengthRequirement(Predicate pred, SemanticItem sem) {
+		SurfaceElement argsurf = null;
+		SurfaceElement surf = pred.getSurfaceElement();
+		if (sem instanceof HasPredicate) {
+			argsurf = ((HasPredicate)sem).getPredicate().getSurfaceElement();
+		} else if (sem instanceof Entity) {
+			argsurf = ((Entity)sem).getSurfaceElement();
+		}
+		List<SynDependency> path = SynDependency.findDependencyPath(surf.getSentence().getEmbeddings(), surf, argsurf, true);
+		if (path == null) return false;
+		List<SurfaceElement> intervening = new ArrayList<>();
+		for (int i=0; i < path.size()-1; i++) {
+			intervening.add(path.get(i).getDependent());
+		}
+//		if (surf.isAdverbial()) {
+		if (surf.isAdverbial() || surf.getCategory().startsWith("MD")) {
+			for (SurfaceElement inter: intervening) {
+				if (inter.isVerbal() && inter.containsLemma("associate") == false && inter.containsLemma("have") == false) return false;
+//					if (inter.isVerbal()) return false;
+			}
+		}
+		return true;
+	}
+	
 	/**
 	 * Inverts the roles of the arguments associated with a predication.
 	 * An argument with the role SUBJ will get the role COMP, for example, and
@@ -336,13 +368,14 @@ public class ArgumentIdentification {
 	 * 
 	 * @param args	the arguments whose roles to invert.
 	 */
-	protected static void invert(List<Argument> args) {
+	public static void invert(List<Argument> args) {
 		List<String> argNames = Argument.getArgNames(args);
 		int si = argNames.indexOf("SUBJ");
 		int ci = argNames.indexOf("COMP");
 		if (si >= 0) argNames.set(si, "COMP");
 		if (ci >= 0) argNames.set(ci, "SUBJ");
 	}
+
 		
 	/**
 	 * Reflects the negation of the argument to the predication level.
@@ -352,43 +385,131 @@ public class ArgumentIdentification {
 	 * 
 	 * @return	updated predications
 	 */
-	protected static LinkedHashSet<Predication> handleNegatedArguments(SemanticItem rel, Map<Edge,LinkedHashSet<SemanticItem>> argStructure) {
+	public static LinkedHashSet<Predication> handleNegatedArguments(SemanticItem rel, Map<Edge,LinkedHashSet<SemanticItem>> argStructure) {
 		LinkedHashSet<Predication> negPreds = new LinkedHashSet<>();
 		if (rel instanceof Predication == false) return negPreds;
+		Document doc = rel.getDocument();
 		Predication r = (Predication)rel;
-		List<SemanticItem> args= r.getArgItems();
-		SemanticItem neg = null;
+		List<Predicate> negating = null;
 		for (Edge s: argStructure.keySet()) {
+			negating = new ArrayList<>();
 			if (s instanceof SynDependency == false) continue;
 			SynDependency sd = (SynDependency)s;
-			LinkedHashSet<SemanticItem> children = sd.getDependent().filterByPredicates();
-			for (SemanticItem si: children) {
-				if (si.getType().equals("NEGATOR")) {
-					neg = si;
-					break;
-				}
-			}
-			if (neg instanceof Predicate) {
-				Predicate negPr = (Predicate)neg;
-				SurfaceElement negS = negPr.getSurfaceElement();
-				Document doc = negS.getSentence().getDocument();
-				LinkedHashSet<SurfaceElement> succs = SynDependency.getSuccessors(negS, negS.getSentence().getEmbeddings());
-				for (SurfaceElement succ : succs) {
-					LinkedHashSet<SemanticItem> semantics = succ.getSemantics();
+			SurfaceElement dep =sd.getDependent();
+			LinkedHashSet<SurfaceElement> reachable = new LinkedHashSet<>();
+			getAccessibleNegated(dep,reachable,negating);
+			for (SurfaceElement succ : reachable) {
+					LinkedHashSet<SemanticItem> semantics0 = succ.getSemantics();
+					List<SemanticItem> semantics = (semantics0 == null? null: new ArrayList<>(succ.getSemantics()));
+					List<SemanticItem> args= r.getArgItems();
 					if (semantics != null && org.apache.commons.collections15.CollectionUtils.containsAny(args,semantics)) {
 						List<Argument> newArgs = new ArrayList<Argument>();
 						newArgs.add(new Argument("COMP",rel));
-						Predication newPr = doc.getSemanticItemFactory().newPredication(doc, negPr, newArgs, null, null);
+						Predication newPr = doc.getSemanticItemFactory().newPredication(doc, negating.get(0), newArgs, null, null);
 						newPr.setSource(true);					
 						ScalarModalityValueComposition.propagateScalarModalityValues(newPr);
 						SourcePropagation.propagateSource(newPr);
 						negPreds.add(newPr);
+					} 
+				}
+		} 
+		// tried for 10214462 but causes too many errors
+/*		if (negPreds.size() > 0) return negPreds;
+		SurfaceElement pred = r.getPredicate().getSurfaceElement();
+		if (pred.isPrepositional()) {
+			for (SemanticItem arg: args) {
+				SurfaceElement argsurf = null;
+				if (arg instanceof HasPredicate) {
+					argsurf = ((HasPredicate)arg).getPredicate().getSurfaceElement();
+				} else if (arg instanceof Entity) {
+					argsurf = ((Entity)arg).getSurfaceElement();
+				}
+				if (argsurf == null) continue;
+				List<SynDependency> path = SynDependency.findDependencyPath(pred.getSentence().getEmbeddings(), pred, argsurf, true);
+				if (path == null) {
+					Predicate inScopeNeg = getNegatorInScope(arg,pred);
+					if (inScopeNeg != null) {
+						List<Argument> newArgs = new ArrayList<Argument>();
+						newArgs.add(new Argument("COMP",rel));
+						Predication newPr = doc.getSemanticItemFactory().newPredication(doc, inScopeNeg, newArgs, null, null);
+						newPr.setSource(true);	
+						ScalarModalityValueComposition.propagateScalarModalityValues(newPr);
+						SourcePropagation.propagateSource(newPr);
+						negPreds.add(newPr);
+						break;
 					}
 				}
 			}
-		}
+		}*/
 		return negPreds;
+	} 
+	
+	private static void getAccessibleNegated(SurfaceElement surf, LinkedHashSet<SurfaceElement> reachable, List<Predicate> negs) {
+		Predicate pred = getNegatingPredicate(surf);
+		if (pred == null)  {if (negs.size() > 0) reachable.add(surf);return;}
+		negs.add(pred);
+		LinkedHashSet<SurfaceElement> succs = SynDependency.getSuccessors(surf, surf.getSentence().getEmbeddings());
+		for (SurfaceElement succ: succs) {
+			getAccessibleNegated(succ,reachable,negs);
+		}
 	}
+	
+	private static Predicate getNegatingPredicate(SurfaceElement surf) {
+		LinkedHashSet<SemanticItem> preds = surf.filterByPredicates();
+		for (SemanticItem si: preds) {
+			if (si.getType().equals("NEGATOR")) {
+				return (Predicate)si;
+			}
+		}
+		return null;
+	}
+	
+/*	private static void getAccessibleNegated2(SurfaceElement surf, List<SurfaceElement> seen, List<Predicate> negPreds) {
+		if (negPreds.size() > 0) return;
+		LinkedHashSet<SurfaceElement> pres = SynDependency.getPredecessors(surf, surf.getSentence().getEmbeddings());
+		if (org.apache.commons.collections15.CollectionUtils.containsAny(pres, seen) == false) {
+			for (SurfaceElement pre: pres) {
+				if (seen.contains(pre)) return;
+				seen.add(pre);
+				Predicate pred = getNegatingPredicate(pre);
+				if (pred == null) {
+					getAccessibleNegated2(pre,seen,negPreds);
+					if (negPreds.size() > 0 ) return;
+				} else {
+					negPreds.add(pred);
+				}
+			}
+		}
+	}*/
+	
+	
+	/*	private static List<SemanticItem> orderByProximity(SurfaceElement surf, Collection<SemanticItem> sems) {
+	Map<SemanticItem,Integer> pathLengths = new HashMap<>();
+	for (SemanticItem sem: sems) {
+		SurfaceElement argsurf = null;
+		if (sem instanceof HasPredicate) {
+			argsurf = ((HasPredicate)sem).getPredicate().getSurfaceElement();
+		} else if (sem instanceof Entity) {
+			argsurf = ((Entity)sem).getSurfaceElement();
+		}
+		List<SynDependency> path = SynDependency.findDependencyPath(surf.getSentence().getEmbeddings(), surf, argsurf, true);
+		if (path == null) pathLengths.put(sem, Integer.MAX_VALUE);
+		else pathLengths.put(sem, path.size());
+	}
+	List<Entry<SemanticItem, Integer>> list = new LinkedList<Entry<SemanticItem, Integer>>(pathLengths.entrySet());
+    Collections.sort(list, new Comparator<Entry<SemanticItem, Integer>>()
+    {
+        public int compare(Entry<SemanticItem, Integer> o1,
+                Entry<SemanticItem, Integer> o2) {
+                return o1.getValue().compareTo(o2.getValue());
+        }
+    });
+    List<SemanticItem> out = new ArrayList<>();
+    for (Entry<SemanticItem,Integer> entry: list) {
+    	out.add(entry.getKey());
+    }
+    return out;
+}*/
 	
 	// UNUSED from AmbiguityResolution, which is removed.
 /*	public static Set<SemanticItem> extractSemanticAnnotations(Node node, DocumentGraph g) {

@@ -210,7 +210,17 @@ public class EmbeddingCategorization extends UnmodifiableDirectedGraph<String,St
 	 * @return  true if the predicate introduces epistemic scale
 	 */
 	public static boolean isEpistemicScalar(Predicate pr) {
-		return (getAllDescendants(Arrays.asList("EPISTEMIC","EVIDENTIAL")).contains(pr.getType()));
+		return (getAllDescendants(Arrays.asList("EPISTEMIC","EVIDENTIAL","SUCCESS")).contains(pr.getType()));
+	}
+	
+	/**
+	 * Determines whether a predicate has SUCCESS type.
+	 * 
+	 * @param pr  a predicate
+	 * @return  true if the predicate is of SUCCESS type
+	 */
+	public static boolean isSuccess(Predicate pr) {
+		return ("SUCCESS".equals(pr.getType()));
 	}
 	
 	/**
