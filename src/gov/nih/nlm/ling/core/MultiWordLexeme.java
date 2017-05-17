@@ -21,6 +21,7 @@ public class MultiWordLexeme extends AbstractLexeme implements ContiguousLexeme 
 	public MultiWordLexeme(List<WordLexeme> lexemes) {
 		this.lexemes = lexemes;
 		this.head = findHead(lexemes);
+		this.category = this.head.category;
 	}
 	
 	public MultiWordLexeme(Element el) {
@@ -84,11 +85,10 @@ public class MultiWordLexeme extends AbstractLexeme implements ContiguousLexeme 
 	
 	public String toString(){
 		StringBuffer buf = new StringBuffer();
-		buf.append("(" + lexemes.get(0));
+		buf.append(lexemes.get(0));
 		for (int i= 1; i < lexemes.size(); i++) {
 			buf.append("_" + lexemes.get(i));
 		}
-		buf.append(")");
 		return buf.toString();
 	}
 

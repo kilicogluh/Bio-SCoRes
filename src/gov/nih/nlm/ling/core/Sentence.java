@@ -102,7 +102,7 @@ public class Sentence {
 	 */
 	public Sentence(Element el) {
 		this(el.getAttributeValue("id"),
-			 el.getChildElements("text").get(0).getValue().trim(),
+			 el.getChildElements("text").get(0).getValue(),
 		     new Span(el.getAttributeValue("charOffset")));
 		Elements tokenEls = el.getChildElements("tokens").get(0).getChildElements();
 		words = new ArrayList<>();
@@ -137,7 +137,7 @@ public class Sentence {
 	 */
 	public Sentence(Element el, String tokenizer, String parser) {
 		this(el.getAttributeValue("id"),
-				 el.getChildElements("text").get(0).getValue().trim(),
+				 el.getChildElements("text").get(0).getValue(),
 			     new Span(el.getAttributeValue("charOffset")));
 		List<Element> tokensEls = XMLUtils.getChildrenWithAttributeValue(el, "tokens", "tokenizer", tokenizer);
 		if (tokensEls.size() > 0) {
@@ -351,6 +351,62 @@ public class Sentence {
 	}
 	
 	/**
+	 * Finds the textual unit that follows <var>surf</var>. 
+	 * 
+	 * @param surf  the textual unit
+	 * @return  the textual unit that follows <var>surf</var> or null, if it is the last textual unit of the sentence
+	 */
+	public SurfaceElement getNextSurfaceElement(SurfaceElement surf) {
+		if (surfaceElements.contains(surf) == false) return null;
+		int soi = surfaceElements.indexOf(surf);
+		SurfaceElement next = null;
+		if (surfaceElements.size() > soi+1) next = surfaceElements.get(soi+1);
+		return next;
+	}
+	
+	/**
+	 * Finds the token that precedes <var>word</var>. 
+	 * 
+	 * @param word  a token
+	 * @return  the token that precedes <var>word</var> or null, if it is the first word of the sentence
+	 */
+	public Word getPrecedingWord(Word word) {
+		if (words.contains(word) == false) return null;
+		int wi = words.indexOf(word);
+		Word prev = null;
+		if (wi > 0) prev = words.get(wi-1);
+		return prev;
+	}
+	
+	/**
+	 * Finds the token that follows <var>word</var>. 
+	 * 
+	 * @param word  a token
+	 * @return  the token that follows <var>word</var> or null, if it is the last word of the sentence
+	 */
+	public Word getNextWord(Word word) {
+		if (words.contains(word) == false) return null;
+		int wi = words.indexOf(word);
+		Word next = null;
+		if (words.size() > wi+1) next = words.get(wi+1);
+		return next;
+	}
+	
+	/**
+	 * Finds the textual unit that precedes <var>surf</var>. 
+	 * 
+	 * @param surf  the textual unit
+	 * @return  the textual unit that precedes <var>surf</var> or null, if it is the first textual unit of the sentence
+	 */
+	public SurfaceElement getPrecedingSurfaceElement(SurfaceElement surf) {
+		if (surfaceElements.contains(surf) == false) return null;
+		int soi = surfaceElements.indexOf(surf);
+		SurfaceElement prev = null;
+		if (soi > 0) prev = surfaceElements.get(soi-1);
+		return prev;
+	}
+	
+	/**
 	 * @return  the list of all lexemes in this sentence.
 	 */
 	public List<WordLexeme> getLexemes() {
@@ -361,6 +417,7 @@ public class Sentence {
 		}
 		return lex;
 	}
+	
 	/**
 	 * Finds the textual unit that fully covers the specified span list.
 	 * 
@@ -550,7 +607,7 @@ public class Sentence {
 		}
 		if (add != null){
 			for (SynDependency a: add) {
-				// if an edge already exists, avoid creating a loop.
+				// if an edge already exists, avoid creating a loop, but that means we may lose information
 				if (SynDependency.findDependencyPath(embeddings, a.getDependent(), a.getGovernor(),true) == null) {
 					log.log(Level.FINEST, "Adding dependency {0}.", new Object[]{a.toShortString()});
 					embeddings.add(a);		

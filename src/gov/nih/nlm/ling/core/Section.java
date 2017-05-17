@@ -3,6 +3,10 @@ package gov.nih.nlm.ling.core;
 import java.util.ArrayList;
 import java.util.List;
 
+import nu.xom.Attribute;
+import nu.xom.Element;
+import nu.xom.Elements;
+
 /**
  * Representation of a section of a <code>Document</code>. <p>
  * A section consists of zero or one title span, a continuous span of section text, a
@@ -22,7 +26,7 @@ public class Section {
 	 * Creates a <code>Section</code> object, within the given <var>document</var>.
 	 * 
 	 * @param titleSpan the span of the section title, if any.
-	 * @param textSpan  the span of the section body text.
+	 * @param textSpan  the span of the section body text
 	 * @param document  the document enclosing the section
 	 */
 	public Section(Span titleSpan, Span textSpan, Document document) {
@@ -32,9 +36,28 @@ public class Section {
 		this.subSections = new ArrayList<Section>();
 	}
 
+	/**
+	 * Creates a <code>Section</code> object from given XML representation.
+	 * 
+	 * @param el		the XML element corresponding to the section
+	 * @param document  the document enclosing the section
+	 */
+	public Section(Element el, Document document) {
+		this(el.getAttributeValue("titleSpan") == null ? null : new Span(el.getAttributeValue("titleSpan")),
+			 el.getAttributeValue("textSpan") == null ? null : 	new Span(el.getAttributeValue("textSpan")),
+			 document);
+		Elements subsects = el.getChildElements("section");
+		for (int i=0; i < subsects.size(); i++) {
+			Element sub = subsects.get(i);
+			Section subsec = new Section(sub,document);
+			this.addSubsection(subsec);
+		}
+	}
+
 	public Span getTextSpan() {
 		return textSpan;
 	}
+	
 
 	public Document getDocument() {
 		return document;
@@ -84,6 +107,27 @@ public class Section {
 		String shortened = text.substring(0,Math.min(100, newline));
 		if (shortened.length() < text.length()) shortened += "...";
 		return (titleSpan == null ? "NO_TITLE" : document.getStringInSpan(titleSpan)) + "|" + textSpan.toString() + "|" + shortened;
+	}
+	
+	/**
+	 * Returns the XML representation of this section. <p>
+	 * 
+	 * @return  the XML representation
+	 */
+	public Element toXml() {
+		Element sect = new Element("section");
+		if (textSpan != null) 
+			sect.addAttribute(new Attribute("textSpan",textSpan.toString()));
+		if (titleSpan != null) {
+			sect.addAttribute(new Attribute("titleSpan",titleSpan.toString()));
+			sect.addAttribute(new Attribute("title",document.getStringInSpan(titleSpan)));
+		}
+		if (subSections != null) {
+			for (Section sub: subSections) {
+				sect.appendChild(sub.toXml());
+			}
+		}
+		return sect;
 	}
 	
 	/**

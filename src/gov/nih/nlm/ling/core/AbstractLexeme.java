@@ -90,7 +90,7 @@ public abstract class AbstractLexeme implements Lexeme {
 	}
 	
 	public String toString() {
-		return lemma + "_" + category;	
+		return lemma + "(" + category + ")";	
 	}
 	
 	public boolean equals(Object obj) {

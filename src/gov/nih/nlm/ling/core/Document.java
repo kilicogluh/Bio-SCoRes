@@ -137,6 +137,12 @@ public class Document {
 		}
 		sentences = extractedSentences;
 		documentTree = docTree;
+		Elements sectEls = el.getChildElements("section");
+		for (int i=0; i< sectEls.size(); i++) {
+			Element sectEl = sectEls.get(i);
+			Section sect = new Section(sectEl,this);
+			this.addSection(sect);
+		}
 	}
 	
 	/**
@@ -170,6 +176,12 @@ public class Document {
 		}
 		sentences = extractedSentences;
 		documentTree = docTree;
+		Elements sectEls = el.getChildElements("section");
+		for (int i=0; i< sectEls.size(); i++) {
+			Element sectEl = sectEls.get(i);
+			Section sect = new Section(sectEl,this);
+			this.addSection(sect);
+		}
 	}
 	
 	public String getId() {
@@ -1028,6 +1040,12 @@ public class Document {
 			for (Sentence s: sentences) {
 				Element sEl = s.toXml();
 				docc.appendChild(sEl);
+			}
+		}
+		if (sections != null) {
+			for (Section sect: sections) {
+				Element sectEl = sect.toXml();
+				docc.appendChild(sectEl);
 			}
 		}
 		if (semanticItems != null) {

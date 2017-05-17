@@ -65,6 +65,12 @@ public class SynDependency implements Edge, Comparable<SynDependency> {
 			"prep_on", "prep_for", "prep_about", "prep_from"));
 	
 	/**
+	 * dependency types that do not indicate a domination relationship
+	 */
+	public static final List<String> NON_DOMINATING_DEPENDENCIES = 
+			Collections.unmodifiableList(Arrays.asList("appos","cc","dep","conj"));
+	
+	/**
 	 * Order a set of dependencies based on their semantics of the textual units involved.
 	 * Those textual units that have associated predicates are considered to be higher-level and
 	 * are given precedence. This allows a bottom-up predicate-argument structure extraction 
@@ -610,7 +616,7 @@ public class SynDependency implements Edge, Comparable<SynDependency> {
 	 * @return  the set of all predecessors to <var>su</var>
 	 */
 	public static LinkedHashSet<SurfaceElement> getPredecessors(SurfaceElement su, List<SynDependency> deps) {
-		List<SynDependency> inDeps = inDependencies(su,deps);
+		List<SynDependency> inDeps = removeDependencies(inDependencies(su,deps),NON_DOMINATING_DEPENDENCIES);
 		return getAllGovernors(inDeps);
 	}
 	
@@ -623,8 +629,8 @@ public class SynDependency implements Edge, Comparable<SynDependency> {
 	 * @return  the set of all successors to <var>su</var>
 	 */
 	public static LinkedHashSet<SurfaceElement> getSuccessors(SurfaceElement su, List<SynDependency> deps) {
-		List<SynDependency> inDeps = outDependencies(su,deps);
-		return getAllDependents(inDeps);
+		List<SynDependency> outDeps = removeDependencies(outDependencies(su,deps),NON_DOMINATING_DEPENDENCIES);
+		return getAllDependents(outDeps);
 	}
 	
 	/**
@@ -652,7 +658,7 @@ public class SynDependency implements Edge, Comparable<SynDependency> {
 			inDeps = inDependencies(surfs.get(i),deps);
 			if (inDeps == null) return null;
 			for (SynDependency d: inDeps) {
-				log.log(Level.FINEST,"Checking in-dependency {0}." + new Object[]{d.toShortString()});
+				log.log(Level.FINEST,"Checking in-dependency {0}.", new Object[]{d.toShortString()});
 				if (aso.contains(d.getGovernor())) {
 					curr.add(d.getGovernor());
 				}
@@ -691,6 +697,29 @@ public class SynDependency implements Edge, Comparable<SynDependency> {
 				others.add(e);
 			}	
 		}
+	}
+	
+	/**
+	 * Removes dependencies of particular types from a list of dependencies.
+	 * 
+	 * @param dependencies	the dependencies to consider
+	 * @param depTypes		dependency types to remove 
+	 * @return  dependency list without the undesired dependencies, empty list if the input is null
+	 */
+	public static List<SynDependency> removeDependencies(List<SynDependency> dependencies, List<String> depTypes) {
+		List<SynDependency> out = new ArrayList<>();
+		if (dependencies == null) return out;
+		for (SynDependency dep: dependencies) {
+			boolean add = false;
+			for (String t: depTypes) {
+				if (dep.getType().startsWith(t)) {
+					add = true;
+					break;
+				}
+			}
+			if (!add) out.add(dep);
+		}
+		return out;
 	}
 	
 }
