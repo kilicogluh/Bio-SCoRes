@@ -74,7 +74,7 @@ public class ImplicitRelation extends AbstractRelation {
      	Element el = new Element("Relation");
      	el.addAttribute(new Attribute("id",id));
      	el.addAttribute(new Attribute("type",type));
-		if (features.size() > 0) {
+		if (features != null && features.size() > 0) {
 			for (String s: features.keySet()) {
 				el.addAttribute(new Attribute(s,features.get(s).toString()));
 			}

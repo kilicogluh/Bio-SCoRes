@@ -1,7 +1,6 @@
 package gov.nih.nlm.ling.transform;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -9,7 +8,6 @@ import java.util.logging.Logger;
 import gov.nih.nlm.ling.core.Sentence;
 import gov.nih.nlm.ling.core.SurfaceElement;
 import gov.nih.nlm.ling.core.SynDependency;
-import gov.nih.nlm.ling.core.Word;
 
 /**
  * A <code>DependencyTransformation</code> implementation that transforms a <code>Sentence</code> object
@@ -22,8 +20,6 @@ import gov.nih.nlm.ling.core.Word;
 public class DependencyDirectionReversal implements DependencyTransformation {
 	private static Logger log = Logger.getLogger(DependencyDirectionReversal.class.getName());
 
-	private static final List<String> NEG_DETERMINERS = Arrays.asList("no");
-	
 	@Override
 	public List<Class<? extends DependencyTransformation>> getPrerequisites() {
 		return new ArrayList<Class<? extends DependencyTransformation>>();
@@ -59,7 +55,6 @@ public class DependencyDirectionReversal implements DependencyTransformation {
 			SurfaceElement gov = d.getGovernor();
 			SurfaceElement dep = d.getDependent();
 			if (SynDependency.DEPENDENT_DOMINATED_DEPENDENCIES.contains(parentType) ||
-				(parentType.equals("det") && dep instanceof Word  && NEG_DETERMINERS.contains(((Word)dep).getLemma())) ||
 				(parentType.equals("advmod") && dep.hasSemantics())) {
 				SynDependency nD = new SynDependency("DDR_" + d.getId(), d.getType(),dep,gov);
 				outEmbeddings.add(nD);

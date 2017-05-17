@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -153,6 +154,27 @@ public class XMLReader {
 	}
 	
 	/**
+	 * Loads the content from an XML file. It assumes the file contains
+	 * one set of tokenization/parsing output. If <var>parseSemantics</var>
+	 * is set to false, the <var>annotationTypes</var> variable has no effect.
+	 * 
+	 * @param fileName			the XML file name
+	 * @param spansToProcess 	the span list specifying the zones to process
+	 * @param parseSemantics	whether to parse the semantic items
+	 * @param sifClass			the semantic item factory class
+	 * @param annotationTypes  	a <code>Map</code> with the semantic class/type information to parse
+	 * @param ignoreArgTypes  	the argument types to ignore (for relations, events)
+	 * 
+	 * @return a <code>Document</code> object represented by the XML file, null if it can not be parsed
+	 */
+	public Document load(String fileName, SpanList spansToProcess,
+								boolean parseSemantics, Class<? extends SemanticItemFactory> sifClass,
+								Map<Class<? extends SemanticItem>,List<String>> annotationTypes, 
+								Set<String> ignoreArgTypes) {
+		return load(fileName,null,null,parseSemantics,sifClass,spansToProcess,annotationTypes,ignoreArgTypes);
+	}
+	
+	/**
 	 * Similar to {@code #load(String, boolean, Class, Map, Set)}, but the tokenizer/parser output to use for 
 	 * further processing can be selected. <var>tokenizerName</var> is expected as the 'tokenizerName' 
 	 * attribute of the 'tokens' element. <var>parserName</var> is expected as the 'parserName' 
@@ -288,6 +310,7 @@ public class XMLReader {
 		}
 		Elements termEls = docEl.getChildElements("Term");
 		if (termEls == null) return;
+		Set<XMLSemanticItemReader> readers = null;
 		for (int i=0; i < termEls.size(); i++) {
 			Element termEl = termEls.get(i);
 			log.log(Level.FINEST,"Term XML: {0}.", new Object[]{termEl.toXML()});
@@ -304,19 +327,39 @@ public class XMLReader {
 				if (existing instanceof Entity) {
 //					equivIds.put(id, existing.getId());
 			   		equivMap.put(id, existing);
-					return;
+					continue;
 				}
 			}
-			XMLSemanticItemReader annReader = parseWith(semtype,annotationTypes);
+			XMLSemanticItemReader annReader = null;
+			readers = parseWithMultiple(semtype,annotationTypes);
+			for (XMLSemanticItemReader reader: readers) {
+				try {
+					annReader = (XMLEntityReader)reader;
+				} catch (ClassCastException cce) {
+					try {
+						annReader = (XMLPredicateReader)reader;
+					} 
+					catch (ClassCastException cce1) {
+					}
+				}
+			}
+//			XMLSemanticItemReader annReader = parseWith(semtype,annotationTypes);
 			if (annReader == null) continue;
-			Entity ent = (Entity)annReader.read(termEl, doc);
+			Term ent = (Term)annReader.read(termEl, doc);
 			if (ent != null) termSpans.put(spt, ent);
 		}
-		Elements relEls = docEl.getChildElements("Relation");
+		Elements relEls = docEl.getChildElements("Modification");
 		for (int i=0; i < relEls.size(); i++) {
 			Element relEl = relEls.get(i);
 			String semtype = relEl.getAttributeValue("type");
-			XMLRelationReader annReader = (XMLRelationReader)parseWith(semtype,annotationTypes);
+			XMLRelationReader annReader = null;
+			readers = parseWithMultiple(semtype,annotationTypes);
+			for (XMLSemanticItemReader reader: readers) {
+				try {
+					annReader = (XMLRelationReader)reader;
+				} catch (ClassCastException cce) {
+				}
+			}
 			if (annReader == null) continue;
 			annReader.read(relEl,doc,ignoreArgTypes,equivMap);
 		}
@@ -324,22 +367,28 @@ public class XMLReader {
 		for (int i=0; i < evEls.size(); i++) {
 			Element evEl = evEls.get(i);
 			String semtype = evEl.getAttributeValue("type");
-			XMLRelationReader annReader = (XMLRelationReader)parseWith(semtype,annotationTypes);
+			XMLEventReader annReader = null;
+			readers = parseWithMultiple(semtype,annotationTypes);
+			for (XMLSemanticItemReader reader: readers) {
+				try {
+					annReader = (XMLEventReader)reader;
+				} catch (ClassCastException cce) {
+				}
+			}
 			if (annReader == null) continue;
 			annReader.read(evEl,doc,ignoreArgTypes,equivMap);
 		}
 /*		Elements refEls = docEl.getChildElements("Reference");
-		Elements equivEls = docEl.getChildElements("Equiv");
-		Elements modEls = docEl.getChildElements("Modification");*/
+		Elements equivEls = docEl.getChildElements("Equiv"); */
 	}
-		
-	// determines how a given class/semantic type pair needs to be parsed
-	private  XMLSemanticItemReader parseWith(String type, 
+	
+	private  Set<XMLSemanticItemReader> parseWithMultiple(String type, 
 			Map<Class<? extends SemanticItem>,List<String>> annotationTypes) {
+		Set<XMLSemanticItemReader> readers = new HashSet<>();
 		for (Class<? extends SemanticItem> t: annotationTypes.keySet()) {
-			if (annotationTypes.get(t).contains(type)) return readerMap.get(t);
+			if (annotationTypes.get(t).contains(type)) readers.add(readerMap.get(t));
 		}
-		return null;
+		return readers;
 	}
 	
   public static void main(String[] argv) throws Exception {

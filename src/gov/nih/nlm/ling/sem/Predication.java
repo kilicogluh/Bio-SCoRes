@@ -249,8 +249,8 @@ public class Predication extends AbstractRelation implements HasPredicate {
 	 * @return true if the source of this predication is GENERIC.
 	 */
 	public boolean hasGenericSource() {
-//		return (sources.size() == 1 && sources.get(0).equals(Entity.SOURCE_GENERIC));
-		return (sources.size() == 1 && sources.get(0).getOntology().equals(Concept.SOURCE_GENERIC));	
+		return (sources!=null && sources.size() == 1 && 
+				sources.get(0).getOntology() !=null && sources.get(0).getOntology().equals(Concept.SOURCE_GENERIC));	
 	}
 	
 	/**
@@ -258,8 +258,8 @@ public class Predication extends AbstractRelation implements HasPredicate {
 	 * @return true if the source is WRITER.
 	 */
 	public boolean hasDefaultSource() {
-//		return (sources.size() == 1 && sources.get(0).equals(Entity.SOURCE_WRITER));
-		return (sources.size() == 1 && sources.get(0).getOntology().equals(Concept.SOURCE_WRITER));	
+		return (sources != null && sources.size() == 1 && 
+				sources.get(0).getOntology() != null && sources.get(0).getOntology().equals(Concept.SOURCE_WRITER));	
 	}
 	
 	/**
@@ -467,7 +467,7 @@ public class Predication extends AbstractRelation implements HasPredicate {
 		el.addAttribute(new Attribute("type",type));
 //		el.addAttribute(new Attribute("origId",id));
 		if (predicate != null) el.addAttribute(new Attribute("predicate",predicate.getId()));
-		if (features.size() > 0) {
+		if (features!=null && features.size() > 0) {
 			for (String s: features.keySet()) {
 				el.addAttribute(new Attribute(s,features.get(s).toString()));
 			}

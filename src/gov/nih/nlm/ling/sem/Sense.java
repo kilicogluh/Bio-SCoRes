@@ -236,12 +236,12 @@ public class Sense implements Ontology, Comparable<Sense> {
 	
 	public Element toXml() {
 		Element el = new Element("SemInfo");
-		el.addAttribute(new Attribute("semType",category));
+		el.addAttribute(new Attribute("category",category));
 		el.addAttribute(new Attribute("priorScalarValue", String.valueOf(priorScalarValue)));
-		el.addAttribute(new Attribute("probability",String.valueOf(probability)));
+		el.addAttribute(new Attribute("embeddingTypes",String.join(",", embeddingTypes)));
 		el.addAttribute(new Attribute("inverse",String.valueOf(inverse)));
 		el.addAttribute(new Attribute("scopeType",scopeType.toString()));
-		el.addAttribute(new Attribute("embeddingTypes",embeddingTypes.toString()));
+		el.addAttribute(new Attribute("probability",String.valueOf(probability)));
 		if (additionalFeatures != null && additionalFeatures.size() > 0) {
 			for (String k: additionalFeatures.keySet()) {
 				el.addAttribute(new Attribute(k,additionalFeatures.get(k).toString()));

@@ -43,6 +43,7 @@ public class MedlineSentenceSegmenter implements SentenceSegmenter {
     	List<String> mergedSegments = mergeSegments(firstPassSegments);
     	int start = 0;
     	for (String ms: mergedSegments) {
+    		ms = ms.trim();
     		start = inStr.indexOf(ms,start);
     		log.log(Level.FINEST,"Merged segment: {0}-{1}", new Object[]{start, ms});
     		Sentence s = new Sentence("S" + ++id, ms, new Span(start,start+ms.length()));

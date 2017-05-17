@@ -182,7 +182,7 @@ public class Predicate extends AbstractTerm {
 		el.addAttribute(new Attribute("id",id));
 		//el.addAttribute(new Attribute("origId",id));
 		//el.addAttribute(new Attribute("isName","False"));
-		if (features.size() > 0) {
+		if (features!=null && features.size() > 0) {
 			for (String s: features.keySet()) {
 				el.addAttribute(new Attribute(s,features.get(s).toString()));
 			}

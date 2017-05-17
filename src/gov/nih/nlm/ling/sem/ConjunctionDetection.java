@@ -38,7 +38,7 @@ public class ConjunctionDetection {
 	private static final List<String> AND_COORDINATORS = Arrays.asList("and","to","also","well","&",",","plus");
 	private static final List<String> OR_COORDINATORS = Arrays.asList("or",",");
 	// rather than?
-	private static final List<String> NEG_COORDINATORS = Arrays.asList("not","instead","rather");
+	private static final List<String> NEG_COORDINATORS = Arrays.asList("but not","but","instead","rather");
 	
 	/**
 	 * Annotates all conjunction relations in the document.
@@ -596,12 +596,13 @@ public class ConjunctionDetection {
 		}
 		if (possibleConjs.size() == 0) {
 			for (SurfaceElement si: sItems) {
+				String sitext = si.getText().toLowerCase().replaceAll("[ ]+", " ");
 				log.log(Level.FINEST,"Coordinating conjunction for {0}_{1}: {2}.", new Object[]{synDep.toShortString(),sub,si.getText()});
-				if ((sub.equals("and") && AND_COORDINATORS.contains(si.getText())) || 
+				if ((sub.equals("and") && AND_COORDINATORS.contains(sitext)) || 
 					// weird that this happens, but it happens PMID 8617979
-					(sub.equals("plus") && AND_COORDINATORS.contains(si.getText())) ||
-					(sub.equals("or") && OR_COORDINATORS.contains(si.getText())) || 
-					(sub.equals("negcc") && NEG_COORDINATORS.contains(si.getText())))
+					(sub.equals("plus") && AND_COORDINATORS.contains(sitext)) ||
+					(sub.equals("or") && OR_COORDINATORS.contains(sitext)) || 
+					(sub.equals("negcc") && NEG_COORDINATORS.contains(sitext)))
 					possibleConjs.add(si);
 			}
 		}

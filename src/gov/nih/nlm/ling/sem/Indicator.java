@@ -235,11 +235,16 @@ public class Indicator implements Ontology,Comparable<Indicator> {
 		Element el = new Element("Indicator");
 		el.addAttribute(new Attribute("string",string));
 		el.addAttribute(new Attribute("gapType",gapType.toString()));
-		el.addAttribute(new Attribute("verified",String.valueOf(false)));
+		el.addAttribute(new Attribute("verified",Boolean.toString(verified)));
 		if (isGapped()) {
 			el.appendChild(((GappedLexeme)lexeme).toXml());
 		} else if (isMultiWord()) {
-			el.appendChild(((MultiWordLexeme)lexeme).toXml());
+			Element mwel = ((MultiWordLexeme)lexeme).toXml();
+			Elements lexs = mwel.getChildElements("Lexeme");
+			for (int i=0; i < lexs.size(); i++) {
+				lexs.get(i).detach();
+				el.appendChild(lexs.get(i));
+			}
 		} else {
 			el.appendChild(((WordLexeme)lexeme).toXml());
 		} 

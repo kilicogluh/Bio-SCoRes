@@ -214,7 +214,7 @@ public class Event extends AbstractRelation implements HasPredicate {
 		el.addAttribute(new Attribute("id",id));
 		if (type != null) el.addAttribute(new Attribute("type",type));
 		if (predicate != null) el.addAttribute(new Attribute("predicate",predicate.getId()));
-		if (features.size() > 0) {
+		if (features != null && features.size() > 0) {
 			for (String s: features.keySet()) {
 				el.addAttribute(new Attribute(s,features.get(s).toString()));
 			}

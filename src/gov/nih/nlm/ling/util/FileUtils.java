@@ -58,7 +58,8 @@ public class FileUtils {
         try (DirectoryStream<Path> directoryStream = Files.newDirectoryStream(Paths.get(dirName))) {
             for (Path path : directoryStream) {
                 if (Files.isDirectory(path)) {
-                    fileNames.addAll(listFiles(path.toString(),isRecursive,ext));
+                	if (isRecursive)
+                		fileNames.addAll(listFiles(path.toString(),isRecursive,ext));
                  }
                 if (path.toString().endsWith("." + ext)) 
                 	fileNames.add(path.toString());

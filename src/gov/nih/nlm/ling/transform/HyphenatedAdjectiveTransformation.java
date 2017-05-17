@@ -102,7 +102,9 @@ public class HyphenatedAdjectiveTransformation implements DependencyTransformati
 						String et = doc.getStringInSpan(esp);
 						//	entity = doc.getSurfaceElementFactory().createSurfaceElementIfNecessary(s, e.getSpan());
 						entity = new Word(et,"NNS", new WordLexeme(et,"NN"), w.getIndex(), esp);
+						entity.setSentence(sent);
 						entity.addSemantics(e);
+						e.setSurfaceElement(entity);
 					}
 					for (SemanticItem si: predicates) {
 						Predicate p = (Predicate)si;
@@ -111,7 +113,9 @@ public class HyphenatedAdjectiveTransformation implements DependencyTransformati
 						//	entity = doc.getSurfaceElementFactory().createSurfaceElementIfNecessary(s, e.getSpan());
 						String pos = (pt.endsWith("ing") ? "VBG" : "VBN");
 						predicate = new Word(pt, pos, new WordLexeme(pt,"VB"), w.getIndex(), psp);
+						predicate.setSentence(sent);
 						predicate.addSemantics(p);
+						p.setSurfaceElement(predicate);
 						LinkedHashSet<SemanticItem> rels = w.filterByRelations();
 						if (rels !=null) predicate.addSemantics(rels);
 					}
@@ -216,10 +220,8 @@ public class HyphenatedAdjectiveTransformation implements DependencyTransformati
 					}
 				}
 			}
-			
+			sent.synchEmbeddings(markedForRemoval, markedForAddition);
 		}
-		// May not be the best place, maybe do it after each surface element is processed?
-		sent.synchEmbeddings(markedForRemoval, markedForAddition);
 		sent.addTransformation(this.getClass());
 	}
 

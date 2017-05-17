@@ -220,4 +220,24 @@ public class Entity extends AbstractTerm {
 		}
 	}
 	
+/*	public int hashCode() {
+		return 
+	    ((id == null ? 79 : id.hashCode()));// ^
+//	     (type  == null ? 91 : type.hashCode()) ^
+//	     (getText() == null ? 107: getText().hashCode()) ^
+//	     (span == null ? 127 : span.hashCode()));
+	}
+	
+
+	public boolean equals(Object obj) {
+		if (obj == null) return false;
+		if (getClass() != obj.getClass()) return false;
+		if (this == obj) return true;
+		Entity at = (Entity)obj;
+		return (id.equals(at.getId())); //&&
+//			        type.equals(at.getType()) &&
+//			        getText().equals(at.getText()) &&
+//			        span.equals(at.getSpan()));
+	}*/
+	
 }

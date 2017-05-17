@@ -28,7 +28,6 @@ import gov.nih.nlm.ling.sem.Sense.ScopeType;
  */
 public class ScopeTransformation implements DependencyTransformation {
 	private static Logger log = Logger.getLogger(ScopeTransformation.class.getName());	
-
 	
 	@Override
 	public List<Class<? extends DependencyTransformation>> getPrerequisites() {
@@ -138,7 +137,7 @@ public class ScopeTransformation implements DependencyTransformation {
 		List<SynDependency> markedForAddition = new ArrayList<>();
 		List<SynDependency> markedForRemoval = new ArrayList<>();
 		for (SurfaceElement su: surfs) {
-			List<SynDependency> outDeps = SynDependency.outDependencies(su, embeddings);
+			List<SynDependency> outDeps = SynDependency.inDependencies(su, embeddings);
 			if (outDeps.size() == 0) continue;
 			Set<SemanticItem> predicates = su.filterByPredicates();
 			if (predicates.size() == 0) continue;
@@ -156,6 +155,9 @@ public class ScopeTransformation implements DependencyTransformation {
 						for (SurfaceElement i: siPredecessors) {
 							if (predecessors.contains(i)) continue;
 							SynDependency iSd = SynDependency.findDependenciesBetween(embeddings, i, si, true).get(0);
+							// this is a bit ad hoc, and relies on the fact that in our case, only negative terms have wide scope.
+							// may remove this if it does not do much
+							if (iSd.getType().startsWith("neg")) continue;
 							markedForRemoval.add(iSd);
 							log.log(Level.FINE,"Removing dependency due to wide scope transformation: {0}.", new Object[]{iSd.toString()});
 							SynDependency d = new SynDependency("SCW_" + sd.getId(), iSd.getType(), i,su);

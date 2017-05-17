@@ -101,8 +101,10 @@ public class PolarityComposition implements DependencyTransformation {
 					pc.setType(ntype);
 				}
 			}
-			log.log(Level.FINE,"Removing semantic item due to polarity composition: {0}.", new Object[]{remove.toString()});
-			doc.removeSemanticItem(remove);
+			if (remove!=null) {
+				log.log(Level.FINE,"Removing semantic item due to polarity composition: {0}.", new Object[]{remove.toString()});
+				doc.removeSemanticItem(remove);
+			}
 		}
 		sent.addTransformation(this.getClass());
 	}	

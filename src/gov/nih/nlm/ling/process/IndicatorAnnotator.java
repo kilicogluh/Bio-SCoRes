@@ -43,6 +43,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 	// we really want. 
 	private boolean ignorePOS = false;
 	private boolean allowMultipleAnnotations = true;
+	private boolean postHyphenMatch = true;
 		
 	public IndicatorAnnotator() {}
 	
@@ -90,6 +91,19 @@ public class IndicatorAnnotator implements TermAnnotator {
 		this.allowMultipleAnnotations = allowMultipleAnnotations;
 	}
 	
+	/**
+	 * Returns whether, if the token is hyphenated, the post-hyphen substring is allowed to be an indicator
+	 * 
+	 * @return true if this variable has been set.
+	 */
+	public boolean postHyphenMatch() {
+		return postHyphenMatch;
+	}
+
+	public void setPostHyphenMatch(boolean postHyphenMatch) {
+		this.postHyphenMatch = postHyphenMatch;
+	}
+
 	@Override 
 	public void annotate(Document document, Properties props,
 			Map<SpanList,LinkedHashSet<Ontology>> annotations) {
@@ -110,7 +124,8 @@ public class IndicatorAnnotator implements TermAnnotator {
 				if (props.getProperty("gappedTermAnnotationWindow") != null)
 					window = Integer.parseInt(props.getProperty("gappedTermAnnotationWindow"));
 				annotateGapped(document, ind, window, annotations);
-			} else if (ind.isMultiWord()) annotateMultiWord(document, ind, annotations);
+			} else if (ind.isMultiWord()) 
+				annotateMultiWord(document, ind, annotations);
 			else annotateWord(document,ind,annotations);	
 			if (ignorePOS) seenIndLemmas.add(ind.getLexeme().getLemma());
 		}
@@ -171,7 +186,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 					(ignorePOS && w.getLemma().equals(indLex.getLemma()))) {
 					sp = w.getSpan();
 					log.log(Level.FINE,"Word {0} matches the indicator {1}.", new Object[]{w.toString(),indicator.toString()});
-				} else if (w.getText().contains("-" + indLex.getLemma())) {
+				} else if (postHyphenMatch && w.getText().contains("-" + indLex.getLemma())) {
 					// we don't want a substring to match, 'as' in 'associated' for example.
 					int len = w.getText().length() - w.getText().indexOf("-")-1;
 					if (indLex.getLemma().length() < len) continue;

@@ -43,10 +43,8 @@ public class XMLPredicateReader implements XMLSemanticItemReader {
 	   	Predicate pr = sif.newPredicate(doc,sp,headSp,type);
 		pr.setId(id);
 		sent.synchSurfaceElements(pr.getSurfaceElement());
-	   	sent.synchEmbeddings();
 	   	log.log(Level.FINEST,"Generated predicate {0} with the head {1}. ", 
 	   			new String[]{pr.toString(), pr.getSurfaceElement().getHead().toString()});
 	   	return pr;
 	}
-
 }

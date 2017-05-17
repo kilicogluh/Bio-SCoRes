@@ -351,8 +351,30 @@ public class CoreNLPWrapper {
 	
 	public static void main(String[] args) throws IOException {
 		System.setProperty("java.util.logging.config.file", "logging.properties");
-		String filename = args[0];
-		String outputFilename = args[1];
-		CoreNLPWrapper.getInstance().coreNLP(filename, outputFilename);
+		String in = args[0];
+		String out = args[1];
+		String repr = args[2];
+		File inFile = new File(in);
+		File outFile = new File(out);
+		boolean reprocess = Boolean.parseBoolean(repr);
+		if (inFile.isDirectory()) {
+			if (outFile.exists() == false) {
+				outFile.mkdir();
+			}
+			List<String> files = FileUtils.listFiles(in, false, "txt");
+			int fileNum = 0;
+			for (String f:  files) {
+				String id = f.substring(f.lastIndexOf(File.separator)+1).replace(".txt", "");
+				log.log(Level.INFO,"Processing {0}: {1}.", new Object[]{id,++fileNum});
+				String outfile = outFile.getAbsolutePath() + File.separator + id + ".xml";
+				if (!reprocess && new File(outfile).exists()) {
+					log.log(Level.INFO, "Output XML file exists: {0}. Skipping..", outfile);
+				}
+				CoreNLPWrapper.getInstance().coreNLP(f, outfile);
+			}
+		} else {
+			if (reprocess || outFile.exists() == false) 
+				CoreNLPWrapper.getInstance().coreNLP(in, out);
+		}
 	}
 }

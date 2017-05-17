@@ -13,6 +13,7 @@ import java.util.logging.Logger;
 import gov.nih.nlm.ling.brat.Annotation;
 import gov.nih.nlm.ling.brat.AnnotationArgument;
 import gov.nih.nlm.ling.brat.EventAnnotation;
+import gov.nih.nlm.ling.brat.ModificationAnnotation;
 import gov.nih.nlm.ling.brat.Reference;
 import gov.nih.nlm.ling.brat.TermAnnotation;
 import gov.nih.nlm.ling.core.Document;
@@ -283,7 +284,7 @@ public class SemanticItemFactory {
 		Predication pr = null;
 		log.log(Level.FINEST,"Creating a new predication with the predicate {0}.", new Object[]{predicate.toShortString()});
 		for (int i=0; i < args.size(); i++) {
-			log.log(Level.FINEST,"\tArgument: ", new Object[]{args.get(i).toShortString()});
+			log.log(Level.FINEST,"\tArgument: ", new Object[]{args.get(i).getArg().toShortString()});
 		}
 		String id = "P" + getNextId(Predication.class);
 		pr = new Predication(id, predicate,args, scalarValues, sources);
@@ -305,7 +306,7 @@ public class SemanticItemFactory {
 	public ImplicitRelation newImplicitRelation(Document doc, String type, List<Argument> args) { 
 		log.log(Level.FINEST,"Creating a new implicit relation with type {0}.", new Object[]{type});
 		for (int i=0; i < args.size(); i++) {
-			log.log(Level.FINEST,"\tArgument: ", new Object[]{args.get(i).toShortString()});
+			log.log(Level.FINEST,"\tArgument: ", new Object[]{args.get(i).getArg().toShortString()});
 		}
 		String id = "R" + getNextId(Relation.class);
 		ImplicitRelation sr = new ImplicitRelation(id,type,args);
@@ -367,7 +368,7 @@ public class SemanticItemFactory {
 		if (predicate == null) return null;
 		log.log(Level.FINEST,"Creating a new Event with predicate {0}.", new Object[]{predicate.toShortString()});
 		for (int i=0; i < args.size(); i++) {
-			log.log(Level.FINEST,"\tArgument: ", new Object[]{args.get(i).toShortString()});
+			log.log(Level.FINEST,"\tArgument: ", new Object[]{args.get(i).getArg().toShortString()});
 		}
 		String id = "E" + getNextId(Event.class);
 		Event sr = new Event(id,predicate,args);
@@ -393,4 +394,45 @@ public class SemanticItemFactory {
 		log.log(Level.FINEST,"Conjunction generated: {0}.", new Object[]{sic.toShortString()});
 		return sic;
 	}
+	
+	/**
+	 * Creates a new <code>Modification</code> object from a standoff annotation. 
+	 * Returns null if the modified semantic object cannot be identified.
+	 * 
+	 * @param doc	the document the modification is associated with
+	 * @param ann	the corresponding <code>ModificationAnnotation</code> object
+	 * @return	a new <code>Modification</code> object
+	 */
+	public Modification newModification(Document doc, ModificationAnnotation ann) {
+		Annotation sem = ann.getSemanticItem();
+		String type = ann.getType();
+		List<Argument> args = new ArrayList<>();
+		SemanticItem si  = doc.getSemanticItemById(sem.getId());
+		if (si == null) {
+			log.log(Level.SEVERE,"Unable to identify the semantic item from id: {0}.",sem.getId());
+			return null;
+		}  else 
+			args.add(new Argument("SemanticItem",si));
+		Modification mod = newModification(doc,type,args);
+		if (ann.getValue() != null) mod.setValue(ann.getValue());
+		mod.setId(ann.getId());
+		return mod;
+	}
+
+	/**
+	 * Creates a new <code>Modification</code> object. 
+	 * 
+	 * @param doc	the document the modification is associated with
+	 * @param type	type of the modification, Negation, Speculation, Factuality, etc.
+	 * @param args  the argument list of the modification
+	 * @return a new <code>Modification</code> object.
+	 */
+	public Modification newModification(Document doc, String type, List<Argument> args) { 
+		String id = "A" + getNextId(Modification.class);
+		Modification mod = new Modification(id,type,args);	
+		log.log(Level.FINEST,"Modification generated: {0}", mod.toShortString());
+		doc.addSemanticItem(mod);
+		return mod;
+	}
+	
 }
