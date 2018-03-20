@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 
 import gov.nih.nlm.ling.core.Document;
 import gov.nih.nlm.ling.sem.Argument;
+import gov.nih.nlm.ling.sem.Event;
 import gov.nih.nlm.ling.sem.Predicate;
-import gov.nih.nlm.ling.sem.Predication;
 import gov.nih.nlm.ling.sem.Relation;
 import gov.nih.nlm.ling.sem.SemanticItem;
 import gov.nih.nlm.ling.sem.SemanticItemFactory;
@@ -98,9 +98,9 @@ public class XMLEventReader implements XMLRelationReader {
 				}
 			}
 		}
-//		Event ev = sif.newEvent(doc, pr, args);
+		Event ev = sif.newEvent(doc, pr, args);
 		// This was necessary for composition.
-		Predication ev = sif.newPredication(doc, pr, args, null, null);
+//		Predication ev = sif.newPredication(doc, pr, args, null, null);
 		ev.setId(id);
 		for (int i=0; i < el.getAttributeCount();i++) {
 			Attribute att = el.getAttribute(i);

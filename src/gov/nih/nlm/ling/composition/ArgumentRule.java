@@ -242,7 +242,7 @@ public class ArgumentRule {
 									null,null));
 		rules.add(new ArgumentRule("OBJ","NN","COMP"));
 		rules.add(new ArgumentRule("PREP_FOR","NN","SUBJ",null,
-				new HashSet<Lexeme>(Arrays.asList(new WordLexeme("role","NN"))),null,null)); 
+				new HashSet<Lexeme>(Arrays.asList(new WordLexeme("role","NN"),new WordLexeme("risk","NN"))),null,null)); 
 		
 		rules.add(new ArgumentRule("SUBJ","VB","SUBJ"));
 		// TODO not great, better to use bidirectional relation logic (CORRELATIVE, etc.)

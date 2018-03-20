@@ -829,7 +829,7 @@ public class Document {
 	}
 			
 	/**
-	 * Gets the sentence that subsumes the given span.<p>
+	 * Gets the first sentence that subsumes the given span.<p>
 	 * If the span partially overlaps with the sentence, the sentence is still returned.
 	 * 
 	 * @param sp  the span of the text 
@@ -847,6 +847,26 @@ public class Document {
 			}
 		}
 		return null;
+	}
+	
+	/**
+	 * Gets all the sentences that are subsumed by the given span.<p>
+	 * If the span partially overlaps with the sentence, the sentence is still returned.
+	 * 
+	 * @param sp  the span of the text 
+	 * @return  the list of sentences that are subsumed by or overlaps with the span, or an empty list 
+	 * @throws IllegalStateException if the sentences are not known
+	 */
+	public List<Sentence> getAllSubsumingSentences(Span sp) {
+		if (sentences == null) 
+			throw new IllegalStateException("The sentences of the document  " + id + " are unknown.");
+		List<Sentence> out = new ArrayList<>();
+		for (Sentence s: sentences) {
+			if (Span.overlap(sp, s.getSpan())) {
+				out.add(s);
+			}
+		}
+		return out;
 	}
 	
 	/**
@@ -957,8 +977,12 @@ public class Document {
 	 * 
 	 * @param sp  the span of the text 
 	 * @return  the text in the span
+	 * 
+	 * @throws IllegalStateException when the input span is invalid
 	 */
 	public String getStringInSpan(Span sp) {
+		if (sp.getBegin() >= text.length())
+			throw new IllegalStateException("Invalid input span for this document." + sp.toString());
 		return text.substring(sp.getBegin(), sp.getEnd());
 	}
 	
@@ -1019,6 +1043,43 @@ public class Document {
 		else {left=as;right=bs;}
 		Span between = new Span(left.getEnd(),right.getBegin());
 		return getSurfaceElementsInSpan(between);
+	}
+	
+	/**
+	 * Finds the section that a sentence appears in.
+	 * 
+	 * @param sentence	the sentence in question
+	 * @return the section of the sentence, or null if the document has no sections or the section cannot be identified
+	 * 
+	 */
+	public Section getSection(Sentence sentence) {
+		if (sections == null) 			
+			return null;
+		for (Section sect: sections) {
+			Section subsuming = getLowestSubsumingSection(sect,sentence.getSpan());
+			if (subsuming != null) return subsuming;
+		}
+		return null;
+	}
+	
+	private Section getLowestSubsumingSection(Section section, Span sp) {
+		if (section.getSubSections().size() == 0) {
+			if ((section.getTitleSpan() != null && Span.subsume(section.getTitleSpan(), sp)) ||
+				(section.getTextSpan() != null && Span.subsume(section.getTextSpan(), sp)))
+				return section;
+			return null;
+		} else {
+			for (Section sub : section.getSubSections()) {
+				Section a = getLowestSubsumingSection(sub,sp);
+				if (a != null) return a;
+			}
+//			return section;
+		}
+		// The section has subsections, but this span is in the main paragraphs of the section, and not the subsectiosn
+		if ((section.getTitleSpan() != null && Span.subsume(section.getTitleSpan(), sp)) ||
+				(section.getTextSpan() != null && Span.subsume(section.getTextSpan(), sp)))
+				return section;
+		return null;
 	}
 	
 	/**

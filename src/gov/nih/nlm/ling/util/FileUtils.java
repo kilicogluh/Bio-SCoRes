@@ -210,7 +210,6 @@ public class FileUtils {
 	public static void write(String outText, File outFile, String encoding) throws IOException {
 		PrintWriter out = new PrintWriter(outFile,encoding);
 		out.write(outText);
-		out.append(System.getProperty("line.separator"));
 	    out.close();
 	}
 	

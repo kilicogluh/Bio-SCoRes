@@ -146,7 +146,7 @@ public class StandoffAnnotationReader {
 						strLine = lines.get(i).trim();
 						if (strLine.length() == 0) continue;
 						AnnotationType pa = parseAs(strLine,prefixMap);
-						if (pa == null) continue;
+						if (pa == null || pa == AnnotationType.AnnotatorNote) continue;
 						if (parseTypes != null && parseTypes.contains(getSemType(strLine)) == false) continue;
 						log.log(Level.FINEST, "Read standoff annotation line: {0}.", strLine);
 
@@ -532,7 +532,8 @@ public class StandoffAnnotationReader {
 	    String value = null;
 	    if (els.length > 2) {
 //	    if (tabbedStrs.length > 2) {
-	    	value = els[2];
+//	    	value = els[2];
+	    	value = tabbedStrs[1].substring(tabbedStrs[1].indexOf(els[2]));
 //	    	value = tabbedStrs[2];
 	    } 
 	    if (value == null)

@@ -84,6 +84,16 @@ public class Section {
 	}
 	
 	/**
+	 * Returns the title of the section. 
+	 * 
+	 * @return	the title string for the section or null if the title span is unspecified.
+	 */
+	public String getTitle() {
+		if (titleSpan == null) return null;
+		return document.getStringInSpan(titleSpan);
+	}
+	
+	/**
 	 * Gets sentences enclosed in this section.
 	 * 
 	 * @return the list of sentences.

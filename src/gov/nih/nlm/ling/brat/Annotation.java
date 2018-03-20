@@ -16,6 +16,13 @@ public interface Annotation extends Comparable<Annotation> {
 	 */
 	  public String getId();
 	  
+	/**
+	 * Gets the identifier of this annotation.
+	 * 
+	 * @param	id		the annotation identifier
+	 */
+	  public void setId(String id);
+	  
 	  /**
 	   * Gets the identifier of the document of this annotation.
 	   *  

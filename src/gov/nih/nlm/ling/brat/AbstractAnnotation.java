@@ -17,7 +17,8 @@ public abstract class AbstractAnnotation implements Annotation {
 			Arrays.asList(TermAnnotation.class,RelationAnnotation.class,EventAnnotation.class,
 					ModificationAnnotation.class);
 	
-	public final String id;
+	// TODO: Used to be 'final', but had to change to be able to merge annotations from files, find a better solution
+	public String id;
 	public final String docId;
 	public final String annotationType;
 	public final String type;
@@ -74,6 +75,10 @@ public abstract class AbstractAnnotation implements Annotation {
 	
 	public String getId() {
 		return id;
+	}
+	
+	public void setId(String id) {
+		this.id = id;
 	}
 	
 	public String getAnnotationType() {

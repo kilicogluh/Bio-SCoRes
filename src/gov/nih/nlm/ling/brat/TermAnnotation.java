@@ -150,7 +150,8 @@ public class TermAnnotation extends AbstractAnnotation {
 	public boolean approximateMatch(Annotation a) {
 		if (a instanceof TermAnnotation == false) return false;
 		TermAnnotation at = (TermAnnotation) a;
-		return (type.equals(at.getType()) && SpanList.overlap(span, at.getSpan()));
+	return (type.equals(at.getType()) && SpanList.overlap(span, at.getSpan()));
+//		return (type.equals(at.getType()) && at.getText().equals(text));
 	}
 	
 	/**

@@ -20,9 +20,12 @@ public class NewlineSentenceSegmenter implements SentenceSegmenter {
 		int k=0;
 		for (int i=0; i < lines.length; i++) {
 			String line = lines[i];
-			int start = text.indexOf(line,j);
-			int end = (line.length() == 0 ? start+1: start+ line.length());
-			Sentence sent = new Sentence("S" + k, line, new Span(start,end));
+			String lineTrim = line.trim();
+			if (lineTrim.length() == 0) continue;
+			int start = text.indexOf(lineTrim,j);
+//			int end = (line.length() == 0 ? start+1: start+ line.length());
+			int end = start + lineTrim.length();
+			Sentence sent = new Sentence("S" + k, lineTrim, new Span(start,end));
 			k++;
 			j = end;
 			sentences.add(sent);

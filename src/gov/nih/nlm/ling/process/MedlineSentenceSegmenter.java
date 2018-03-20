@@ -25,7 +25,7 @@ public class MedlineSentenceSegmenter implements SentenceSegmenter {
 	private static final Pattern BOUNDARY_PATTERN = Pattern.compile("(.+?)(\\. *(\\r?\\n)+|\\? *(\\r?\\n)+|\\! *(\\r?\\n)+|\\. +|\\? +|\\! +|(\\r?\\n)+|$)");		
 	private static final Pattern SENTENCE_PATTERN = Pattern.compile("\\w");
 	private static final Pattern BACTERIA_PATTERN = Pattern.compile("( |^)[A-Z]+(\\.(\\r?\\n)+|\\. +|\\?(\\r?\\n)+|\\!(\\r?\\n)+|\\? +|\\! +|(\\r?\\n)+)$");
-	private static final Pattern OTHER_PATTERN 	= Pattern.compile("( |^)(Fig|et al)(\\. +)$");
+	private static final Pattern OTHER_PATTERN 	= Pattern.compile("(\\W)(Fig|et al|i\\.e)(\\. +)$");
 	
 	@Override
 	public void segment(String inStr, List<Sentence> sentences){
@@ -84,8 +84,7 @@ public class MedlineSentenceSegmenter implements SentenceSegmenter {
 		String prevSentence = segmentedSentences0.get(0);
 		for (int i=1; i < segmentedSentences0.size(); i++) {
 			String ss = segmentedSentences0.get(i);
-			if (((ss.charAt(0) >= 'a' && ss.charAt(0) <= 'z') && 
-					BACTERIA_PATTERN.matcher(prevSentence).find()) ||
+			if (((ss.charAt(0) >= 'a' && ss.charAt(0) <= 'z') && BACTERIA_PATTERN.matcher(prevSentence).find()) ||
 					OTHER_PATTERN.matcher(prevSentence).find()){
 				segmentedSentences.set(segmentedSentences.size()-1,segmentedSentences.get(segmentedSentences.size()-1) + ss);
 			} else {

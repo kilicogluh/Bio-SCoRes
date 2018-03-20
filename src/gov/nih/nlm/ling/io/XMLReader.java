@@ -297,6 +297,8 @@ public class XMLReader {
 	 */
 	public void parseSemanticItems(Document doc, SpanList spansToProcess, Element docEl, 
 				Map<Class<? extends SemanticItem>,List<String>> annotationTypes, Set<String> ignoreArgTypes)  {		
+		if (annotationTypes == null || annotationTypes.size() == 0) 
+			return;
 //		associations = new LinkedHashMap<>();
 		termSpans = new LinkedHashMap<>();
 //		equivIds = new LinkedHashMap<>();

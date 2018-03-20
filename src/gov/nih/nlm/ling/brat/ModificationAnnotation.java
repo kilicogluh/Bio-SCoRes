@@ -66,8 +66,8 @@ public class ModificationAnnotation extends AbstractAnnotation {
 	}
 
 	/**
-	 * Checks whether the event modification annotation matches exactly another annotation
-	 * by checking the type, event argument and value if possible
+	 * Checks whether the modification annotation matches exactly another annotation
+	 * by checking the type, argument and value if possible
 	 * 
 	 * @param annotation1  annotation to compare with 
 	 * @return true if exact match
@@ -83,10 +83,20 @@ public class ModificationAnnotation extends AbstractAnnotation {
 	}
 
 	/**
-	 * Same as {@link #exactMatch(Annotation)}.
+	 * Checks whether the modification annotation matches approximately another annotation. <p>
+	 * The difference from exact match is that the modified semantic annotation is compared using approximate match.
+	 * 
+	 * @param annotation1  annotation to compare with 
+	 * @return true if approximate match
 	 */
 	public boolean approximateMatch(Annotation annotation1) {
-		return exactMatch(annotation1);
+		if (annotation1 instanceof ModificationAnnotation == false) return false;
+		ModificationAnnotation ae = (ModificationAnnotation)annotation1;
+		Annotation aPred = ae.getSemanticItem();
+		if (ae.getType().equals(type) == false) return false;
+		if (semanticItem.approximateMatch(aPred) == false) return false;
+		if (value == null && ae.getValue() == null) return true;
+		return (value != null && ae.getValue() != null && value.equals(ae.getValue()));
 	}
 	
 	/**
