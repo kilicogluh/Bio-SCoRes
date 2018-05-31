@@ -25,7 +25,7 @@ public class MedlineSentenceSegmenter implements SentenceSegmenter {
 	private static final Pattern BOUNDARY_PATTERN = Pattern.compile("(.+?)(\\. *(\\r?\\n)+|\\? *(\\r?\\n)+|\\! *(\\r?\\n)+|\\. +|\\? +|\\! +|(\\r?\\n)+|$)");		
 	private static final Pattern SENTENCE_PATTERN = Pattern.compile("\\w");
 	private static final Pattern BACTERIA_PATTERN = Pattern.compile("( |^)[A-Z]+(\\.(\\r?\\n)+|\\. +|\\?(\\r?\\n)+|\\!(\\r?\\n)+|\\? +|\\! +|(\\r?\\n)+)$");
-	private static final Pattern OTHER_PATTERN 	= Pattern.compile("(\\W)(Fig|et al|i\\.e)(\\. +)$");
+	private static final Pattern OTHER_PATTERN 	= Pattern.compile("(\\W)(Fig|et al|i\\.e|e\\.g|vs)(\\. +)$");
 	
 	@Override
 	public void segment(String inStr, List<Sentence> sentences){
