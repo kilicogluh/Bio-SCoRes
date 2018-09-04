@@ -293,6 +293,47 @@ public class SemanticItemFactory {
 		doc.addSemanticItem(pr);
 		return pr;
 	}
+	
+	/**
+	 * Creates a new <code>Predication</code> object from a Event standoff annotation.
+	 * 
+	 * @param doc	the document the event is associated with
+	 * @param ev  	the corresponding <code>EventAnnotation</code> object
+	 * @return 		a new <code>Predication</code> object, null if predicate is null.
+	 */
+	public Predication newPredication(Document doc, EventAnnotation ev) {
+		Predicate pr = (Predicate)doc.getSemanticItemById(ev.getPredicate().getId());
+		if (pr == null) {
+			pr = newPredicate(doc,ev.getPredicate());
+			if (pr == null) return null;
+		} 
+		List<AnnotationArgument> annArgs = ev.getArguments();
+		List<Argument> args = new ArrayList<Argument>();
+		for (int i=0; i < annArgs.size(); i++) {
+			String r = annArgs.get(i).getRole();
+			Annotation ann = annArgs.get(i).getArg();
+			if (ann instanceof EventAnnotation) {
+				SemanticItem si  = doc.getSemanticItemById(ann.getId());
+				if (si == null) {
+					Predication ee = newPredication(doc,(EventAnnotation)ann);
+					args.add(new Argument(r,ee));
+				}  else 
+					args.add(new Argument(r,(Predication)si));
+			} else if (ann instanceof TermAnnotation) {
+				SemanticItem si  = doc.getSemanticItemById(ann.getId());
+				if (si == null) {
+					Entity ent = newEntity(doc,(TermAnnotation)ann);
+					args.add(new Argument(r,ent));
+				}  else 
+					args.add(new Argument(r,si));
+			} else {
+				log.log(Level.WARNING,"The Event argument annotation is neither event nor entity: {0}.", new Object[]{ann.toString()});
+			}
+		}
+		Predication ne = newPredication(doc,pr,args,null,null);
+		ne.setId(ev.getId());
+		return ne;
+	}
 		
 	/**
 	 * Creates a new <code>ImplicitRelation</code> object. 

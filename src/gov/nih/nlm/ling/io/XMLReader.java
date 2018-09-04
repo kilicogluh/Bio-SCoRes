@@ -380,6 +380,21 @@ public class XMLReader {
 			if (annReader == null) continue;
 			annReader.read(evEl,doc,ignoreArgTypes,equivMap);
 		}
+		Elements predEls = docEl.getChildElements("Predication");
+		for (int i=0; i < predEls.size(); i++) {
+			Element predEl = predEls.get(i);
+			String semtype = predEl.getAttributeValue("type");
+			XMLPredicationReader annReader = null;
+			readers = parseWithMultiple(semtype,annotationTypes);
+			for (XMLSemanticItemReader reader: readers) {
+				try {
+					annReader = (XMLPredicationReader)reader;
+				} catch (ClassCastException cce) {
+				}
+			}
+			if (annReader == null) continue;
+			annReader.read(predEl,doc,ignoreArgTypes,equivMap);
+		}
 /*		Elements refEls = docEl.getChildElements("Reference");
 		Elements equivEls = docEl.getChildElements("Equiv"); */
 	}

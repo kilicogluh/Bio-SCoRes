@@ -84,7 +84,6 @@ public class Predication extends AbstractRelation implements HasPredicate {
 	 */
 	public Predication(String id, Predicate predicate, List<Argument> args) {
 		super(id,Predication.GENERIC);
-		this.definition = getDefinition(definitions,type);
 		this.predicate = predicate;
 		if (predicate != null) {
 				this.type = predicate.getType();
