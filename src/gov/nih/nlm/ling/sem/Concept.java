@@ -225,6 +225,8 @@ public class Concept implements Ontology {
 		else el.addAttribute(new Attribute("sense","false"));
 		el.addAttribute(new Attribute("name",name));
 		el.addAttribute(new Attribute("semtypes",StringUtils.join(semtypes.toArray(new String[0]),",")));
+		if (source != null) 
+			el.addAttribute(new Attribute("source",source));
 		return el;
 	}
 }
