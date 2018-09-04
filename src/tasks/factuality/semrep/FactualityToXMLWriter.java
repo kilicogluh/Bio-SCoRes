@@ -27,6 +27,7 @@ import gov.nih.nlm.ling.sem.Entity;
 import gov.nih.nlm.ling.sem.Event;
 import gov.nih.nlm.ling.sem.Modification;
 import gov.nih.nlm.ling.sem.Predicate;
+import gov.nih.nlm.ling.sem.Predication;
 import gov.nih.nlm.ling.sem.SemanticItemFactory;
 import gov.nih.nlm.ling.util.FileUtils;
 import gov.nih.nlm.ling.wrappers.CoreNLPWrapper;
@@ -82,10 +83,10 @@ public class FactualityToXMLWriter {
 				} else if (ann instanceof EventAnnotation && 
 						   (Constants.SEMREP_RELATION_TYPES.contains(type) || 
 						    Constants.SEMREP_NEG_RELATION_TYPES.contains(type))) {
-					Event ev = sif.newEvent(doc, (EventAnnotation)ann);
-					log.log(Level.FINE,"Generated event: {0}.", new Object[]{ev.toShortString()});
-					String evid = ev.getId();
-					String line = relLines.get(Integer.parseInt(evid.substring(1))-1);
+					Predication pred = sif.newPredication(doc, (EventAnnotation)ann);
+					log.log(Level.FINE,"Generated predication: {0}.", new Object[]{pred.toShortString()});
+					String predid = pred.getId();
+					String line = relLines.get(Integer.parseInt(predid.substring(1))-1);
 					String[] lels = line.split("[|]");
 					String relType = lels[22];
 					String specInfer = "";
@@ -96,10 +97,10 @@ public class FactualityToXMLWriter {
 					}
 					String indType = lels[21];
 					boolean neg = lels[23].equals("negation");
-					ev.addFeature("indicatorType", indType);
-					if (specInfer.equals("") == false) ev.addFeature("specInfer", specInfer);
+					pred.addFeature("indicatorType", indType);
+					if (specInfer.equals("") == false) pred.addFeature("specInfer", specInfer);
 					if (neg) {
-						ev.addFeature("negation", "true");
+						pred.addFeature("negation", "true");
 					}
 				} else if (ann instanceof ModificationAnnotation && 
 						   (Constants.SEMREP_MODIFICATION_TYPES.contains(type))) { 
@@ -206,6 +207,7 @@ public class FactualityToXMLWriter {
 		parseTypes.addAll(map.get(ModificationAnnotation.class));
 		parseTypes.add("Reference");
 		Event.setDefinitions(Constants.loadSemRepDefinitions());
+		Predication.addDefinitions(Event.getDefinitions());
 		CoreNLPWrapper.getInstance(properties);
 		segmenter = ComponentLoader.getSentenceSegmenter(properties);
 	}

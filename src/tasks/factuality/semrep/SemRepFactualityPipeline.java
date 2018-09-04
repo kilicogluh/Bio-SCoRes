@@ -35,8 +35,8 @@ import gov.nih.nlm.ling.graph.GraphUtils;
 import gov.nih.nlm.ling.graph.Node;
 import gov.nih.nlm.ling.graph.SemanticGraph;
 import gov.nih.nlm.ling.io.XMLEntityReader;
-import gov.nih.nlm.ling.io.XMLEventReader;
 import gov.nih.nlm.ling.io.XMLPredicateReader;
+import gov.nih.nlm.ling.io.XMLPredicationReader;
 import gov.nih.nlm.ling.io.XMLReader;
 import gov.nih.nlm.ling.process.ComponentLoader;
 import gov.nih.nlm.ling.process.IndicatorAnnotator;
@@ -247,7 +247,7 @@ public class SemRepFactualityPipeline {
 						else 
 							readable.append(pred.getType()+ "(" + specInfer + ")" + "|"+pred.getText()+"|");
 						if (objConc == null) {
-							readable.append(docId + "|" + s.getId() + "|relation|" + obj.getId() +"|"+obj.getText()+"|"+obj.getType()+"|"+obj.getText()+"|");
+							readable.append(obj.getId() +"|"+obj.getText()+"|"+obj.getType()+"|"+obj.getText()+"|");
 						} else 
 							readable.append(objConc.getId()+"|"+objConc.getName()+"|"+StringUtils.join(objConc.getSemtypes(),",")+"|"+obj.getText());
 						Modification factualityValue = convertScalarModalityValueToFactuality(prsi);
@@ -647,7 +647,7 @@ public class SemRepFactualityPipeline {
 		XMLReader reader = new XMLReader();
 		reader.addAnnotationReader(Entity.class, new XMLEntityReader());
 		reader.addAnnotationReader(Predicate.class, new XMLPredicateReader());
-		reader.addAnnotationReader(Event.class, new XMLEventReader());
+		reader.addAnnotationReader(Predication.class, new XMLPredicationReader());
 		return reader;
 	}
 	
@@ -662,7 +662,7 @@ public class SemRepFactualityPipeline {
 		List<String>  entityTypes = new ArrayList<String>(Constants.SEMREP_ENTITY_TYPES);
 		annotationTypes.put(Entity.class,entityTypes);
 		annotationTypes.put(Predicate.class, Constants.SEMREP_RELATION_TYPES);
-		annotationTypes.put(Event.class,Constants.SEMREP_RELATION_TYPES);
+		annotationTypes.put(Predication.class,Constants.SEMREP_RELATION_TYPES);
 		return annotationTypes;
 	}
 	
