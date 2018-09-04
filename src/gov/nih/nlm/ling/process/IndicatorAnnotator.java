@@ -174,7 +174,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 		WordLexeme indLex = (WordLexeme)indicator.getLexeme();
 		for (Sentence sent : document.getSentences()) {
 			List<Word> words = sent.getWords();
-			if (words.size() == 0) {
+			if (words == null || words.size() == 0) {
 				log.log(Level.WARNING,"Empty sentence: {0}- {1}.", new Object[]{sent.getId(),sent.getText()});
 				continue;
 			}
@@ -256,7 +256,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 					ContiguousLexeme c = indLex.get(j);
 					List<Sentence> windowSents = sentences.subList(i, Math.min(i+sentWindowSize,sentences.size()));
 					List<SpanList> jSpans = getContiguousSpans(windowSents,c.toLexemeList()); 
-					if (jSpans.size() == 0) { matchSoFar =false; break;}
+					if (jSpans == null || jSpans.size() == 0) { matchSoFar =false; break;}
 					lexSpans.add(jSpans);
 				}
 				if (matchSoFar) {
@@ -285,7 +285,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 	private List<SpanList> getContiguousSpans(Sentence sent, List<WordLexeme> lexemes) {
 		List<SpanList> spans = new ArrayList<SpanList>();
 		List<Word> words = sent.getWords();
-		if (words.size() == 0) {
+		if (words == null || words.size() == 0) {
 			log.log(Level.WARNING,"Empty sentence: {0}- {1}.", new Object[]{sent.getId(),sent.getText()});
 			return spans;
 		}
@@ -336,7 +336,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 	// Recursively find the closest spans of the gapped lexeme and form a SpanList, which represents
 	// the extent of the gapped lexeme.
 	private void getClosestPrevious(SpanList curr, List<List<SpanList>> spans, SpanList closest, List<SpanList> seen) {
-		if (spans.size() == 0) return;
+		if (spans == null || spans.size() == 0) return;
 		for (int i=spans.size();i>0; i--) {
 			List<SpanList> iSpans = spans.get(i-1);
 			SpanList close = getClosest(curr,iSpans, seen);
@@ -349,6 +349,7 @@ public class IndicatorAnnotator implements TermAnnotator {
 	
 	// Assumes the spans are ordered. Get the closest preceding span list.
 	private SpanList getClosest(SpanList curr, List<SpanList> spans, List<SpanList> seen) {
+		if (spans == null) return null;
 		for (int i=spans.size();i >0; i--) {
 			// no need to go further, since we don't want to cross dependencies
 			if (seen.contains(spans.get(i-1))) break;
