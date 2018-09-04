@@ -533,7 +533,7 @@ public class StandoffAnnotationReader {
 	    if (els.length > 2) {
 //	    if (tabbedStrs.length > 2) {
 //	    	value = els[2];
-	    	value = tabbedStrs[1].substring(tabbedStrs[1].indexOf(els[2]));
+	    	value = tabbedStrs[1].substring(tabbedStrs[1].lastIndexOf(els[2]));
 //	    	value = tabbedStrs[2];
 	    } 
 	    if (value == null)
