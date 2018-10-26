@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-1990263">
+    <text xml:space="preserve">Nuclear factor kappa B activates proenkephalin transcription in T lymphocytes. 
+Upon activation, T lymphocytes accumulate high levels of the neuropeptide enkephalin which correlate with high levels of proenkephalin mRNA in the cells. Here we investigated the transcriptional basis for these changes. The proenkephalin promoter contains a sequence GGGGACGTCCCC, named B2, which is similar to the kappa B sequence GGGGACTTTCC, the binding site of the transcription factor nuclear factor (NF)-kappa B. Activation of T lymphocytes induces an NF-kappa B-like binding activity to the B2 site, concomitant with activation of the proenkephalin promoter. Mutations at the B2 site abolish this transcriptional activation. The purified homodimer (two p50s) of the DNA-binding subunit of NF-kappa B binds the B2 site of proenkephalin relatively better than does the heterotetramer (two p65s plus two p50s) form of the factor. Thus, it appears that the T-cell-specific activation of the proenkephalin promoter is mediated by NF-kappa B. However, as NF-kappa B is ubiquitous and the transcriptional activation through the B2 site is T cell specific, yet another T-cell-specific factor which synergizes with NF-kappa B should be considered. 
+</text>
+    <sentence charOffset="0-80" id="S1">
+        <text xml:space="preserve">Nuclear factor kappa B activates proenkephalin transcription in T lymphocytes. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="0-7" text="Nuclear" lemma="nuclear"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="8-14" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="15-20" text="kappa" lemma="kappa"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="21-22" text="B" lemma="b"/>
+            <token xml:space="preserve" id="stt_5" POS="VBZ" charOffset="23-32" text="activates" lemma="activate"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="33-46" text="proenkephalin" lemma="proenkephalin"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="47-60" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="61-63" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="64-65" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="66-77" text="lymphocytes" lemma="lymphocyte"/>
+            <token xml:space="preserve" id="stt_11" POS="." charOffset="77-78" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="dobj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_10" type="prep_in"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_9" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ Nuclear) (NN factor) (NN kappa) (NN=H B))
+            (VP=H (VBZ=H activates)
+            (NP
+            (NP=H (NN proenkephalin) (NN=H transcription))
+            (PP (IN=H in)
+            (NP (NN T) (NNS=H lymphocytes)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="80-234" id="S2">
+        <text xml:space="preserve">Upon activation, T lymphocytes accumulate high levels of the neuropeptide enkephalin which correlate with high levels of proenkephalin mRNA in the cells. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="80-84" text="Upon" lemma="upon"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="85-95" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="95-96" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="97-98" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="99-110" text="lymphocytes" lemma="lymphocyte"/>
+            <token xml:space="preserve" id="stt_6" POS="VBP" charOffset="111-121" text="accumulate" lemma="accumulate"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="122-126" text="high" lemma="high"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="127-133" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="134-136" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="137-140" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="141-153" text="neuropeptide" lemma="neuropeptide"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="154-164" text="enkephalin" lemma="enkephalin"/>
+            <token xml:space="preserve" id="stt_13" POS="WDT" charOffset="165-170" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_14" POS="VBP" charOffset="171-180" text="correlate" lemma="correlate"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="181-185" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="186-190" text="high" lemma="high"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="191-197" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="198-200" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="201-214" text="proenkephalin" lemma="proenkephalin"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="215-219" text="mRNA" lemma="mrna"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="220-222" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="223-226" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_23" POS="NNS" charOffset="227-232" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_24" POS="." charOffset="232-233" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_2" type="prep_upon"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_14" type="rcmod"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_17" type="prep_with"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_23" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_22" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H Upon)
+            (NP (NN=H activation)))
+            (, ,)
+            (NP (NN T) (NNS=H lymphocytes))
+            (VP=H (VBP=H accumulate)
+            (NP
+            (NP=H (JJ high) (NNS=H levels))
+            (PP (IN=H of)
+            (NP (DT the) (NN neuropeptide) (NN=H enkephalin)))
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBP=H correlate)
+            (PP (IN=H with)
+            (NP
+            (NP=H (JJ high) (NNS=H levels))
+            (PP (IN=H of)
+            (NP (NN proenkephalin) (NN=H mRNA)))))
+            (PP (IN=H in)
+            (NP (DT the) (NNS=H cells))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="234-300" id="S3">
+        <text xml:space="preserve">Here we investigated the transcriptional basis for these changes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="234-238" text="Here" lemma="here"/>
+            <token xml:space="preserve" id="stt_2" POS="PRP" charOffset="239-241" text="we" lemma="we"/>
+            <token xml:space="preserve" id="stt_3" POS="VBD" charOffset="242-254" text="investigated" lemma="investigate"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="255-258" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="259-274" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="275-280" text="basis" lemma="basis"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="281-284" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="285-290" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="291-298" text="changes" lemma="change"/>
+            <token xml:space="preserve" id="stt_10" POS="." charOffset="298-299" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_6" type="dobj"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_9" type="prep_for"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_4" type="det"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Here))
+            (NP (PRP=H we))
+            (VP=H (VBD=H investigated)
+            (NP (DT the) (JJ transcriptional) (NN=H basis))
+            (PP (IN=H for)
+            (NP (DT these) (NNS=H changes))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="300-499" id="S4">
+        <text xml:space="preserve">The proenkephalin promoter contains a sequence GGGGACGTCCCC, named B2, which is similar to the kappa B sequence GGGGACTTTCC, the binding site of the transcription factor nuclear factor (NF)-kappa B. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="300-303" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="304-317" text="proenkephalin" lemma="proenkephalin"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="318-326" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_4" POS="VBZ" charOffset="327-335" text="contains" lemma="contain"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="336-337" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="338-346" text="sequence" lemma="sequence"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="347-359" text="GGGGACGTCCCC" lemma="ggggacgtcccc"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="359-360" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="361-366" text="named" lemma="name"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="367-369" text="B2" lemma="b2"/>
+            <token xml:space="preserve" id="stt_11" POS="," charOffset="369-370" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_12" POS="WDT" charOffset="371-376" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_13" POS="VBZ" charOffset="377-379" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="380-387" text="similar" lemma="similar"/>
+            <token xml:space="preserve" id="stt_15" POS="TO" charOffset="388-390" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="391-394" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="395-400" text="kappa" lemma="kappa"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="401-402" text="B" lemma="b"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="403-411" text="sequence" lemma="sequence"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="412-423" text="GGGGACTTTCC" lemma="ggggactttcc"/>
+            <token xml:space="preserve" id="stt_21" POS="," charOffset="423-424" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="425-428" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="429-436" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="437-441" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_25" POS="IN" charOffset="442-444" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="445-448" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="449-462" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="463-469" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="470-477" text="nuclear" lemma="nuclear"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="478-484" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_31" POS="-LRB-" charOffset="485-486" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="486-488" text="NF" lemma="nf"/>
+            <token xml:space="preserve" id="stt_33" POS="-RRB-" charOffset="488-489" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_34" POS=":" charOffset="489-490" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="490-495" text="kappa" lemma="kappa"/>
+            <token xml:space="preserve" id="stt_36" POS="NNP" charOffset="496-498" text="B." lemma="B."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_35" type="dep"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_4" type="dep"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_7" type="dobj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_5" type="det"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_9" type="vmod"/>
+            <dependency id="stp_9" t1="stt_7" t2="stt_30" type="rcmod"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_10" type="dobj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_20" type="prep_to"/>
+            <dependency id="stp_12" t1="stt_20" t2="stt_16" type="det"/>
+            <dependency id="stp_13" t1="stt_20" t2="stt_17" type="nn"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_18" type="nn"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_24" type="appos"/>
+            <dependency id="stp_17" t1="stt_24" t2="stt_22" type="det"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_23" type="nn"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_28" type="prep_of"/>
+            <dependency id="stp_20" t1="stt_28" t2="stt_26" type="det"/>
+            <dependency id="stp_21" t1="stt_28" t2="stt_27" type="nn"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_32" type="appos"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_13" type="cop"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_29" type="amod"/>
+            <dependency id="stp_26" t1="stt_30" t2="stt_14" type="amod"/>
+            <dependency id="stp_27" t1="stt_35" t2="stt_36" type="appos"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP-TMP=H
+            (NP=H (DT The) (NN proenkephalin) (NN=H promoter))
+            (VP (VBZ=H contains)
+            (NP
+            (NP=H (DT a) (NN sequence) (NN=H GGGGACGTCCCC))
+            (, ,)
+            (VP (VBN=H named)
+            (NP (NN=H B2)))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H
+            (ADJP (JJ=H similar)
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT the) (NN kappa) (NN B) (NN sequence) (NN=H GGGGACTTTCC))
+            (, ,)
+            (NP
+            (NP=H (DT the) (NN binding) (NN=H site))
+            (PP (IN=H of)
+            (NP (DT the) (NN transcription) (NN=H factor)))))))
+            (JJ nuclear) (NN=H factor))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H NF))
+            (-RRB- -RRB-)))))))))
+            (: -)
+            (NP
+            (NP=H (NN=H kappa))
+            (NP (NNP=H B.)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="499-646" id="S5">
+        <text xml:space="preserve">Activation of T lymphocytes induces an NF-kappa B-like binding activity to the B2 site, concomitant with activation of the proenkephalin promoter. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="499-509" text="Activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="510-512" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="513-514" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="515-526" text="lymphocytes" lemma="lymphocyte"/>
+            <token xml:space="preserve" id="stt_5" POS="VBZ" charOffset="527-534" text="induces" lemma="induce"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="535-537" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="538-546" text="NF-kappa" lemma="nf-kappa"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="547-553" text="B-like" lemma="b-like"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="554-561" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="562-570" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_11" POS="TO" charOffset="571-573" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_12" POS="DT" charOffset="574-577" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="578-580" text="B2" lemma="b2"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="581-585" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="585-586" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="587-598" text="concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="599-603" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="604-614" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="615-617" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="618-621" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="622-635" text="proenkephalin" lemma="proenkephalin"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="636-644" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="644-645" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_10" type="dobj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_14" type="prep_to"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_6" type="det"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_7" type="nn"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_8" type="amod"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_9" type="nn"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_16" type="appos"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_12" type="det"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="nn"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_18" type="prep_with"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_22" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_20" type="det"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN=H Activation))
+            (PP (IN=H of)
+            (NP (NN T) (NNS=H lymphocytes))))
+            (VP=H (VBZ=H induces)
+            (NP (DT an) (NN NF-kappa) (JJ B-like) (NN binding) (NN=H activity))
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT the) (NN B2) (NN=H site))
+            (, ,)
+            (NP
+            (NP=H (JJ=H concomitant))
+            (PP (IN=H with)
+            (NP
+            (NP=H (NN=H activation))
+            (PP (IN=H of)
+            (NP (DT the) (NN proenkephalin) (NN=H promoter)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="646-712" id="S6">
+        <text xml:space="preserve">Mutations at the B2 site abolish this transcriptional activation. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="646-655" text="Mutations" lemma="mutation"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="656-658" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="659-662" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="663-665" text="B2" lemma="b2"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="666-670" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_6" POS="VBP" charOffset="671-678" text="abolish" lemma="abolish"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="679-683" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="684-699" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="700-710" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_10" POS="." charOffset="710-711" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_5" type="prep_at"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_9" type="dobj"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNS=H Mutations))
+            (PP (IN=H at)
+            (NP (DT the) (NN B2) (NN=H site))))
+            (VP=H (VBP=H abolish)
+            (NP (DT this) (JJ transcriptional) (NN=H activation)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="712-914" id="S7">
+        <text xml:space="preserve">The purified homodimer (two p50s) of the DNA-binding subunit of NF-kappa B binds the B2 site of proenkephalin relatively better than does the heterotetramer (two p65s plus two p50s) form of the factor. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="712-715" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="VBN" charOffset="716-724" text="purified" lemma="purify"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="725-734" text="homodimer" lemma="homodimer"/>
+            <token xml:space="preserve" id="stt_4" POS="-LRB-" charOffset="735-736" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_5" POS="CD" charOffset="736-739" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="740-744" text="p50s" lemma="p50"/>
+            <token xml:space="preserve" id="stt_7" POS="-RRB-" charOffset="744-745" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="746-748" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="749-752" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="753-764" text="DNA-binding" lemma="dna-binding"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="765-772" text="subunit" lemma="subunit"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="773-775" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="776-784" text="NF-kappa" lemma="nf-kappa"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="785-786" text="B" lemma="b"/>
+            <token xml:space="preserve" id="stt_15" POS="VBZ" charOffset="787-792" text="binds" lemma="bind"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="793-796" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="797-799" text="B2" lemma="b2"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="800-804" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="805-807" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="808-821" text="proenkephalin" lemma="proenkephalin"/>
+            <token xml:space="preserve" id="stt_21" POS="RB" charOffset="822-832" text="relatively" lemma="relatively"/>
+            <token xml:space="preserve" id="stt_22" POS="JJR" charOffset="833-839" text="better" lemma="better"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="840-844" text="than" lemma="than"/>
+            <token xml:space="preserve" id="stt_24" POS="VBZ" charOffset="845-849" text="does" lemma="do"/>
+            <token xml:space="preserve" id="stt_25" POS="DT" charOffset="850-853" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="854-868" text="heterotetramer" lemma="heterotetramer"/>
+            <token xml:space="preserve" id="stt_27" POS="-LRB-" charOffset="869-870" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_28" POS="CD" charOffset="870-873" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="874-878" text="p65s" lemma="p65"/>
+            <token xml:space="preserve" id="stt_30" POS="CC" charOffset="879-883" text="plus" lemma="plus"/>
+            <token xml:space="preserve" id="stt_31" POS="CD" charOffset="884-887" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_32" POS="NNS" charOffset="888-892" text="p50s" lemma="p50"/>
+            <token xml:space="preserve" id="stt_33" POS="-RRB-" charOffset="892-893" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_34" POS="NN" charOffset="894-898" text="form" lemma="form"/>
+            <token xml:space="preserve" id="stt_35" POS="IN" charOffset="899-901" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_36" POS="DT" charOffset="902-905" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_37" POS="NN" charOffset="906-912" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_38" POS="." charOffset="912-913" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_6" type="appos"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="num"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_14" type="prep_of"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_13" type="nn"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_22" type="xcomp"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_24" type="advcl"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_16" type="det"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_18" type="nsubj"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_21" type="advmod"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_34" type="dobj"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_23" type="mark"/>
+            <dependency id="stp_20" t1="stt_29" t2="stt_32" type="conj_plus"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_28" type="num"/>
+            <dependency id="stp_22" t1="stt_32" t2="stt_31" type="num"/>
+            <dependency id="stp_23" t1="stt_34" t2="stt_32" type="dep"/>
+            <dependency id="stp_24" t1="stt_34" t2="stt_37" type="prep_of"/>
+            <dependency id="stp_25" t1="stt_34" t2="stt_25" type="det"/>
+            <dependency id="stp_26" t1="stt_34" t2="stt_26" type="nn"/>
+            <dependency id="stp_27" t1="stt_34" t2="stt_29" type="dep"/>
+            <dependency id="stp_28" t1="stt_37" t2="stt_36" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H
+            (NP=H (DT The) (VBN purified) (NN=H homodimer))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD two) (NNS=H p50s))
+            (-RRB- -RRB-)))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ DNA-binding) (NN=H subunit))
+            (PP (IN=H of)
+            (NP (NN NF-kappa) (NN=H B))))))
+            (VP=H (VBZ=H binds)
+            (S
+            (NP
+            (NP=H (DT the) (NN B2) (NN=H site))
+            (PP (IN=H of)
+            (NP (NN=H proenkephalin))))
+            (ADJP=H (RB relatively) (JJR=H better)))
+            (SBAR (IN=H than)
+            (S
+            (VP=H (VBZ=H does)
+            (NP
+            (NP=H (DT the) (NN heterotetramer)
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (CD two) (NNS=H p65s))
+            (CC plus)
+            (NP (CD two) (NNS=H p50s)))
+            (-RRB- -RRB-))
+            (NN=H form))
+            (PP (IN=H of)
+            (NP (DT the) (NN=H factor))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="914-1024" id="S8">
+        <text xml:space="preserve">Thus, it appears that the T-cell-specific activation of the proenkephalin promoter is mediated by NF-kappa B. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="914-918" text="Thus" lemma="thus"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="918-919" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="PRP" charOffset="920-922" text="it" lemma="it"/>
+            <token xml:space="preserve" id="stt_4" POS="VBZ" charOffset="923-930" text="appears" lemma="appear"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="931-935" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="936-939" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="940-955" text="T-cell-specific" lemma="t-cell-specific"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="956-966" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="967-969" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="970-973" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="974-987" text="proenkephalin" lemma="proenkephalin"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="988-996" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_13" POS="VBZ" charOffset="997-999" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="1000-1008" text="mediated" lemma="mediate"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="1009-1011" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1012-1020" text="NF-kappa" lemma="nf-kappa"/>
+            <token xml:space="preserve" id="stt_17" POS="NNP" charOffset="1021-1023" text="B." lemma="B."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_14" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_6" type="det"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_17" type="agent"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_5" type="mark"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_8" type="nsubjpass"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="auxpass"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Thus))
+            (, ,)
+            (NP (PRP=H it))
+            (VP=H (VBZ=H appears)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (DT the) (JJ T-cell-specific) (NN=H activation))
+            (PP (IN=H of)
+            (NP (DT the) (NN proenkephalin) (NN=H promoter))))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H mediated)
+            (PP (IN=H by)
+            (NP (NN NF-kappa) (NNP=H B.))))))))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1024-1227" id="S9">
+        <text xml:space="preserve">However, as NF-kappa B is ubiquitous and the transcriptional activation through the B2 site is T cell specific, yet another T-cell-specific factor which synergizes with NF-kappa B should be considered. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="1024-1031" text="However" lemma="however"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="1031-1032" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1033-1035" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="1036-1044" text="NF-kappa" lemma="nf-kappa"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1045-1046" text="B" lemma="b"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="1047-1049" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="1050-1060" text="ubiquitous" lemma="ubiquitous"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="1061-1064" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="1065-1068" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="1069-1084" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1085-1095" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="1096-1103" text="through" lemma="through"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="1104-1107" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1108-1110" text="B2" lemma="b2"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1111-1115" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_16" POS="VBZ" charOffset="1116-1118" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1119-1120" text="T" lemma="t"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1121-1125" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="1126-1134" text="specific" lemma="specific"/>
+            <token xml:space="preserve" id="stt_20" POS="," charOffset="1134-1135" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_21" POS="RB" charOffset="1136-1139" text="yet" lemma="yet"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="1140-1147" text="another" lemma="another"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="1148-1163" text="T-cell-specific" lemma="t-cell-specific"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1164-1170" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_25" POS="WDT" charOffset="1171-1176" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_26" POS="VBZ" charOffset="1177-1187" text="synergizes" lemma="synergize"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="1188-1192" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="1193-1201" text="NF-kappa" lemma="nf-kappa"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="1202-1203" text="B" lemma="b"/>
+            <token xml:space="preserve" id="stt_30" POS="MD" charOffset="1204-1210" text="should" lemma="should"/>
+            <token xml:space="preserve" id="stt_31" POS="VB" charOffset="1211-1213" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_32" POS="VBN" charOffset="1214-1224" text="considered" lemma="consider"/>
+            <token xml:space="preserve" id="stt_33" POS="." charOffset="1224-1225" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_2" t1="stt_7" t2="stt_18" type="conj_and"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_3" type="mark"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="cop"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_15" type="prep_through"/>
+            <dependency id="stp_9" t1="stt_15" t2="stt_13" type="det"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_11" t1="stt_18" t2="stt_16" type="cop"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_19" type="amod"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_11" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_24" t2="stt_21" type="advmod"/>
+            <dependency id="stp_16" t1="stt_24" t2="stt_22" type="det"/>
+            <dependency id="stp_17" t1="stt_24" t2="stt_23" type="amod"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_26" type="rcmod"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_25" type="nsubj"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_29" type="prep_with"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_28" type="nn"/>
+            <dependency id="stp_22" t1="stt_32" t2="stt_1" type="advmod"/>
+            <dependency id="stp_23" t1="stt_32" t2="stt_18" type="advcl"/>
+            <dependency id="stp_24" t1="stt_32" t2="stt_7" type="advcl"/>
+            <dependency id="stp_25" t1="stt_32" t2="stt_24" type="nsubjpass"/>
+            <dependency id="stp_26" t1="stt_32" t2="stt_30" type="aux"/>
+            <dependency id="stp_27" t1="stt_32" t2="stt_31" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H However))
+            (, ,)
+            (SBAR (IN=H as)
+            (S
+            (S=H
+            (NP (NN NF-kappa) (NN=H B))
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H ubiquitous))))
+            (CC and)
+            (S
+            (NP
+            (NP=H (DT the) (JJ transcriptional) (NN=H activation))
+            (PP (IN=H through)
+            (NP (DT the) (NN B2) (NN=H site))))
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H (NN T) (NN=H cell))
+            (ADJP (JJ=H specific)))))))
+            (, ,)
+            (NP
+            (NP=H (RB yet) (DT another) (JJ T-cell-specific) (NN=H factor))
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBZ=H synergizes)
+            (PP (IN=H with)
+            (NP (NN NF-kappa) (NN=H B)))))))
+            (VP=H (MD=H should)
+            (VP (VB=H be)
+            (VP (VBN=H considered))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="33-46" headOffset="33-46" text="proenkephalin"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="201-214" headOffset="201-214" text="proenkephalin"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="304-317" headOffset="304-317" text="proenkephalin"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="622-635" headOffset="622-635" text="proenkephalin"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="740-743" headOffset="740-743" text="p50"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="808-821" headOffset="808-821" text="proenkephalin"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="874-877" headOffset="874-877" text="p65"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="888-891" headOffset="888-891" text="p50"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="974-987" headOffset="974-987" text="proenkephalin"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T11"/>
+        <Antecedent idref="T10"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T13"/>
+        <Antecedent idref="T12"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T15"/>
+        <Antecedent idref="T14"/>
+    </Relation>
+    <Term xml:space="preserve" id="T10" type="ZeroArticleNP" charOffset="122-164" headOffset="127-133" text="high levels of the neuropeptide enkephalin"/>
+    <Term xml:space="preserve" id="T11" type="RelativePronoun" charOffset="165-170" headOffset="165-170" text="which"/>
+    <Term xml:space="preserve" id="T12" type="ZeroArticleNP" charOffset="367-369" headOffset="367-369" text="B2"/>
+    <Term xml:space="preserve" id="T13" type="RelativePronoun" charOffset="371-376" headOffset="371-376" text="which"/>
+    <Term xml:space="preserve" id="T14" type="ZeroArticleNP" charOffset="776-786" headOffset="785-786" text="NF-kappa B"/>
+    <Term xml:space="preserve" id="T15" type="DefiniteNP" charOffset="902-912" headOffset="906-912" text="the factor"/>
+</document>

@@ -1,0 +1,22 @@
+T1	Protein 51 54	env
+T2	Protein 188 191	env
+T3	Protein 515 522	DNase I
+T4	Protein 1101 1105	SV40
+T5	Protein 1226 1230	SV40
+T6	Exp 16 92	a transcriptional activator in the env gene of the mouse mammary tumor virus	34 43	activator
+T7	Exp 206 240	a transcriptional activator (META)	224 233	activator
+T8	Exp 241 245	that
+T9	Exp 317 340	Transcriptional control	333 340	control
+T10	Exp 359 363	that
+T11	Exp 367 391	several lymphokine genes	386 391	genes
+T12	Exp 433 438	their
+T13	Exp 1281 1289	META(D+)
+T14	Exp 1293 1333	a novel transcriptional enhancer element	1326 1333	element
+T15	Exp 1334 1338	that
+T16	Exp 1353 1356	its
+R1	Coref Anaphora:T7 Antecedent:T6	[T1]
+R2	Coref Anaphora:T8 Antecedent:T7
+R3	Coref Anaphora:T10 Antecedent:T9
+R4	Coref Anaphora:T12 Antecedent:T11
+R5	Coref Anaphora:T15 Antecedent:T14
+R6	Coref Anaphora:T16 Antecedent:T13

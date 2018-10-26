@@ -1,0 +1,31 @@
+T1	Protein 55 82	tumor necrosis factor alpha
+T2	Protein 290 317	tumor necrosis factor alpha
+T3	Protein 319 328	TNF-alpha
+T4	Protein 527 536	TNF-alpha
+T5	Protein 591 600	TNF-alpha
+T6	Protein 707 716	TNF-alpha
+T7	Protein 782 791	TNF-alpha
+T8	Protein 977 986	TNF-alpha
+T9	Protein 1073 1082	TNF-alpha
+T10	Protein 1332 1341	TNF-alpha
+T11	Protein 1444 1453	TNF-alpha
+T12	Protein 1592 1601	TNF-alpha
+T13	Protein 1722 1731	TNF-alpha
+T14	Exp 136 221	Triggering of HLA class II antigens by the anti-HLA-DR monoclonal antibody (mAb) L243	136 146	Triggering
+T15	Exp 333 386	the non-Hodgkin's lymphoma cells Ri-I, Ci-I, and Sc-I
+T16	Exp 388 393	which
+T17	Exp 509 511	it
+T18	Exp 591 608	TNF-alpha release	601 608	release
+T19	Exp 654 656	it
+T20	Exp 1064 1082	released TNF-alpha	1073 1082	TNF-alpha
+T21	Exp 1194 1196	it
+T22	Exp 1313 1320	B cells	1315 1320	cells
+T23	Exp 1389 1394	their
+T24	Exp 1690 1711	intracellular signals	1704 1711	signals
+T25	Exp 1769 1774	those
+R1	Coref Anaphora:T16 Antecedent:T15
+R2	Coref Anaphora:T17 Antecedent:T14
+R3	Coref Anaphora:T19 Antecedent:T18	[T5]
+R4	Coref Anaphora:T21 Antecedent:T20	[T9]
+R5	Coref Anaphora:T23 Antecedent:T22
+R6	Coref Anaphora:T25 Antecedent:T24

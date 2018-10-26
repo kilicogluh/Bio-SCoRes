@@ -1,0 +1,42 @@
+T1	Protein 50 53	CD2
+T2	Protein 59 63	CD28
+T3	Protein 185 188	CD2
+T4	Protein 193 197	CD28
+T5	Protein 288 301	interleukin 2
+T6	Protein 303 307	IL-2
+T7	Protein 390 394	IL-2
+T8	Protein 465 490	IL-2 receptor alpha chain
+T9	Protein 492 503	IL-2R alpha
+T10	Protein 596 607	IL-2R alpha
+T11	Protein 757 768	IL-2R alpha
+T12	Protein 856 867	IL-2R alpha
+T13	Protein 931 942	IL-2R alpha
+T14	Protein 1008 1011	CD2
+T15	Protein 1014 1018	CD28
+T16	Protein 1073 1077	KBF1
+T17	Protein 1078 1081	p50
+T18	Protein 1177 1180	p50
+T19	Protein 1181 1184	p65
+T20	Protein 1210 1215	c-Rel
+T21	Protein 1229 1234	c-Rel
+T22	Protein 1235 1238	p65
+T23	Protein 1397 1400	CD2
+T24	Protein 1403 1407	CD28
+T25	Protein 1749 1753	IL-2
+T26	Protein 1765 1776	IL-2R alpha
+T27	Protein 1959 1962	CD2
+T28	Protein 1965 1969	CD28
+T29	Exp 451 509	the inducible IL-2 receptor alpha chain (IL-2R alpha) gene
+T30	Exp 510 514	that
+T31	Exp 660 695	the transcription factor NF-kappa B	664 684	transcription factor
+T32	Exp 699 702	its
+T33	Exp 1112 1146	two new kappa B-specific complexes	1137 1146	complexes
+T34	Exp 1252 1276	Both inducible complexes	1267 1276	complexes
+T35	Exp 1309 1314	Their
+T36	Exp 1626 1653	an oxygen radical scavenger	1644 1653	scavenger
+T37	Exp 1654 1658	that
+R1	Coref Anaphora:T30 Antecedent:T29	[T9, T8]
+R2	Coref Anaphora:T32 Antecedent:T31
+R3	Coref Anaphora:T34 Antecedent:T33
+R4	Coref Anaphora:T35 Antecedent:T34
+R5	Coref Anaphora:T37 Antecedent:T36

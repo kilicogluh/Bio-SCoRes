@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-1763325">
+    <text xml:space="preserve">Characterization of a cofactor that regulates dimerization of a mammalian homeodomain protein. 
+Dimerization among transcription factors has become a recurrent theme in the regulation of eukaryotic gene expression. Hepatocyte nuclear factor-1 alpha (HNF-1 alpha) is a homeodomain-containing protein that functions as a dimer. A dimerization cofactor of HNF-1 alpha (DCoH) was identified that displayed a restricted tissue distribution and did not bind to DNA, but, rather, selectively stabilized HNF-1 alpha dimers. The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity. However, DCoH did not confer transcriptional activation to the GAL4 DNA binding domain. These results indicate that DCoH regulates formation of transcriptionally active tetrameric complexes and may contribute to the developmental specificity of the complex. 
+</text>
+    <sentence charOffset="0-96" id="S1">
+        <text xml:space="preserve">Characterization of a cofactor that regulates dimerization of a mammalian homeodomain protein. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="0-16" text="Characterization" lemma="characterization"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="17-19" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="20-21" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="22-30" text="cofactor" lemma="cofactor"/>
+            <token xml:space="preserve" id="stt_5" POS="WDT" charOffset="31-35" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="36-45" text="regulates" lemma="regulate"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="46-58" text="dimerization" lemma="dimerization"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="59-61" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="62-63" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="64-73" text="mammalian" lemma="mammalian"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="74-85" text="homeodomain" lemma="homeodomain"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="86-93" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="93-94" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="det"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_6" type="rcmod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_7" type="dobj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_9" type="det"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H Characterization))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT a) (NN=H cofactor))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H (VBZ=H regulates)
+            (NP
+            (NP=H (NN=H dimerization))
+            (PP (IN=H of)
+            (NP (DT a) (JJ mammalian) (NN homeodomain) (NN=H protein)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="96-215" id="S2">
+        <text xml:space="preserve">Dimerization among transcription factors has become a recurrent theme in the regulation of eukaryotic gene expression. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="96-108" text="Dimerization" lemma="dimerization"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="109-114" text="among" lemma="among"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="115-128" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="129-136" text="factors" lemma="factor"/>
+            <token xml:space="preserve" id="stt_5" POS="VBZ" charOffset="137-140" text="has" lemma="have"/>
+            <token xml:space="preserve" id="stt_6" POS="VBN" charOffset="141-147" text="become" lemma="become"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="148-149" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="150-159" text="recurrent" lemma="recurrent"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="160-165" text="theme" lemma="theme"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="166-168" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="169-172" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="173-183" text="regulation" lemma="regulation"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="184-186" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="187-197" text="eukaryotic" lemma="eukaryotic"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="198-202" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="203-213" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="213-214" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_among"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_9" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_9" t2="stt_5" type="aux"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_6" type="cop"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_16" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="det"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_14" type="amod"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_15" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN=H Dimerization))
+            (PP (IN=H among)
+            (NP (NN transcription) (NNS=H factors))))
+            (VP=H (VBZ=H has)
+            (VP (VBN=H become)
+            (NP (DT a) (JJ recurrent) (NN=H theme))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H regulation))
+            (PP (IN=H of)
+            (NP (JJ eukaryotic) (NN gene) (NN=H expression)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="215-326" id="S3">
+        <text xml:space="preserve">Hepatocyte nuclear factor-1 alpha (HNF-1 alpha) is a homeodomain-containing protein that functions as a dimer. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="215-225" text="Hepatocyte" lemma="hepatocyte"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="226-233" text="nuclear" lemma="nuclear"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="234-242" text="factor-1" lemma="factor-1"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="243-248" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_5" POS="-LRB-" charOffset="249-250" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="250-255" text="HNF-1" lemma="hnf-1"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="256-261" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_8" POS="-RRB-" charOffset="261-262" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="263-265" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="266-267" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="268-290" text="homeodomain-containing" lemma="homeodomain-containing"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="291-298" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_13" POS="WDT" charOffset="299-303" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_14" POS="VBZ" charOffset="304-313" text="functions" lemma="function"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="314-316" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="317-318" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="319-324" text="dimer" lemma="dimer"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="324-325" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_4" type="amod"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_7" type="dep"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_6" t1="stt_12" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_9" type="cop"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="rcmod"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_17" type="prep_as"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NN Hepatocyte) (JJ nuclear) (NN=H factor-1))
+            (ADJP
+            (ADJP=H (NN=H alpha))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN HNF-1) (NN=H alpha))
+            (-RRB- -RRB-))))
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H (DT a) (JJ homeodomain-containing) (NN=H protein))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H (VBZ=H functions)
+            (PP (IN=H as)
+            (NP (DT a) (NN=H dimer))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="326-516" id="S4">
+        <text xml:space="preserve">A dimerization cofactor of HNF-1 alpha (DCoH) was identified that displayed a restricted tissue distribution and did not bind to DNA, but, rather, selectively stabilized HNF-1 alpha dimers. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="326-327" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="328-340" text="dimerization" lemma="dimerization"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="341-349" text="cofactor" lemma="cofactor"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="350-352" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="353-358" text="HNF-1" lemma="hnf-1"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="359-364" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_7" POS="-LRB-" charOffset="365-366" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="366-370" text="DCoH" lemma="dcoh"/>
+            <token xml:space="preserve" id="stt_9" POS="-RRB-" charOffset="370-371" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_10" POS="VBD" charOffset="372-375" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="376-386" text="identified" lemma="identify"/>
+            <token xml:space="preserve" id="stt_12" POS="WDT" charOffset="387-391" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_13" POS="VBD" charOffset="392-401" text="displayed" lemma="display"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="402-403" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="404-414" text="restricted" lemma="restricted"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="415-421" text="tissue" lemma="tissue"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="422-434" text="distribution" lemma="distribution"/>
+            <token xml:space="preserve" id="stt_18" POS="CC" charOffset="435-438" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_19" POS="VBD" charOffset="439-442" text="did" lemma="do"/>
+            <token xml:space="preserve" id="stt_20" POS="RB" charOffset="443-446" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_21" POS="VB" charOffset="447-451" text="bind" lemma="bind"/>
+            <token xml:space="preserve" id="stt_22" POS="TO" charOffset="452-454" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="455-458" text="DNA" lemma="dna"/>
+            <token xml:space="preserve" id="stt_24" POS="," charOffset="458-459" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_25" POS="CC" charOffset="460-463" text="but" lemma="but"/>
+            <token xml:space="preserve" id="stt_26" POS="," charOffset="463-464" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_27" POS="RB" charOffset="465-471" text="rather" lemma="rather"/>
+            <token xml:space="preserve" id="stt_28" POS="," charOffset="471-472" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_29" POS="RB" charOffset="473-484" text="selectively" lemma="selectively"/>
+            <token xml:space="preserve" id="stt_30" POS="VBD" charOffset="485-495" text="stabilized" lemma="stabilize"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="496-501" text="HNF-1" lemma="hnf-1"/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="502-507" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_33" POS="NNS" charOffset="508-514" text="dimers" lemma="dimer"/>
+            <token xml:space="preserve" id="stt_34" POS="." charOffset="514-515" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_33" t2="stt_32" type="nn"/>
+            <dependency id="stp_2" t1="stt_33" t2="stt_31" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_8" type="appos"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_21" type="ccomp"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="auxpass"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_13" type="ccomp"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_30" type="conj_but"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_17" type="dobj"/>
+            <dependency id="stp_14" t1="stt_13" t2="stt_21" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_13" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_16" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_17" t1="stt_17" t2="stt_14" type="det"/>
+            <dependency id="stp_18" t1="stt_17" t2="stt_15" type="amod"/>
+            <dependency id="stp_19" t1="stt_21" t2="stt_19" type="aux"/>
+            <dependency id="stp_20" t1="stt_21" t2="stt_20" type="neg"/>
+            <dependency id="stp_21" t1="stt_21" t2="stt_23" type="prep_to"/>
+            <dependency id="stp_22" t1="stt_21" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_33" type="dobj"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_27" type="advmod"/>
+            <dependency id="stp_26" t1="stt_30" t2="stt_29" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S=H
+            (NP
+            (NP=H (DT A) (NN dimerization) (NN=H cofactor))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN HNF-1) (NN=H alpha))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H DCoH))
+            (-RRB- -RRB-)))))
+            (VP=H (VBD=H was)
+            (VP (VBN=H identified)
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H
+            (VP=H (VBD=H displayed)
+            (NP (DT a) (JJ restricted) (NN tissue) (NN=H distribution)))
+            (CC and)
+            (VP (VBD=H did) (RB not)
+            (VP (VB=H bind)
+            (PP (TO=H to)
+            (NP (NN=H DNA)))))))))))
+            (, ,)
+            (CC but)
+            (, ,)
+            (S
+            (ADVP (RB=H rather))
+            (, ,)
+            (ADVP (RB=H selectively))
+            (VP=H (VBD=H stabilized)
+            (NP (NN HNF-1) (NN alpha) (NNS=H dimers))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="516-740" id="S5">
+        <text xml:space="preserve">The formation of a stable tetrameric DCoH-HNF-1 alpha complex, which required the dimerization domain of HNF-1 alpha, did not change the DNA binding characteristics of HNF-1 alpha, but enhanced its transcriptional activity. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="516-519" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="520-529" text="formation" lemma="formation"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="530-532" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="533-534" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="535-541" text="stable" lemma="stable"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="542-552" text="tetrameric" lemma="tetrameric"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="553-563" text="DCoH-HNF-1" lemma="dcoh-hnf-1"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="564-569" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="570-577" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="577-578" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="WDT" charOffset="579-584" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_12" POS="VBD" charOffset="585-593" text="required" lemma="require"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="594-597" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="598-610" text="dimerization" lemma="dimerization"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="611-617" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="618-620" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="621-626" text="HNF-1" lemma="hnf-1"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="627-632" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_19" POS="," charOffset="632-633" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_20" POS="VBD" charOffset="634-637" text="did" lemma="do"/>
+            <token xml:space="preserve" id="stt_21" POS="RB" charOffset="638-641" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_22" POS="VB" charOffset="642-648" text="change" lemma="change"/>
+            <token xml:space="preserve" id="stt_23" POS="DT" charOffset="649-652" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="653-656" text="DNA" lemma="dna"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="657-664" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_26" POS="NNS" charOffset="665-680" text="characteristics" lemma="characteristic"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="681-683" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="684-689" text="HNF-1" lemma="hnf-1"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="690-695" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_30" POS="," charOffset="695-696" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_31" POS="CC" charOffset="697-700" text="but" lemma="but"/>
+            <token xml:space="preserve" id="stt_32" POS="VBD" charOffset="701-709" text="enhanced" lemma="enhance"/>
+            <token xml:space="preserve" id="stt_33" POS="PRP$" charOffset="710-713" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_34" POS="JJ" charOffset="714-729" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="730-738" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_36" POS="." charOffset="738-739" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_12" type="rcmod"/>
+            <dependency id="stp_4" t1="stt_9" t2="stt_4" type="det"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_5" type="amod"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_6" type="amod"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_7" type="nn"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_18" type="xcomp"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_13" type="det"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_15" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_32" type="conj_but"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_20" type="aux"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="neg"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_29" type="xcomp"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_23" type="det"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_24" type="nn"/>
+            <dependency id="stp_22" t1="stt_26" t2="stt_25" type="nn"/>
+            <dependency id="stp_23" t1="stt_26" t2="stt_28" type="prep_of"/>
+            <dependency id="stp_24" t1="stt_29" t2="stt_26" type="nsubj"/>
+            <dependency id="stp_25" t1="stt_32" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_26" t1="stt_32" t2="stt_35" type="dobj"/>
+            <dependency id="stp_27" t1="stt_35" t2="stt_33" type="poss"/>
+            <dependency id="stp_28" t1="stt_35" t2="stt_34" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN=H formation))
+            (PP (IN=H of)
+            (NP (DT a) (JJ stable) (JJ tetrameric) (NN DCoH-HNF-1) (NN alpha) (NN=H complex)))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBD=H required)
+            (S
+            (NP
+            (NP=H (DT the) (NN dimerization) (NN=H domain))
+            (PP (IN=H of)
+            (NP (NN=H HNF-1))))
+            (ADJP=H (NN=H alpha))))))
+            (, ,))
+            (VP=H
+            (VP=H (VBD=H did) (RB not)
+            (VP (VB=H change)
+            (S
+            (NP
+            (NP=H (DT the) (NN DNA) (NN binding) (NNS=H characteristics))
+            (PP (IN=H of)
+            (NP (NN=H HNF-1))))
+            (ADJP=H (NN=H alpha)))))
+            (, ,)
+            (CC but)
+            (VP (VBD=H enhanced)
+            (NP (PRP$ its) (JJ transcriptional) (NN=H activity))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="740-828" id="S6">
+        <text xml:space="preserve">However, DCoH did not confer transcriptional activation to the GAL4 DNA binding domain. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="740-747" text="However" lemma="however"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="747-748" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="749-753" text="DCoH" lemma="dcoh"/>
+            <token xml:space="preserve" id="stt_4" POS="VBD" charOffset="754-757" text="did" lemma="do"/>
+            <token xml:space="preserve" id="stt_5" POS="RB" charOffset="758-761" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_6" POS="VB" charOffset="762-768" text="confer" lemma="confer"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="769-784" text="transcriptional" lemma="transcriptional"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="785-795" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_9" POS="TO" charOffset="796-798" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="799-802" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="803-807" text="GAL4" lemma="gal4"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="808-811" text="DNA" lemma="dna"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="812-819" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="820-826" text="domain" lemma="domain"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="826-827" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_6" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="aux"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="neg"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_14" type="prep_to"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_10" type="det"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_11" type="nn"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_12" type="nn"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_13" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H However))
+            (, ,)
+            (NP (NN=H DCoH))
+            (VP=H (VBD=H did) (RB not)
+            (VP (VB=H confer)
+            (NP (JJ transcriptional) (NN=H activation))
+            (PP (TO=H to)
+            (NP (DT the) (NN GAL4) (NN DNA) (NN binding) (NN=H domain)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="828-999" id="S7">
+        <text xml:space="preserve">These results indicate that DCoH regulates formation of transcriptionally active tetrameric complexes and may contribute to the developmental specificity of the complex. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="828-833" text="These" lemma="these"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="834-841" text="results" lemma="result"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="842-850" text="indicate" lemma="indicate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="851-855" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="856-860" text="DCoH" lemma="dcoh"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="861-870" text="regulates" lemma="regulate"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="871-880" text="formation" lemma="formation"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="881-883" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="RB" charOffset="884-901" text="transcriptionally" lemma="transcriptionally"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="902-908" text="active" lemma="active"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="909-919" text="tetrameric" lemma="tetrameric"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="920-929" text="complexes" lemma="complex"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="930-933" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="MD" charOffset="934-937" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_15" POS="VB" charOffset="938-948" text="contribute" lemma="contribute"/>
+            <token xml:space="preserve" id="stt_16" POS="TO" charOffset="949-951" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="952-955" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="956-969" text="developmental" lemma="developmental"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="970-981" text="specificity" lemma="specificity"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="982-984" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="985-988" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="989-996" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="996-997" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_6" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_15" type="ccomp"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_4" type="mark"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_7" type="dobj"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_15" type="conj_and"/>
+            <dependency id="stp_9" t1="stt_7" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="advmod"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_19" type="prep_to"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_14" type="aux"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_17" type="det"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_18" type="amod"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_22" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_21" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT These) (NNS=H results))
+            (VP=H (VBP=H indicate)
+            (SBAR (IN=H that)
+            (S
+            (NP (NN=H DCoH))
+            (VP=H
+            (VP=H (VBZ=H regulates)
+            (NP
+            (NP=H (NN=H formation))
+            (PP (IN=H of)
+            (NP
+            (ADJP (RB transcriptionally) (JJ=H active))
+            (JJ tetrameric) (NNS=H complexes)))))
+            (CC and)
+            (VP (MD=H may)
+            (VP (VB=H contribute)
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT the) (JJ developmental) (NN=H specificity))
+            (PP (IN=H of)
+            (NP (DT the) (NN=H complex)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="215-248" headOffset="243-248" text="Hepatocyte nuclear factor-1 alpha"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="250-261" headOffset="256-261" text="HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="328-364" headOffset="341-349" text="dimerization cofactor of HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="366-370" headOffset="366-370" text="DCoH"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="496-507" headOffset="502-507" text="HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="553-557" headOffset="553-557" text="DCoH"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="558-569" headOffset="564-569" text="HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="621-632" headOffset="627-632" text="HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="684-695" headOffset="690-695" text="HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="749-753" headOffset="749-753" text="DCoH"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="856-860" headOffset="856-860" text="DCoH"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T13"/>
+        <Antecedent idref="T12"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T15"/>
+        <Antecedent idref="T14"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T17"/>
+        <Antecedent idref="T16"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T19"/>
+        <Antecedent idref="T18"/>
+    </Relation>
+    <Relation id="R5" type="Anaphora">
+        <Anaphor idref="T20"/>
+        <Antecedent idref="T16"/>
+    </Relation>
+    <Relation id="R6" type="Anaphora">
+        <Anaphor idref="T21"/>
+        <Antecedent idref="T20"/>
+    </Relation>
+    <Term xml:space="preserve" id="T12" type="IndefiniteNP" charOffset="20-30" headOffset="22-30" text="a cofactor"/>
+    <Term xml:space="preserve" id="T13" type="RelativePronoun" charOffset="31-35" headOffset="31-35" text="that"/>
+    <Term xml:space="preserve" id="T14" type="IndefiniteNP" charOffset="266-298" headOffset="291-298" text="a homeodomain-containing protein"/>
+    <Term xml:space="preserve" id="T15" type="RelativePronoun" charOffset="299-303" headOffset="299-303" text="that"/>
+    <Term xml:space="preserve" id="T16" type="DefiniteNP" charOffset="516-577" headOffset="520-529" text="The formation of a stable tetrameric DCoH-HNF-1 alpha complex"/>
+    <Term xml:space="preserve" id="T17" type="RelativePronoun" charOffset="579-584" headOffset="579-584" text="which"/>
+    <Term xml:space="preserve" id="T18" type="ZeroArticleNP" charOffset="684-695" headOffset="690-695" text="HNF-1 alpha"/>
+    <Term xml:space="preserve" id="T19" type="PossessivePronoun" charOffset="710-713" headOffset="710-713" text="its"/>
+    <Term xml:space="preserve" id="T20" type="ZeroArticleNP" charOffset="884-929" headOffset="920-929" text="transcriptionally active tetrameric complexes"/>
+    <Term xml:space="preserve" id="T21" type="DefiniteNP" charOffset="985-996" headOffset="989-996" text="the complex"/>
+</document>

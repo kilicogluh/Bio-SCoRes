@@ -1,0 +1,35 @@
+T1	Protein 0 5	c-Myb
+T2	Protein 75 78	ZEB
+T3	Protein 266 269	ZEB
+T4	Protein 432 435	ZEB
+T5	Protein 597 602	c-Myb
+T6	Protein 771 774	ZEB
+T7	Protein 798 803	c-Myb
+T8	Protein 935 940	c-Myb
+T9	Protein 1091 1094	ZEB
+T10	Protein 1129 1134	c-Myb
+T11	Protein 1319 1334	alpha4 integrin
+T12	Exp 81 131	The Zfh family of zinc finger/homeodomain proteins	89 95	family
+T13	Exp 156 166	Drosophila
+T14	Exp 167 172	where
+T15	Exp 173 175	it
+T16	Exp 413 421	evidence
+T17	Exp 427 431	that
+T18	Exp 528 549	transcription factors	528 549	transcription factors
+T19	Exp 550 554	that
+T20	Exp 597 610	c-Myb and Ets
+T21	Exp 612 625	These factors	618 625	factors
+T22	Exp 798 811	c-Myb and Ets
+T23	Exp 839 850	the factors
+T24	Exp 930 948	both c-Myb and Ets
+T25	Exp 1029 1042	these factors	1035 1042	factors
+T26	Exp 1315 1334	the alpha4 integrin	1326 1334	integrin
+T27	Exp 1336 1341	which
+R1	Coref Anaphora:T14 Antecedent:T13
+R2	Coref Anaphora:T15 Antecedent:T12
+R3	Coref Anaphora:T17 Antecedent:T16
+R4	Coref Anaphora:T19 Antecedent:T18
+R5	Coref Anaphora:T21 Antecedent:T20	[T5]
+R6	Coref Anaphora:T23 Antecedent:T22	[T7]
+R7	Coref Anaphora:T25 Antecedent:T24	[T8]
+R8	Coref Anaphora:T27 Antecedent:T26	[T11]

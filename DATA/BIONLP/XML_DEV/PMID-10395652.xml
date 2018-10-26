@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-10395652">
+    <text xml:space="preserve">Signaling events induced by lipopolysaccharide-activated toll-like receptor 2. 
+Human Toll-like receptor 2 (TLR2) is a signaling receptor that responds to LPS and activates NF-kappaB. Here, we investigate further the events triggered by TLR2 in response to LPS. We show that TLR2 associates with the high-affinity LPS binding protein membrane CD14 to serve as an LPS receptor complex, and that LPS treatment enhances the oligomerization of TLR2. Concomitant with receptor oligomerization, the IL-1R-associated kinase (IRAK) is recruited to the TLR2 complex. Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling. Moreover, both deletion mutants could still form complexes with wild-type TLR2 and act in a dominant-negative (DN) fashion to block TLR2-mediated signal transduction. DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, abrogate TLR2-mediated NF-kappaB activation. These results reveal a conserved signaling pathway for TLR2 and IL-1Rs and suggest a molecular mechanism for the inhibition of TLR2 by DN variants. 
+</text>
+    <sentence charOffset="0-80" id="S1">
+        <text xml:space="preserve">Signaling events induced by lipopolysaccharide-activated toll-like receptor 2. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="0-9" text="Signaling" lemma="signaling"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="10-16" text="events" lemma="event"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="17-24" text="induced" lemma="induce"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="25-27" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="28-56" text="lipopolysaccharide-activated" lemma="lipopolysaccharide-activated"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="57-66" text="toll-like" lemma="toll-like"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="67-75" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_8" POS="CD" charOffset="76-77" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_9" POS="." charOffset="77-78" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="prep_by"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_8" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN Signaling) (NNS=H events))
+            (VP=H (VBN=H induced)
+            (PP (IN=H by)
+            (NP
+            (NP=H (JJ lipopolysaccharide-activated) (JJ toll-like) (NN=H receptor))
+            (NP (CD=H 2)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="80-184" id="S2">
+        <text xml:space="preserve">Human Toll-like receptor 2 (TLR2) is a signaling receptor that responds to LPS and activates NF-kappaB. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="80-85" text="Human" lemma="human"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="86-95" text="Toll-like" lemma="toll-like"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="96-104" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_4" POS="CD" charOffset="105-106" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_5" POS="-LRB-" charOffset="107-108" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="108-112" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_7" POS="-RRB-" charOffset="112-113" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_8" POS="VBZ" charOffset="114-116" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="117-118" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="119-128" text="signaling" lemma="signaling"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="129-137" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_12" POS="WDT" charOffset="138-142" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_13" POS="VBZ" charOffset="143-151" text="responds" lemma="respond"/>
+            <token xml:space="preserve" id="stt_14" POS="TO" charOffset="152-154" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="155-158" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_16" POS="CC" charOffset="159-162" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_17" POS="VBZ" charOffset="163-172" text="activates" lemma="activate"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="173-182" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_19" POS="." charOffset="182-183" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_4" type="num"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_6" type="appos"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_17" type="rcmod"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_8" type="cop"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="nn"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_13" type="rcmod"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_17" type="conj_and"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_15" type="prep_to"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_18" type="dobj"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_12" type="nsubj"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Human) (JJ Toll-like) (NN=H receptor) (CD 2))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H TLR2))
+            (-RRB- -RRB-)))
+            (VP=H (VBZ=H is)
+            (NP
+            (NP=H (DT a) (NN signaling) (NN=H receptor))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H
+            (VP=H (VBZ=H responds)
+            (PP (TO=H to)
+            (NP (NN=H LPS))))
+            (CC and)
+            (VP (VBZ=H activates)
+            (NP (NN=H NF-kappaB))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="184-262" id="S3">
+        <text xml:space="preserve">Here, we investigate further the events triggered by TLR2 in response to LPS. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="184-188" text="Here" lemma="here"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="188-189" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="PRP" charOffset="190-192" text="we" lemma="we"/>
+            <token xml:space="preserve" id="stt_4" POS="VBP" charOffset="193-204" text="investigate" lemma="investigate"/>
+            <token xml:space="preserve" id="stt_5" POS="RB" charOffset="205-212" text="further" lemma="further"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="213-216" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="217-223" text="events" lemma="event"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="224-233" text="triggered" lemma="trigger"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="234-236" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="237-241" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="242-244" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="245-253" text="response" lemma="response"/>
+            <token xml:space="preserve" id="stt_13" POS="TO" charOffset="254-256" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="257-260" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="260-261" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_5" type="advmod"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_7" type="dobj"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="det"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_8" type="vmod"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_10" type="agent"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_14" type="prep_to"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_12" type="prep_in"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Here))
+            (, ,)
+            (NP (PRP=H we))
+            (VP=H (VBP=H investigate)
+            (ADVP (RB=H further))
+            (NP
+            (NP=H (DT the) (NNS=H events))
+            (VP (VBN=H triggered)
+            (PP (IN=H by)
+            (NP
+            (NP=H (NN=H TLR2))
+            (PP (IN=H in)
+            (NP (NN=H response)))))
+            (PP (TO=H to)
+            (NP (NN=H LPS))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="262-446" id="S4">
+        <text xml:space="preserve">We show that TLR2 associates with the high-affinity LPS binding protein membrane CD14 to serve as an LPS receptor complex, and that LPS treatment enhances the oligomerization of TLR2. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="262-264" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="265-269" text="show" lemma="show"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="270-274" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="275-279" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="280-290" text="associates" lemma="associate"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="291-295" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="296-299" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="300-313" text="high-affinity" lemma="high-affinity"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="314-317" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="318-325" text="binding" lemma="binding"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="326-333" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="334-342" text="membrane" lemma="membrane"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="343-347" text="CD14" lemma="cd14"/>
+            <token xml:space="preserve" id="stt_14" POS="TO" charOffset="348-350" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_15" POS="VB" charOffset="351-356" text="serve" lemma="serve"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="357-359" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="360-362" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="363-366" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="367-375" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="376-383" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_21" POS="," charOffset="383-384" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_22" POS="CC" charOffset="385-388" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="389-393" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="394-397" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="398-407" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_26" POS="VBZ" charOffset="408-416" text="enhances" lemma="enhance"/>
+            <token xml:space="preserve" id="stt_27" POS="DT" charOffset="417-420" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="421-436" text="oligomerization" lemma="oligomerization"/>
+            <token xml:space="preserve" id="stt_29" POS="IN" charOffset="437-439" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="440-444" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="444-445" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_26" type="ccomp"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_15" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_13" type="prep_with"/>
+            <dependency id="stp_6" t1="stt_13" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_13" t2="stt_8" type="amod"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_9" type="nn"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_10" type="nn"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_11" type="nn"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="nn"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_3" type="mark"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_20" type="prep_as"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_26" type="conj_and"/>
+            <dependency id="stp_16" t1="stt_15" t2="stt_14" type="aux"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_17" type="det"/>
+            <dependency id="stp_18" t1="stt_20" t2="stt_18" type="nn"/>
+            <dependency id="stp_19" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_20" t1="stt_25" t2="stt_24" type="nn"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_23" type="mark"/>
+            <dependency id="stp_22" t1="stt_26" t2="stt_25" type="nsubj"/>
+            <dependency id="stp_23" t1="stt_26" t2="stt_28" type="dobj"/>
+            <dependency id="stp_24" t1="stt_28" t2="stt_27" type="det"/>
+            <dependency id="stp_25" t1="stt_28" t2="stt_30" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H show)
+            (SBAR
+            (SBAR=H (IN=H that)
+            (S
+            (NP
+            (NP=H (NN TLR2) (NNS=H associates))
+            (PP (IN=H with)
+            (NP (DT the) (JJ high-affinity) (NN LPS) (NN binding) (NN protein) (NN membrane) (NN=H CD14))))
+            (VP=H (TO=H to)
+            (VP (VB=H serve)
+            (PP (IN=H as)
+            (NP (DT an) (NN LPS) (NN receptor) (NN=H complex)))))))
+            (, ,)
+            (CC and)
+            (SBAR (IN=H that)
+            (S
+            (NP (NN LPS) (NN=H treatment))
+            (VP=H (VBZ=H enhances)
+            (NP
+            (NP=H (DT the) (NN=H oligomerization))
+            (PP (IN=H of)
+            (NP (NN=H TLR2)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="446-558" id="S5">
+        <text xml:space="preserve">Concomitant with receptor oligomerization, the IL-1R-associated kinase (IRAK) is recruited to the TLR2 complex. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="446-457" text="Concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="458-462" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="463-471" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="472-487" text="oligomerization" lemma="oligomerization"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="487-488" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="489-492" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="493-509" text="IL-1R-associated" lemma="il-1r-associated"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="510-516" text="kinase" lemma="kinase"/>
+            <token xml:space="preserve" id="stt_9" POS="-LRB-" charOffset="517-518" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="518-522" text="IRAK" lemma="irak"/>
+            <token xml:space="preserve" id="stt_11" POS="-RRB-" charOffset="522-523" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_12" POS="VBZ" charOffset="524-526" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_13" POS="VBN" charOffset="527-536" text="recruited" lemma="recruit"/>
+            <token xml:space="preserve" id="stt_14" POS="TO" charOffset="537-539" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="540-543" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="544-548" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="549-556" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="556-557" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_with"/>
+            <dependency id="stp_2" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_3" t1="stt_17" t2="stt_15" type="det"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_6" type="det"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_10" type="appos"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_1" type="tmod"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_17" type="prep_to"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_8" type="nsubjpass"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP-TMP
+            (NP=H (JJ=H Concomitant))
+            (PP (IN=H with)
+            (NP (NN receptor) (NN=H oligomerization))))
+            (, ,)
+            (NP
+            (NP=H (DT the) (JJ IL-1R-associated) (NN=H kinase))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H IRAK))
+            (-RRB- -RRB-)))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H recruited)
+            (PP (TO=H to)
+            (NP (DT the) (NN TLR2) (NN=H complex)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="558-744" id="S6">
+        <text xml:space="preserve">Intracellular deletion variants of TLR2 lacking C-terminal 13 or 141 aa fail to recruit IRAK, which is consistent with the inability of these mutants to transmit LPS cellular signaling. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="558-571" text="Intracellular" lemma="intracellular"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="572-580" text="deletion" lemma="deletion"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="581-589" text="variants" lemma="variant"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="590-592" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="593-597" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_6" POS="VBG" charOffset="598-605" text="lacking" lemma="lack"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="606-616" text="C-terminal" lemma="c-terminal"/>
+            <token xml:space="preserve" id="stt_8" POS="CD" charOffset="617-619" text="13" lemma="13"/>
+            <token xml:space="preserve" id="stt_9" POS="CC" charOffset="620-622" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_10" POS="CD" charOffset="623-626" text="141" lemma="141"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="627-629" text="aa" lemma="aa"/>
+            <token xml:space="preserve" id="stt_12" POS="VBP" charOffset="630-634" text="fail" lemma="fail"/>
+            <token xml:space="preserve" id="stt_13" POS="TO" charOffset="635-637" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_14" POS="VB" charOffset="638-645" text="recruit" lemma="recruit"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="646-650" text="IRAK" lemma="irak"/>
+            <token xml:space="preserve" id="stt_16" POS="," charOffset="650-651" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_17" POS="WDT" charOffset="652-657" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_18" POS="VBZ" charOffset="658-660" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="661-671" text="consistent" lemma="consistent"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="672-676" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="677-680" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="681-690" text="inability" lemma="inability"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="691-693" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="DT" charOffset="694-699" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_25" POS="NNS" charOffset="700-707" text="mutants" lemma="mutant"/>
+            <token xml:space="preserve" id="stt_26" POS="TO" charOffset="708-710" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_27" POS="VB" charOffset="711-719" text="transmit" lemma="transmit"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="720-723" text="LPS" lemma="lp"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="724-732" text="cellular" lemma="cellular"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="733-742" text="signaling" lemma="signaling"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="742-743" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_6" type="vmod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_11" type="dobj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_8" type="tmod"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_10" type="tmod"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_10" type="conj_or"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_7" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_14" type="xcomp"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="aux"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_15" type="dobj"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_19" type="rcmod"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_17" type="nsubj"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_18" type="cop"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_22" type="prep_with"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_27" type="xcomp"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_21" type="det"/>
+            <dependency id="stp_20" t1="stt_22" t2="stt_25" type="prep_of"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_24" type="det"/>
+            <dependency id="stp_22" t1="stt_27" t2="stt_26" type="aux"/>
+            <dependency id="stp_23" t1="stt_27" t2="stt_30" type="dobj"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_28" type="nn"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_29" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Intracellular) (NN deletion) (NNS=H variants))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H TLR2))
+            (VP (VBG=H lacking)
+            (NP
+            (ADJP (JJ=H C-terminal)
+            (NP-TMP (CD=H 13)
+            (CC or)
+            (CD 141)))
+            (NN=H aa))))))
+            (VP=H (VBP=H fail)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H recruit)
+            (NP
+            (NP=H (NN=H IRAK))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H consistent)
+            (PP (IN=H with)
+            (NP
+            (NP=H (DT the) (NN=H inability))
+            (PP (IN=H of)
+            (NP (DT these) (NNS=H mutants))))))
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H transmit)
+            (NP (NN LPS) (JJ cellular) (NN=H signaling)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="744-911" id="S7">
+        <text xml:space="preserve">Moreover, both deletion mutants could still form complexes with wild-type TLR2 and act in a dominant-negative (DN) fashion to block TLR2-mediated signal transduction. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="744-752" text="Moreover" lemma="moreover"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="752-753" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="754-758" text="both" lemma="both"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="759-767" text="deletion" lemma="deletion"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="768-775" text="mutants" lemma="mutant"/>
+            <token xml:space="preserve" id="stt_6" POS="MD" charOffset="776-781" text="could" lemma="could"/>
+            <token xml:space="preserve" id="stt_7" POS="RB" charOffset="782-787" text="still" lemma="still"/>
+            <token xml:space="preserve" id="stt_8" POS="VB" charOffset="788-792" text="form" lemma="form"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="793-802" text="complexes" lemma="complex"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="803-807" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="808-817" text="wild-type" lemma="wild-type"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="818-822" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="823-826" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="827-830" text="act" lemma="act"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="831-833" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="834-835" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="836-853" text="dominant-negative" lemma="dominant-negative"/>
+            <token xml:space="preserve" id="stt_18" POS="-LRB-" charOffset="854-855" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="855-857" text="DN" lemma="dn"/>
+            <token xml:space="preserve" id="stt_20" POS="-RRB-" charOffset="857-858" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="859-866" text="fashion" lemma="fashion"/>
+            <token xml:space="preserve" id="stt_22" POS="TO" charOffset="867-869" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_23" POS="VB" charOffset="870-875" text="block" lemma="block"/>
+            <token xml:space="preserve" id="stt_24" POS="JJ" charOffset="876-889" text="TLR2-mediated" lemma="tlr2-mediated"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="890-896" text="signal" lemma="signal"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="897-909" text="transduction" lemma="transduction"/>
+            <token xml:space="preserve" id="stt_27" POS="." charOffset="909-910" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_3" type="det"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_3" t1="stt_8" t2="stt_1" type="advmod"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_21" type="prep_in"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_6" type="aux"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="advmod"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_23" type="xcomp"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_9" type="dobj"/>
+            <dependency id="stp_10" t1="stt_8" t2="stt_12" type="prep_with"/>
+            <dependency id="stp_11" t1="stt_8" t2="stt_14" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_16" type="det"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_17" type="amod"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_19" type="dep"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_22" type="aux"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_26" type="dobj"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_24" type="amod"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Moreover))
+            (, ,)
+            (NP (DT both) (NN deletion) (NNS=H mutants))
+            (VP=H (MD=H could)
+            (ADVP (RB=H still))
+            (VP (VB=H form)
+            (NP (NNS=H complexes))
+            (PP (IN=H with)
+            (NP (JJ wild-type) (NN=H TLR2)
+            (CC and)
+            (NN act)))
+            (PP (IN=H in)
+            (NP (DT a) (JJ dominant-negative)
+            (PRN (-LRB- -LRB-)
+            (NP=H (JJ=H DN))
+            (-RRB- -RRB-))
+            (NN=H fashion)))
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H block)
+            (NP (JJ TLR2-mediated) (NN signal) (NN=H transduction)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="911-1105" id="S8">
+        <text xml:space="preserve">DN constructs of myeloid differentiation protein, IRAK, TNF receptor-associated factor 6, and NF-kappaB-inducing kinase, when coexpressed with TLR2, abrogate TLR2-mediated NF-kappaB activation. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="911-913" text="DN" lemma="dn"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="914-924" text="constructs" lemma="construct"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="925-927" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="928-935" text="myeloid" lemma="myeloid"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="936-951" text="differentiation" lemma="differentiation"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="952-959" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_7" POS="," charOffset="959-960" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="961-965" text="IRAK" lemma="irak"/>
+            <token xml:space="preserve" id="stt_9" POS="," charOffset="965-966" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="967-970" text="TNF" lemma="tnf"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="971-990" text="receptor-associated" lemma="receptor-associated"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="991-997" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_13" POS="CD" charOffset="998-999" text="6" lemma="6"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="999-1000" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="CC" charOffset="1001-1004" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1005-1023" text="NF-kappaB-inducing" lemma="nf-kappab-inducing"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1024-1030" text="kinase" lemma="kinase"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="1030-1031" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="WRB" charOffset="1032-1036" text="when" lemma="when"/>
+            <token xml:space="preserve" id="stt_20" POS="VBN" charOffset="1037-1048" text="coexpressed" lemma="coexpress"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="1049-1053" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1054-1058" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_23" POS="," charOffset="1058-1059" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_24" POS="VBP" charOffset="1060-1068" text="abrogate" lemma="abrogate"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="1069-1082" text="TLR2-mediated" lemma="tlr2-mediated"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1083-1092" text="NF-kappaB" lemma="nf-kappab"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="1093-1103" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_28" POS="." charOffset="1103-1104" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_2" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_17" type="conj_and"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_9" t1="stt_6" t2="stt_8" type="conj_and"/>
+            <dependency id="stp_10" t1="stt_6" t2="stt_12" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="nn"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_13" type="dep"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_20" type="rcmod"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_19" type="advmod"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_22" type="prep_with"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_27" type="dobj"/>
+            <dependency id="stp_20" t1="stt_27" t2="stt_25" type="amod"/>
+            <dependency id="stp_21" t1="stt_27" t2="stt_26" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ DN) (NNS=H constructs))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ myeloid) (NN differentiation) (NN=H protein))
+            (, ,)
+            (NP (NN=H IRAK))
+            (, ,)
+            (NP
+            (NP=H (NN TNF) (JJ receptor-associated) (NN=H factor))
+            (NP (CD=H 6)))
+            (, ,)
+            (CC and)
+            (NP
+            (NP=H (NN NF-kappaB-inducing) (NN=H kinase))
+            (, ,)
+            (SBAR
+            (WHADVP=H (WRB=H when))
+            (S
+            (VP=H (VBN=H coexpressed)
+            (PP (IN=H with)
+            (NP (NN=H TLR2))))))
+            (, ,)))))
+            (VP=H (VBP=H abrogate)
+            (NP (JJ TLR2-mediated) (NN NF-kappaB) (NN=H activation)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1105-1254" id="S9">
+        <text xml:space="preserve">These results reveal a conserved signaling pathway for TLR2 and IL-1Rs and suggest a molecular mechanism for the inhibition of TLR2 by DN variants. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="1105-1110" text="These" lemma="these"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1111-1118" text="results" lemma="result"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="1119-1125" text="reveal" lemma="reveal"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="1126-1127" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="1128-1137" text="conserved" lemma="conserve"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1138-1147" text="signaling" lemma="signaling"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1148-1155" text="pathway" lemma="pathway"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="1156-1159" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1160-1164" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="1165-1168" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="1169-1175" text="IL-1Rs" lemma="il-1r"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="1176-1179" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_13" POS="VBP" charOffset="1180-1187" text="suggest" lemma="suggest"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="1188-1189" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="1190-1199" text="molecular" lemma="molecular"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1200-1209" text="mechanism" lemma="mechanism"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="1210-1213" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_18" POS="DT" charOffset="1214-1217" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="1218-1228" text="inhibition" lemma="inhibition"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="1229-1231" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1232-1236" text="TLR2" lemma="tlr2"/>
+            <token xml:space="preserve" id="stt_22" POS="IN" charOffset="1237-1239" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="1240-1242" text="DN" lemma="dn"/>
+            <token xml:space="preserve" id="stt_24" POS="NNS" charOffset="1243-1251" text="variants" lemma="variant"/>
+            <token xml:space="preserve" id="stt_25" POS="." charOffset="1251-1252" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_4" type="dobj"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_13" type="conj_and"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_5" type="vmod"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_7" type="dobj"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_9" type="prep_for"/>
+            <dependency id="stp_9" t1="stt_7" t2="stt_11" type="prep_for"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_11" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_16" type="dobj"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_24" type="prep_by"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_19" type="prep_for"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_14" type="det"/>
+            <dependency id="stp_16" t1="stt_16" t2="stt_15" type="amod"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_18" type="det"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_21" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_23" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT These) (NNS=H results))
+            (VP=H
+            (VP=H (VBP=H reveal)
+            (NP
+            (NP=H (DT=H a))
+            (VP (VBN=H conserved)
+            (NP
+            (NP=H (NN signaling) (NN=H pathway))
+            (PP (IN=H for)
+            (NP (NN=H TLR2)
+            (CC and)
+            (NNS IL-1Rs)))))))
+            (CC and)
+            (VP (VBP=H suggest)
+            (NP
+            (NP=H (DT a) (JJ molecular) (NN=H mechanism))
+            (PP (IN=H for)
+            (NP
+            (NP=H (DT the) (NN=H inhibition))
+            (PP (IN=H of)
+            (NP (NN=H TLR2))))))
+            (PP (IN=H by)
+            (NP (JJ DN) (NNS=H variants)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="57-77" headOffset="67-75" text="toll-like receptor 2"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="86-106" headOffset="96-104" text="Toll-like receptor 2"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="108-112" headOffset="108-112" text="TLR2"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="237-241" headOffset="237-241" text="TLR2"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="275-279" headOffset="275-279" text="TLR2"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="343-347" headOffset="343-347" text="CD14"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="440-444" headOffset="440-444" text="TLR2"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="544-548" headOffset="544-548" text="TLR2"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="593-597" headOffset="593-597" text="TLR2"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="818-822" headOffset="818-822" text="TLR2"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="876-880" headOffset="876-880" text="TLR2"/>
+    <Term xml:space="preserve" id="T12" type="Protein" charOffset="967-999" headOffset="991-997" text="TNF receptor-associated factor 6"/>
+    <Term xml:space="preserve" id="T13" type="Protein" charOffset="1005-1030" headOffset="1024-1030" text="NF-kappaB-inducing kinase"/>
+    <Term xml:space="preserve" id="T14" type="Protein" charOffset="1054-1058" headOffset="1054-1058" text="TLR2"/>
+    <Term xml:space="preserve" id="T15" type="Protein" charOffset="1069-1073" headOffset="1069-1073" text="TLR2"/>
+    <Term xml:space="preserve" id="T16" type="Protein" charOffset="1160-1164" headOffset="1160-1164" text="TLR2"/>
+    <Term xml:space="preserve" id="T17" type="Protein" charOffset="1232-1236" headOffset="1232-1236" text="TLR2"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T19"/>
+        <Antecedent idref="T18"/>
+    </Relation>
+    <Term xml:space="preserve" id="T18" type="IndefiniteNP" charOffset="117-137" headOffset="129-137" text="a signaling receptor"/>
+    <Term xml:space="preserve" id="T19" type="RelativePronoun" charOffset="138-142" headOffset="138-142" text="that"/>
+</document>

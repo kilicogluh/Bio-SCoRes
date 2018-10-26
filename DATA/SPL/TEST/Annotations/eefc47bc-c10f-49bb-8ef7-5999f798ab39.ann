@@ -1,0 +1,110 @@
+T1	Drug_Class 309 341	alpha-adrenergic blocking agents
+T2	Drug 287 296	Doxazosin
+T3	Drug_Class 986 1009	antihypertensive agents
+T5	Drug_Class 2984 3002	alpha1 antagonists
+T6	Drug 3014 3023	doxazosin
+T8	Drug_Class 7729 7745	alpha1 inhibitor
+T7	Drug 7715 7724	doxazosin
+T10	Drug_Class 7766 7793	5-alpha reductase inhibitor
+T9	Drug 7751 7762	finasteride
+T11	Drug 10189 10204	oral cimetidine
+T13	Drug 10268 10277	doxazosin
+T17	Drug 10380 10389	doxazosin
+T19	Drug 10437 10446	doxazosin
+T20	Drug 11272 11279	CARDURA
+T21	Drug_Class 11287 11324	phosphodiesterase-5 (PDE-5) inhibitor
+T22	Drug_Class 10011 10047	nonsteroidal anti-inflammatory drugs
+T23	Drug_Class 9965 9983	thiazide diuretics
+T24	Drug_Class 9985 10005	beta-blocking agents
+T25	Drug_Class 5659 5677	alpha1 antagonists
+T26	Drug_Class 7307 7325	alpha1 antagonists
+T27	Drug_Class 15069 15091	antihypertensive agent
+T28	Drug 9711 9718	digoxin
+T29	Drug 11029 11048	hydrochlorothiazide
+T30	Drug 11050 11061	propranolol
+T31	Drug_Class 11067 11082	corticosteroids
+T32	Drug 9730 9739	phenytoin
+T33	Drug 10880 10892	erythromycin
+T34	Drug 9744 9756	indomethacin
+T35	Drug 10843 10855	indomethacin
+T36	Drug 10789 10796	aspirin
+T37	Drug 9720 9728	warfarin
+T38	Drug 46 55	doxazosin
+T39	Drug 197 206	doxazosin
+T40	Drug 1069 1078	doxazosin
+T41	Drug 1289 1298	doxazosin
+T42	Drug 1546 1555	doxazosin
+T43	Drug 1839 1848	doxazosin
+T44	Drug 2319 2328	doxazosin
+T45	Drug 2384 2393	doxazosin
+T46	Drug 2429 2438	doxazosin
+T47	Drug 5275 5284	doxazosin
+T48	Drug 5444 5453	doxazosin
+T49	Drug 6625 6634	doxazosin
+T50	Drug 9595 9604	doxazosin
+T51	Drug 9842 9851	doxazosin
+T52	Drug 10145 10154	doxazosin
+T53	Drug 11653 11662	doxazosin
+T54	Drug 11763 11772	doxazosin
+T55	Drug 11962 11971	doxazosin
+T56	Drug 12728 12737	doxazosin
+T57	Drug 13251 13260	doxazosin
+T58	Drug 13489 13498	doxazosin
+T59	Drug 14229 14238	doxazosin
+T60	Drug 14382 14391	doxazosin
+T61	Drug 14688 14697	doxazosin
+T62	Drug 175 183	prazosin
+T63	Drug 10894 10906	trimethoprim
+T64	Drug 11019 11027	atenolol
+T65	Drug_Class 11170 11179	sedatives
+T66	Drug_Class 11184 11197	tranquilizers
+T67	Drug 185 194	terazosin
+T68	Drug_Class 10946 10960	antihistamines
+T69	Drug_Class 11118 11126	antacids
+T70	Drug 26 33	Cardura
+T71	Drug 88 95	CARDURA
+T72	Drug 3599 3606	CARDURA
+T73	Drug 4468 4475	CARDURA
+T74	Drug 6152 6159	CARDURA
+T75	Drug 7088 7095	CARDURA
+T76	Drug 7593 7600	CARDURA
+T77	Drug 8020 8027	CARDURA
+T78	Drug 8327 8334	CARDURA
+T79	Drug 8662 8669	CARDURA
+T80	Drug 9465 9472	CARDURA
+T81	Drug 9667 9674	CARDURA
+T82	Drug 9861 9868	CARDURA
+T83	Drug 10483 10490	CARDURA
+T84	Drug 10663 10670	CARDURA
+T85	Drug 14077 14084	CARDURA
+T86	Drug 14666 14673	CARDURA
+T87	Drug 14962 14969	CARDURA
+T88	Drug 15055 15062	CARDURA
+T89	Drug 15187 15194	CARDURA
+T90	Drug 15319 15326	CARDURA
+T91	Drug 10798 10805	codeine
+T92	Drug 10810 10817	codeine
+T93	Drug_Class 10562 10573	medications
+T12	IndefiniteNP 7726 7745	an alpha1 inhibitor
+T14	IndefiniteNP 7764 7793	a 5-alpha reductase inhibitor
+T4	DefiniteNP 10699 10734	the following drugs or drug classes
+T15	Drug_Class 10739 10766	analgesic/anti-inflammatory
+T16	Drug_Class 10861 10872	antibiotics
+T18	Drug_Class 10990 11011	cardiovascular agents
+T94	Drug_Class 11087 11110	gastrointestinal agents
+T95	Drug_Class 11132 11165	hypoglycemics and endocrine drugs
+T96	Drug_Class 11170 11197	sedatives and tranquilizers
+T97	Drug_Class 11219 11240	cold and flu remedies
+T98	DemonstrativeNP 14845 14854	this drug
+R1	Appositive Attribute:T12 Head:T7
+R2	Appositive Attribute:T14 Head:T9
+R3	Cataphora Cataphor:T4 Consequent:T15
+R4	Cataphora Cataphor:T4 Consequent:T16
+R5	Cataphora Cataphor:T4 Consequent:T68
+R6	Cataphora Cataphor:T4 Consequent:T18
+R7	Cataphora Cataphor:T4 Consequent:T31
+R8	Cataphora Cataphor:T4 Consequent:T94
+R9	Cataphora Cataphor:T4 Consequent:T95
+R10	Cataphora Cataphor:T4 Consequent:T96
+R11	Cataphora Cataphor:T4 Consequent:T97
+R12	Anaphora Anaphor:T98 Antecedent:T61

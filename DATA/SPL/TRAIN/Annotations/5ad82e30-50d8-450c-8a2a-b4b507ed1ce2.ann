@@ -1,0 +1,58 @@
+T4	Drug 101 111	INTEGRILIN
+T2	Drug_Class 566 597	parenteral GP IIb/IIIa inhibito
+T14	Drug 890 900	INTEGRILIN
+T11	Drug 954 961	heparin
+T26	Drug 1060 1067	heparin
+T25	Drug 1045 1055	INTEGRILIN
+T16	Drug_Class 2020 2060	drugs that increase the risk of bleeding
+T40	Drug_Class 2062 2075	thrombolytics
+T41	Drug_Class 2077 2096	oral anticoagulants
+T42	Drug_Class 2098 2134	nonsteroidal anti-inflammatory drugs
+T17	Drug_Class 2140 2156	P2Y12 inhibitors
+T19	Drug_Class 2192 2250	inhibitors of platelet receptor glycoprotein (GP) IIb/IIIa
+T21	Drug 2295 2302	heparin
+T59	Drug 3278 3289;3305 3312	infusion of heparin
+T58	Drug 3278 3300	infusion of INTEGRILIN
+T65	Drug 3600 3610	INTEGRILIN
+T66	Drug_Class 3615 3622	heparin
+T29	Drug 3624 3638	unfractionated
+T30	Drug 3642 3662	low-molecular weight
+T90	Drug 4196 4203	aspirin
+T91	Drug_Class 4217 4222	NSAID
+T88	Drug 4187 4194	heparin
+T86	Drug_Class 4151 4170	antiplatelet agents
+T87	Drug_Class 4172 4185	thrombolytics
+T47	Drug_Class 4292 4335	inhibitors of platelet receptor GP IIb/IIIa
+T92	Drug_Class 1899 1918	Antiplatelet Agents
+T93	Drug_Class 4110 4129	Antiplatelet Agents
+T94	Drug_Class 377 401	antihypertensive therapy
+T95	Drug 2787 2794	Heparin
+T96	Drug 2962 2969	heparin
+T97	Drug 3079 3086	heparin
+T98	Drug_Class 1873 1887	Anticoagulants
+T99	Drug_Class 4084 4098	Anticoagulants
+T100	Drug 26 36	Integrilin
+T101	Drug 652 662	INTEGRILIN
+T102	Drug 805 815	INTEGRILIN
+T103	Drug 1194 1204	INTEGRILIN
+T104	Drug 1232 1242	INTEGRILIN
+T105	Drug 1462 1472	INTEGRILIN
+T106	Drug 2551 2561	INTEGRILIN
+T107	Drug 2674 2684	INTEGRILIN
+T108	Drug 2880 2890	INTEGRILIN
+T109	Drug 3091 3101	INTEGRILIN
+T110	Drug 3479 3489	INTEGRILIN
+T111	Drug 3844 3854	INTEGRILIN
+T112	Drug 3972 3982	INTEGRILIN
+T113	Drug_Class 1858 1871	Thrombolytics
+T114	Drug_Class 4069 4082	Thrombolytics
+T3	DefiniteNP 683 694	the product
+T6	ZeroArticleNP 2020 2060	drugs that increase the risk of bleeding
+R1	Anaphora Anaphor:T3 Antecedent:T101
+R3	Appositive Attribute:T6 Head:T40
+R4	Appositive Attribute:T6 Head:T41
+R5	Appositive Attribute:T6 Head:T42
+R6	Appositive Attribute:T6 Head:T17
+T1	IndefiniteNP 666 694	any component of the product
+T5	Drug 49 61	Eptifibatide
+R2	Anaphora Anaphor:T1 Antecedent:T5	

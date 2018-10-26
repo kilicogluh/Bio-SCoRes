@@ -1,0 +1,30 @@
+T1	Protein 488 497	IKK-alpha
+T2	Protein 499 507	IKK-beta
+T3	Protein 509 534	NF-kappaB-inducing kinase
+T4	Protein 536 539	NIK
+T5	Protein 542 551	IKK-gamma
+T6	Protein 589 619	IKK complex-associated protein
+T7	Protein 742 751	IKK-alpha
+T8	Protein 760 768	IKK-beta
+T9	Protein 830 838	IKK-beta
+T10	Protein 1188 1191	NIK
+T11	Protein 1298 1311	IkappaB-alpha
+T12	Protein 1316 1331	IkappaB-epsilon
+T13	Protein 1395 1404	IKK-alpha
+T14	Protein 1406 1414	IKK-beta
+T15	Protein 1420 1423	NIK
+T16	Protein 1453 1456	NIK
+T17	Protein 1478 1491	IkappaB-alpha
+T18	Protein 1573 1576	NIK
+T19	Exp 830 847	IKK-beta activity	839 847	activity
+T20	Exp 849 854	which
+T21	Exp 951 966	LPS stimulation	955 966	stimulation
+T22	Exp 968 973	which
+T23	Exp 1453 1456	NIK
+T24	Exp 1506 1508	it
+T25	Exp 1744 1775	stimulus-mediated transcription	1762 1775	transcription
+T26	Exp 1824 1826	it
+R1	Coref Anaphora:T20 Antecedent:T19	[T9]
+R2	Coref Anaphora:T22 Antecedent:T21
+R3	Coref Anaphora:T24 Antecedent:T23	[T16]
+R4	Coref Anaphora:T26 Antecedent:T25

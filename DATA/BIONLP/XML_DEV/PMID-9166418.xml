@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-9166418">
+    <text xml:space="preserve">An isotype-specific activator of major histocompatibility complex (MHC) class II genes that is independent of class II transactivator. 
+Patients with one type of major histocompatibility complex class II combined immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP. However, the experimentally derived B-lymphoblastoid cell line, clone 13, expresses high levels of HLADQ in the absence of HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group. It was possible that one of the clone 13 CIITA alleles bore a mutation that allowed HLA-DQ, but not HLA-DR or -DP transcription. Alternatively, another factor, distinct from CIITA, might control HLA-DQ expression. We report here that ectopic expression of CIITA cDNAs derived by reverse transcriptase polymerase chain reaction from clone 13 do not restore expression of HLA-DQ in another CIITA-deficient cell line, RJ2.2.5. In addition, no CIITA protein is detectable in clone 13 nuclear extracts. In contrast, somatic cell fusion between clone 13 and RJ2.2.5 restored expression of the HLA-DQ haplotype encoded by the RJ2.2.5 DQB gene. Taken together, these data demonstrate the existence of an HLA-DQ isotype-specific trans-acting factor, which functions independently of CIITA. 
+</text>
+    <sentence charOffset="0-136" id="S1">
+        <text xml:space="preserve">An isotype-specific activator of major histocompatibility complex (MHC) class II genes that is independent of class II transactivator. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="0-2" text="An" lemma="a"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="3-19" text="isotype-specific" lemma="isotype-specific"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="20-29" text="activator" lemma="activator"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="30-32" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="33-38" text="major" lemma="major"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="39-57" text="histocompatibility" lemma="histocompatibility"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="58-65" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_8" POS="-LRB-" charOffset="66-67" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="67-70" text="MHC" lemma="mhc"/>
+            <token xml:space="preserve" id="stt_10" POS="-RRB-" charOffset="70-71" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="72-77" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="78-80" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="81-86" text="genes" lemma="gene"/>
+            <token xml:space="preserve" id="stt_14" POS="WDT" charOffset="87-91" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_15" POS="VBZ" charOffset="92-94" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="95-106" text="independent" lemma="independent"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="107-109" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="110-115" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="116-118" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="119-133" text="transactivator" lemma="transactivator"/>
+            <token xml:space="preserve" id="stt_21" POS="." charOffset="133-134" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="appos"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_13" type="dobj"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_16" type="rcmod"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_12" type="num"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_14" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_15" type="cop"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_18" type="nn"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_19" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT An) (JJ isotype-specific) (NN=H activator))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ major) (NN histocompatibility) (NN=H complex))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H MHC))
+            (-RRB- -RRB-)))))
+            (VP=H (NN=H class)
+            (NP
+            (NP=H (CD II) (NNS=H genes))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H independent)
+            (PP (IN=H of)
+            (NP (NN class) (CD II) (NN=H transactivator)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="136-404" id="S2">
+        <text xml:space="preserve">Patients with one type of major histocompatibility complex class II combined immunodeficiency have mutations in a gene termed class II transactivator (CIITA), which coordinately controls the transcription of the three major human class II genes, HLA-DR, -DQ, and -DP. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="136-144" text="Patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="145-149" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_3" POS="CD" charOffset="150-153" text="one" lemma="one"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="154-158" text="type" lemma="type"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="159-161" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="162-167" text="major" lemma="major"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="168-186" text="histocompatibility" lemma="histocompatibility"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="187-194" text="complex" lemma="complex"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="195-200" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_10" POS="CD" charOffset="201-203" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="204-212" text="combined" lemma="combined"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="213-229" text="immunodeficiency" lemma="immunodeficiency"/>
+            <token xml:space="preserve" id="stt_13" POS="VBP" charOffset="230-234" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="235-244" text="mutations" lemma="mutation"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="245-247" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="248-249" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="250-254" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_18" POS="VBN" charOffset="255-261" text="termed" lemma="term"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="262-267" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_20" POS="CD" charOffset="268-270" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="271-285" text="transactivator" lemma="transactivator"/>
+            <token xml:space="preserve" id="stt_22" POS="-LRB-" charOffset="286-287" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="287-292" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_24" POS="-RRB-" charOffset="292-293" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_25" POS="," charOffset="293-294" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_26" POS="WDT" charOffset="295-300" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_27" POS="RB" charOffset="301-313" text="coordinately" lemma="coordinately"/>
+            <token xml:space="preserve" id="stt_28" POS="VBZ" charOffset="314-322" text="controls" lemma="control"/>
+            <token xml:space="preserve" id="stt_29" POS="DT" charOffset="323-326" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="327-340" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_31" POS="IN" charOffset="341-343" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_32" POS="DT" charOffset="344-347" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_33" POS="CD" charOffset="348-353" text="three" lemma="three"/>
+            <token xml:space="preserve" id="stt_34" POS="JJ" charOffset="354-359" text="major" lemma="major"/>
+            <token xml:space="preserve" id="stt_35" POS="JJ" charOffset="360-365" text="human" lemma="human"/>
+            <token xml:space="preserve" id="stt_36" POS="NN" charOffset="366-371" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_37" POS="CD" charOffset="372-374" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_38" POS="NNS" charOffset="375-380" text="genes" lemma="gene"/>
+            <token xml:space="preserve" id="stt_39" POS="," charOffset="380-381" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_40" POS="NN" charOffset="382-388" text="HLA-DR" lemma="hla-dr"/>
+            <token xml:space="preserve" id="stt_41" POS="," charOffset="388-389" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_42" POS=":" charOffset="390-391" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_43" POS="NN" charOffset="391-393" text="DQ" lemma="dq"/>
+            <token xml:space="preserve" id="stt_44" POS="," charOffset="393-394" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_45" POS="CC" charOffset="395-398" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_46" POS=":" charOffset="399-400" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_47" POS="NN" charOffset="400-402" text="DP" lemma="dp"/>
+            <token xml:space="preserve" id="stt_48" POS="." charOffset="402-403" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="prep_with"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="num"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_9" t2="stt_6" type="amod"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_7" type="nn"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_12" type="dep"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="num"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_14" type="dobj"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_17" type="prep_in"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="det"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_18" type="vmod"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_21" type="dobj"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_19" type="nn"/>
+            <dependency id="stp_17" t1="stt_21" t2="stt_20" type="num"/>
+            <dependency id="stp_18" t1="stt_21" t2="stt_23" type="appos"/>
+            <dependency id="stp_19" t1="stt_21" t2="stt_28" type="rcmod"/>
+            <dependency id="stp_20" t1="stt_28" t2="stt_26" type="nsubj"/>
+            <dependency id="stp_21" t1="stt_28" t2="stt_27" type="advmod"/>
+            <dependency id="stp_22" t1="stt_28" t2="stt_30" type="dobj"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_29" type="det"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_47" type="prep_of"/>
+            <dependency id="stp_25" t1="stt_36" t2="stt_33" type="num"/>
+            <dependency id="stp_26" t1="stt_36" t2="stt_34" type="amod"/>
+            <dependency id="stp_27" t1="stt_36" t2="stt_35" type="amod"/>
+            <dependency id="stp_28" t1="stt_36" t2="stt_38" type="dep"/>
+            <dependency id="stp_29" t1="stt_36" t2="stt_40" type="appos"/>
+            <dependency id="stp_30" t1="stt_36" t2="stt_43" type="dep"/>
+            <dependency id="stp_31" t1="stt_38" t2="stt_37" type="num"/>
+            <dependency id="stp_32" t1="stt_43" t2="stt_45" type="advmod"/>
+            <dependency id="stp_33" t1="stt_47" t2="stt_32" type="det"/>
+            <dependency id="stp_34" t1="stt_47" t2="stt_36" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNS=H Patients))
+            (PP (IN=H with)
+            (NP
+            (NP=H (CD one) (NN=H type))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ major) (NN histocompatibility) (NN complex) (NN=H class))
+            (NP (CD II) (JJ combined) (NN=H immunodeficiency)))))))
+            (VP=H (VBP=H have)
+            (NP
+            (NP=H (NNS=H mutations))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT a) (NN=H gene))
+            (VP (VBN=H termed)
+            (NP
+            (NP=H
+            (NP=H (NN class) (CD II) (NN=H transactivator))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H CIITA))
+            (-RRB- -RRB-)))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (ADVP (RB=H coordinately))
+            (VP=H (VBZ=H controls)
+            (NP
+            (NP=H (DT the) (NN=H transcription))
+            (PP (IN=H of)
+            (NP (DT the)
+            (NP
+            (NP=H (CD three) (JJ major) (JJ human) (NN=H class))
+            (NP (CD II) (NNS=H genes))
+            (, ,)
+            (NP (NN=H HLA-DR))
+            (, ,)
+            (PRN (: -)
+            (NP=H
+            (NP=H (NN=H DQ))
+            (, ,)
+            (ADVP (CC=H and)))
+            (: -)))
+            (NN=H DP)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="404-609" id="S3">
+        <text xml:space="preserve">However, the experimentally derived B-lymphoblastoid cell line, clone 13, expresses high levels of HLADQ in the absence of HLA-DR and HLA-DP, despite its mapping by complementation analysis to this group. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="404-411" text="However" lemma="however"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="411-412" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="413-416" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="417-431" text="experimentally" lemma="experimentally"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="432-439" text="derived" lemma="derive"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="440-456" text="B-lymphoblastoid" lemma="b-lymphoblastoid"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="457-461" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="462-466" text="line" lemma="line"/>
+            <token xml:space="preserve" id="stt_9" POS="," charOffset="466-467" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="468-473" text="clone" lemma="clone"/>
+            <token xml:space="preserve" id="stt_11" POS="CD" charOffset="474-476" text="13" lemma="13"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="476-477" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="VBZ" charOffset="478-487" text="expresses" lemma="express"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="488-492" text="high" lemma="high"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="493-499" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="500-502" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="NNP" charOffset="503-508" text="HLADQ" lemma="HLADQ"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="509-511" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_19" POS="DT" charOffset="512-515" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="516-523" text="absence" lemma="absence"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="524-526" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="527-533" text="HLA-DR" lemma="hla-dr"/>
+            <token xml:space="preserve" id="stt_23" POS="CC" charOffset="534-537" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="538-544" text="HLA-DP" lemma="hla-dp"/>
+            <token xml:space="preserve" id="stt_25" POS="," charOffset="544-545" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="546-553" text="despite" lemma="despite"/>
+            <token xml:space="preserve" id="stt_27" POS="PRP$" charOffset="554-557" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="558-565" text="mapping" lemma="mapping"/>
+            <token xml:space="preserve" id="stt_29" POS="IN" charOffset="566-568" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="569-584" text="complementation" lemma="complementation"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="585-593" text="analysis" lemma="analysis"/>
+            <token xml:space="preserve" id="stt_32" POS="TO" charOffset="594-596" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_33" POS="DT" charOffset="597-601" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_34" POS="NN" charOffset="602-607" text="group" lemma="group"/>
+            <token xml:space="preserve" id="stt_35" POS="." charOffset="607-608" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_34" t2="stt_33" type="det"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_1" type="advmod"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_34" type="prep_to"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_4" type="advmod"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_13" type="ccomp"/>
+            <dependency id="stp_7" t1="stt_5" t2="stt_31" type="prep_by"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_6" type="amod"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_10" t1="stt_8" t2="stt_10" type="appos"/>
+            <dependency id="stp_11" t1="stt_10" t2="stt_11" type="num"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_28" type="prep_despite"/>
+            <dependency id="stp_14" t1="stt_13" t2="stt_15" type="dobj"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_15" t2="stt_14" type="amod"/>
+            <dependency id="stp_17" t1="stt_17" t2="stt_20" type="prep_in"/>
+            <dependency id="stp_18" t1="stt_20" t2="stt_19" type="det"/>
+            <dependency id="stp_19" t1="stt_20" t2="stt_22" type="prep_of"/>
+            <dependency id="stp_20" t1="stt_20" t2="stt_24" type="prep_of"/>
+            <dependency id="stp_21" t1="stt_22" t2="stt_24" type="conj_and"/>
+            <dependency id="stp_22" t1="stt_28" t2="stt_27" type="poss"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_30" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H However))
+            (, ,)
+            (NP (DT=H the))
+            (ADVP (RB=H experimentally))
+            (VP=H (VBN=H derived)
+            (S
+            (NP
+            (NP=H (JJ B-lymphoblastoid) (NN cell) (NN=H line))
+            (, ,)
+            (NP (NN=H clone) (CD 13))
+            (, ,))
+            (VP=H (VBZ=H expresses)
+            (NP
+            (NP=H (JJ high) (NNS=H levels))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NNP=H HLADQ))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT the) (NN=H absence))
+            (PP (IN=H of)
+            (NP (NN=H HLA-DR)
+            (CC and)
+            (NN HLA-DP))))))))
+            (, ,)
+            (PP (IN=H despite)
+            (NP (PRP$ its) (NN=H mapping)))))
+            (PP (IN=H by)
+            (NP (NN complementation) (NN=H analysis)))
+            (PP (TO=H to)
+            (NP (DT this) (NN=H group))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="609-738" id="S4">
+        <text xml:space="preserve">It was possible that one of the clone 13 CIITA alleles bore a mutation that allowed HLA-DQ, but not HLA-DR or -DP transcription. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="609-611" text="It" lemma="it"/>
+            <token xml:space="preserve" id="stt_2" POS="VBD" charOffset="612-615" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="616-624" text="possible" lemma="possible"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="625-629" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="CD" charOffset="630-633" text="one" lemma="one"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="634-636" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="637-640" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="641-646" text="clone" lemma="clone"/>
+            <token xml:space="preserve" id="stt_9" POS="CD" charOffset="647-649" text="13" lemma="13"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="650-655" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="656-663" text="alleles" lemma="allele"/>
+            <token xml:space="preserve" id="stt_12" POS="VBD" charOffset="664-668" text="bore" lemma="bear"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="669-670" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="671-679" text="mutation" lemma="mutation"/>
+            <token xml:space="preserve" id="stt_15" POS="WDT" charOffset="680-684" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_16" POS="VBD" charOffset="685-692" text="allowed" lemma="allow"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="693-699" text="HLA-DQ" lemma="hla-dq"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="699-700" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="CC" charOffset="701-704" text="but" lemma="but"/>
+            <token xml:space="preserve" id="stt_20" POS="RB" charOffset="705-708" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="709-715" text="HLA-DR" lemma="hla-dr"/>
+            <token xml:space="preserve" id="stt_22" POS="CC" charOffset="716-718" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_23" POS=":" charOffset="719-720" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="720-722" text="DP" lemma="dp"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="723-736" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_26" POS="." charOffset="736-737" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="cop"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_12" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_7" type="det"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_8" type="nn"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_9" type="num"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="nn"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_4" type="mark"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_14" type="dobj"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_16" type="rcmod"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_13" type="det"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_17" type="dobj"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_21" type="dobj"/>
+            <dependency id="stp_16" t1="stt_16" t2="stt_25" type="dobj"/>
+            <dependency id="stp_17" t1="stt_16" t2="stt_15" type="nsubj"/>
+            <dependency id="stp_18" t1="stt_17" t2="stt_21" type="conj_negcc"/>
+            <dependency id="stp_19" t1="stt_17" t2="stt_24" type="dep"/>
+            <dependency id="stp_20" t1="stt_17" t2="stt_25" type="conj_or"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H It))
+            (VP=H (VBD=H was)
+            (ADJP (JJ=H possible))
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (CD=H one))
+            (PP (IN=H of)
+            (NP (DT the) (NN clone) (CD 13) (NN CIITA) (NNS=H alleles))))
+            (VP=H (VBD=H bore)
+            (NP
+            (NP=H (DT a) (NN=H mutation))
+            (SBAR
+            (WHNP=H (WDT=H that))
+            (S
+            (VP=H (VBD=H allowed)
+            (NP
+            (NP=H
+            (NP=H (NN=H HLA-DQ))
+            (, ,)
+            (CONJP (CC=H but)
+            (RB not))
+            (NP (NN=H HLA-DR)))
+            (CC or)
+            (PRN (: -)
+            (NP=H (NN=H DP)))
+            (NP (NN=H transcription)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="738-823" id="S5">
+        <text xml:space="preserve">Alternatively, another factor, distinct from CIITA, might control HLA-DQ expression. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="738-751" text="Alternatively" lemma="alternatively"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="751-752" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="DT" charOffset="753-760" text="another" lemma="another"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="761-767" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="767-768" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="769-777" text="distinct" lemma="distinct"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="778-782" text="from" lemma="from"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="783-788" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_9" POS="," charOffset="788-789" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_10" POS="MD" charOffset="790-795" text="might" lemma="might"/>
+            <token xml:space="preserve" id="stt_11" POS="VB" charOffset="796-803" text="control" lemma="control"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="804-810" text="HLA-DQ" lemma="hla-dq"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="811-821" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="821-822" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_3" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_6" type="amod"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_8" type="prep_from"/>
+            <dependency id="stp_4" t1="stt_11" t2="stt_1" type="advmod"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_10" type="aux"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_13" type="dobj"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_12" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Alternatively))
+            (, ,)
+            (NP
+            (NP=H (DT another) (NN=H factor))
+            (, ,)
+            (ADJP (JJ=H distinct)
+            (PP (IN=H from)
+            (NP (NN=H CIITA))))
+            (, ,))
+            (VP=H (MD=H might)
+            (VP (VB=H control)
+            (NP (NN HLA-DQ) (NN=H expression))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="823-1033" id="S6">
+        <text xml:space="preserve">We report here that ectopic expression of CIITA cDNAs derived by reverse transcriptase polymerase chain reaction from clone 13 do not restore expression of HLA-DQ in another CIITA-deficient cell line, RJ2.2.5. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="823-825" text="We" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="VBP" charOffset="826-832" text="report" lemma="report"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="833-837" text="here" lemma="here"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="838-842" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="843-850" text="ectopic" lemma="ectopic"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="851-861" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="862-864" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="865-870" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="871-876" text="cDNAs" lemma="cdna"/>
+            <token xml:space="preserve" id="stt_10" POS="VBN" charOffset="877-884" text="derived" lemma="derive"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="885-887" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="888-895" text="reverse" lemma="reverse"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="896-909" text="transcriptase" lemma="transcriptase"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="910-920" text="polymerase" lemma="polymerase"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="921-926" text="chain" lemma="chain"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="927-935" text="reaction" lemma="reaction"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="936-940" text="from" lemma="from"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="941-946" text="clone" lemma="clone"/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="947-949" text="13" lemma="13"/>
+            <token xml:space="preserve" id="stt_20" POS="VBP" charOffset="950-952" text="do" lemma="do"/>
+            <token xml:space="preserve" id="stt_21" POS="RB" charOffset="953-956" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_22" POS="VB" charOffset="957-964" text="restore" lemma="restore"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="965-975" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="976-978" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="979-985" text="HLA-DQ" lemma="hla-dq"/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="986-988" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_27" POS="DT" charOffset="989-996" text="another" lemma="another"/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="997-1012" text="CIITA-deficient" lemma="ciita-deficient"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="1013-1017" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="1018-1022" text="line" lemma="line"/>
+            <token xml:space="preserve" id="stt_31" POS="," charOffset="1022-1023" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="1024-1027" text="RJ2" lemma="rj2"/>
+            <token xml:space="preserve" id="stt_33" POS="CD" charOffset="1027-1031" text=".2.5" lemma=".2.5"/>
+            <token xml:space="preserve" id="stt_34" POS="." charOffset="1031-1032" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="advmod"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_22" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_10" type="vmod"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_16" type="agent"/>
+            <dependency id="stp_9" t1="stt_16" t2="stt_18" type="prep_from"/>
+            <dependency id="stp_10" t1="stt_16" t2="stt_12" type="amod"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_13" type="nn"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_14" type="nn"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_15" type="nn"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_19" type="num"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_4" type="mark"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_20" type="aux"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_21" type="neg"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_23" type="dobj"/>
+            <dependency id="stp_20" t1="stt_22" t2="stt_30" type="prep_in"/>
+            <dependency id="stp_21" t1="stt_23" t2="stt_25" type="prep_of"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_32" type="appos"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_27" type="det"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_28" type="amod"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_29" type="nn"/>
+            <dependency id="stp_26" t1="stt_32" t2="stt_33" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H We))
+            (VP=H (VBP=H report)
+            (ADVP (RB=H here))
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (JJ ectopic) (NN=H expression))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN CIITA) (NNS=H cDNAs))
+            (VP (VBN=H derived)
+            (PP (IN=H by)
+            (NP
+            (NP=H (JJ reverse) (NN transcriptase) (NN polymerase) (NN chain) (NN=H reaction))
+            (PP (IN=H from)
+            (NP (NN=H clone) (CD 13)))))))))
+            (VP=H (VBP=H do) (RB not)
+            (VP (VB=H restore)
+            (NP
+            (NP=H (NN=H expression))
+            (PP (IN=H of)
+            (NP (NN=H HLA-DQ))))
+            (PP (IN=H in)
+            (NP
+            (NP=H (DT another) (JJ CIITA-deficient) (NN cell) (NN=H line))
+            (, ,)
+            (NP (NN=H RJ2) (CD .2.5)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1033-1107" id="S7">
+        <text xml:space="preserve">In addition, no CIITA protein is detectable in clone 13 nuclear extracts. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="1033-1035" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1036-1044" text="addition" lemma="addition"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="1044-1045" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="1046-1048" text="no" lemma="no"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1049-1054" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1055-1062" text="protein" lemma="protein"/>
+            <token xml:space="preserve" id="stt_7" POS="VBZ" charOffset="1063-1065" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="1066-1076" text="detectable" lemma="detectable"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1077-1079" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="1080-1085" text="clone" lemma="clone"/>
+            <token xml:space="preserve" id="stt_11" POS="CD" charOffset="1086-1088" text="13" lemma="13"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="1089-1096" text="nuclear" lemma="nuclear"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="1097-1105" text="extracts" lemma="extract"/>
+            <token xml:space="preserve" id="stt_14" POS="." charOffset="1105-1106" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_6" t2="stt_4" type="det"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_3" t1="stt_8" t2="stt_10" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_10" t2="stt_11" type="num"/>
+            <dependency id="stp_5" t1="stt_13" t2="stt_2" type="prep_in"/>
+            <dependency id="stp_6" t1="stt_13" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_13" t2="stt_7" type="cop"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_8" type="amod"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_12" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (NN=H addition)))
+            (, ,)
+            (NP (DT no) (NN CIITA) (NN=H protein))
+            (VP=H (VBZ=H is)
+            (NP
+            (ADJP (JJ=H detectable)
+            (PP (IN=H in)
+            (NP (NN=H clone) (CD 13))))
+            (JJ nuclear) (NNS=H extracts)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1107-1246" id="S8">
+        <text xml:space="preserve">In contrast, somatic cell fusion between clone 13 and RJ2.2.5 restored expression of the HLA-DQ haplotype encoded by the RJ2.2.5 DQB gene. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="1107-1109" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1110-1118" text="contrast" lemma="contrast"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="1118-1119" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="1120-1127" text="somatic" lemma="somatic"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1128-1132" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1133-1139" text="fusion" lemma="fusion"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1140-1147" text="between" lemma="between"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1148-1153" text="clone" lemma="clone"/>
+            <token xml:space="preserve" id="stt_9" POS="CD" charOffset="1154-1156" text="13" lemma="13"/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="1157-1160" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1161-1164" text="RJ2" lemma="rj2"/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="1164-1168" text=".2.5" lemma=".2.5"/>
+            <token xml:space="preserve" id="stt_13" POS="VBD" charOffset="1169-1177" text="restored" lemma="restore"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1178-1188" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="1189-1191" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="1192-1195" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1196-1202" text="HLA-DQ" lemma="hla-dq"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1203-1212" text="haplotype" lemma="haplotype"/>
+            <token xml:space="preserve" id="stt_19" POS="VBN" charOffset="1213-1220" text="encoded" lemma="encode"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="1221-1223" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="1224-1227" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1228-1231" text="RJ2" lemma="rj2"/>
+            <token xml:space="preserve" id="stt_23" POS="CD" charOffset="1231-1235" text=".2.5" lemma=".2.5"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1236-1239" text="DQB" lemma="dqb"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="1240-1244" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_26" POS="." charOffset="1244-1245" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_8" type="prep_between"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_11" type="prep_between"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_9" type="num"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_11" type="conj_and"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_12" type="num"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_2" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_14" type="dobj"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_18" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_16" type="det"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_19" type="vmod"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_22" type="agent"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_21" type="det"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_25" type="dep"/>
+            <dependency id="stp_18" t1="stt_25" t2="stt_23" type="num"/>
+            <dependency id="stp_19" t1="stt_25" t2="stt_24" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (NN=H contrast)))
+            (, ,)
+            (NP
+            (NP=H (JJ somatic) (NN cell) (NN=H fusion))
+            (PP (IN=H between)
+            (NP
+            (NP=H (NN=H clone) (CD 13))
+            (CC and)
+            (NP (NN=H RJ2) (CD .2.5)))))
+            (VP=H (VBD=H restored)
+            (NP
+            (NP=H (NN=H expression))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (NN HLA-DQ) (NN=H haplotype))
+            (VP (VBN=H encoded)
+            (PP (IN=H by)
+            (NP
+            (NP=H (DT the) (NN=H RJ2))
+            (NP (CD .2.5) (NN DQB) (NN=H gene)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1246-1391" id="S9">
+        <text xml:space="preserve">Taken together, these data demonstrate the existence of an HLA-DQ isotype-specific trans-acting factor, which functions independently of CIITA. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VBN" charOffset="1246-1251" text="Taken" lemma="take"/>
+            <token xml:space="preserve" id="stt_2" POS="RB" charOffset="1252-1260" text="together" lemma="together"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="1260-1261" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="1262-1267" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="1268-1272" text="data" lemma="datum"/>
+            <token xml:space="preserve" id="stt_6" POS="VBP" charOffset="1273-1284" text="demonstrate" lemma="demonstrate"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="1285-1288" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1289-1298" text="existence" lemma="existence"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1299-1301" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="1302-1304" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1305-1311" text="HLA-DQ" lemma="hla-dq"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="1312-1328" text="isotype-specific" lemma="isotype-specific"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="1329-1341" text="trans-acting" lemma="trans-acting"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1342-1348" text="factor" lemma="factor"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="1348-1349" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="WDT" charOffset="1350-1355" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_17" POS="VBZ" charOffset="1356-1365" text="functions" lemma="function"/>
+            <token xml:space="preserve" id="stt_18" POS="RB" charOffset="1366-1379" text="independently" lemma="independently"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="1380-1382" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="1383-1388" text="CIITA" lemma="ciita"/>
+            <token xml:space="preserve" id="stt_21" POS="." charOffset="1388-1389" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="advmod"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_4" type="det"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_1" type="vmod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="det"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_14" type="tmod"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_17" type="rcmod"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_12" type="amod"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="amod"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="nsubj"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_18" type="advmod"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_20" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (VP=H (VBN=H Taken)
+            (ADVP (RB=H together))))
+            (, ,)
+            (NP (DT these) (NNS=H data))
+            (VP=H (VBP=H demonstrate)
+            (NP
+            (NP=H (DT the) (NN=H existence))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT an) (NN=H HLA-DQ))
+            (NP-TMP
+            (NP=H (JJ isotype-specific) (JJ trans-acting) (NN=H factor))
+            (, ,)
+            (SBAR
+            (WHNP=H (WDT=H which))
+            (S
+            (VP=H (VBZ=H functions)
+            (ADVP (RB=H independently))
+            (PP (IN=H of)
+            (NP (NN=H CIITA)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="110-133" headOffset="119-133" text="class II transactivator"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="262-285" headOffset="271-285" text="class II transactivator"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="287-292" headOffset="287-292" text="CIITA"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="650-655" headOffset="650-655" text="CIITA"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="783-788" headOffset="783-788" text="CIITA"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="865-870" headOffset="865-870" text="CIITA"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="997-1002" headOffset="997-1002" text="CIITA"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="1049-1054" headOffset="1049-1054" text="CIITA"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="1383-1388" headOffset="1383-1388" text="CIITA"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T11"/>
+        <Antecedent idref="T10"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T13"/>
+        <Antecedent idref="T12"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T15"/>
+        <Antecedent idref="T14"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T17"/>
+        <Antecedent idref="T16"/>
+    </Relation>
+    <Relation id="R5" type="Anaphora">
+        <Anaphor idref="T19"/>
+        <Antecedent idref="T18"/>
+    </Relation>
+    <Term xml:space="preserve" id="T10" type="IndefiniteNP" charOffset="0-86" headOffset="20-29" text="An isotype-specific activator of major histocompatibility complex (MHC) class II genes"/>
+    <Term xml:space="preserve" id="T11" type="RelativePronoun" charOffset="87-91" headOffset="87-91" text="that"/>
+    <Term xml:space="preserve" id="T12" type="IndefiniteNP" charOffset="248-293" headOffset="287-292" text="a gene termed class II transactivator (CIITA)"/>
+    <Term xml:space="preserve" id="T13" type="RelativePronoun" charOffset="295-300" headOffset="295-300" text="which"/>
+    <Term xml:space="preserve" id="T14" type="ZeroArticleNP" charOffset="503-508" headOffset="503-508" text="HLADQ"/>
+    <Term xml:space="preserve" id="T15" type="PossessivePronoun" charOffset="554-557" headOffset="554-557" text="its"/>
+    <Term xml:space="preserve" id="T16" type="IndefiniteNP" charOffset="669-679" headOffset="671-679" text="a mutation"/>
+    <Term xml:space="preserve" id="T17" type="RelativePronoun" charOffset="680-684" headOffset="680-684" text="that"/>
+    <Term xml:space="preserve" id="T18" type="IndefiniteNP" charOffset="1302-1348" headOffset="1342-1348" text="an HLA-DQ isotype-specific trans-acting factor"/>
+    <Term xml:space="preserve" id="T19" type="RelativePronoun" charOffset="1350-1355" headOffset="1350-1355" text="which"/>
+</document>

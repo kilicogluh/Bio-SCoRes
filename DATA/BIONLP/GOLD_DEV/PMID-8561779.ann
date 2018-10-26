@@ -1,0 +1,22 @@
+T1	Protein 140 173	calcineurin catalytic (A) subunit
+T2	Protein 204 214	calmodulin
+T3	Protein 302 324	regulatory (B) subunit
+T4	Protein 568 586	interleukin (IL)-2
+T5	Protein 701 721	endogenous B subunit
+T6	Protein 818 827	B subunit
+T7	Protein 961 970	B subunit
+T8	Exp 92 173	An inhibitory, "dominant-negative," form of the calcineurin catalytic (A) subunit	140 151	calcineurin
+T9	Exp 188 193	which
+T10	Exp 231 252	autoinhibitory domain	246 252	domain
+T11	Exp 265 268	its
+T12	Exp 357 360	its
+T13	Exp 441 483	this "B-subunit knock-out" (BKO) construct	474 483	construct
+T14	Exp 755 778	an inhibitory mechanism	769 778	mechanism
+T15	Exp 779 783	that
+T16	Exp 1094 1100	agents
+T17	Exp 1101 1105	that
+R1	Coref Anaphora:T9 Antecedent:T8	[T1]
+R2	Coref Anaphora:T11 Antecedent:T10
+R3	Coref Anaphora:T12 Antecedent:T13
+R4	Coref Anaphora:T15 Antecedent:T14
+R5	Coref Anaphora:T17 Antecedent:T16

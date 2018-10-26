@@ -1,0 +1,143 @@
+T1	Drug_Class 790 821	parenteral GP IIb/IIIa inhibito
+T2	Drug 80 89	AGGRASTAT
+T5	Drug_Class 1592 1620	drugs that affect hemostasis
+T6	Drug 1497 1506	AGGRASTAT
+T9	Drug 4956 4965	AGGRASTAT
+T10	Drug 4987 4994	heparin
+T11	Drug 4999 5006	aspirin
+T13	Drug 5152 5161	AGGRASTAT
+T14	Drug_Class 5181 5209	drugs that affect hemostasis
+T15	Drug 5217 5225	warfarin
+T17	Drug 6186 6195	AGGRASTAT
+T18	Drug 6103 6116	levothyroxine
+T19	Drug 6120 6130	omeprazole
+T21	Drug 8738 8747	AGGRASTAT
+T22	Drug 8768 8775	heparin
+T23	Drug 6017 6028	propranolol
+T24	Drug 5791 5798	digoxin
+T25	Drug 5953 5963	nifedipine
+T26	Drug 6042 6053	simvastatin
+T27	Drug 5800 5809	diltiazem
+T28	Drug 4924 4931	aspirin
+T29	Drug 5081 5088	aspirin
+T30	Drug 5726 5746	aspirin preparations
+T31	Drug 5714 5724	amlodipine
+T32	Drug 5903 5913	lovastatin
+T33	Drug 5871 5878	insulin
+T34	Drug 1882 1889	heparin
+T35	Drug 2317 2324	heparin
+T36	Drug 3816 3823	heparin
+T37	Drug 4035 4042	heparin
+T38	Drug 4254 4261	heparin
+T39	Drug 4388 4395	heparin
+T40	Drug 4453 4460	heparin
+T41	Drug 4471 4478	heparin
+T42	Drug 4936 4943	heparin
+T43	Drug 5069 5076	heparin
+T44	Drug 5862 5869	heparin
+T45	Drug 8579 8586	heparin
+T46	Drug 8590 8597	heparin
+T47	Drug 8822 8829	heparin
+T48	Drug 9022 9029	heparin
+T49	Drug 9034 9041	heparin
+T50	Drug 26 35	AGGRASTAT
+T51	Drug 437 446	AGGRASTAT
+T52	Drug 929 938	AGGRASTAT
+T53	Drug 958 967	AGGRASTAT
+T54	Drug 1192 1201	AGGRASTAT
+T55	Drug 1326 1335	AGGRASTAT
+T56	Drug 1636 1645	AGGRASTAT
+T57	Drug 1742 1751	AGGRASTAT
+T58	Drug 1868 1877	AGGRASTAT
+T59	Drug 2040 2049	AGGRASTAT
+T60	Drug 3402 3411	AGGRASTAT
+T61	Drug 3802 3811	AGGRASTAT
+T62	Drug 4710 4719	AGGRASTAT
+T63	Drug 4735 4744	AGGRASTAT
+T64	Drug 4878 4887	AGGRASTAT
+T65	Drug 5285 5294	AGGRASTAT
+T66	Drug 6142 6151	AGGRASTAT
+T67	Drug 6328 6337	AGGRASTAT
+T68	Drug 8169 8178	AGGRASTAT
+T69	Drug 8326 8335	AGGRASTAT
+T70	Drug 8437 8446	AGGRASTAT
+T71	Drug 8564 8573	AGGRASTAT
+T72	Drug 9007 9016	AGGRASTAT
+T73	Drug 9179 9188	AGGRASTAT
+T74	Drug 5851 5860	glyburide
+T75	Drug 6030 6040	ranitidine
+T76	Drug 5839 5849	furosemide
+T77	Drug 5931 5941	metoprolol
+T78	Drug 5748 5756	atenolol
+T79	Drug_Class 5965 5985	nitrate preparations
+T80	Drug 5828 5837	enalapril
+T3	DefiniteNP 172 183	the product
+T4	PersonalPronoun 1570 1572	it
+T7	DefiniteNP 5478 5497	the following drugs
+T8	DemonstrativeNP 5545 5554	that drug
+T12	DemonstrativeNP 5625 5636	these drugs
+T16	Drug 5675 5685	acebutolol
+T20	Drug 5687 5700	acetaminophen
+T81	Drug 5702 5712	alprazolam
+T82	Drug 5758 5768	bromazepam
+T83	Drug 5770 5779	captopril
+T84	Drug 5781 5789	diazepam
+T85	Drug 5811 5826	docusate sodium
+T86	Drug 5880 5890	isosorbide
+T87	Drug 5892 5901	lorazepam
+T88	Drug 5915 5929	metoclopramide
+T89	Drug 5943 5951	morphine
+T90	Drug 5987 5995	oxazepam
+T91	Drug 5997 6015	potassium chloride
+T92	Drug 6055 6065	sucralfate
+T93	Drug 6070 6079	temazepam
+T94	DemonstrativeNP 7638 7647	this drug
+T95	Drug 7248 7261	tirofiban HCI
+T96	DefiniteNP 8053 8061	the drug
+T97	DefiniteNP 8101 8109	the drug
+T98	Drug 7814 7823	tirofiban
+T99	ZeroArticleNP 9298 9306	solution
+T100	ZeroArticleNP 9492 9500	solution
+T101	IndefiniteNP 9502 9521	Any unused solution
+R1	Anaphora Anaphor:T3 Antecedent:T2
+R2	Anaphora Anaphor:T4 Antecedent:T6
+R3	Anaphora Anaphor:T8 Antecedent:T7
+R4	Cataphora Cataphor:T12 Consequent:T16
+R5	Cataphora Cataphor:T12 Consequent:T20
+R6	Cataphora Cataphor:T7 Consequent:T12
+R7	Cataphora Cataphor:T12 Consequent:T81
+R8	Cataphora Cataphor:T12 Consequent:T31
+R9	Cataphora Cataphor:T12 Consequent:T30
+R10	Cataphora Cataphor:T12 Consequent:T78
+R11	Cataphora Cataphor:T12 Consequent:T82
+R12	Cataphora Cataphor:T12 Consequent:T83
+R13	Cataphora Cataphor:T12 Consequent:T84
+R14	Cataphora Cataphor:T12 Consequent:T24
+R15	Cataphora Cataphor:T12 Consequent:T27
+R16	Cataphora Cataphor:T12 Consequent:T85
+R17	Cataphora Cataphor:T12 Consequent:T80
+R18	Cataphora Cataphor:T12 Consequent:T76
+R19	Cataphora Cataphor:T12 Consequent:T74
+R20	Cataphora Cataphor:T12 Consequent:T44
+R21	Cataphora Cataphor:T12 Consequent:T33
+R22	Cataphora Cataphor:T12 Consequent:T86
+R23	Cataphora Cataphor:T12 Consequent:T87
+R24	Cataphora Cataphor:T12 Consequent:T32
+R25	Cataphora Cataphor:T12 Consequent:T88
+R26	Cataphora Cataphor:T12 Consequent:T77
+R27	Cataphora Cataphor:T12 Consequent:T89
+R28	Cataphora Cataphor:T12 Consequent:T25
+R29	Cataphora Cataphor:T12 Consequent:T79
+R30	Cataphora Cataphor:T12 Consequent:T90
+R31	Cataphora Cataphor:T12 Consequent:T91
+R32	Cataphora Cataphor:T12 Consequent:T23
+R33	Cataphora Cataphor:T12 Consequent:T75
+R34	Cataphora Cataphor:T12 Consequent:T26
+R35	Cataphora Cataphor:T12 Consequent:T92
+R36	Cataphora Cataphor:T12 Consequent:T93
+R37	Anaphora Anaphor:T94 Antecedent:T95
+R38	Anaphora Anaphor:T97 Antecedent:T96
+R39	Anaphora Anaphor:T96 Antecedent:T98
+R40	Anaphora Anaphor:T99 Antecedent:T73
+R41	Anaphora Anaphor:T100 Antecedent:T99
+R42	Anaphora Anaphor:T101 Antecedent:T100

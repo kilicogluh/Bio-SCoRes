@@ -1,0 +1,22 @@
+T1	Protein 14 24	Fas ligand
+T2	Protein 54 77	apoptosis-linked gene 4
+T3	Protein 256 259	Fas
+T4	Protein 260 270	Fas ligand
+T5	Protein 272 276	FasL
+T6	Protein 441 445	FasL
+T7	Protein 505 510	ALG-4
+T8	Protein 536 540	FasL
+T9	Protein 599 604	ALG-4
+T10	Protein 637 641	FasL
+T11	Protein 654 657	Fas
+T12	Protein 658 662	FasL
+T13	Protein 844 848	FasL
+T14	Exp 380 402	a truncated transcript	392 402	transcript
+T15	Exp 403 407	that
+T16	Exp 654 674	Fas/FasL interaction	663 674	interaction
+T17	Exp 723 726	its
+T18	Exp 744 755	a mechanism
+T19	Exp 759 764	which
+R1	Coref Anaphora:T15 Antecedent:T14
+R2	Coref Anaphora:T17 Antecedent:T16	[T11, T12]
+R3	Coref Anaphora:T19 Antecedent:T18

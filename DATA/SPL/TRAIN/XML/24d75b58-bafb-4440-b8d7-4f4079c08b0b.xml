@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="24d75b58-bafb-4440-b8d7-4f4079c08b0b">
+    <text xml:space="preserve">PLETAL (cilostazol) tablet 
+
+CONTRAINDICATIONS
+
+Cilostazol and several of its metabolites are inhibitors of phosphodiesterase III. Several drugs with this pharmacologic effect have caused decreased survival compared to placebo in patients with class III-IV congestive heart failure. PLETAL is contraindicated in patients with congestive heart failure of any severity.
+
+PLETAL is contraindicated in patients with haemostatic disorders or active pathologic bleeding, such as bleeding peptic ulcer and intracranial bleeding. PLETAL inhibits platelet aggregation in a reversible manner.
+
+PLETAL is contraindicated in patients with known or suspected hypersensitivity to any of its components. 
+
+PRECAUTIONS
+
+Hematologic adverse reactions
+
+Rare cases have been reported of thrombocytopenia or leukopenia progressing to agranulocytosis when cilostazol was not immediately discontinued. The agranulocytosis, however, was reversible on discontinuation of cilostazol.
+
+Use with Clopidogrel
+
+There is limited information with respect to the efficacy or safety of the concurrent use of cilostazol and clopidogrel, a platelet-aggregation inhibiting drug indicated for use in patients with peripheral arterial disease. Although it cannot be determined whether there was an additive effect on bleeding times during concomitant administration with cilostazol and clopidogrel, caution is advised for checking bleeding times during coadministration.
+
+Drug Interactions
+
+Since PLETAL is extensively metabolized by cytochrome P-450 isoenzymes, caution should be exercised when PLETAL is coadministered with inhibitors of CYP3A4 such as ketoconazole and erythromycin or inhibitors of CYP2C19 such as omeprazole. Pharmacokinetic studies have demonstrated that omeprazole and erythromycin significantly increased the systemic exposure of cilostazol and/or its major metabolites. Population pharmacokinetic studies showed higher concentrations of cilostazol among patients concurrently treated with diltiazem, an inhibitor of CYP3A4 (see CLINICAL PHARMACOLOGY, Pharmacokinetic and Pharmacodynamic Drug-Drug Interactions). PLETAL does not, however, appear to cause increased blood levels of drugs metabolized by CYP3A4, as it had no effect on lovastatin, a drug with metabolism very sensitive to CYP3A4 inhibition.
+
+Use with other antiplatelet agents
+
+PLETAL inhibits platelet aggregation but in a reversible manner. Caution is advised in patients at risk of bleeding from surgery or pathologic processes. Platelet aggregability returns to normal within 96 hours of stopping PLETAL. Caution is advised in patients receiving both PLETAL and any other antiplatelet agent, or in patients with thrombocytopenia.
+
+DOSAGE AND ADMINISTRATION
+
+The recommended dosage of PLETAL is 100 mg b.i.d. taken at least half an hour before or two hours after breakfast and dinner. A dose of 50 mg b.i.d. should be considered during coadministration of such inhibitors of CYP3A4 as ketoconazole, itraconazole, erythromycin and diltiazem, and during coadministration of such inhibitors of CYP2C19 as omeprazole.
+
+Patients may respond as early as 2 to 4 weeks after the initiation of therapy, but treatment for up to 12 weeks may be needed before a beneficial effect is experienced.
+
+Discontinuation of Therapy
+
+The available data suggest that the dosage of PLETAL can be reduced or discontinued without rebound (i.e., platelet hyperaggregability).
+
+</text>
+    <sentence charOffset="0-29" id="S1">
+        <text xml:space="preserve">PLETAL (cilostazol) tablet 
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="0-6" text="PLETAL" lemma="pletal"/>
+            <token xml:space="preserve" id="stt_2" POS="-LRB-" charOffset="7-8" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="8-18" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_4" POS="-RRB-" charOffset="18-19" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="20-26" text="tablet" lemma="tablet"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="appos"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_5" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H PLETAL))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H cilostazol))
+            (-RRB- -RRB-))
+            (NP (NN=H tablet))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="29-48" id="S2">
+        <text xml:space="preserve">CONTRAINDICATIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="29-46" text="CONTRAINDICATIONS" lemma="contraindication"/>
+        </tokens>
+        <dependencies/>
+        <tree>(ROOT
+            (NP=H (NNS=H CONTRAINDICATIONS)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="48-131" id="S3">
+        <text xml:space="preserve">Cilostazol and several of its metabolites are inhibitors of phosphodiesterase III. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="48-58" text="Cilostazol" lemma="Cilostazol"/>
+            <token xml:space="preserve" id="stt_2" POS="CC" charOffset="59-62" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="63-70" text="several" lemma="several"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="71-73" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="PRP$" charOffset="74-77" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="78-89" text="metabolites" lemma="metabolite"/>
+            <token xml:space="preserve" id="stt_7" POS="VBP" charOffset="90-93" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="94-104" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="105-107" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="108-125" text="phosphodiesterase" lemma="phosphodiesterase"/>
+            <token xml:space="preserve" id="stt_11" POS="CD" charOffset="126-129" text="III" lemma="iii"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="129-130" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="conj_and"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_5" type="poss"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="cop"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_11" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNP=H Cilostazol))
+            (CC and)
+            (NP
+            (NP=H (JJ=H several))
+            (PP (IN=H of)
+            (NP (PRP$ its) (NNS=H metabolites)))))
+            (VP=H (VBP=H are)
+            (NP
+            (NP=H (NNS=H inhibitors))
+            (PP (IN=H of)
+            (NP (NN=H phosphodiesterase) (CD III)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="131-283" id="S4">
+        <text xml:space="preserve">Several drugs with this pharmacologic effect have caused decreased survival compared to placebo in patients with class III-IV congestive heart failure. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="131-138" text="Several" lemma="several"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="139-144" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="145-149" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_4" POS="DT" charOffset="150-154" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="155-168" text="pharmacologic" lemma="pharmacologic"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="169-175" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_7" POS="VBP" charOffset="176-180" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="181-187" text="caused" lemma="cause"/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="188-197" text="decreased" lemma="decrease"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="198-206" text="survival" lemma="survival"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="207-215" text="compared" lemma="compare"/>
+            <token xml:space="preserve" id="stt_12" POS="TO" charOffset="216-218" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="219-226" text="placebo" lemma="placebo"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="227-229" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="230-238" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="239-243" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="244-249" text="class" lemma="class"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="250-256" text="III-IV" lemma="iii-iv"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="257-267" text="congestive" lemma="congestive"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="268-273" text="heart" lemma="heart"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="274-281" text="failure" lemma="failure"/>
+            <token xml:space="preserve" id="stt_22" POS="." charOffset="281-282" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="det"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="aux"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_10" type="dobj"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_12" type="prepc_compared_to"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_13" type="pobj"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_15" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_21" type="prep_with"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="nn"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_18" type="nn"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_19" type="amod"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_20" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Several) (NNS=H drugs))
+            (PP (IN=H with)
+            (NP (DT this) (JJ pharmacologic) (NN=H effect))))
+            (VP=H (VBP=H have)
+            (VP (VBN=H caused)
+            (NP
+            (NP=H (VBN decreased) (NN=H survival))
+            (PP (VBN=H compared)
+            (PP (TO=H to)
+            (NP
+            (NP=H (NN=H placebo))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP
+            (NP (NN class) (NN=H III-IV))
+            (JJ congestive) (NN heart) (NN=H failure)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="283-369" id="S5">
+        <text xml:space="preserve">PLETAL is contraindicated in patients with congestive heart failure of any severity.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="283-289" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="290-292" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="293-308" text="contraindicated" lemma="contraindicate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="309-311" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="312-320" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="321-325" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="326-336" text="congestive" lemma="congestive"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="337-342" text="heart" lemma="heart"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="343-350" text="failure" lemma="failure"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="351-353" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="354-357" text="any" lemma="any"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="358-366" text="severity" lemma="severity"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="366-367" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_9" type="prep_with"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_7" type="amod"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_12" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_11" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H PLETAL))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H contraindicated)
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP
+            (NP=H (JJ congestive) (NN heart) (NN=H failure))
+            (PP (IN=H of)
+            (NP (DT any) (NN=H severity)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="369-522" id="S6">
+        <text xml:space="preserve">PLETAL is contraindicated in patients with haemostatic disorders or active pathologic bleeding, such as bleeding peptic ulcer and intracranial bleeding. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="369-375" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="376-378" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="379-394" text="contraindicated" lemma="contraindicate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="395-397" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="398-406" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="407-411" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="412-423" text="haemostatic" lemma="haemostatic"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="424-433" text="disorders" lemma="disorder"/>
+            <token xml:space="preserve" id="stt_9" POS="CC" charOffset="434-436" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="437-443" text="active" lemma="active"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="444-454" text="pathologic" lemma="pathologic"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="455-463" text="bleeding" lemma="bleeding"/>
+            <token xml:space="preserve" id="stt_13" POS="," charOffset="463-464" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="465-469" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="470-472" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_16" POS="VBG" charOffset="473-481" text="bleeding" lemma="bleed"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="482-488" text="peptic" lemma="peptic"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="489-494" text="ulcer" lemma="ulcer"/>
+            <token xml:space="preserve" id="stt_19" POS="CC" charOffset="495-498" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="499-511" text="intracranial" lemma="intracranial"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="512-520" text="bleeding" lemma="bleeding"/>
+            <token xml:space="preserve" id="stt_22" POS="." charOffset="520-521" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_18" type="prep_such_as"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_21" type="prep_such_as"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_8" type="prep_with"/>
+            <dependency id="stp_7" t1="stt_5" t2="stt_12" type="prep_with"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_12" type="conj_or"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_16" type="amod"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_17" type="amod"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_21" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_20" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H PLETAL))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H contraindicated)
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP
+            (NP=H (JJ haemostatic) (NNS=H disorders))
+            (CC or)
+            (NP (JJ active) (JJ pathologic) (NN=H bleeding))))
+            (, ,)
+            (PP (JJ such) (IN=H as)
+            (NP
+            (NP=H (VBG bleeding) (JJ peptic) (NN=H ulcer))
+            (CC and)
+            (NP (JJ intracranial) (NN=H bleeding))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="522-584" id="S7">
+        <text xml:space="preserve">PLETAL inhibits platelet aggregation in a reversible manner.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="522-528" text="PLETAL" lemma="pletal"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="529-537" text="inhibits" lemma="inhibit"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="538-546" text="platelet" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="547-558" text="aggregation" lemma="aggregation"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="559-561" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="562-563" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="564-574" text="reversible" lemma="reversible"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="575-581" text="manner" lemma="manner"/>
+            <token xml:space="preserve" id="stt_9" POS="." charOffset="581-582" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="dobj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_8" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_6" type="det"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H PLETAL))
+            (VP=H (VBZ=H inhibits)
+            (NP
+            (NP=H (NN platelet) (NN=H aggregation))
+            (PP (IN=H in)
+            (NP (DT a) (JJ reversible) (NN=H manner)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="584-691" id="S8">
+        <text xml:space="preserve">PLETAL is contraindicated in patients with known or suspected hypersensitivity to any of its components. 
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="584-590" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="591-593" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="594-609" text="contraindicated" lemma="contraindicate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="610-612" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="613-621" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="622-626" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="627-632" text="known" lemma="known"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="633-635" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="636-645" text="suspected" lemma="suspect"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="646-662" text="hypersensitivity" lemma="hypersensitivity"/>
+            <token xml:space="preserve" id="stt_11" POS="TO" charOffset="663-665" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_12" POS="DT" charOffset="666-669" text="any" lemma="any"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="670-672" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="PRP$" charOffset="673-676" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="677-687" text="components" lemma="component"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="687-688" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_10" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="prep_with"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_10" type="conj_or"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_12" type="prep_to"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_15" type="prep_of"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_14" type="poss"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H PLETAL))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H contraindicated)
+            (PP (IN=H in)
+            (NP
+            (NP=H
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (ADJP (JJ=H known))))
+            (CC or)
+            (NP
+            (NP=H (VBN suspected) (NN=H hypersensitivity))
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT=H any))
+            (PP (IN=H of)
+            (NP (PRP$ its) (NNS=H components))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="691-704" id="S9">
+        <text xml:space="preserve">PRECAUTIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="691-702" text="PRECAUTIONS" lemma="precaution"/>
+        </tokens>
+        <dependencies/>
+        <tree>(ROOT
+            (NP=H (NNS=H PRECAUTIONS)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="704-735" id="S10">
+        <text xml:space="preserve">Hematologic adverse reactions
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="704-715" text="Hematologic" lemma="hematologic"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="716-723" text="adverse" lemma="adverse"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="724-733" text="reactions" lemma="reaction"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (JJ=H Hematologic))
+            (NP (JJ adverse) (NNS=H reactions))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="735-880" id="S11">
+        <text xml:space="preserve">Rare cases have been reported of thrombocytopenia or leukopenia progressing to agranulocytosis when cilostazol was not immediately discontinued. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="735-739" text="Rare" lemma="rare"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="740-745" text="cases" lemma="case"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="746-750" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="751-755" text="been" lemma="be"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="756-764" text="reported" lemma="report"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="765-767" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="768-784" text="thrombocytopenia" lemma="thrombocytopenia"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="785-787" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="788-798" text="leukopenia" lemma="leukopenia"/>
+            <token xml:space="preserve" id="stt_10" POS="VBG" charOffset="799-810" text="progressing" lemma="progress"/>
+            <token xml:space="preserve" id="stt_11" POS="TO" charOffset="811-813" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="814-829" text="agranulocytosis" lemma="agranulocytosis"/>
+            <token xml:space="preserve" id="stt_13" POS="WRB" charOffset="830-834" text="when" lemma="when"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="835-845" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_15" POS="VBD" charOffset="846-849" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_16" POS="RB" charOffset="850-853" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_17" POS="RB" charOffset="854-865" text="immediately" lemma="immediately"/>
+            <token xml:space="preserve" id="stt_18" POS="VBN" charOffset="866-878" text="discontinued" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_19" POS="." charOffset="878-879" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="aux"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="auxpass"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="conj_or"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_10" type="vmod"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_18" type="advcl"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_12" type="prep_to"/>
+            <dependency id="stp_11" t1="stt_18" t2="stt_16" type="neg"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_17" type="advmod"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_13" type="advmod"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_14" type="nsubjpass"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_15" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ Rare) (NNS=H cases))
+            (VP=H (VBP=H have)
+            (VP (VBN=H been)
+            (VP (VBN=H reported)
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H thrombocytopenia)
+            (CC or)
+            (NN leukopenia))
+            (VP (VBG=H progressing)
+            (PP (TO=H to)
+            (NP (NN=H agranulocytosis)))
+            (SBAR
+            (WHADVP=H (WRB=H when))
+            (S
+            (NP (NN=H cilostazol))
+            (VP=H (VBD=H was) (RB not)
+            (VP
+            (ADVP (RB=H immediately))
+            (VBN=H discontinued)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="880-960" id="S12">
+        <text xml:space="preserve">The agranulocytosis, however, was reversible on discontinuation of cilostazol.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="880-883" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="884-899" text="agranulocytosis" lemma="agranulocytosis"/>
+            <token xml:space="preserve" id="stt_3" POS="," charOffset="899-900" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="901-908" text="however" lemma="however"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="908-909" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="VBD" charOffset="910-913" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="914-924" text="reversible" lemma="reversible"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="925-927" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="928-943" text="discontinuation" lemma="discontinuation"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="944-946" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="947-957" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="957-958" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_7" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_4" type="advmod"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_6" type="cop"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_9" type="prep_on"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_11" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT The) (NN=H agranulocytosis))
+            (, ,)
+            (ADVP (RB=H however))
+            (, ,)
+            (VP=H (VBD=H was)
+            (ADJP (JJ=H reversible)
+            (PP (IN=H on)
+            (NP
+            (NP=H (NN=H discontinuation))
+            (PP (IN=H of)
+            (NP (NN=H cilostazol)))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="960-982" id="S13">
+        <text xml:space="preserve">Use with Clopidogrel
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="960-963" text="Use" lemma="use"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="964-968" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="969-980" text="Clopidogrel" lemma="clopidogrel"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H Use))
+            (PP (IN=H with)
+            (NP (NN=H Clopidogrel)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="982-1206" id="S14">
+        <text xml:space="preserve">There is limited information with respect to the efficacy or safety of the concurrent use of cilostazol and clopidogrel, a platelet-aggregation inhibiting drug indicated for use in patients with peripheral arterial disease. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="EX" charOffset="982-987" text="There" lemma="there"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="988-990" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="991-998" text="limited" lemma="limit"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="999-1010" text="information" lemma="information"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1011-1015" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1016-1023" text="respect" lemma="respect"/>
+            <token xml:space="preserve" id="stt_7" POS="TO" charOffset="1024-1026" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="1027-1030" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="1031-1039" text="efficacy" lemma="efficacy"/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="1040-1042" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1043-1049" text="safety" lemma="safety"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="1050-1052" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="1053-1056" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="1057-1067" text="concurrent" lemma="concurrent"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1068-1071" text="use" lemma="use"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="1072-1074" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1075-1085" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_18" POS="CC" charOffset="1086-1089" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="1090-1101" text="clopidogrel" lemma="clopidogrel"/>
+            <token xml:space="preserve" id="stt_20" POS="," charOffset="1101-1102" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_21" POS="DT" charOffset="1103-1104" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="1105-1125" text="platelet-aggregation" lemma="platelet-aggregation"/>
+            <token xml:space="preserve" id="stt_23" POS="VBG" charOffset="1126-1136" text="inhibiting" lemma="inhibit"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1137-1141" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_25" POS="VBD" charOffset="1142-1151" text="indicated" lemma="indicate"/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="1152-1155" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="1156-1159" text="use" lemma="use"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="1160-1162" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="1163-1171" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="1172-1176" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_31" POS="JJ" charOffset="1177-1187" text="peripheral" lemma="peripheral"/>
+            <token xml:space="preserve" id="stt_32" POS="JJ" charOffset="1188-1196" text="arterial" lemma="arterial"/>
+            <token xml:space="preserve" id="stt_33" POS="NN" charOffset="1197-1204" text="disease" lemma="disease"/>
+            <token xml:space="preserve" id="stt_34" POS="." charOffset="1204-1205" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_33" t2="stt_32" type="amod"/>
+            <dependency id="stp_2" t1="stt_33" t2="stt_31" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_1" type="expl"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_4" type="dobj"/>
+            <dependency id="stp_6" t1="stt_3" t2="stt_9" type="prep_to"/>
+            <dependency id="stp_7" t1="stt_3" t2="stt_11" type="prep_to"/>
+            <dependency id="stp_8" t1="stt_4" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_8" type="det"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_11" type="conj_or"/>
+            <dependency id="stp_11" t1="stt_9" t2="stt_15" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_19" type="prep_of"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_13" type="det"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_14" type="amod"/>
+            <dependency id="stp_16" t1="stt_17" t2="stt_19" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_24" t2="stt_21" type="det"/>
+            <dependency id="stp_18" t1="stt_24" t2="stt_22" type="amod"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_23" type="amod"/>
+            <dependency id="stp_20" t1="stt_25" t2="stt_3" type="ccomp"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_24" type="nsubj"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_27" type="prep_for"/>
+            <dependency id="stp_23" t1="stt_25" t2="stt_29" type="prep_in"/>
+            <dependency id="stp_24" t1="stt_29" t2="stt_33" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S
+            (NP (EX=H There))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H limited)
+            (NP
+            (NP=H (NN=H information))
+            (PP (IN=H with)
+            (NP (NN=H respect))))
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT the) (NN=H efficacy)
+            (CC or)
+            (NN safety))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ concurrent) (NN=H use))
+            (PP (IN=H of)
+            (NP (NN=H cilostazol)
+            (CC and)
+            (NN clopidogrel))))))))))
+            (, ,)
+            (NP (DT a) (JJ platelet-aggregation) (VBG inhibiting) (NN=H drug))
+            (VP=H (VBD=H indicated)
+            (PP (IN=H for)
+            (NP (NN=H use)))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP (JJ peripheral) (JJ arterial) (NN=H disease))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1206-1434" id="S15">
+        <text xml:space="preserve">Although it cannot be determined whether there was an additive effect on bleeding times during concomitant administration with cilostazol and clopidogrel, caution is advised for checking bleeding times during coadministration.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="1206-1214" text="Although" lemma="although"/>
+            <token xml:space="preserve" id="stt_2" POS="PRP" charOffset="1215-1217" text="it" lemma="it"/>
+            <token xml:space="preserve" id="stt_3" POS="MD" charOffset="1218-1221" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="1221-1224" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_5" POS="VB" charOffset="1225-1227" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_6" POS="VBN" charOffset="1228-1238" text="determined" lemma="determine"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1239-1246" text="whether" lemma="whether"/>
+            <token xml:space="preserve" id="stt_8" POS="EX" charOffset="1247-1252" text="there" lemma="there"/>
+            <token xml:space="preserve" id="stt_9" POS="VBD" charOffset="1253-1256" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="1257-1259" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="1260-1268" text="additive" lemma="additive"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1269-1275" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1276-1278" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="1279-1287" text="bleeding" lemma="bleeding"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="1288-1293" text="times" lemma="time"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="1294-1300" text="during" lemma="during"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="1301-1312" text="concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1313-1327" text="administration" lemma="administration"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="1328-1332" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="1333-1343" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_21" POS="CC" charOffset="1344-1347" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1348-1359" text="clopidogrel" lemma="clopidogrel"/>
+            <token xml:space="preserve" id="stt_23" POS="," charOffset="1359-1360" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1361-1368" text="caution" lemma="caution"/>
+            <token xml:space="preserve" id="stt_25" POS="VBZ" charOffset="1369-1371" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_26" POS="VBN" charOffset="1372-1379" text="advised" lemma="advise"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="1380-1383" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_28" POS="VBG" charOffset="1384-1392" text="checking" lemma="check"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="1393-1401" text="bleeding" lemma="bleeding"/>
+            <token xml:space="preserve" id="stt_30" POS="NNS" charOffset="1402-1407" text="times" lemma="time"/>
+            <token xml:space="preserve" id="stt_31" POS="IN" charOffset="1408-1414" text="during" lemma="during"/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="1415-1431" text="coadministration" lemma="coadministration"/>
+            <token xml:space="preserve" id="stt_33" POS="." charOffset="1431-1432" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_6" t2="stt_1" type="mark"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_3" type="aux"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_4" type="neg"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="auxpass"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_9" type="ccomp"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_18" type="prep_during"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_7" type="mark"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_8" type="expl"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_12" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_15" type="prep_on"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_14" type="amod"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_17" type="amod"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_20" type="prep_with"/>
+            <dependency id="stp_17" t1="stt_18" t2="stt_22" type="prep_with"/>
+            <dependency id="stp_18" t1="stt_20" t2="stt_22" type="conj_and"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_6" type="advcl"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_24" type="nsubjpass"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_25" type="auxpass"/>
+            <dependency id="stp_22" t1="stt_26" t2="stt_28" type="prepc_for"/>
+            <dependency id="stp_23" t1="stt_28" t2="stt_32" type="prep_during"/>
+            <dependency id="stp_24" t1="stt_28" t2="stt_30" type="dobj"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_29" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR (IN=H Although)
+            (S
+            (NP (PRP=H it))
+            (VP=H (MD=H can) (RB not)
+            (VP (VB=H be)
+            (VP (VBN=H determined)
+            (SBAR (IN=H whether)
+            (S
+            (NP (EX=H there))
+            (VP=H (VBD=H was)
+            (NP
+            (NP=H (DT an) (JJ additive) (NN=H effect))
+            (PP (IN=H on)
+            (NP (JJ bleeding) (NNS=H times))))
+            (PP (IN=H during)
+            (NP
+            (NP=H (JJ concomitant) (NN=H administration))
+            (PP (IN=H with)
+            (NP (NN=H cilostazol)
+            (CC and)
+            (NN clopidogrel)))))))))))))
+            (, ,)
+            (NP (NN=H caution))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H advised)
+            (PP (IN=H for)
+            (S
+            (VP=H (VBG=H checking)
+            (NP (JJ bleeding) (NNS=H times))
+            (PP (IN=H during)
+            (NP (NN=H coadministration))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1434-1453" id="S16">
+        <text xml:space="preserve">Drug Interactions
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1434-1438" text="Drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1439-1451" text="Interactions" lemma="interaction"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H (NN Drug) (NNS=H Interactions)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1453-1692" id="S17">
+        <text xml:space="preserve">Since PLETAL is extensively metabolized by cytochrome P-450 isoenzymes, caution should be exercised when PLETAL is coadministered with inhibitors of CYP3A4 such as ketoconazole and erythromycin or inhibitors of CYP2C19 such as omeprazole. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="1453-1458" text="Since" lemma="since"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1459-1465" text="PLETAL" lemma="pletal"/>
+            <token xml:space="preserve" id="stt_3" POS="VBZ" charOffset="1466-1468" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="1469-1480" text="extensively" lemma="extensively"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="1481-1492" text="metabolized" lemma="metabolize"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="1493-1495" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1496-1506" text="cytochrome" lemma="cytochrome"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1507-1512" text="P-450" lemma="p-450"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="1513-1523" text="isoenzymes" lemma="isoenzyme"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="1523-1524" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1525-1532" text="caution" lemma="caution"/>
+            <token xml:space="preserve" id="stt_12" POS="MD" charOffset="1533-1539" text="should" lemma="should"/>
+            <token xml:space="preserve" id="stt_13" POS="VB" charOffset="1540-1542" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="1543-1552" text="exercised" lemma="exercise"/>
+            <token xml:space="preserve" id="stt_15" POS="WRB" charOffset="1553-1557" text="when" lemma="when"/>
+            <token xml:space="preserve" id="stt_16" POS="NNP" charOffset="1558-1564" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_17" POS="VBZ" charOffset="1565-1567" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_18" POS="VBN" charOffset="1568-1582" text="coadministered" lemma="coadminister"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="1583-1587" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_20" POS="NNS" charOffset="1588-1598" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="1599-1601" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="1602-1608" text="CYP3A4" lemma="cyp3a4"/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="1609-1613" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="1614-1616" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="1617-1629" text="ketoconazole" lemma="ketoconazole"/>
+            <token xml:space="preserve" id="stt_26" POS="CC" charOffset="1630-1633" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="1634-1646" text="erythromycin" lemma="erythromycin"/>
+            <token xml:space="preserve" id="stt_28" POS="CC" charOffset="1647-1649" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="1650-1660" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="1661-1663" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_31" POS="NN" charOffset="1664-1671" text="CYP2C19" lemma="cyp2c19"/>
+            <token xml:space="preserve" id="stt_32" POS="JJ" charOffset="1672-1676" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_33" POS="IN" charOffset="1677-1679" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_34" POS="NN" charOffset="1680-1690" text="omeprazole" lemma="omeprazole"/>
+            <token xml:space="preserve" id="stt_35" POS="." charOffset="1690-1691" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_1" type="mark"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="advmod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_9" type="agent"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="nn"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_18" type="advcl"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_5" type="advcl"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_11" type="nsubjpass"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_12" type="aux"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="auxpass"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_16" type="nsubjpass"/>
+            <dependency id="stp_14" t1="stt_18" t2="stt_17" type="auxpass"/>
+            <dependency id="stp_15" t1="stt_18" t2="stt_20" type="prep_with"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_15" type="advmod"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_22" type="prep_of"/>
+            <dependency id="stp_18" t1="stt_20" t2="stt_29" type="prep_of"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_25" type="prep_such_as"/>
+            <dependency id="stp_20" t1="stt_22" t2="stt_27" type="prep_such_as"/>
+            <dependency id="stp_21" t1="stt_22" t2="stt_29" type="conj_or"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_27" type="conj_and"/>
+            <dependency id="stp_23" t1="stt_29" t2="stt_31" type="prep_of"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_34" type="prep_such_as"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR (IN=H Since)
+            (S
+            (NP (NN=H PLETAL))
+            (VP=H (VBZ=H is)
+            (ADVP (RB=H extensively))
+            (VP (VBN=H metabolized)
+            (PP (IN=H by)
+            (NP (NN cytochrome) (NN P-450) (NNS=H isoenzymes)))))))
+            (, ,)
+            (NP (NN=H caution))
+            (VP=H (MD=H should)
+            (VP (VB=H be)
+            (VP (VBN=H exercised)
+            (SBAR
+            (WHADVP=H (WRB=H when))
+            (S
+            (NP (NNP=H PLETAL))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H coadministered)
+            (PP (IN=H with)
+            (NP
+            (NP=H (NNS=H inhibitors))
+            (PP (IN=H of)
+            (NP
+            (NP=H
+            (NP=H (NN=H CYP3A4))
+            (PP (JJ such) (IN=H as)
+            (NP (NN=H ketoconazole)
+            (CC and)
+            (NN erythromycin))))
+            (CC or)
+            (NP
+            (NP=H (NNS=H inhibitors))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H CYP2C19))
+            (PP (JJ such) (IN=H as)
+            (NP (NN=H omeprazole)))))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1692-1857" id="S18">
+        <text xml:space="preserve">Pharmacokinetic studies have demonstrated that omeprazole and erythromycin significantly increased the systemic exposure of cilostazol and/or its major metabolites. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="1692-1707" text="Pharmacokinetic" lemma="pharmacokinetic"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1708-1715" text="studies" lemma="study"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="1716-1720" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="1721-1733" text="demonstrated" lemma="demonstrate"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1734-1738" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1739-1749" text="omeprazole" lemma="omeprazole"/>
+            <token xml:space="preserve" id="stt_7" POS="CC" charOffset="1750-1753" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1754-1766" text="erythromycin" lemma="erythromycin"/>
+            <token xml:space="preserve" id="stt_9" POS="RB" charOffset="1767-1780" text="significantly" lemma="significantly"/>
+            <token xml:space="preserve" id="stt_10" POS="VBD" charOffset="1781-1790" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="1791-1794" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="1795-1803" text="systemic" lemma="systemic"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="1804-1812" text="exposure" lemma="exposure"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1813-1815" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1816-1826" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_16" POS="CC" charOffset="1827-1833" text="and/or" lemma="and/or"/>
+            <token xml:space="preserve" id="stt_17" POS="PRP$" charOffset="1834-1837" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="1838-1843" text="major" lemma="major"/>
+            <token xml:space="preserve" id="stt_19" POS="NNS" charOffset="1844-1855" text="metabolites" lemma="metabolite"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="1855-1856" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="aux"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_10" type="ccomp"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_8" type="conj_and"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_5" type="mark"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_9" type="advmod"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_13" type="dobj"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_19" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_11" type="det"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_12" type="amod"/>
+            <dependency id="stp_14" t1="stt_13" t2="stt_15" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_19" type="conj_and/or"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_17" type="poss"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_18" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (JJ Pharmacokinetic) (NNS=H studies))
+            (VP=H (VBP=H have)
+            (VP (VBN=H demonstrated)
+            (SBAR (IN=H that)
+            (S
+            (NP (NN=H omeprazole)
+            (CC and)
+            (NN erythromycin))
+            (ADVP (RB=H significantly))
+            (VP=H (VBD=H increased)
+            (NP
+            (NP=H (DT the) (JJ systemic) (NN=H exposure))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H cilostazol))
+            (CC and/or)
+            (NP (PRP$ its) (JJ major) (NNS=H metabolites))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1857-2099" id="S19">
+        <text xml:space="preserve">Population pharmacokinetic studies showed higher concentrations of cilostazol among patients concurrently treated with diltiazem, an inhibitor of CYP3A4 (see CLINICAL PHARMACOLOGY, Pharmacokinetic and Pharmacodynamic Drug-Drug Interactions). </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="1857-1867" text="Population" lemma="Population"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="1868-1883" text="pharmacokinetic" lemma="pharmacokinetic"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="1884-1891" text="studies" lemma="study"/>
+            <token xml:space="preserve" id="stt_4" POS="VBD" charOffset="1892-1898" text="showed" lemma="show"/>
+            <token xml:space="preserve" id="stt_5" POS="JJR" charOffset="1899-1905" text="higher" lemma="higher"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="1906-1920" text="concentrations" lemma="concentration"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1921-1923" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1924-1934" text="cilostazol" lemma="cilostazol"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1935-1940" text="among" lemma="among"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="1941-1949" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_11" POS="RB" charOffset="1950-1962" text="concurrently" lemma="concurrently"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="1963-1970" text="treated" lemma="treat"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1971-1975" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1976-1985" text="diltiazem" lemma="diltiazem"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="1985-1986" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="1987-1989" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1990-1999" text="inhibitor" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="2000-2002" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="2003-2009" text="CYP3A4" lemma="cyp3a4"/>
+            <token xml:space="preserve" id="stt_20" POS="-LRB-" charOffset="2010-2011" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_21" POS="VB" charOffset="2011-2014" text="see" lemma="see"/>
+            <token xml:space="preserve" id="stt_22" POS="NNP" charOffset="2015-2023" text="CLINICAL" lemma="CLINICAL"/>
+            <token xml:space="preserve" id="stt_23" POS="NNP" charOffset="2024-2036" text="PHARMACOLOGY" lemma="PHARMACOLOGY"/>
+            <token xml:space="preserve" id="stt_24" POS="," charOffset="2036-2037" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="2038-2053" text="Pharmacokinetic" lemma="pharmacokinetic"/>
+            <token xml:space="preserve" id="stt_26" POS="CC" charOffset="2054-2057" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_27" POS="JJ" charOffset="2058-2073" text="Pharmacodynamic" lemma="pharmacodynamic"/>
+            <token xml:space="preserve" id="stt_28" POS="NNP" charOffset="2074-2083" text="Drug-Drug" lemma="Drug-Drug"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="2084-2096" text="Interactions" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_30" POS="-RRB-" charOffset="2096-2097" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="2097-2098" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_6" type="dobj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="amod"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_21" type="dep"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_12" type="vmod"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_10" type="prep_among"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="advmod"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_14" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_17" type="appos"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="det"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_19" type="prep_of"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_29" type="dobj"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_25" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_27" type="conj_and"/>
+            <dependency id="stp_18" t1="stt_29" t2="stt_22" type="nn"/>
+            <dependency id="stp_19" t1="stt_29" t2="stt_23" type="amod"/>
+            <dependency id="stp_20" t1="stt_29" t2="stt_25" type="amod"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_27" type="amod"/>
+            <dependency id="stp_22" t1="stt_29" t2="stt_28" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP Population) (JJ pharmacokinetic) (NNS=H studies))
+            (VP=H (VBD=H showed)
+            (NP
+            (NP=H
+            (NP=H (JJR higher) (NNS=H concentrations))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H cilostazol))
+            (PP (IN=H among)
+            (NP (NNS=H patients))))))
+            (VP
+            (ADVP (RB=H concurrently))
+            (VBN=H treated)
+            (PP (IN=H with)
+            (NP
+            (NP=H (NN=H diltiazem))
+            (, ,)
+            (NP
+            (NP=H (DT an) (NN=H inhibitor))
+            (PP (IN=H of)
+            (NP (NN=H CYP3A4)))))))
+            (PRN (-LRB- -LRB-)
+            (S=H
+            (VP=H (VB=H see)
+            (NP (NNP CLINICAL)
+            (ADJP (NNP PHARMACOLOGY) (, ,) (JJ=H Pharmacokinetic)
+            (CC and)
+            (JJ Pharmacodynamic))
+            (NNP Drug-Drug) (NNS=H Interactions))))
+            (-RRB- -RRB-))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2099-2292" id="S20">
+        <text xml:space="preserve">PLETAL does not, however, appear to cause increased blood levels of drugs metabolized by CYP3A4, as it had no effect on lovastatin, a drug with metabolism very sensitive to CYP3A4 inhibition.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2099-2105" text="PLETAL" lemma="pletal"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="2106-2110" text="does" lemma="do"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="2111-2114" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="2114-2115" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="RB" charOffset="2116-2123" text="however" lemma="however"/>
+            <token xml:space="preserve" id="stt_6" POS="," charOffset="2123-2124" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_7" POS="VBP" charOffset="2125-2131" text="appear" lemma="appear"/>
+            <token xml:space="preserve" id="stt_8" POS="TO" charOffset="2132-2134" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_9" POS="VB" charOffset="2135-2140" text="cause" lemma="cause"/>
+            <token xml:space="preserve" id="stt_10" POS="VBN" charOffset="2141-2150" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="2151-2156" text="blood" lemma="blood"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="2157-2163" text="levels" lemma="level"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="2164-2166" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="2167-2172" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_15" POS="VBN" charOffset="2173-2184" text="metabolized" lemma="metabolize"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="2185-2187" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="2188-2194" text="CYP3A4" lemma="cyp3a4"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="2194-2195" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="2196-2198" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_20" POS="PRP" charOffset="2199-2201" text="it" lemma="it"/>
+            <token xml:space="preserve" id="stt_21" POS="VBD" charOffset="2202-2205" text="had" lemma="have"/>
+            <token xml:space="preserve" id="stt_22" POS="DT" charOffset="2206-2208" text="no" lemma="no"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="2209-2215" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="2216-2218" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="2219-2229" text="lovastatin" lemma="lovastatin"/>
+            <token xml:space="preserve" id="stt_26" POS="," charOffset="2229-2230" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_27" POS="DT" charOffset="2231-2232" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="2233-2237" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_29" POS="IN" charOffset="2238-2242" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="2243-2253" text="metabolism" lemma="metabolism"/>
+            <token xml:space="preserve" id="stt_31" POS="RB" charOffset="2254-2258" text="very" lemma="very"/>
+            <token xml:space="preserve" id="stt_32" POS="JJ" charOffset="2259-2268" text="sensitive" lemma="sensitive"/>
+            <token xml:space="preserve" id="stt_33" POS="TO" charOffset="2269-2271" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_34" POS="NN" charOffset="2272-2278" text="CYP3A4" lemma="cyp3a4"/>
+            <token xml:space="preserve" id="stt_35" POS="NN" charOffset="2279-2289" text="inhibition" lemma="inhibition"/>
+            <token xml:space="preserve" id="stt_36" POS="." charOffset="2289-2290" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_32" type="ccomp"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_7" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_3" type="dep"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_5" type="advmod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="xcomp"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="aux"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_12" type="dobj"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_14" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_15" type="vmod"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_17" type="agent"/>
+            <dependency id="stp_14" t1="stt_15" t2="stt_21" type="advcl"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_19" type="mark"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_20" type="nsubj"/>
+            <dependency id="stp_17" t1="stt_21" t2="stt_23" type="dobj"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_22" type="det"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_25" type="prep_on"/>
+            <dependency id="stp_20" t1="stt_28" t2="stt_27" type="det"/>
+            <dependency id="stp_21" t1="stt_28" t2="stt_30" type="prep_with"/>
+            <dependency id="stp_22" t1="stt_32" t2="stt_35" type="prep_to"/>
+            <dependency id="stp_23" t1="stt_32" t2="stt_28" type="dep"/>
+            <dependency id="stp_24" t1="stt_32" t2="stt_31" type="advmod"/>
+            <dependency id="stp_25" t1="stt_35" t2="stt_34" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S=H
+            (NP (NN=H PLETAL))
+            (VP=H (VBZ=H does)
+            (SBAR (RB not)
+            (S=H (, ,)
+            (ADVP (RB=H however))
+            (, ,)
+            (VP=H (VBP=H appear)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H cause)
+            (NP
+            (NP=H (VBN increased) (NN blood) (NNS=H levels))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NNS=H drugs))
+            (VP (VBN=H metabolized)
+            (PP (IN=H by)
+            (NP (NN=H CYP3A4)))
+            (, ,)
+            (SBAR (IN=H as)
+            (S
+            (NP (PRP=H it))
+            (VP=H (VBD=H had)
+            (NP
+            (NP=H (DT no) (NN=H effect))
+            (PP (IN=H on)
+            (NP (NN=H lovastatin)))))))))))))))))))
+            (, ,)
+            (S
+            (NP
+            (NP=H (DT a) (NN=H drug))
+            (PP (IN=H with)
+            (NP (NN=H metabolism))))
+            (ADJP=H (RB very) (JJ=H sensitive)
+            (PP (TO=H to)
+            (NP (NN CYP3A4) (NN=H inhibition)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2292-2328" id="S21">
+        <text xml:space="preserve">Use with other antiplatelet agents
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2292-2295" text="Use" lemma="use"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="2296-2300" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="2301-2306" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="2307-2319" text="antiplatelet" lemma="antiplatelet"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="2320-2326" text="agents" lemma="agent"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_5" type="prep_with"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H Use))
+            (PP (IN=H with)
+            (NP (JJ other) (JJ antiplatelet) (NNS=H agents)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2328-2393" id="S22">
+        <text xml:space="preserve">PLETAL inhibits platelet aggregation but in a reversible manner. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2328-2334" text="PLETAL" lemma="pletal"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="2335-2343" text="inhibits" lemma="inhibit"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2344-2352" text="platelet" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="2353-2364" text="aggregation" lemma="aggregation"/>
+            <token xml:space="preserve" id="stt_5" POS="CC" charOffset="2365-2368" text="but" lemma="but"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2369-2371" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="2372-2373" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="2374-2384" text="reversible" lemma="reversible"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="2385-2391" text="manner" lemma="manner"/>
+            <token xml:space="preserve" id="stt_10" POS="." charOffset="2391-2392" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="dobj"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_5" type="cc"/>
+            <dependency id="stp_4" t1="stt_2" t2="stt_9" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="det"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H PLETAL))
+            (VP=H (VBZ=H inhibits)
+            (NP (NN platelet) (NN=H aggregation))
+            (PP (CC but)
+            (PP=H (IN=H in)
+            (NP (DT a) (JJ reversible) (NN=H manner)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2393-2482" id="S23">
+        <text xml:space="preserve">Caution is advised in patients at risk of bleeding from surgery or pathologic processes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2393-2400" text="Caution" lemma="caution"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="2401-2403" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="2404-2411" text="advised" lemma="advise"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2412-2414" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="2415-2423" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2424-2426" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="2427-2431" text="risk" lemma="risk"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="2432-2434" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="VBG" charOffset="2435-2443" text="bleeding" lemma="bleed"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="2444-2448" text="from" lemma="from"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="2449-2456" text="surgery" lemma="surgery"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="2457-2459" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="2460-2470" text="pathologic" lemma="pathologic"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="2471-2480" text="processes" lemma="process"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="2480-2481" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_7" type="prep_at"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_9" type="prepc_of"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_14" type="prep_from"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_13" type="conj_or"/>
+            <dependency id="stp_8" t1="stt_14" t2="stt_11" type="nn"/>
+            <dependency id="stp_9" t1="stt_14" t2="stt_13" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H Caution))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H advised)
+            (PP (IN=H in)
+            (NP (NNS=H patients)))
+            (PP (IN=H at)
+            (NP
+            (NP=H (NN=H risk))
+            (PP (IN=H of)
+            (S
+            (VP=H (VBG=H bleeding)
+            (PP (IN=H from)
+            (NP
+            (NP (NN=H surgery)
+            (CC or)
+            (JJ pathologic))
+            (NNS=H processes))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2482-2559" id="S24">
+        <text xml:space="preserve">Platelet aggregability returns to normal within 96 hours of stopping PLETAL. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2482-2490" text="Platelet" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2491-2504" text="aggregability" lemma="aggregability"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="2505-2512" text="returns" lemma="return"/>
+            <token xml:space="preserve" id="stt_4" POS="TO" charOffset="2513-2515" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="2516-2522" text="normal" lemma="normal"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2523-2529" text="within" lemma="within"/>
+            <token xml:space="preserve" id="stt_7" POS="CD" charOffset="2530-2532" text="96" lemma="96"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="2533-2538" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="2539-2541" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="VBG" charOffset="2542-2550" text="stopping" lemma="stop"/>
+            <token xml:space="preserve" id="stt_11" POS="NNP" charOffset="2551-2557" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="2557-2558" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_to"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_8" type="prep_within"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_7" type="num"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_10" type="prepc_of"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_11" type="dobj"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN Platelet) (NN aggregability) (NNS=H returns))
+            (PP (TO=H to)
+            (NP
+            (NP=H (JJ=H normal))
+            (PP (IN=H within)
+            (NP
+            (NP=H (CD 96) (NNS=H hours))
+            (PP (IN=H of)
+            (S
+            (VP=H (VBG=H stopping)
+            (NP (NNP=H PLETAL)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2559-2685" id="S25">
+        <text xml:space="preserve">Caution is advised in patients receiving both PLETAL and any other antiplatelet agent, or in patients with thrombocytopenia.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2559-2566" text="Caution" lemma="caution"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="2567-2569" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="2570-2577" text="advised" lemma="advise"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2578-2580" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="2581-2589" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_6" POS="VBG" charOffset="2590-2599" text="receiving" lemma="receive"/>
+            <token xml:space="preserve" id="stt_7" POS="CC" charOffset="2600-2604" text="both" lemma="both"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="2605-2611" text="PLETAL" lemma="pletal"/>
+            <token xml:space="preserve" id="stt_9" POS="CC" charOffset="2612-2615" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="2616-2619" text="any" lemma="any"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="2620-2625" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_12" POS="JJ" charOffset="2626-2638" text="antiplatelet" lemma="antiplatelet"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="2639-2644" text="agent" lemma="agent"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="2644-2645" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="CC" charOffset="2646-2648" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="2649-2651" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="2652-2660" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="2661-2665" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="2666-2682" text="thrombocytopenia" lemma="thrombocytopenia"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="2682-2683" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_17" type="prep_in"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_17" type="conj_or"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_6" type="vmod"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_13" type="dobj"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_7" type="preconj"/>
+            <dependency id="stp_10" t1="stt_8" t2="stt_13" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_10" type="det"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_11" type="amod"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_12" type="amod"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_19" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H Caution))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H advised)
+            (PP
+            (PP=H (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (VP (VBG=H receiving)
+            (NP (CC both)
+            (NP=H (NN=H PLETAL))
+            (CC and)
+            (NP (DT any) (JJ other) (JJ antiplatelet) (NN=H agent))))))
+            (, ,)
+            (CC or)
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP (NN=H thrombocytopenia))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2685-2712" id="S26">
+        <text xml:space="preserve">DOSAGE AND ADMINISTRATION
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="2685-2691" text="DOSAGE" lemma="dosage"/>
+            <token xml:space="preserve" id="stt_2" POS="CC" charOffset="2692-2695" text="AND" lemma="and"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2696-2710" text="ADMINISTRATION" lemma="administration"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="cc"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H DOSAGE))
+            (NP (CC AND)
+            (NN=H ADMINISTRATION))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2712-2762" id="S27">
+        <text xml:space="preserve">The recommended dosage of PLETAL is 100 mg b.i.d. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="2712-2715" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="VBN" charOffset="2716-2727" text="recommended" lemma="recommend"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2728-2734" text="dosage" lemma="dosage"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2735-2737" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="NNP" charOffset="2738-2744" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_6" POS="VBZ" charOffset="2745-2747" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_7" POS="CD" charOffset="2748-2751" text="100" lemma="100"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="2752-2754" text="mg" lemma="mg"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="2755-2761" text="b.i.d." lemma="b.i.d."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_9" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_6" type="cop"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="num"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (VBN recommended) (NN=H dosage))
+            (PP (IN=H of)
+            (NP (NNP=H PLETAL))))
+            (VP=H (VBZ=H is)
+            (NP (CD 100) (NN mg) (NN=H b.i.d.)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2762-2838" id="S28">
+        <text xml:space="preserve">taken at least half an hour before or two hours after breakfast and dinner. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VBN" charOffset="2762-2767" text="taken" lemma="take"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="2768-2770" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_3" POS="JJS" charOffset="2771-2776" text="least" lemma="least"/>
+            <token xml:space="preserve" id="stt_4" POS="PDT" charOffset="2777-2781" text="half" lemma="half"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="2782-2784" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="2785-2789" text="hour" lemma="hour"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="2790-2796" text="before" lemma="before"/>
+            <token xml:space="preserve" id="stt_8" POS="CC" charOffset="2797-2799" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_9" POS="CD" charOffset="2800-2803" text="two" lemma="two"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="2804-2809" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="2810-2815" text="after" lemma="after"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="2816-2825" text="breakfast" lemma="breakfast"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="2826-2829" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="2830-2836" text="dinner" lemma="dinner"/>
+            <token xml:space="preserve" id="stt_15" POS="." charOffset="2836-2837" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_4" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_10" type="prep_before"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_12" type="prep_after"/>
+            <dependency id="stp_4" t1="stt_1" t2="stt_14" type="prep_after"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_2" type="quantmod"/>
+            <dependency id="stp_6" t1="stt_4" t2="stt_3" type="quantmod"/>
+            <dependency id="stp_7" t1="stt_4" t2="stt_6" type="dep"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_5" type="det"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_8" type="cc"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="num"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_14" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (VBN=H taken)
+            (NP
+            (NP=H
+            (QP=H (IN=H at) (JJS least) (PDT half)))
+            (NP (DT an) (NN=H hour)))
+            (PP (IN=H before)
+            (NP
+            (QP (CC or)
+            (CD=H two))
+            (NNS=H hours)))
+            (PP (IN=H after)
+            (NP (NN=H breakfast)
+            (CC and)
+            (NN dinner))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2838-2861" id="S29">
+        <text xml:space="preserve">A dose of 50 mg b.i.d. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="2838-2839" text="A" lemma="a"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2840-2844" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="2845-2847" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="CD" charOffset="2848-2850" text="50" lemma="50"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2851-2853" text="mg" lemma="mg"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="2854-2860" text="b.i.d." lemma="b.i.d."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_6" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_4" type="num"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (DT A) (NN=H dose))
+            (PP (IN=H of)
+            (NP (CD 50) (NN mg) (NN=H b.i.d.)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2861-3068" id="S30">
+        <text xml:space="preserve">should be considered during coadministration of such inhibitors of CYP3A4 as ketoconazole, itraconazole, erythromycin and diltiazem, and during coadministration of such inhibitors of CYP2C19 as omeprazole.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="MD" charOffset="2861-2867" text="should" lemma="should"/>
+            <token xml:space="preserve" id="stt_2" POS="VB" charOffset="2868-2870" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="2871-2881" text="considered" lemma="consider"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2882-2888" text="during" lemma="during"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2889-2905" text="coadministration" lemma="coadministration"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2906-2908" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="2909-2913" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="2914-2924" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="2925-2927" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="2928-2934" text="CYP3A4" lemma="cyp3a4"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="2935-2937" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="2938-2950" text="ketoconazole" lemma="ketoconazole"/>
+            <token xml:space="preserve" id="stt_13" POS="," charOffset="2950-2951" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="2952-2964" text="itraconazole" lemma="itraconazole"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="2964-2965" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="2966-2978" text="erythromycin" lemma="erythromycin"/>
+            <token xml:space="preserve" id="stt_17" POS="CC" charOffset="2979-2982" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="2983-2992" text="diltiazem" lemma="diltiazem"/>
+            <token xml:space="preserve" id="stt_19" POS="," charOffset="2992-2993" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_20" POS="CC" charOffset="2994-2997" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="2998-3004" text="during" lemma="during"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="3005-3021" text="coadministration" lemma="coadministration"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="3022-3024" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="JJ" charOffset="3025-3029" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_25" POS="NNS" charOffset="3030-3040" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="3041-3043" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="3044-3051" text="CYP2C19" lemma="cyp2c19"/>
+            <token xml:space="preserve" id="stt_28" POS="IN" charOffset="3052-3054" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="3055-3065" text="omeprazole" lemma="omeprazole"/>
+            <token xml:space="preserve" id="stt_30" POS="." charOffset="3065-3066" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_16" type="prep_as"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_1" type="aux"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_18" type="prep_as"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_3" type="conj_and"/>
+            <dependency id="stp_6" t1="stt_3" t2="stt_5" type="prep_during"/>
+            <dependency id="stp_7" t1="stt_3" t2="stt_22" type="prep_during"/>
+            <dependency id="stp_8" t1="stt_3" t2="stt_12" type="prep_as"/>
+            <dependency id="stp_9" t1="stt_3" t2="stt_29" type="prep_as"/>
+            <dependency id="stp_10" t1="stt_3" t2="stt_14" type="prep_as"/>
+            <dependency id="stp_11" t1="stt_5" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_13" t1="stt_8" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_14" t1="stt_12" t2="stt_16" type="conj_and"/>
+            <dependency id="stp_15" t1="stt_12" t2="stt_18" type="conj_and"/>
+            <dependency id="stp_16" t1="stt_12" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_25" type="prep_of"/>
+            <dependency id="stp_18" t1="stt_25" t2="stt_24" type="amod"/>
+            <dependency id="stp_19" t1="stt_25" t2="stt_27" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (MD=H should)
+            (VP (VB=H be)
+            (VP (VBN=H considered)
+            (PP (IN=H during)
+            (NP
+            (NP=H (NN=H coadministration))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ such) (NNS=H inhibitors))
+            (PP (IN=H of)
+            (NP (NN=H CYP3A4)))))))
+            (PP
+            (PP=H (IN=H as)
+            (NP (NN ketoconazole) (, ,) (NN itraconazole) (, ,) (NN=H erythromycin)
+            (CC and)
+            (NN diltiazem)))
+            (, ,)
+            (CC and)
+            (PP (IN=H during)
+            (NP
+            (NP=H (NN=H coadministration))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ such) (NNS=H inhibitors))
+            (PP (IN=H of)
+            (NP (NN=H CYP2C19))))))))
+            (PP (IN=H as)
+            (NP (NN=H omeprazole))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3068-3238" id="S31">
+        <text xml:space="preserve">Patients may respond as early as 2 to 4 weeks after the initiation of therapy, but treatment for up to 12 weeks may be needed before a beneficial effect is experienced.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNS" charOffset="3068-3076" text="Patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_2" POS="MD" charOffset="3077-3080" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_3" POS="VB" charOffset="3081-3088" text="respond" lemma="respond"/>
+            <token xml:space="preserve" id="stt_4" POS="RB" charOffset="3089-3091" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="3092-3097" text="early" lemma="early"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="3098-3100" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_7" POS="CD" charOffset="3101-3102" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_8" POS="TO" charOffset="3103-3105" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_9" POS="CD" charOffset="3106-3107" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="3108-3113" text="weeks" lemma="week"/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="3114-3119" text="after" lemma="after"/>
+            <token xml:space="preserve" id="stt_12" POS="DT" charOffset="3120-3123" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="3124-3134" text="initiation" lemma="initiation"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="3135-3137" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="3138-3145" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_16" POS="," charOffset="3145-3146" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_17" POS="CC" charOffset="3147-3150" text="but" lemma="but"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="3151-3160" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_19" POS="IN" charOffset="3161-3164" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_20" POS="RB" charOffset="3165-3167" text="up" lemma="up"/>
+            <token xml:space="preserve" id="stt_21" POS="TO" charOffset="3168-3170" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_22" POS="CD" charOffset="3171-3173" text="12" lemma="12"/>
+            <token xml:space="preserve" id="stt_23" POS="NNS" charOffset="3174-3179" text="weeks" lemma="week"/>
+            <token xml:space="preserve" id="stt_24" POS="MD" charOffset="3180-3183" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_25" POS="VB" charOffset="3184-3186" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_26" POS="VBN" charOffset="3187-3193" text="needed" lemma="need"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="3194-3200" text="before" lemma="before"/>
+            <token xml:space="preserve" id="stt_28" POS="DT" charOffset="3201-3202" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="3203-3213" text="beneficial" lemma="beneficial"/>
+            <token xml:space="preserve" id="stt_30" POS="NN" charOffset="3214-3220" text="effect" lemma="effect"/>
+            <token xml:space="preserve" id="stt_31" POS="VBZ" charOffset="3221-3223" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_32" POS="VBN" charOffset="3224-3235" text="experienced" lemma="experience"/>
+            <token xml:space="preserve" id="stt_33" POS="." charOffset="3235-3236" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="aux"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="advmod"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_26" type="conj_but"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_13" type="prep_after"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_4" type="advmod"/>
+            <dependency id="stp_7" t1="stt_5" t2="stt_10" type="prep_as"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_7" type="number"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_8" type="dep"/>
+            <dependency id="stp_10" t1="stt_10" t2="stt_9" type="num"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_12" type="det"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_15" type="prep_of"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_23" type="prep_for"/>
+            <dependency id="stp_14" t1="stt_22" t2="stt_20" type="quantmod"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_21" type="dep"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_22" type="num"/>
+            <dependency id="stp_17" t1="stt_26" t2="stt_32" type="advcl"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_18" type="nsubjpass"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_24" type="aux"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="auxpass"/>
+            <dependency id="stp_21" t1="stt_30" t2="stt_28" type="det"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_29" type="amod"/>
+            <dependency id="stp_23" t1="stt_32" t2="stt_27" type="mark"/>
+            <dependency id="stp_24" t1="stt_32" t2="stt_30" type="nsubjpass"/>
+            <dependency id="stp_25" t1="stt_32" t2="stt_31" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (S=H
+            (NP (NNS=H Patients))
+            (VP=H (MD=H may)
+            (VP (VB=H respond)
+            (ADVP (RB as) (JJ=H early)
+            (PP (IN=H as)
+            (NP
+            (QP (CD=H 2) (TO to) (CD 4))
+            (NNS=H weeks))))
+            (PP (IN=H after)
+            (NP
+            (NP=H (DT the) (NN=H initiation))
+            (PP (IN=H of)
+            (NP (NN=H therapy))))))))
+            (, ,)
+            (CC but)
+            (S
+            (NP
+            (NP=H (NN=H treatment))
+            (PP (IN=H for)
+            (NP
+            (QP (RB up) (TO to) (CD=H 12))
+            (NNS=H weeks))))
+            (VP=H (MD=H may)
+            (VP (VB=H be)
+            (VP (VBN=H needed)
+            (SBAR (IN=H before)
+            (S
+            (NP (DT a) (JJ beneficial) (NN=H effect))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H experienced)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3238-3266" id="S32">
+        <text xml:space="preserve">Discontinuation of Therapy
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="3238-3253" text="Discontinuation" lemma="discontinuation"/>
+            <token xml:space="preserve" id="stt_2" POS="IN" charOffset="3254-3256" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="3257-3264" text="Therapy" lemma="therapy"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="prep_of"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (NN=H Discontinuation))
+            (PP (IN=H of)
+            (NP (NN=H Therapy)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3266-3404" id="S33">
+        <text xml:space="preserve">The available data suggest that the dosage of PLETAL can be reduced or discontinued without rebound (i.e., platelet hyperaggregability).
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="3266-3269" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="3270-3279" text="available" lemma="available"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="3280-3284" text="data" lemma="datum"/>
+            <token xml:space="preserve" id="stt_4" POS="VBP" charOffset="3285-3292" text="suggest" lemma="suggest"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="3293-3297" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="3298-3301" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="3302-3308" text="dosage" lemma="dosage"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="3309-3311" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="NNP" charOffset="3312-3318" text="PLETAL" lemma="PLETAL"/>
+            <token xml:space="preserve" id="stt_10" POS="MD" charOffset="3319-3322" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_11" POS="VB" charOffset="3323-3325" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="3326-3333" text="reduced" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="3334-3336" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_14" POS="VBN" charOffset="3337-3349" text="discontinued" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="3350-3357" text="without" lemma="without"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="3358-3365" text="rebound" lemma="rebound"/>
+            <token xml:space="preserve" id="stt_17" POS="-LRB-" charOffset="3366-3367" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_18" POS="FW" charOffset="3367-3371" text="i.e." lemma="i.e."/>
+            <token xml:space="preserve" id="stt_19" POS="," charOffset="3371-3372" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="3373-3381" text="platelet" lemma="platelet"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="3382-3400" text="hyperaggregability" lemma="hyperaggregability"/>
+            <token xml:space="preserve" id="stt_22" POS="-RRB-" charOffset="3400-3401" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_23" POS="." charOffset="3401-3402" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_12" type="ccomp"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_14" type="ccomp"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="det"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_16" type="prep_without"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_5" type="mark"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_7" type="nsubjpass"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="aux"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="auxpass"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_14" type="conj_or"/>
+            <dependency id="stp_14" t1="stt_14" t2="stt_7" type="nsubjpass"/>
+            <dependency id="stp_15" t1="stt_16" t2="stt_18" type="dep"/>
+            <dependency id="stp_16" t1="stt_18" t2="stt_21" type="appos"/>
+            <dependency id="stp_17" t1="stt_21" t2="stt_20" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT The) (JJ available) (NNS=H data))
+            (VP=H (VBP=H suggest)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (DT the) (NN=H dosage))
+            (PP (IN=H of)
+            (NP (NNP=H PLETAL))))
+            (VP=H (MD=H can)
+            (VP (VB=H be)
+            (VP (VBN=H reduced)
+            (CC or)
+            (VBN discontinued)
+            (PP (IN=H without)
+            (NP
+            (NP=H (NN=H rebound))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (FW=H i.e.))
+            (, ,)
+            (NP (NN platelet) (NN=H hyperaggregability)))
+            (-RRB- -RRB-))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T2" type="Drug" charOffset="1333-1343" headOffset="1333-1343" text="cilostazol"/>
+    <Term xml:space="preserve" id="T3" type="Drug" charOffset="1348-1359" headOffset="1348-1359" text="clopidogrel"/>
+    <Term xml:space="preserve" id="T6" type="Drug" charOffset="1558-1564" headOffset="1558-1564" text="PLETAL"/>
+    <Term xml:space="preserve" id="T7" type="Drug_Class" charOffset="1588-1608" headOffset="1588-1598" text="inhibitors of CYP3A4"/>
+    <Term xml:space="preserve" id="T8" type="Drug" charOffset="1617-1629" headOffset="1617-1629" text="ketoconazole"/>
+    <Term xml:space="preserve" id="T9" type="Drug" charOffset="1634-1646" headOffset="1634-1646" text="erythromycin"/>
+    <Term xml:space="preserve" id="T10" type="Drug_Class" charOffset="1650-1671" headOffset="1650-1660" text="inhibitors of CYP2C19"/>
+    <Term xml:space="preserve" id="T11" type="Drug" charOffset="1680-1690" headOffset="1680-1690" text="omeprazole"/>
+    <Term xml:space="preserve" id="T12" type="Drug" charOffset="1739-1749" headOffset="1739-1749" text="omeprazole"/>
+    <Term xml:space="preserve" id="T13" type="Drug" charOffset="1754-1766" headOffset="1754-1766" text="erythromycin"/>
+    <Term xml:space="preserve" id="T15" type="Drug" charOffset="1816-1826" headOffset="1816-1826" text="cilostazol"/>
+    <Term xml:space="preserve" id="T16" type="Drug_Class" charOffset="1990-2009" headOffset="1990-1999" text="inhibitor of CYP3A4"/>
+    <Term xml:space="preserve" id="T17" type="Drug" charOffset="1976-1985" headOffset="1976-1985" text="diltiazem"/>
+    <Term xml:space="preserve" id="T19" type="Drug" charOffset="1924-1934" headOffset="1924-1934" text="cilostazol"/>
+    <Term xml:space="preserve" id="T21" type="Drug" charOffset="2605-2611" headOffset="2605-2611" text="PLETAL"/>
+    <Term xml:space="preserve" id="T22" type="Drug_Class" charOffset="2626-2644" headOffset="2639-2644" text="antiplatelet agent"/>
+    <Term xml:space="preserve" id="T23" type="Drug_Class" charOffset="2914-2934" headOffset="2914-2924" text="inhibitors of CYP3A4"/>
+    <Term xml:space="preserve" id="T24" type="Drug_Class" charOffset="3030-3051" headOffset="3030-3040" text="inhibitors of CYP2C19"/>
+    <Term xml:space="preserve" id="T25" type="Drug_Class" charOffset="2307-2326" headOffset="2320-2326" text="antiplatelet agents"/>
+    <Term xml:space="preserve" id="T26" type="Drug" charOffset="2983-2992" headOffset="2983-2992" text="diltiazem"/>
+    <Term xml:space="preserve" id="T27" type="Drug" charOffset="2938-2950" headOffset="2938-2950" text="ketoconazole"/>
+    <Term xml:space="preserve" id="T28" type="Drug" charOffset="2952-2964" headOffset="2952-2964" text="itraconazole"/>
+    <Term xml:space="preserve" id="T29" type="Drug" charOffset="2966-2978" headOffset="2966-2978" text="erythromycin"/>
+    <Term xml:space="preserve" id="T30" type="Drug" charOffset="2219-2229" headOffset="2219-2229" text="lovastatin"/>
+    <Term xml:space="preserve" id="T31" type="Drug" charOffset="969-980" headOffset="969-980" text="Clopidogrel"/>
+    <Term xml:space="preserve" id="T32" type="Drug" charOffset="1090-1101" headOffset="1090-1101" text="clopidogrel"/>
+    <Term xml:space="preserve" id="T33" type="Drug" charOffset="3055-3065" headOffset="3055-3065" text="omeprazole"/>
+    <Term xml:space="preserve" id="T34" type="Drug" charOffset="8-18" headOffset="8-18" text="cilostazol"/>
+    <Term xml:space="preserve" id="T35" type="Drug" charOffset="48-58" headOffset="48-58" text="Cilostazol"/>
+    <Term xml:space="preserve" id="T36" type="Drug" charOffset="835-845" headOffset="835-845" text="cilostazol"/>
+    <Term xml:space="preserve" id="T37" type="Drug" charOffset="947-957" headOffset="947-957" text="cilostazol"/>
+    <Term xml:space="preserve" id="T38" type="Drug" charOffset="1075-1085" headOffset="1075-1085" text="cilostazol"/>
+    <Term xml:space="preserve" id="T39" type="Drug" charOffset="0-6" headOffset="0-6" text="PLETAL"/>
+    <Term xml:space="preserve" id="T40" type="Drug" charOffset="283-289" headOffset="283-289" text="PLETAL"/>
+    <Term xml:space="preserve" id="T41" type="Drug" charOffset="369-375" headOffset="369-375" text="PLETAL"/>
+    <Term xml:space="preserve" id="T42" type="Drug" charOffset="522-528" headOffset="522-528" text="PLETAL"/>
+    <Term xml:space="preserve" id="T43" type="Drug" charOffset="584-590" headOffset="584-590" text="PLETAL"/>
+    <Term xml:space="preserve" id="T44" type="Drug" charOffset="1459-1465" headOffset="1459-1465" text="PLETAL"/>
+    <Term xml:space="preserve" id="T45" type="Drug" charOffset="2099-2105" headOffset="2099-2105" text="PLETAL"/>
+    <Term xml:space="preserve" id="T46" type="Drug" charOffset="2328-2334" headOffset="2328-2334" text="PLETAL"/>
+    <Term xml:space="preserve" id="T47" type="Drug" charOffset="2551-2557" headOffset="2551-2557" text="PLETAL"/>
+    <Term xml:space="preserve" id="T48" type="Drug" charOffset="2738-2744" headOffset="2738-2744" text="PLETAL"/>
+    <Term xml:space="preserve" id="T49" type="Drug" charOffset="3312-3318" headOffset="3312-3318" text="PLETAL"/>
+    <Term xml:space="preserve" id="T5" type="Substance" charOffset="63-89" headOffset="63-70" text="several of its metabolites"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T1"/>
+        <Antecedent idref="T35"/>
+    </Relation>
+    <Relation id="R2" type="PredicateNominative">
+        <Attribute idref="T4"/>
+        <Head idref="T35"/>
+    </Relation>
+    <Relation id="R3" type="PredicateNominative">
+        <Attribute idref="T4"/>
+        <Head idref="T5"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T14"/>
+        <Antecedent idref="T43"/>
+    </Relation>
+    <Relation id="R5" type="Appositive">
+        <Attribute idref="T18"/>
+        <Head idref="T32"/>
+    </Relation>
+    <Relation id="R6" type="Anaphora">
+        <Anaphor idref="T20"/>
+        <Antecedent idref="T15"/>
+    </Relation>
+    <Relation id="R7" type="Appositive">
+        <Attribute idref="T50"/>
+        <Head idref="T17"/>
+    </Relation>
+    <Relation id="R8" type="Anaphora">
+        <Anaphor idref="T51"/>
+        <Antecedent idref="T45"/>
+    </Relation>
+    <Relation id="R9" type="Appositive">
+        <Attribute idref="T52"/>
+        <Head idref="T30"/>
+    </Relation>
+    <Term xml:space="preserve" id="T1" type="PossessivePronoun" charOffset="74-77" headOffset="74-77" text="its"/>
+    <Term xml:space="preserve" id="T4" type="ZeroArticleNP" charOffset="94-129" headOffset="94-104" text="inhibitors of phosphodiesterase III"/>
+    <Term xml:space="preserve" id="T14" type="PossessivePronoun" charOffset="673-676" headOffset="673-676" text="its"/>
+    <Term xml:space="preserve" id="T18" type="IndefiniteNP" charOffset="1103-1141" headOffset="1137-1141" text="a platelet-aggregation inhibiting drug"/>
+    <Term xml:space="preserve" id="T20" type="PossessivePronoun" charOffset="1834-1837" headOffset="1834-1837" text="its"/>
+    <Term xml:space="preserve" id="T50" type="IndefiniteNP" charOffset="1987-2009" headOffset="1990-1999" text="an inhibitor of CYP3A4"/>
+    <Term xml:space="preserve" id="T51" type="PersonalPronoun" charOffset="2199-2201" headOffset="2199-2201" text="it"/>
+    <Term xml:space="preserve" id="T52" type="IndefiniteNP" charOffset="2231-2289" headOffset="2233-2237" text="a drug with metabolism very sensitive to CYP3A4 inhibition"/>
+</document>

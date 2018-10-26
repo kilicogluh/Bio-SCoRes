@@ -1,0 +1,35 @@
+T0	Drug_Class 136 154	dialysis solutions
+T1	Drug_Class 2765 2783	Dialysis solutions
+T2	Drug_Class 3685 3703	dialysis solutions
+T3	Drug_Class 3941 3959	dialysis solutions
+T4	Drug_Class 4009 4027	dialysis solutions
+T5	Drug_Class 4143 4161	dialysis solutions
+T6	Drug_Class 4292 4310	dialysis solutions
+T7	Drug_Class 4485 4503	dialysis solutions
+T8	DefiniteNP 2097 2109	the solution
+T9	DefiniteNP 2401 2413	the solution
+T10	Drug 2810 2828	Potassium chloride
+T11	Substance 2799 2808	potassium
+T12	Substance 2939 2948	potassium
+T14	Drug 117 154	DELFLEX peritoneal dialysis solutions
+T15	DemonstrativeNP 1305 1313	this ion
+T16	Substance 1171 1178	Lactate
+T17	Drug 1591 1627	DELFLEX peritoneal dialysis solution
+T18	DefiniteNP 2260 2283	the peritoneal solution
+T19	DefiniteNP 2659 2680	the dialysis solution
+T20	Drug 2746 2783	DELFLEX Peritoneal Dialysis solutions
+T21	Drug 3666 3703	DELFLEX peritoneal dialysis solutions
+T22	Drug 3922 3959	DELFLEX peritoneal dialysis solutions
+T23	Drug 3990 4027	DELFLEX peritoneal dialysis solutions
+T24	Drug 4124 4161	DELFLEX peritoneal dialysis solutions
+T25	Drug 4273 4310	DELFLEX peritoneal dialysis solutions
+T26	Drug 4466 4503	DELFLEX peritoneal dialysis solutions
+T27	DefiniteNP 4887 4919	the peritoneal dialysis solution
+T29	ZeroArticleNP 215 307	sterile, non-pyrogenic formulations of Dextrose and Electrolytes in Water for Injection, USP
+R2	Anaphora Anaphor:T15 Antecedent:T16
+R3	Anaphora Anaphor:T8 Antecedent:T17
+R4	Anaphora Anaphor:T18 Antecedent:T17
+R5	Anaphora Anaphor:T9 Antecedent:T17
+R6	Anaphora Anaphor:T19 Antecedent:T17
+R7	Anaphora Anaphor:T27 Antecedent:T26
+R1	PredicateNominative Head:T14 Attribute:T29	

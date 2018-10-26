@@ -1,0 +1,43 @@
+T1	Protein 14 17	Id3
+T2	Protein 41 46	Cdk-2
+T3	Protein 538 546	cyclin E
+T4	Protein 547 551	Cdk2
+T5	Protein 557 565	cyclin A
+T6	Protein 566 570	Cdk2
+T7	Protein 644 647	Id2
+T8	Protein 765 768	Id2
+T9	Protein 979 982	Id3
+T10	Protein 1009 1012	Id3
+T11	Protein 1191 1194	Id3
+T12	Protein 1199 1202	Id3
+T13	Protein 1328 1331	Id3
+T14	Protein 1437 1440	Id3
+T15	Protein 1450 1454	Cdk2
+T16	Protein 1601 1604	Id3
+T17	Protein 1696 1699	Id3
+T18	Protein 1894 1898	Cdk2
+T19	Exp 262 302	members of the Id family of HLH proteins	262 269	members
+T20	Exp 383 387	they
+T21	Exp 413 418	their
+T22	Exp 435 456	inactive heterodimers	444 456	heterodimers
+T23	Exp 457 461	that
+T24	Exp 538 647	cyclin E-Cdk2- and cyclin A-Cdk2-dependent phosphorylation of a single conserved serine residue (Ser5) in Id2	581 596	phosphorylation
+T25	Exp 732 736	this
+T26	Exp 1380 1391	an activity
+T27	Exp 1419 1423	that
+T28	Exp 1516 1534	late G1-to-S phase	1529 1534	phase
+T29	Exp 1535 1539	that
+T30	Exp 1619 1622	its
+T31	Exp 1696 1699	Id3
+T32	Exp 1764 1767	its
+T33	Exp 1845 1879	a biologically important mechanism	1870 1879	mechanism
+T34	Exp 1888 1893	which
+R1	Coref Anaphora:T20 Antecedent:T19
+R2	Coref Anaphora:T21 Antecedent:T19
+R3	Coref Anaphora:T23 Antecedent:T22
+R4	Coref Anaphora:T25 Antecedent:T24	[T3, T7, T6, T5, T4]
+R5	Coref Anaphora:T27 Antecedent:T26
+R6	Coref Anaphora:T29 Antecedent:T28
+R7	Coref Anaphora:T30 Antecedent:T28
+R8	Coref Anaphora:T32 Antecedent:T31	[T17]
+R9	Coref Anaphora:T34 Antecedent:T33

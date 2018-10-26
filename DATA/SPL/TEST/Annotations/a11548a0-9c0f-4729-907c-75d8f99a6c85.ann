@@ -1,0 +1,85 @@
+T1	Drug 3117 3124	insulin
+T2	Drug_Class 3128 3152	oral hypoglycemic agents
+T3	Drug 3204 3223	bisoprolol fumarate
+T6	Drug 3719 3725	ZEBETA
+T7	Drug_Class 3760 3780	beta-blocking agents
+T9	Drug_Class 3801 3830	catecholamine-depleting drugs
+T10	Drug 3840 3849	reserpine
+T11	Drug 3853 3865	guanethidine
+T12	Drug 3949 3955	ZEBETA
+T14	Drug_Class 4238 4260	myocardial depressants
+T15	Drug_Class 4264 4291	inhibitors of AV conduction
+T16	Drug_Class 4309 4328	calcium antagonists
+T17	Drug_Class 4350 4376;4407 4414	phenylalkylamine verapamil classes
+T18	Drug_Class 4381 4414	benzothiazepine diltiazem classes
+T19	Drug_Class 4420 4441	antiarrhythmic agents
+T20	Drug 4451 4463	disopyramide
+T21	Drug 4201 4207	ZEBETA
+T23	Drug_Class 4493 4513	digitalis glycosides
+T24	Drug_Class 4518 4531	beta-blockers
+T26	Drug 4662 4670	rifampin
+T27	Drug 4708 4714	ZEBETA
+T30	Drug 4766 4772	ZEBETA
+T31	Drug 5849 5856	insulin
+T32	Drug_Class 5860 5884	oral hypoglycemic agents
+T34	Drug 6008 6027	bisoprolol fumarate
+T36	Drug_Class 4955 4973	thiazide diuretics
+T37	Drug_Class 515 535	beta-blocking agents
+T38	Drug 45 64	Bisoprolol Fumarate
+T39	Drug 6300 6319	bisoprolol fumarate
+T40	Drug 6802 6821	bisoprolol fumarate
+T41	Drug 7249 7268	bisoprolol fumarate
+T42	Drug 7396 7415	bisoprolol fumarate
+T43	Drug 7565 7584	Bisoprolol fumarate
+T44	Drug 8003 8022	bisoprolol fumarate
+T45	Drug 8313 8332	bisoprolol fumarate
+T46	Drug 8474 8493	bisoprolol fumarate
+T47	Drug 8702 8721	bisoprolol fumarate
+T48	Drug 9220 9239	bisoprolol fumarate
+T49	Drug_Class 2684 2702	general anesthesia
+T50	Drug 2891 2898	insulin
+T51	Drug_Class 839 852	beta-blockers
+T52	Drug_Class 1343 1356	beta-blockers
+T53	Drug_Class 1785 1798	Beta-blockers
+T54	Drug_Class 2052 2065	BETA-BLOCKERS
+T55	Drug_Class 2756 2769	Beta-blockers
+T56	Drug_Class 2862 2875	beta-blockers
+T57	Drug_Class 5127 5140	beta-blockers
+T58	Drug_Class 5911 5924	beta-blockers
+T59	Drug 4059 4068	clonidine
+T60	Drug 4190 4199	clonidine
+T61	Drug 4979 4989	cimetidine
+T62	Drug 5072 5080	warfarin
+T63	Drug_Class 1017 1029	beta-blocker
+T64	Drug 5371 5382	epinephrine
+T65	Drug 26 32	Zebeta
+T66	Drug 88 94	ZEBETA
+T67	Drug 973 979	ZEBETA
+T68	Drug 1585 1591	ZEBETA
+T69	Drug 1694 1700	ZEBETA
+T70	Drug 2119 2125	ZEBETA
+T71	Drug 2340 2346	ZEBETA
+T72	Drug 3023 3029	ZEBETA
+T73	Drug 3588 3594	ZEBETA
+T74	Drug 4125 4131	ZEBETA
+T75	Drug 5014 5020	ZEBETA
+T76	Drug 5545 5551	ZEBETA
+T77	Drug 8305 8311	ZEBETA
+T78	Drug 8862 8868	ZEBETA
+T79	Drug 3484 3491	thyroid
+T80	Drug_Class 2243 2259	antihypertensive
+T5	PersonalPronoun 687 691	them
+T8	PersonalPronoun 714 718	they
+T13	PossessivePronoun 2078 2081	its
+T22	IndefiniteNP 2396 2411	A beta2 agonist
+T25	Drug_Class 2413 2427	bronchodilator
+T28	PossessivePronoun 2975 2978	its
+T4	DemonstrativeNP 6096 6109	this medicine
+T29	DemonstrativeNP 8586 8595	this drug
+R1	Anaphora Anaphor:T5 Antecedent:T37
+R2	Anaphora Anaphor:T8 Antecedent:T37
+R4	Appositive Attribute:T22 Head:T25
+R6	Anaphora Anaphor:T4 Antecedent:T34
+R7	Anaphora Anaphor:T29 Antecedent:T46
+R3	Cataphora Cataphor:T13 Consequent:T70
+R5	Cataphora Cataphor:T28 Consequent:T72

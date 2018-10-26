@@ -1,0 +1,43 @@
+T1	Protein 24 37	interleukin-6
+T2	Protein 46 62	interferon-gamma
+T3	Protein 67 94	tumor necrosis factor-alpha
+T4	Protein 143 173	interferon regulatory factor-1
+T5	Protein 191 194	Sp1
+T6	Protein 287 303	interferon-gamma
+T7	Protein 305 314	IFN-gamma
+T8	Protein 316 343	tumor necrosis factor-alpha
+T9	Protein 345 354	TNF-alpha
+T10	Protein 365 378	interleukin-6
+T11	Protein 380 384	IL-6
+T12	Protein 519 523	IL-6
+T13	Protein 588 597	IFN-gamma
+T14	Protein 605 614	TNF-alpha
+T15	Protein 815 824	TNF-alpha
+T16	Protein 913 922	IFN-gamma
+T17	Protein 927 936	TNF-alpha
+T18	Protein 1014 1023	IFN-gamma
+T19	Protein 1095 1098	p50
+T20	Protein 1099 1102	p65
+T21	Protein 1146 1150	IL-6
+T22	Protein 1159 1168	IFN-gamma
+T23	Protein 1173 1182	TNF-alpha
+T24	Protein 1237 1242	IRF-1
+T25	Protein 1258 1261	p65
+T26	Protein 1374 1378	IL-6
+T27	Protein 1445 1448	Sp1
+T28	Protein 1527 1536	IFN-gamma
+T29	Exp 235 390	the molecular basis of the synergistic induction by interferon-gamma (IFN-gamma)/tumor necrosis factor-alpha (TNF-alpha) of human interleukin-6 (IL-6) gene	249 254	basis
+T30	Exp 430 432	it
+T31	Exp 736 764	a region between -73 and -36	738 744	region
+T32	Exp 766 771	which
+T33	Exp 829 868	an element located between -181 and -73	832 839	element
+T34	Exp 870 875	which
+T35	Exp 956 989	a distal element upstream of -224	965 972	element
+T36	Exp 991 996	which
+T37	Exp 1428 1455	the constitutive Sp1 factor	1449 1455	factor
+T38	Exp 1457 1462	whose
+R1	Coref Anaphora:T30 Antecedent:T29	[T7, T6, T11, T8, T9, T10]
+R2	Coref Anaphora:T32 Antecedent:T31
+R3	Coref Anaphora:T34 Antecedent:T33
+R4	Coref Anaphora:T36 Antecedent:T35
+R5	Coref Anaphora:T38 Antecedent:T37	[T27]

@@ -1,0 +1,30 @@
+T1	Protein 116 120	KBF1
+T2	Protein 213 218	H-2Kb
+T3	Protein 250 253	p50
+T4	Protein 399 403	KBF1
+T5	Protein 404 407	p50
+T6	Protein 531 536	c-rel
+T7	Protein 541 546	v-rel
+T8	Protein 592 596	KBF1
+T9	Protein 597 600	p50
+T10	Protein 659 663	KBF1
+T11	Protein 664 667	p50
+T12	Protein 874 878	KBF1
+T13	Protein 879 882	p50
+T14	Protein 1169 1172	CD4
+T15	Protein 1286 1291	H-2Kb
+T16	Exp 49 74	the rel/NF-kappa B family	68 74	family
+T17	Exp 112 127	The KBF1 factor	121 127	factor
+T18	Exp 129 134	which
+T19	Exp 302 312	NF-kappa B
+T20	Exp 314 319	which
+T21	Exp 505 520	the same family	514 520	family
+T22	Exp 647 678	A mutant of KBF1/p50 (delta SP)	649 655	mutant
+T23	Exp 764 776	This protein
+T24	Exp 1017 1045	the HIV long terminal repeat
+T25	Exp 1047 1052	which
+R1	Coref Anaphora:T18 Antecedent:T17	[T1]
+R2	Coref Anaphora:T20 Antecedent:T19
+R3	Coref Anaphora:T21 Antecedent:T16
+R4	Coref Anaphora:T23 Antecedent:T22	[T10, T11]
+R5	Coref Anaphora:T25 Antecedent:T24

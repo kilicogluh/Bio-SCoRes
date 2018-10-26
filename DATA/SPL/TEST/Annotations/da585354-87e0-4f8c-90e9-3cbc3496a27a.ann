@@ -1,0 +1,87 @@
+T2	Drug 3054 3061	digoxin
+T3	Drug 2935 2957	oral doses of TAMBOCOR
+T7	Drug 3242 3253	propranolol
+T8	Drug 3149 3157	TAMBOCOR
+T9	Drug 3162 3173	propranolol
+T13	Drug 3348 3356	TAMBOCOR
+T14	Drug 3361 3372	propranolol
+T16	Drug_Class 3824 3837	beta blockers
+T17	Drug 3842 3852	flecainide
+T19	Drug 4489 4499	flecainide
+T20	Drug_Class 4386 4401	enzyme inducers
+T21	Drug 4403 4412	phenytoin
+T22	Drug 4414 4427	phenobarbital
+T23	Drug 4429 4442	carbamazepine
+T25	Drug 4588 4598	flecainide
+T27	Drug 4543 4553	cimetidine
+T29	Drug 4722 4732	flecainide
+T30	Drug 4672 4682	amiodarone
+T32	Drug_Class 4858 4896	Drugs that inhibit cytochrome P450IID6
+T33	Drug 4906 4915	quinidine
+T34	Drug 4961 4971	flecainide
+T36	Drug 5392 5400	TAMBOCOR
+T37	Drug 5324 5336	disopyramide
+T38	Drug 5341 5350	verapamil
+T39	Drug_Class 2844 2875	beta-adrenergic blocking agents
+T40	Drug_Class 3666 3679	beta blockers
+T41	Drug 5179 5188	verapamil
+T42	Drug 3553 3564	propranolol
+T43	Drug 2664 2671	digoxin
+T44	Drug 3014 3021	digoxin
+T45	Drug 5576 5586	nifedipine
+T46	Drug 5590 5599	diltiazem
+T47	Drug_Class 4305 4314	diuretics
+T48	Drug_Class 2675 2688	beta-blockers
+T49	Drug 2818 2827	digitalis
+T50	Drug 47 57	flecainide
+T51	Drug 2049 2059	FLECAINIDE
+T52	Drug 3875 3885	Flecainide
+T53	Drug 4033 4043	flecainide
+T54	Drug 4695 4705	flecainide
+T55	Drug 4791 4801	flecainide
+T56	Drug 5004 5014	flecainide
+T57	Drug 5707 5717	flecainide
+T58	Drug 6120 6130	Flecainide
+T59	Drug 7276 7286	flecainide
+T60	Drug 7883 7893	flecainide
+T61	Drug 5163 5175	disopyramide
+T62	Drug_Class 4202 4216	anticoagulants
+T63	Drug 26 34	TAMBOCOR
+T64	Drug 90 98	TAMBOCOR
+T65	Drug 371 379	TAMBOCOR
+T66	Drug 503 511	TAMBOCOR
+T67	Drug 927 935	TAMBOCOR
+T68	Drug 1059 1067	TAMBOCOR
+T69	Drug 1149 1157	TAMBOCOR
+T70	Drug 1394 1402	TAMBOCOR
+T71	Drug 1810 1818	TAMBOCOR
+T72	Drug 2208 2216	TAMBOCOR
+T73	Drug 2377 2385	TAMBOCOR
+T74	Drug 2604 2612	TAMBOCOR
+T75	Drug 2765 2773	TAMBOCOR
+T76	Drug 3540 3548	TAMBOCOR
+T77	Drug 3612 3620	TAMBOCOR
+T78	Drug 4242 4250	TAMBOCOR
+T79	Drug 5143 5151	TAMBOCOR
+T80	Drug 5294 5302	TAMBOCOR
+T81	Drug 5562 5570	TAMBOCOR
+T82	Drug 6773 6781	TAMBOCOR
+T83	Drug 6942 6950	TAMBOCOR
+T84	Drug 7666 7674	TAMBOCOR
+T85	Drug 7990 7998	TAMBOCOR
+T1	DefiniteNP 470 478	the drug
+T4	DefiniteNP 3430 3439	the drugs
+T5	ZeroArticleNP 4386 4401	enzyme inducers
+T6	DemonstrativeNP 5206 5217	these drugs
+T10	DemonstrativeNP 5459 5475	this combination
+R2	Anaphora Anaphor:T1 Antecedent:T65
+R1	Anaphora Anaphor:T4 Antecedent:T13
+R3	Anaphora Anaphor:T4 Antecedent:T14
+R4	Appositive Attribute:T5 Head:T21
+R5	Appositive Attribute:T5 Head:T22
+R6	Appositive Attribute:T5 Head:T23
+R7	Cataphora Cataphor:T6 Consequent:T37
+R8	Cataphora Cataphor:T6 Consequent:T38
+R9	Anaphora Anaphor:T10 Antecedent:T36
+R10	Anaphora Anaphor:T10 Antecedent:T37
+R11	Anaphora Anaphor:T10 Antecedent:T38

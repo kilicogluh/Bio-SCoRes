@@ -1,0 +1,24 @@
+T1	Protein 4 7	p53
+T2	Protein 93 96	p53
+T3	Protein 149 152	p53
+T4	Protein 202 205	p53
+T5	Protein 281 308	tumor necrosis factor-alpha
+T6	Protein 310 319	TNF-alpha
+T7	Protein 362 365	p53
+T8	Protein 433 442	TNF-alpha
+T9	Protein 704 713	TNF-alpha
+T10	Protein 764 773	TNF-alpha
+T11	Protein 852 855	p53
+T12	Protein 896 905	TNF-alpha
+T13	Exp 138 152	the mutant p53	149 152	p53
+T14	Exp 153 157	that
+T15	Exp 192 205	wild type p53	202 205	p53
+T16	Exp 206 210	that
+T17	Exp 498 509	the pathway
+T18	Exp 510 514	that
+T19	Exp 679 693	the hypothesis
+T20	Exp 694 698	that
+R1	Coref Anaphora:T14 Antecedent:T13	[T3]
+R2	Coref Anaphora:T16 Antecedent:T15	[T4]
+R3	Coref Anaphora:T18 Antecedent:T17
+R4	Coref Anaphora:T20 Antecedent:T19

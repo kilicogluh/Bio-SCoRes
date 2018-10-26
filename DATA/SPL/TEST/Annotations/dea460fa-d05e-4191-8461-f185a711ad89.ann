@@ -1,0 +1,21 @@
+T0	Drug_Class 3809 3827	cardiac glycosides
+T1	Drug_Class 3833 3842	diuretics
+T2	Drug 221 228	alcohol
+T3	Drug 3852 3862	furosemide
+T4	Drug 3781 3789	dopamine
+T5	Drug 3794 3807	isoproterenol
+T6	Drug_Class 3759 3771	vasopressors
+T7	DefiniteNP 4432 4440	the drug
+T8	DefiniteNP 1087 1095	the drug
+T9	DefiniteNP 1815 1823	the drug
+T10	PersonalPronoun 793 795	it
+T11	Drug 732 769	PROSTIN VR PEDIATRIC Sterile Solution
+T12	PossessivePronoun 1549 1552	its
+T13	Drug 1436 1456	PROSTIN VR PEDIATRIC
+T14	Drug 1721 1745	infusions of alprostadil
+T15	Drug 4250 4270	PROSTIN VR PEDIATRIC
+R1	Anaphora Anaphor:T10 Antecedent:T11
+R2	Anaphora Anaphor:T8 Antecedent:T11
+R3	Anaphora Anaphor:T12 Antecedent:T13
+R4	Anaphora Anaphor:T9 Antecedent:T14
+R5	Anaphora Anaphor:T7 Antecedent:T15

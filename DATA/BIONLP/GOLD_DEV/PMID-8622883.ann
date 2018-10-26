@@ -1,0 +1,38 @@
+T1	Protein 12 15	p16
+T2	Protein 37 53	thymidine kinase
+T3	Protein 98 102	MTS1
+T4	Protein 159 162	p16
+T5	Protein 272 294	retinoblastoma protein
+T6	Protein 470 486	thymidine kinase
+T7	Protein 507 510	p16
+T8	Protein 689 705	thymidine kinase
+T9	Protein 709 727	phytohemagglutinin
+T10	Protein 775 778	p16
+T11	Protein 950 966	thymidine kinase
+T12	Protein 1032 1048	thymidine kinase
+T13	Protein 1090 1093	p16
+T14	Protein 1250 1272	retinoblastoma protein
+T15	Protein 1347 1350	p16
+T16	Protein 1390 1406	thymidine kinase
+T17	Protein 1469 1491	retinoblastoma protein
+T18	Protein 1543 1559	thymidine kinase
+T19	Protein 1598 1601	p16
+T20	Protein 1706 1728	retinoblastoma protein
+T21	Exp 128 143	chromosome 9p21
+T22	Exp 145 150	which
+T23	Exp 268 294	the retinoblastoma protein
+T24	Exp 340 343	its
+T25	Exp 361 389	the transcription factor E2F
+T26	Exp 391 396	which
+T27	Exp 561 566	proof
+T28	Exp 574 578	that
+T29	Exp 1188 1208	MOLT-4 and CEM cells	1203 1208	cells
+T30	Exp 1226 1230	them
+T31	Exp 1469 1491	retinoblastoma protein
+T32	Exp 1526 1529	its
+R1	Coref Anaphora:T22 Antecedent:T21
+R2	Coref Anaphora:T24 Antecedent:T23	[T5]
+R3	Coref Anaphora:T26 Antecedent:T25
+R4	Coref Anaphora:T28 Antecedent:T27
+R5	Coref Anaphora:T30 Antecedent:T29
+R6	Coref Anaphora:T32 Antecedent:T31	[T17]

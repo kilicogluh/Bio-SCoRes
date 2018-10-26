@@ -1,0 +1,101 @@
+T2	Drug_Class 1088 1117	dietary potassium supplements
+T3	Drug_Class 1119 1134	potassium salts
+T4	Substance 1138 1175	potassium-containing salt substitutes
+T5	Drug 1196 1204	Dyrenium
+T7	Drug 1206 1214	Dyrenium
+T8	Drug_Class 1263 1287	potassium-sparing agents
+T9	Drug 1297 1311	spironolactone
+T10	Drug 1313 1336	amiloride hydrochloride
+T11	Drug_Class 1347 1382	formulations containing triamterene
+T14	Drug 1448 1462	spironolactone
+T15	Drug 1467 1475	Dyrenium
+T16	Drug 1479 1486	Dyazide
+T19	Drug 3480 3487	lithium
+T20	Drug_Class 3376 3385	diuretics
+T22	Drug 3507 3514	lithium
+T23	Drug 3535 3542	lithium
+T26	Drug 3612 3619	lithium
+T28	Drug 3653 3660	lithium
+T30	Drug 3788 3800	indomethacin
+T31	Drug_Class 3804 3840	nonsteroidal anti-inflammatory agent
+T32	Drug 3857 3868	triamterene
+T35	Drug_Class 3906 3943	nonsteroidal anti-inflammatory agents
+T36	Drug 3949 3960	triamterene
+T38	DefiniteNP 3977 3996	the following drugs
+T39	Drug_Class 4054 4081	antihypertensive medication
+T40	Drug_Class 4089 4098	diuretics
+T41	Drug_Class 4100 4113;4129 4135	preanesthetic agents
+T42	Drug_Class 4118 4135	anesthetic agents
+T43	Drug_Class 4137 4180	skeletal muscle relaxants (nondepolarizing)
+T44	Drug 4041 4052	triamterene
+T46	Drug_Class 4255 4301	angiotensin-converting enzyme (ACE) inhibitors
+T47	Drug_Class 4182 4206	Potassium-sparing agents
+T48	DefiniteNP 4344 4364	The following agents
+T49	Drug 4386 4397	triamterene
+T53	Substance 4581 4602	blood from blood bank
+T54	Substance 4739 4752	low-salt milk
+T55	Drug_Class 4804 4836	potassium-containing medications
+T56	Drug 4846 4879	parenteral penicillin G potassium
+T57	Substance 4882 4898	salt substitutes
+T59	Drug 4958 4969	triamterene
+T60	Drug_Class 5051 5070	hypoglycemic agents
+T62	Drug 5137 5151	chlorpropamide
+T63	Drug_Class 178 202	potassium-sparing agents
+T64	Drug_Class 2491 2516	potassium supplementation
+T65	Drug 2837 2855	sodium bicarbonate
+T66	Drug 3037 3055	sodium bicarbonate
+T67	Drug 3364 3371	lithium
+T68	Drug 5251 5260	quinidine
+T69	Drug 5365 5374	quinidine
+T70	Drug_Class 3417 3425	diuretic
+T71	Drug 3265 3272	insulin
+T72	Drug 47 58	Triamterene
+T73	Drug 833 844	triamterene
+T74	Drug 2470 2481	triamterene
+T75	Drug 4519 4530	triamterene
+T76	Drug 5235 5246	Triamterene
+T77	Drug 5302 5313	triamterene
+T78	Drug 2581 2591	Kayexalate
+T79	Drug 3229 3239	Kayexalate
+T80	Drug_Class 2535 2543	thiazide
+T81	Drug 26 34	Dyrenium
+T82	Drug 214 222	Dyrenium
+T83	Drug 530 538	Dyrenium
+T84	Drug 823 831	Dyrenium
+T85	Drug 2460 2468	Dyrenium
+T86	Drug 4948 4956	Dyrenium
+T87	Substance 101 110	potassium
+T88	Substance 440 449	potassium
+T89	Substance 910 919	potassium
+T90	Substance 1909 1918	potassium
+T91	Substance 2090 2099	potassium
+T92	Substance 2230 2239	potassium
+T93	Substance 2667 2676	potassium
+T94	Substance 4417 4426	potassium
+T95	Substance 4491 4500	potassium
+T96	Substance 4632 4641	potassium
+T97	Substance 4782 4791	potassium
+T98	Substance 4936 4945	potassium
+T1	DefiniteNP 788 796	the drug
+T6	PossessivePronoun 807 810	its
+T12	DefiniteNP 1045 1053	the drug
+T13	DefiniteNP 2157 2165	the drug
+T17	DemonstrativeNP 1611 1626	these two drugs
+T18	IndefiniteNP 3802 3840	a nonsteroidal anti-inflammatory agent
+R5	Cataphora Cataphor:T38 Consequent:T39
+R6	Cataphora Cataphor:T38 Consequent:T40
+R7	Cataphora Cataphor:T38 Consequent:T41
+R8	Cataphora Cataphor:T38 Consequent:T42
+R9	Cataphora Cataphor:T38 Consequent:T43
+R10	Cataphora Cataphor:T48 Consequent:T53
+R11	Cataphora Cataphor:T48 Consequent:T55
+R12	Cataphora Cataphor:T48 Consequent:T54
+R14	Cataphora Cataphor:T48 Consequent:T57
+R1	Anaphora Anaphor:T1 Antecedent:T83
+R2	Anaphora Anaphor:T6 Antecedent:T83
+R3	Anaphora Anaphor:T12 Antecedent:T84
+R4	Anaphora Anaphor:T13 Antecedent:T15
+R13	Anaphora Anaphor:T17 Antecedent:T15
+R15	Anaphora Anaphor:T17 Antecedent:T14
+R16	Appositive Attribute:T18 Head:T30
+R17	Anaphora Anaphor:T17 Antecedent:T16

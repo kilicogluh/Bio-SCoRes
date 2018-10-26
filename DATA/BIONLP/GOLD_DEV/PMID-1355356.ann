@@ -1,0 +1,28 @@
+T1	Protein 66 73	v-erb A
+T2	Protein 92 99	v-erb A
+T3	Protein 268 275	v-erb A
+T4	Protein 401 423	retinoic acid receptor
+T5	Protein 429 436	v-erb A
+T6	Protein 536 543	c-erb A
+T7	Protein 602 609	v-erb A
+T8	Protein 832 839	c-erb A
+T9	Protein 916 923	v-erb A
+T10	Protein 1027 1034	v-erb A
+T11	Protein 1290 1297	v-erb A
+T12	Exp 211 237	a thyroid hormone receptor	229 237	receptor
+T13	Exp 348 376	the thyroid hormone receptor	368 376	receptor
+T14	Exp 425 444	The v-erb A protein	437 444	protein
+T15	Exp 459 485	two amino acid alterations	474 485	alterations
+T16	Exp 493 496	its
+T17	Exp 497 515	DNA-binding domain	509 515	domain
+T18	Exp 528 532	that
+T19	Exp 552 557	which
+T20	Exp 772 800	the sequence at threonine 78	776 784	sequence
+T21	Exp 811 813	it
+T22	Exp 824 828	that
+R1	Coref Anaphora:T13 Antecedent:T12
+R2	Coref Anaphora:T16 Antecedent:T14	[T5]
+R3	Coref Anaphora:T18 Antecedent:T17
+R4	Coref Anaphora:T19 Antecedent:T15
+R5	Coref Anaphora:T21 Antecedent:T20
+R6	Coref Anaphora:T22 Antecedent:T20

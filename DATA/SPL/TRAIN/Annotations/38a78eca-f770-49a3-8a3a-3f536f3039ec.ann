@@ -1,0 +1,78 @@
+T8	Drug_Class 3613 3631	hypoglycemic drugs
+T9	Drug 2802 2809	levatol
+T10	Drug 4782 4792	penbutolol
+T11	Drug 4797 4804	alcohol
+T13	Drug 4880 4890	Penbutolol
+T14	Drug 4931 4940	lidocaine
+T17	Drug 5024 5033	lidocaine
+T21	Drug_Class 5327 5358	beta-adrenergic blocking agents
+T22	Drug_Class 5367 5390	oral calcium antagonist
+T24	Drug 5439 5446	levatol
+T25	Drug_Class 5488 5517	catecholamine-depleting drugs
+T27	Drug_Class 5535 5555	digitalis glycosides
+T28	Drug_Class 5560 5573	beta-blockers
+T30	Drug_Class 5732 5777	anesthetic agents that depress the myocardium
+T31	Drug 5787 5792	ether
+T32	Drug 5794 5806	cyclopropane
+T33	Drug 5812 5829	trichloroethylene
+T34	Drug 5884 5891	levatol
+T35	Drug_Class 6718 6741	antihypertensive agents
+T36	Drug_Class 6751 6774	thiazide-type diuretics
+T37	Drug_Class 3182 3200	general anesthesia
+T38	Drug_Class 1181 1197	-blocking agents
+T39	Drug_Class 1728 1744	-blocking agents
+T40	Drug 5520 5527	Digoxin
+T41	Drug_Class 847 856	diuretics
+T42	Drug 3522 3529	insulin
+T43	Drug 4665 4684	hydrochlorothiazide
+T44	Drug 5036 5046	Cimetidine
+T45	Drug 5173 5183	cimetidine
+T46	Drug 830 839	digitalis
+T47	Drug 863 872	digitalis
+T48	Drug 984 993	digitalis
+T49	Drug_Class 816 828	vasodilators
+T50	Drug 6073 6083	dobutamine
+T51	Drug 6553 6564	epinephrine
+T52	Drug 108 121	isoproterenol
+T53	Drug 6087 6100	isoproterenol
+T54	Drug_Class 615 624	-blockers
+T55	Drug_Class 2791 2800	-blockers
+T56	Drug_Class 5917 5926	-blockers
+T57	Drug_Class 6313 6322	-blockers
+T58	Drug 0 7	LEVATOL
+T59	Drug 143 150	Levatol
+T60	Drug 678 685	levatol
+T61	Drug 1055 1062	levatol
+T62	Drug 1324 1331	levatol
+T63	Drug 1499 1506	levatol
+T64	Drug 1890 1897	levatol
+T65	Drug 2163 2170	levatol
+T66	Drug 2528 2535	levatol
+T67	Drug 2670 2677	levatol
+T68	Drug 4317 4324	levatol
+T69	Drug 4623 4630	levatol
+T70	Drug 5893 5900	levatol
+T71	Drug 6669 6676	levatol
+T72	Drug 9 19	penbutolol
+T73	Drug 38 48	Penbutolol
+T74	Drug 877 887	penbutolol
+T75	Drug 5081 5091	penbutolol
+T76	Drug 5117 5127	penbutolol
+T77	Drug_Class 5958 5980	beta-receptor agonists
+T78	Drug 4126 4133	thyroid
+T79	Drug_Class 6896 6912	antihypertensive
+T80	Drug_Class 5945 5980	inhibitor of beta-receptor agonists
+T81	Drug 6223 6231	atropine
+T2	PersonalPronoun 2854 2856	it
+T4	Substance 5093 5127	The major metabolite of penbutolol
+T5	IndefiniteNP 5131 5144	a glucuronide
+T12	IndefiniteNP 5931 5980	a competitive inhibitor of beta-receptor agonists
+T15	PossessivePronoun 5986 5989	its
+T16	DemonstrativeNP 6056 6067	such agents
+T18	DemonstrativeNP 343 355	this product
+R2	Anaphora Anaphor:T2 Antecedent:T9
+R4	PredicateNominative Attribute:T5 Head:T4
+R9	PredicateNominative Attribute:T12 Head:T70
+R10	Anaphora Anaphor:T15 Antecedent:T70
+R11	Anaphora Anaphor:T16 Antecedent:T77
+R12	Anaphora Anaphor:T18 Antecedent:T59

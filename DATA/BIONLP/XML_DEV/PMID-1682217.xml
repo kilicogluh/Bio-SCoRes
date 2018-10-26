@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="PMID-1682217">
+    <text xml:space="preserve">v-erbA overexpression is required to extinguish c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII. 
+The v-erbA oncoprotein represents a retrovirus-transduced oncogenic version of the thyroid hormone (T3/T4) receptor c-erbA (type alpha). It contributes to virus-induced erythroleukemia by efficiently arresting differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes. Here, we show that v-erbA and c-erbA bind directly to sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose transcription is efficiently suppressed by v-erbA. This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a target for efficient down-regulation of CAII transcription by the v-erbA oncoprotein. In stably transformed erythroblasts coexpressing the v-erbA oncoprotein and the c-erbA/T3 receptor at an approximately equimolar ratio, c-erbA activity is dominant over v-erbA. T3 efficiently induced erythroid differentiation in these cells, thus overcoming the v-erbA-mediated differentiation arrest. Likewise, T3 activated CAII transcription as well as transient expression of a T3-responsive reporter gene containing the CAII-specific erbA-binding site. The c-erbA-dependent activation of this CAII reporter construct could only be suppressed by very high amounts of v-erbA. Our results suggest that overexpression of v-erbA is required for its function as an oncoprotein. 
+</text>
+    <sentence charOffset="0-144" id="S1">
+        <text xml:space="preserve">v-erbA overexpression is required to extinguish c-erbA function in erythroid cell differentiation and regulation of the erbA target gene CAII. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="0-6" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="7-21" text="overexpression" lemma="overexpression"/>
+            <token xml:space="preserve" id="stt_3" POS="VBZ" charOffset="22-24" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="25-33" text="required" lemma="require"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="34-36" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="VB" charOffset="37-47" text="extinguish" lemma="extinguish"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="48-54" text="c-erbA" lemma="c-erba"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="55-63" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="64-66" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="67-76" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="77-81" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="82-97" text="differentiation" lemma="differentiation"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="98-101" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="102-112" text="regulation" lemma="regulation"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="113-115" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="116-119" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="120-124" text="erbA" lemma="erba"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="125-131" text="target" lemma="target"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="132-136" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="137-141" text="CAII" lemma="caius"/>
+            <token xml:space="preserve" id="stt_21" POS="." charOffset="141-142" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_6" type="xcomp"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="aux"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_8" type="dobj"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_14" type="dobj"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_10" t1="stt_8" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_10" type="amod"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_16" type="det"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_17" type="nn"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_18" type="nn"/>
+            <dependency id="stp_17" t1="stt_20" t2="stt_19" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN v-erbA) (NN=H overexpression))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H required)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H extinguish)
+            (NP
+            (NP=H
+            (NP=H (NN c-erbA) (NN=H function))
+            (PP (IN=H in)
+            (NP (JJ erythroid) (NN cell) (NN=H differentiation))))
+            (CC and)
+            (NP
+            (NP=H (NN=H regulation))
+            (PP (IN=H of)
+            (NP (DT the) (NN erbA) (NN target) (NN gene) (NN=H CAII))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="144-281" id="S2">
+        <text xml:space="preserve">The v-erbA oncoprotein represents a retrovirus-transduced oncogenic version of the thyroid hormone (T3/T4) receptor c-erbA (type alpha). </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="144-147" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="148-154" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="155-166" text="oncoprotein" lemma="oncoprotein"/>
+            <token xml:space="preserve" id="stt_4" POS="VBZ" charOffset="167-177" text="represents" lemma="represent"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="178-179" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_6" POS="JJ" charOffset="180-201" text="retrovirus-transduced" lemma="retrovirus-transduced"/>
+            <token xml:space="preserve" id="stt_7" POS="JJ" charOffset="202-211" text="oncogenic" lemma="oncogenic"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="212-219" text="version" lemma="version"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="220-222" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="223-226" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="227-234" text="thyroid" lemma="thyroid"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="235-242" text="hormone" lemma="hormone"/>
+            <token xml:space="preserve" id="stt_13" POS="-LRB-" charOffset="243-244" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="244-249" text="T3/T4" lemma="t3/t4"/>
+            <token xml:space="preserve" id="stt_15" POS="-RRB-" charOffset="249-250" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="251-259" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="260-266" text="c-erbA" lemma="c-erba"/>
+            <token xml:space="preserve" id="stt_18" POS="-LRB-" charOffset="267-268" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="268-272" text="type" lemma="type"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="273-278" text="alpha" lemma="alpha"/>
+            <token xml:space="preserve" id="stt_21" POS="-RRB-" charOffset="278-279" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_22" POS="." charOffset="279-280" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_8" type="dobj"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_17" type="prep_of"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_5" type="det"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_6" type="amod"/>
+            <dependency id="stp_8" t1="stt_8" t2="stt_7" type="amod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="appos"/>
+            <dependency id="stp_11" t1="stt_17" t2="stt_16" type="nn"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_20" type="dep"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_10" type="det"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_12" type="nn"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_19" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT The) (NN v-erbA) (NN=H oncoprotein))
+            (VP=H (VBZ=H represents)
+            (NP
+            (NP=H (DT a) (JJ retrovirus-transduced) (JJ oncogenic) (NN=H version))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the)
+            (NP
+            (NP=H (NN thyroid) (NN=H hormone))
+            (PRN (-LRB- -LRB-)
+            (NP=H (NN=H T3/T4))
+            (-RRB- -RRB-)))
+            (NN receptor) (NN=H c-erbA))
+            (-LRB- -LRB-)
+            (NP
+            (ADJP=H (NN type) (NN=H alpha)))
+            (-RRB- -RRB-)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="281-458" id="S3">
+        <text xml:space="preserve">It contributes to virus-induced erythroleukemia by efficiently arresting differentiation of red cell progenitors and by suppressing transcription of erythrocyte-specific genes. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP" charOffset="281-283" text="It" lemma="it"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="284-295" text="contributes" lemma="contribute"/>
+            <token xml:space="preserve" id="stt_3" POS="TO" charOffset="296-298" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="299-312" text="virus-induced" lemma="virus-induced"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="313-328" text="erythroleukemia" lemma="erythroleukemia"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="329-331" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_7" POS="RB" charOffset="332-343" text="efficiently" lemma="efficiently"/>
+            <token xml:space="preserve" id="stt_8" POS="VBG" charOffset="344-353" text="arresting" lemma="arrest"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="354-369" text="differentiation" lemma="differentiation"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="370-372" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="373-376" text="red" lemma="red"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="377-381" text="cell" lemma="cell"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="382-393" text="progenitors" lemma="progenitor"/>
+            <token xml:space="preserve" id="stt_14" POS="CC" charOffset="394-397" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="398-400" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_16" POS="VBG" charOffset="401-412" text="suppressing" lemma="suppress"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="413-426" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="427-429" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="430-450" text="erythrocyte-specific" lemma="erythrocyte-specific"/>
+            <token xml:space="preserve" id="stt_20" POS="NNS" charOffset="451-456" text="genes" lemma="gene"/>
+            <token xml:space="preserve" id="stt_21" POS="." charOffset="456-457" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="prep_to"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_6" type="prep"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_7" type="dep"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_15" type="dep"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_8" type="dep"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_15" type="conj_and"/>
+            <dependency id="stp_9" t1="stt_8" t2="stt_9" type="dobj"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_11" t1="stt_13" t2="stt_11" type="amod"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_12" type="nn"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_17" type="pobj"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_15" t1="stt_17" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_16" t1="stt_20" t2="stt_19" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP=H It))
+            (VP=H (VBZ=H contributes)
+            (PP (TO=H to)
+            (NP (JJ virus-induced) (NN=H erythroleukemia)))
+            (PP (IN=H by)
+            (UCP
+            (ADVP=H (RB=H efficiently)
+            (S
+            (VP=H (VBG=H arresting)
+            (NP
+            (NP=H (NN=H differentiation))
+            (PP (IN=H of)
+            (NP (JJ red) (NN cell) (NNS=H progenitors)))))))
+            (CC and)
+            (PP (IN=H by)
+            (NP
+            (NP=H (VBG suppressing) (NN=H transcription))
+            (PP (IN=H of)
+            (NP (JJ erythrocyte-specific) (NNS=H genes))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="458-664" id="S4">
+        <text xml:space="preserve">Here, we show that v-erbA and c-erbA bind directly to sequences within the promoter of the erythrocyte-specific carbonic anhydrase II (CAII), a gene whose transcription is efficiently suppressed by v-erbA. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="458-462" text="Here" lemma="here"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="462-463" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="PRP" charOffset="464-466" text="we" lemma="we"/>
+            <token xml:space="preserve" id="stt_4" POS="VBP" charOffset="467-471" text="show" lemma="show"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="472-476" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="477-483" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_7" POS="CC" charOffset="484-487" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="488-494" text="c-erbA" lemma="c-erba"/>
+            <token xml:space="preserve" id="stt_9" POS="VBP" charOffset="495-499" text="bind" lemma="bind"/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="500-508" text="directly" lemma="directly"/>
+            <token xml:space="preserve" id="stt_11" POS="TO" charOffset="509-511" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_12" POS="NNS" charOffset="512-521" text="sequences" lemma="sequence"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="522-528" text="within" lemma="within"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="529-532" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="533-541" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="542-544" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="545-548" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="549-569" text="erythrocyte-specific" lemma="erythrocyte-specific"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="570-578" text="carbonic" lemma="carbonic"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="579-588" text="anhydrase" lemma="anhydrase"/>
+            <token xml:space="preserve" id="stt_21" POS="CD" charOffset="589-591" text="II" lemma="ii"/>
+            <token xml:space="preserve" id="stt_22" POS="-LRB-" charOffset="592-593" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="593-597" text="CAII" lemma="caius"/>
+            <token xml:space="preserve" id="stt_24" POS="-RRB-" charOffset="597-598" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_25" POS="," charOffset="598-599" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_26" POS="DT" charOffset="600-601" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="602-606" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_28" POS="WP$" charOffset="607-612" text="whose" lemma="whose"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="613-626" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_30" POS="VBZ" charOffset="627-629" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_31" POS="RB" charOffset="630-641" text="efficiently" lemma="efficiently"/>
+            <token xml:space="preserve" id="stt_32" POS="VBN" charOffset="642-652" text="suppressed" lemma="suppress"/>
+            <token xml:space="preserve" id="stt_33" POS="IN" charOffset="653-655" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_34" POS="NN" charOffset="656-662" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_35" POS="." charOffset="662-663" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_9" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_8" type="conj_and"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_5" type="mark"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_6" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_10" type="advmod"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_12" type="prep_to"/>
+            <dependency id="stp_10" t1="stt_9" t2="stt_15" type="prep_within"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_23" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="det"/>
+            <dependency id="stp_13" t1="stt_23" t2="stt_17" type="det"/>
+            <dependency id="stp_14" t1="stt_23" t2="stt_18" type="amod"/>
+            <dependency id="stp_15" t1="stt_23" t2="stt_19" type="amod"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_20" type="nn"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_21" type="num"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_30" type="rcmod"/>
+            <dependency id="stp_19" t1="stt_27" t2="stt_26" type="det"/>
+            <dependency id="stp_20" t1="stt_27" t2="stt_29" type="dep"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_28" type="poss"/>
+            <dependency id="stp_22" t1="stt_30" t2="stt_27" type="nsubj"/>
+            <dependency id="stp_23" t1="stt_30" t2="stt_31" type="advmod"/>
+            <dependency id="stp_24" t1="stt_31" t2="stt_32" type="dep"/>
+            <dependency id="stp_25" t1="stt_32" t2="stt_34" type="prep_by"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Here))
+            (, ,)
+            (NP (PRP=H we))
+            (VP=H (VBP=H show)
+            (SBAR (IN=H that)
+            (S
+            (NP (NN=H v-erbA)
+            (CC and)
+            (NN c-erbA))
+            (VP=H (VBP=H bind)
+            (ADVP (RB=H directly))
+            (PP (TO=H to)
+            (NP (NNS=H sequences)))
+            (PP (IN=H within)
+            (NP
+            (NP=H (DT the) (NN=H promoter))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT the) (JJ erythrocyte-specific) (JJ carbonic) (NN anhydrase) (CD II) (-LRB- -LRB-) (NN=H CAII) (-RRB- -RRB-))
+            (, ,)
+            (SBAR
+            (WHNP=H
+            (WHNP=H (DT=H a) (NN gene))
+            (NP (WP$ whose) (NN=H transcription)))
+            (S
+            (VP=H (VBZ=H is)
+            (ADVP (RB=H efficiently)
+            (S
+            (VP=H (VBN=H suppressed)
+            (PP (IN=H by)
+            (NP (NN=H v-erbA)))))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="664-884" id="S5">
+        <text xml:space="preserve">This erbA-binding site confers thyroid hormone responsiveness to a heterologous promoter in transient expression experiments and is a target for efficient down-regulation of CAII transcription by the v-erbA oncoprotein. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="664-668" text="This" lemma="this"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="669-681" text="erbA-binding" lemma="erba-binding"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="682-686" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_4" POS="VBZ" charOffset="687-694" text="confers" lemma="confer"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="695-702" text="thyroid" lemma="thyroid"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="703-710" text="hormone" lemma="hormone"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="711-725" text="responsiveness" lemma="responsiveness"/>
+            <token xml:space="preserve" id="stt_8" POS="TO" charOffset="726-728" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="729-730" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="731-743" text="heterologous" lemma="heterologous"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="744-752" text="promoter" lemma="promoter"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="753-755" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="756-765" text="transient" lemma="transient"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="766-776" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="777-788" text="experiments" lemma="experiment"/>
+            <token xml:space="preserve" id="stt_16" POS="CC" charOffset="789-792" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_17" POS="VBZ" charOffset="793-795" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_18" POS="DT" charOffset="796-797" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="798-804" text="target" lemma="target"/>
+            <token xml:space="preserve" id="stt_20" POS="IN" charOffset="805-808" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="809-818" text="efficient" lemma="efficient"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="819-834" text="down-regulation" lemma="down-regulation"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="835-837" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="838-842" text="CAII" lemma="caius"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="843-856" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="857-859" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_27" POS="DT" charOffset="860-863" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="864-870" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="871-882" text="oncoprotein" lemma="oncoprotein"/>
+            <token xml:space="preserve" id="stt_30" POS="." charOffset="882-883" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_19" type="conj_and"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_7" type="dobj"/>
+            <dependency id="stp_6" t1="stt_4" t2="stt_11" type="prep_to"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_5" type="nn"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_15" type="prep_in"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_13" type="amod"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_17" type="cop"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_18" type="det"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_22" type="prep_for"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_29" type="prep_by"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="amod"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_25" type="prep_of"/>
+            <dependency id="stp_20" t1="stt_25" t2="stt_24" type="nn"/>
+            <dependency id="stp_21" t1="stt_29" t2="stt_27" type="det"/>
+            <dependency id="stp_22" t1="stt_29" t2="stt_28" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT This) (JJ erbA-binding) (NN=H site))
+            (VP=H
+            (VP=H (VBZ=H confers)
+            (NP (NN thyroid) (NN hormone) (NN=H responsiveness))
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT a) (JJ heterologous) (NN=H promoter))
+            (PP (IN=H in)
+            (NP (JJ transient) (NN expression) (NNS=H experiments))))))
+            (CC and)
+            (VP (VBZ=H is)
+            (NP (DT a) (NN=H target))
+            (PP (IN=H for)
+            (NP
+            (NP=H (JJ efficient) (NN=H down-regulation))
+            (PP (IN=H of)
+            (NP (NN CAII) (NN=H transcription)))))
+            (PP (IN=H by)
+            (NP (DT the) (NN v-erbA) (NN=H oncoprotein)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="884-1061" id="S6">
+        <text xml:space="preserve">In stably transformed erythroblasts coexpressing the v-erbA oncoprotein and the c-erbA/T3 receptor at an approximately equimolar ratio, c-erbA activity is dominant over v-erbA. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="884-886" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="RB" charOffset="887-893" text="stably" lemma="stably"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="894-905" text="transformed" lemma="transform"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="906-919" text="erythroblasts" lemma="erythroblast"/>
+            <token xml:space="preserve" id="stt_5" POS="VBG" charOffset="920-932" text="coexpressing" lemma="coexpress"/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="933-936" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="937-943" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="944-955" text="oncoprotein" lemma="oncoprotein"/>
+            <token xml:space="preserve" id="stt_9" POS="CC" charOffset="956-959" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="960-963" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="964-973" text="c-erbA/T3" lemma="c-erba/t3"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="974-982" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="983-985" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="986-988" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_15" POS="RB" charOffset="989-1002" text="approximately" lemma="approximately"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="1003-1012" text="equimolar" lemma="equimolar"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="1013-1018" text="ratio" lemma="ratio"/>
+            <token xml:space="preserve" id="stt_18" POS="," charOffset="1018-1019" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="1020-1026" text="c-erbA" lemma="c-erba"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="1027-1035" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_21" POS="VBZ" charOffset="1036-1038" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="1039-1047" text="dominant" lemma="dominant"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="1048-1052" text="over" lemma="over"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="1053-1059" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_25" POS="." charOffset="1059-1060" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_2" type="advmod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_5" type="vmod"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_12" type="conj_and"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_8" type="dobj"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_6" type="det"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_17" type="prep_at"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_10" type="det"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="nn"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_15" type="advmod"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_14" type="det"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_19" type="nn"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_4" type="prep_in"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_20" type="nsubj"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_21" type="cop"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_24" type="prep_over"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_12" type="prep_in"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP
+            (NP=H
+            (NP=H
+            (ADJP (RB stably) (VBN=H transformed))
+            (NNS=H erythroblasts))
+            (VP (VBG=H coexpressing)
+            (NP (DT the) (NN v-erbA) (NN=H oncoprotein))))
+            (CC and)
+            (NP
+            (NP=H (DT the) (NN c-erbA/T3) (NN=H receptor))
+            (PP (IN=H at)
+            (NP (DT an)
+            (ADJP (RB approximately) (JJ=H equimolar))
+            (NN=H ratio))))))
+            (, ,)
+            (NP (NN c-erbA) (NN=H activity))
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H dominant)
+            (PP (IN=H over)
+            (NP (NN=H v-erbA)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1061-1186" id="S7">
+        <text xml:space="preserve">T3 efficiently induced erythroid differentiation in these cells, thus overcoming the v-erbA-mediated differentiation arrest. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NN" charOffset="1061-1063" text="T3" lemma="t3"/>
+            <token xml:space="preserve" id="stt_2" POS="RB" charOffset="1064-1075" text="efficiently" lemma="efficiently"/>
+            <token xml:space="preserve" id="stt_3" POS="VBD" charOffset="1076-1083" text="induced" lemma="induce"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="1084-1093" text="erythroid" lemma="erythroid"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1094-1109" text="differentiation" lemma="differentiation"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="1110-1112" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="1113-1118" text="these" lemma="these"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="1119-1124" text="cells" lemma="cell"/>
+            <token xml:space="preserve" id="stt_9" POS="," charOffset="1124-1125" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="1126-1130" text="thus" lemma="thus"/>
+            <token xml:space="preserve" id="stt_11" POS="VBG" charOffset="1131-1141" text="overcoming" lemma="overcome"/>
+            <token xml:space="preserve" id="stt_12" POS="DT" charOffset="1142-1145" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="1146-1161" text="v-erbA-mediated" lemma="v-erba-mediated"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1162-1177" text="differentiation" lemma="differentiation"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1178-1184" text="arrest" lemma="arrest"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="1184-1185" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="advmod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dobj"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_11" type="vmod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_8" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="advmod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_15" type="dobj"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_12" type="det"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_13" type="amod"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NN=H T3))
+            (ADVP (RB=H efficiently))
+            (VP=H (VBD=H induced)
+            (NP
+            (NP=H (JJ erythroid) (NN=H differentiation))
+            (PP (IN=H in)
+            (NP (DT these) (NNS=H cells))))
+            (, ,)
+            (S
+            (ADVP (RB=H thus))
+            (VP=H (VBG=H overcoming)
+            (NP (DT the) (JJ v-erbA-mediated) (NN differentiation) (NN=H arrest)))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1186-1341" id="S8">
+        <text xml:space="preserve">Likewise, T3 activated CAII transcription as well as transient expression of a T3-responsive reporter gene containing the CAII-specific erbA-binding site. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="RB" charOffset="1186-1194" text="Likewise" lemma="likewise"/>
+            <token xml:space="preserve" id="stt_2" POS="," charOffset="1194-1195" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1196-1198" text="T3" lemma="t3"/>
+            <token xml:space="preserve" id="stt_4" POS="VBD" charOffset="1199-1208" text="activated" lemma="activate"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1209-1213" text="CAII" lemma="caius"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1214-1227" text="transcription" lemma="transcription"/>
+            <token xml:space="preserve" id="stt_7" POS="RB" charOffset="1228-1230" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_8" POS="RB" charOffset="1231-1235" text="well" lemma="well"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1236-1238" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="1239-1248" text="transient" lemma="transient"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1249-1259" text="expression" lemma="expression"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="1260-1262" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="1263-1264" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="1265-1278" text="T3-responsive" lemma="t3-responsive"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1279-1287" text="reporter" lemma="reporter"/>
+            <token xml:space="preserve" id="stt_16" POS="NN" charOffset="1288-1292" text="gene" lemma="gene"/>
+            <token xml:space="preserve" id="stt_17" POS="VBG" charOffset="1293-1303" text="containing" lemma="contain"/>
+            <token xml:space="preserve" id="stt_18" POS="DT" charOffset="1304-1307" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="1308-1321" text="CAII-specific" lemma="caii-specific"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="1322-1334" text="erbA-binding" lemma="erba-binding"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1335-1339" text="site" lemma="site"/>
+            <token xml:space="preserve" id="stt_22" POS="." charOffset="1339-1340" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_6" type="dobj"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_11" type="dobj"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_11" type="conj_and"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_16" type="prep_of"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_9" t1="stt_16" t2="stt_17" type="vmod"/>
+            <dependency id="stp_10" t1="stt_16" t2="stt_13" type="det"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_14" type="amod"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_15" type="nn"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_21" type="dobj"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_18" type="det"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_19" type="amod"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_20" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (ADVP (RB=H Likewise))
+            (, ,)
+            (NP (NN=H T3))
+            (VP=H (VBD=H activated)
+            (NP
+            (NP=H (NN CAII) (NN=H transcription))
+            (CONJP (RB as) (RB=H well) (IN as))
+            (NP
+            (NP=H (JJ transient) (NN=H expression))
+            (PP (IN=H of)
+            (NP
+            (NP=H (DT a) (JJ T3-responsive) (NN reporter) (NN=H gene))
+            (VP (VBG=H containing)
+            (NP (DT the) (JJ CAII-specific) (JJ erbA-binding) (NN=H site))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1341-1462" id="S9">
+        <text xml:space="preserve">The c-erbA-dependent activation of this CAII reporter construct could only be suppressed by very high amounts of v-erbA. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="1341-1344" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="1345-1361" text="c-erbA-dependent" lemma="c-erba-dependent"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1362-1372" text="activation" lemma="activation"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1373-1375" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="1376-1380" text="this" lemma="this"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="1381-1385" text="CAII" lemma="caius"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1386-1394" text="reporter" lemma="reporter"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1395-1404" text="construct" lemma="construct"/>
+            <token xml:space="preserve" id="stt_9" POS="MD" charOffset="1405-1410" text="could" lemma="could"/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="1411-1415" text="only" lemma="only"/>
+            <token xml:space="preserve" id="stt_11" POS="VB" charOffset="1416-1418" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="1419-1429" text="suppressed" lemma="suppress"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1430-1432" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_14" POS="RB" charOffset="1433-1437" text="very" lemma="very"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="1438-1442" text="high" lemma="high"/>
+            <token xml:space="preserve" id="stt_16" POS="NNS" charOffset="1443-1450" text="amounts" lemma="amount"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="1451-1453" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1454-1460" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_19" POS="." charOffset="1460-1461" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_5" type="det"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_6" type="nn"/>
+            <dependency id="stp_6" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_16" type="agent"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_9" type="aux"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_10" type="advmod"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_11" type="auxpass"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="advmod"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_18" type="prep_of"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_15" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (JJ c-erbA-dependent) (NN=H activation))
+            (PP (IN=H of)
+            (NP (DT this) (NN CAII) (NN reporter) (NN=H construct))))
+            (VP=H (MD=H could)
+            (ADVP (RB=H only))
+            (VP (VB=H be)
+            (VP (VBN=H suppressed)
+            (PP (IN=H by)
+            (NP
+            (NP=H
+            (ADJP (RB very) (JJ=H high))
+            (NNS=H amounts))
+            (PP (IN=H of)
+            (NP (NN=H v-erbA))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1462-1561" id="S10">
+        <text xml:space="preserve">Our results suggest that overexpression of v-erbA is required for its function as an oncoprotein. 
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="PRP$" charOffset="1462-1465" text="Our" lemma="we"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="1466-1473" text="results" lemma="result"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="1474-1481" text="suggest" lemma="suggest"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1482-1486" text="that" lemma="that"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="1487-1501" text="overexpression" lemma="overexpression"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="1502-1504" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1505-1511" text="v-erbA" lemma="v-erba"/>
+            <token xml:space="preserve" id="stt_8" POS="VBZ" charOffset="1512-1514" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="1515-1523" text="required" lemma="require"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="1524-1527" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_11" POS="PRP$" charOffset="1528-1531" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1532-1540" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="1541-1543" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_14" POS="DT" charOffset="1544-1546" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="1547-1558" text="oncoprotein" lemma="oncoprotein"/>
+            <token xml:space="preserve" id="stt_16" POS="." charOffset="1558-1559" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="poss"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_9" type="ccomp"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_4" type="mark"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_5" type="nsubjpass"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="auxpass"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_12" type="prep_for"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_15" type="prep_as"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="poss"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_14" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (PRP$ Our) (NNS=H results))
+            (VP=H (VBP=H suggest)
+            (SBAR (IN=H that)
+            (S
+            (NP
+            (NP=H (NN=H overexpression))
+            (PP (IN=H of)
+            (NP (NN=H v-erbA))))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H required)
+            (PP (IN=H for)
+            (NP (PRP$ its) (NN=H function)))
+            (PP (IN=H as)
+            (NP (DT an) (NN=H oncoprotein))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T1" type="Protein" charOffset="0-6" headOffset="0-6" text="v-erbA"/>
+    <Term xml:space="preserve" id="T2" type="Protein" charOffset="48-54" headOffset="48-54" text="c-erbA"/>
+    <Term xml:space="preserve" id="T3" type="Protein" charOffset="137-141" headOffset="137-141" text="CAII"/>
+    <Term xml:space="preserve" id="T4" type="Protein" charOffset="148-154" headOffset="148-154" text="v-erbA"/>
+    <Term xml:space="preserve" id="T5" type="Protein" charOffset="260-266" headOffset="260-266" text="c-erbA"/>
+    <Term xml:space="preserve" id="T6" type="Protein" charOffset="477-483" headOffset="477-483" text="v-erbA"/>
+    <Term xml:space="preserve" id="T7" type="Protein" charOffset="488-494" headOffset="488-494" text="c-erbA"/>
+    <Term xml:space="preserve" id="T8" type="Protein" charOffset="570-591" headOffset="579-588" text="carbonic anhydrase II"/>
+    <Term xml:space="preserve" id="T9" type="Protein" charOffset="593-597" headOffset="593-597" text="CAII"/>
+    <Term xml:space="preserve" id="T10" type="Protein" charOffset="656-662" headOffset="656-662" text="v-erbA"/>
+    <Term xml:space="preserve" id="T11" type="Protein" charOffset="838-842" headOffset="838-842" text="CAII"/>
+    <Term xml:space="preserve" id="T12" type="Protein" charOffset="864-870" headOffset="864-870" text="v-erbA"/>
+    <Term xml:space="preserve" id="T13" type="Protein" charOffset="937-943" headOffset="937-943" text="v-erbA"/>
+    <Term xml:space="preserve" id="T14" type="Protein" charOffset="964-970" headOffset="964-970" text="c-erbA"/>
+    <Term xml:space="preserve" id="T15" type="Protein" charOffset="1020-1026" headOffset="1020-1026" text="c-erbA"/>
+    <Term xml:space="preserve" id="T16" type="Protein" charOffset="1053-1059" headOffset="1053-1059" text="v-erbA"/>
+    <Term xml:space="preserve" id="T17" type="Protein" charOffset="1146-1152" headOffset="1146-1152" text="v-erbA"/>
+    <Term xml:space="preserve" id="T18" type="Protein" charOffset="1209-1213" headOffset="1209-1213" text="CAII"/>
+    <Term xml:space="preserve" id="T19" type="Protein" charOffset="1308-1312" headOffset="1308-1312" text="CAII"/>
+    <Term xml:space="preserve" id="T20" type="Protein" charOffset="1345-1351" headOffset="1345-1351" text="c-erbA"/>
+    <Term xml:space="preserve" id="T21" type="Protein" charOffset="1381-1385" headOffset="1381-1385" text="CAII"/>
+    <Term xml:space="preserve" id="T22" type="Protein" charOffset="1454-1460" headOffset="1454-1460" text="v-erbA"/>
+    <Term xml:space="preserve" id="T23" type="Protein" charOffset="1505-1511" headOffset="1505-1511" text="v-erbA"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T25"/>
+        <Antecedent idref="T24"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T27"/>
+        <Antecedent idref="T26"/>
+    </Relation>
+    <Relation id="R3" type="Anaphora">
+        <Anaphor idref="T28"/>
+        <Antecedent idref="T27"/>
+    </Relation>
+    <Relation id="R4" type="Anaphora">
+        <Anaphor idref="T30"/>
+        <Antecedent idref="T29"/>
+    </Relation>
+    <Term xml:space="preserve" id="T24" type="DefiniteNP" charOffset="223-279" headOffset="273-278" text="the thyroid hormone (T3/T4) receptor c-erbA (type alpha)"/>
+    <Term xml:space="preserve" id="T25" type="PersonalPronoun" charOffset="281-283" headOffset="281-283" text="It"/>
+    <Term xml:space="preserve" id="T26" type="DefiniteNP" charOffset="545-598" headOffset="593-597" text="the erythrocyte-specific carbonic anhydrase II (CAII)"/>
+    <Term xml:space="preserve" id="T27" type="IndefiniteNP" charOffset="600-606" headOffset="602-606" text="a gene"/>
+    <Term xml:space="preserve" id="T28" type="RelativePronoun" charOffset="607-612" headOffset="607-612" text="whose"/>
+    <Term xml:space="preserve" id="T29" type="ZeroArticleNP" charOffset="1505-1511" headOffset="1505-1511" text="v-erbA"/>
+    <Term xml:space="preserve" id="T30" type="PossessivePronoun" charOffset="1528-1531" headOffset="1528-1531" text="its"/>
+</document>

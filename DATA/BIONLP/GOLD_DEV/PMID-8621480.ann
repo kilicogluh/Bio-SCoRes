@@ -1,0 +1,16 @@
+T1	Protein 24 58	Ca2+-modulating cyclophilin ligand
+T2	Protein 113 147	Ca2+-modulating cyclophilin ligand
+T3	Protein 149 153	CAML
+T4	Protein 185 198	cyclophilin B
+T5	Protein 421 425	CAML
+T6	Protein 471 475	CAML
+T7	Protein 638 642	CAML
+T8	Exp 183 214	a cyclophilin B-binding protein
+T9	Exp 215 220	whose
+T10	Exp 638 642	CAML
+T11	Exp 649 652	its
+T12	Exp 765 786	a novel protein motif	781 786	motif
+T13	Exp 787 791	that
+R1	Coref Anaphora:T9 Antecedent:T8	[T4]
+R2	Coref Anaphora:T11 Antecedent:T10	[T7]
+R3	Coref Anaphora:T13 Antecedent:T12

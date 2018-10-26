@@ -1,0 +1,27 @@
+T0	Drug 1162 1172	Probenecid
+T1	Drug 1266 1276	probenecid
+T5	Drug 63 84	aminohippurate sodium
+T6	Drug 26 50	AMINOHIPPURATE SODIUMPAH
+T8	Drug_Class 1020 1032	sulfonamides
+T9	Drug 1034 1042	procaine
+T10	Drug 1047 1062	thiazolesulfone
+T14	SPAN 108 124	Hypersensitivity
+T2	DemonstrativeNP 128 140	this product
+T3	PossessivePronoun 147 150	its
+T7	DemonstrativeNP 758 770	this product
+T4	DemonstrativeNP 1064 1079	These compounds
+T11	DemonstrativeNP 1822 1831	this drug
+T12	ZeroArticleNP 599 612	PAH solutions
+T15	ZeroArticleNP 0 10	Drug Label
+T16	ZeroArticleNP 15 50	drug brand AMINOHIPPURATE SODIUMPAH
+T17	ZeroArticleNP 151 161	components
+T18	ZeroArticleNP 188 209	Intravenous solutions
+T19	ZeroArticleNP 898 915	Drug Interactions
+T20	ZeroArticleNP 1020 1032	sulfonamides
+T21	ZeroArticleNP 1867 1877	many drugs
+R6	Anaphora Anaphor:T2 Antecedent:T5
+R7	Anaphora Anaphor:T7 Antecedent:T2
+R8	Anaphora Anaphor:T4 Antecedent:T8
+R9	Anaphora Anaphor:T4 Antecedent:T10
+R10	Anaphora Anaphor:T4 Antecedent:T9
+R11	Anaphora Anaphor:T11 Antecedent:T1

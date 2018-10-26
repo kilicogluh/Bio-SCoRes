@@ -1,0 +1,2243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document id="44c45bfe-461f-4398-8f20-ea771b2403ee">
+    <text xml:space="preserve">NATRECOR (nesiritide) injection, powder, lyophilized, for solution 
+
+4 CONTRAINDICATIONS
+
+NATRECOR is contraindicated in patients with:
+- Persistent systolic blood pressure &lt;100 mm Hg prior to therapy because of an increased risk of symptomatic hypotension [see Warnings and Precautions (5.1)]
+- Known hypersensitivity to any of its components [see Warnings and Precautions (5.3)]
+- Cardiogenic shock
+
+5 WARNINGS AND PRECAUTIONS
+
+5.1 Hypotension
+
+NATRECOR may cause hypotension. In the ASCEND-HF trial, the incidence of symptomatic hypotension was 7.1% in NATRECOR-treated patients compared to 4.0% in placebo-treated patients on a background of standard care. The risk of hypotension may be increased by the concomitant use of NATRECOR with drugs affecting the renin-angiotensin system (i.e., angiotensin receptor blockers and/or angiotensin-converting enzyme inhibitors) or other afterload reducers. In the VMAC trial, in patients given the recommended dose (2 mcg/kg bolus followed by a 0.01 mcg/kg/min infusion) or the adjustable dose, the incidence of symptomatic hypotension in the first 24 hours was similar for NATRECOR (4%) and IV nitroglycerin (5%). When hypotension occurred, however, the duration of symptomatic hypotension was longer with NATRECOR (mean duration was 2.2 hours) than with nitroglycerin (mean duration was 0.7 hours).
+
+Administer NATRECOR only in settings where blood pressure can be monitored closely and hypotension aggressively treated. Reduce the dose of or discontinue NATRECOR in patients who develop hypotension [see Dosage and Administration (2.2)].
+
+Avoid administration of NATRECOR in patients suspected of having, or known to have, low cardiac filling pressures.
+
+NATRECOR is not recommended for patients for whom vasodilating agents are not appropriate, such as patients with significant valvular stenosis, restrictive or obstructive cardiomyopathy, constrictive pericarditis, pericardial tamponade, or other conditions in which cardiac output is dependent upon venous return, or for patients suspected to have low cardiac filling pressures [see Contraindications (4)].
+
+5.2 Worsening of Renal Function
+
+NATRECOR may decrease renal function as judged by increases in serum creatinine. Monitor serum creatinine both during and after therapy has been completed. Monitor serum creatinine until values have stabilized. In patients with severe heart failure whose renal function may depend on the activity of the renin-angiotensin aldosterone system, treatment with NATRECOR may be associated with azotemia. When NATRECOR was initiated at doses higher than 0.01 mcg/kg/min (0.015 and 0.03 mcg/kg/min), there was an increased rate of elevated serum creatinine over baseline compared with standard therapies, although the rate of acute renal failure and need for dialysis was not increased.
+
+5.3 Hypersensitivity
+
+Serious hypersensitivity/allergic reactions following administration of NATRECOR have been reported.
+
+These reactions are more likely to occur in individuals with a history of sensitivity to recombinant peptides. Before therapy with NATRECOR is instituted, careful inquiry should be made to determine whether the patient has had a previous hypersensitivity reaction to other recombinant peptides. If an allergic reaction to NATRECOR occurs, discontinue the drug. Some serious hypersensitivity/allergic reactions may require treatment with epinephrine, oxygen, IV fluids, antihistamines, corticosteroids, pressor amines and airway management, as clinically indicated.
+
+7 DRUG INTERACTIONS
+
+No trials specifically examining potential drug interactions with NATRECOR were conducted, although many concomitant drugs (including IV nitroglycerin) were used in clinical trials [see Clinical Studies (14)]. No drug interactions were detected except for an increase in symptomatic hypotension in patients receiving afterload reducers or affecting the renin-angiotensin system (i.e., ARBs and/or ACE inhibitors).
+
+The co-administration of NATRECOR with nitroprusside, milrinone, or IV ACE inhibitors has not been evaluated.
+
+</text>
+    <sentence charOffset="0-69" id="S1">
+        <text xml:space="preserve">NATRECOR (nesiritide) injection, powder, lyophilized, for solution 
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="0-8" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_2" POS="-LRB-" charOffset="9-10" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="10-20" text="nesiritide" lemma="nesiritide"/>
+            <token xml:space="preserve" id="stt_4" POS="-RRB-" charOffset="20-21" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="22-31" text="injection" lemma="injection"/>
+            <token xml:space="preserve" id="stt_6" POS="," charOffset="31-32" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="33-39" text="powder" lemma="powder"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="39-40" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="41-52" text="lyophilized" lemma="lyophilize"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="52-53" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="IN" charOffset="54-57" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="58-66" text="solution" lemma="solution"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_7" type="appos"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_12" type="prep_for"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_9" type="vmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H
+            (NP=H (NNP NATRECOR) (-LRB- -LRB-) (NN nesiritide) (-RRB- -RRB-) (NN=H injection))
+            (, ,)
+            (NP
+            (NP=H (NN=H powder))
+            (, ,)
+            (VP (VBN=H lyophilized)))
+            (, ,))
+            (PP (IN=H for)
+            (NP (NN=H solution)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="69-90" id="S2">
+        <text xml:space="preserve">4 CONTRAINDICATIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="69-70" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="71-88" text="CONTRAINDICATIONS" lemma="contraindication"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (X=H
+            (NP=H (CD 4) (NNS=H CONTRAINDICATIONS))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="90-136" id="S3">
+        <text xml:space="preserve">NATRECOR is contraindicated in patients with:
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="90-98" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="99-101" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="VBN" charOffset="102-117" text="contraindicated" lemma="contraindicate"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="118-120" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="121-129" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="130-134" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_7" POS=":" charOffset="134-135" text=":" lemma=":"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_6" type="prep"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H NATRECOR))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H contraindicated)
+            (PP (IN=H in)
+            (NP (NNS=H patients)))
+            (PP (IN=H with))))
+            (: :)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="136-294" id="S4">
+        <text xml:space="preserve">- Persistent systolic blood pressure &lt;100 mm Hg prior to therapy because of an increased risk of symptomatic hypotension [see Warnings and Precautions (5.1)]
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS=":" charOffset="136-137" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="138-148" text="Persistent" lemma="persistent"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="149-157" text="systolic" lemma="systolic"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="158-163" text="blood" lemma="blood"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="164-172" text="pressure" lemma="pressure"/>
+            <token xml:space="preserve" id="stt_6" POS="JJR" charOffset="173-174" text="&lt;" lemma="&lt;"/>
+            <token xml:space="preserve" id="stt_7" POS="CD" charOffset="174-177" text="100" lemma="100"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="178-180" text="mm" lemma="mm"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="181-183" text="Hg" lemma="hg"/>
+            <token xml:space="preserve" id="stt_10" POS="RB" charOffset="184-189" text="prior" lemma="prior"/>
+            <token xml:space="preserve" id="stt_11" POS="TO" charOffset="190-192" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="193-200" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="201-208" text="because" lemma="because"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="209-211" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_15" POS="DT" charOffset="212-214" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_16" POS="VBN" charOffset="215-224" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="225-229" text="risk" lemma="risk"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="230-232" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="233-244" text="symptomatic" lemma="symptomatic"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="245-256" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_21" POS="-LRB-" charOffset="257-258" text="[" lemma="["/>
+            <token xml:space="preserve" id="stt_22" POS="VB" charOffset="258-261" text="see" lemma="see"/>
+            <token xml:space="preserve" id="stt_23" POS="NNS" charOffset="262-270" text="Warnings" lemma="warning"/>
+            <token xml:space="preserve" id="stt_24" POS="CC" charOffset="271-274" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_25" POS="NNS" charOffset="275-286" text="Precautions" lemma="precaution"/>
+            <token xml:space="preserve" id="stt_26" POS="-LRB-" charOffset="287-288" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_27" POS="CD" charOffset="288-291" text="5.1" lemma="5.1"/>
+            <token xml:space="preserve" id="stt_28" POS="-RRB-" charOffset="291-292" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_29" POS="-RRB-" charOffset="292-293" text="]" lemma="]"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_5" t2="stt_2" type="amod"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="nn"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_6" type="amod"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_9" type="npadvmod"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_12" type="prep_prior_to"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_7" type="num"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_8" type="nn"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_17" type="prep_because_of"/>
+            <dependency id="stp_10" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_11" t1="stt_17" t2="stt_20" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_15" type="det"/>
+            <dependency id="stp_13" t1="stt_20" t2="stt_19" type="amod"/>
+            <dependency id="stp_14" t1="stt_22" t2="stt_5" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_22" t2="stt_21" type="punct"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_23" type="dobj"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_25" type="dobj"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_29" type="punct"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_25" type="conj_and"/>
+            <dependency id="stp_20" t1="stt_23" t2="stt_27" type="appos"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H (: -)
+            (NP
+            (NP=H (JJ Persistent) (JJ systolic) (NN blood) (NN=H pressure))
+            (ADJP (JJR=H &lt;)
+            (PP
+            (ADVP
+            (NP (CD 100) (NN mm) (NN=H Hg))
+            (RB=H prior))
+            (TO=H to)
+            (NP
+            (NP=H (NN=H therapy))
+            (PP (IN because) (IN=H of)
+            (NP
+            (NP=H (DT an) (VBN increased) (NN=H risk))
+            (PP (IN=H of)
+            (NP (JJ symptomatic) (NN=H hypotension)))))))))
+            (VP=H (-LRB- -LSB-)
+            (VP=H (VB=H see)
+            (NP
+            (NP=H (NNS=H Warnings)
+            (CC and)
+            (NNS Precautions))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD=H 5.1))
+            (-RRB- -RRB-)))))
+            (-RRB- -RSB-)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="294-381" id="S5">
+        <text xml:space="preserve">- Known hypersensitivity to any of its components [see Warnings and Precautions (5.3)]
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS=":" charOffset="294-295" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_2" POS="VBN" charOffset="296-301" text="Known" lemma="know"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="302-318" text="hypersensitivity" lemma="hypersensitivity"/>
+            <token xml:space="preserve" id="stt_4" POS="TO" charOffset="319-321" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_5" POS="DT" charOffset="322-325" text="any" lemma="any"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="326-328" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="PRP$" charOffset="329-332" text="its" lemma="its"/>
+            <token xml:space="preserve" id="stt_8" POS="NNS" charOffset="333-343" text="components" lemma="component"/>
+            <token xml:space="preserve" id="stt_9" POS="-LRB-" charOffset="344-345" text="[" lemma="["/>
+            <token xml:space="preserve" id="stt_10" POS="VB" charOffset="345-348" text="see" lemma="see"/>
+            <token xml:space="preserve" id="stt_11" POS="NNS" charOffset="349-357" text="Warnings" lemma="warning"/>
+            <token xml:space="preserve" id="stt_12" POS="CC" charOffset="358-361" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="362-373" text="Precautions" lemma="precaution"/>
+            <token xml:space="preserve" id="stt_14" POS="-LRB-" charOffset="374-375" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_15" POS="CD" charOffset="375-378" text="5.3" lemma="5.3"/>
+            <token xml:space="preserve" id="stt_16" POS="-RRB-" charOffset="378-379" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_17" POS="-RRB-" charOffset="379-380" text="]" lemma="]"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_5" type="prep_to"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_8" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_7" type="poss"/>
+            <dependency id="stp_5" t1="stt_10" t2="stt_17" type="punct"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="punct"/>
+            <dependency id="stp_8" t1="stt_10" t2="stt_11" type="dobj"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_13" type="dobj"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_13" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_15" type="appos"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H (: -)
+            (NP
+            (NP=H (VBN Known) (NN=H hypersensitivity))
+            (PP (TO=H to)
+            (NP
+            (NP=H (DT=H any))
+            (PP (IN=H of)
+            (NP (PRP$ its) (NNS=H components))))))
+            (VP=H (-LRB- -LSB-)
+            (VP=H (VB=H see)
+            (NP
+            (NP=H (NNS=H Warnings)
+            (CC and)
+            (NNS Precautions))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD=H 5.3))
+            (-RRB- -RRB-)))))
+            (-RRB- -RSB-)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="381-402" id="S6">
+        <text xml:space="preserve">- Cardiogenic shock
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS=":" charOffset="381-382" text="-" lemma="-"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="383-394" text="Cardiogenic" lemma="cardiogenic"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="395-400" text="shock" lemma="shock"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_3" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (PRN=H (: -)
+            (NP=H
+            (NP=H (JJ=H Cardiogenic))
+            (NP (NN=H shock)))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="402-430" id="S7">
+        <text xml:space="preserve">5 WARNINGS AND PRECAUTIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="402-403" text="5" lemma="5"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="404-412" text="WARNINGS" lemma="warning"/>
+            <token xml:space="preserve" id="stt_3" POS="CC" charOffset="413-416" text="AND" lemma="and"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="417-428" text="PRECAUTIONS" lemma="precaution"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dep"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_4" type="dep"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_4" type="conj_and"/>
+        </dependencies>
+        <tree>(ROOT
+            (FRAG=H
+            (NP (CD=H 5))
+            (NP=H (NNS=H WARNINGS)
+            (CC AND)
+            (NNS PRECAUTIONS))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="430-447" id="S8">
+        <text xml:space="preserve">5.1 Hypotension
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="430-433" text="5.1" lemma="5.1"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="434-445" text="Hypotension" lemma="hypotension"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H (CD 5.1) (NN=H Hypotension)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="447-479" id="S9">
+        <text xml:space="preserve">NATRECOR may cause hypotension. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="447-455" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_2" POS="MD" charOffset="456-459" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_3" POS="VB" charOffset="460-465" text="cause" lemma="cause"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="466-477" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_5" POS="." charOffset="477-478" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="aux"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_4" type="dobj"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H NATRECOR))
+            (VP=H (MD=H may)
+            (VP (VB=H cause)
+            (NP (NN=H hypotension))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="479-661" id="S10">
+        <text xml:space="preserve">In the ASCEND-HF trial, the incidence of symptomatic hypotension was 7.1% in NATRECOR-treated patients compared to 4.0% in placebo-treated patients on a background of standard care. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="479-481" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="482-485" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="486-495" text="ASCEND-HF" lemma="ascend-hf"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="496-501" text="trial" lemma="trial"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="501-502" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="DT" charOffset="503-506" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="507-516" text="incidence" lemma="incidence"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="517-519" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="JJ" charOffset="520-531" text="symptomatic" lemma="symptomatic"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="532-543" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_11" POS="VBD" charOffset="544-547" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="548-551" text="7.1" lemma="7.1"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="551-552" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="553-555" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="556-572" text="NATRECOR-treated" lemma="natrecor-treated"/>
+            <token xml:space="preserve" id="stt_16" POS="NNS" charOffset="573-581" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_17" POS="VBN" charOffset="582-590" text="compared" lemma="compare"/>
+            <token xml:space="preserve" id="stt_18" POS="TO" charOffset="591-593" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="594-597" text="4.0" lemma="4.0"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="597-598" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_21" POS="IN" charOffset="599-601" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_22" POS="JJ" charOffset="602-617" text="placebo-treated" lemma="placebo-treated"/>
+            <token xml:space="preserve" id="stt_23" POS="NNS" charOffset="618-626" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="627-629" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_25" POS="DT" charOffset="630-631" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="632-642" text="background" lemma="background"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="643-645" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="646-654" text="standard" lemma="standard"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="655-659" text="care" lemma="care"/>
+            <token xml:space="preserve" id="stt_30" POS="." charOffset="659-660" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_2" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_6" type="det"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_10" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_6" t1="stt_13" t2="stt_16" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_13" t2="stt_4" type="prep_in"/>
+            <dependency id="stp_8" t1="stt_13" t2="stt_7" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_13" t2="stt_11" type="cop"/>
+            <dependency id="stp_10" t1="stt_13" t2="stt_12" type="num"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_18" type="prepc_compared_to"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_20" type="pobj"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_15" type="amod"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_19" type="num"/>
+            <dependency id="stp_15" t1="stt_20" t2="stt_23" type="prep_in"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_22" type="amod"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_26" type="prep_on"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_25" type="det"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_29" type="prep_of"/>
+            <dependency id="stp_20" t1="stt_29" t2="stt_28" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (DT the) (NN ASCEND-HF) (NN=H trial)))
+            (, ,)
+            (NP
+            (NP=H (DT the) (NN=H incidence))
+            (PP (IN=H of)
+            (NP (JJ symptomatic) (NN=H hypotension))))
+            (VP=H (VBD=H was)
+            (NP
+            (NP=H (CD 7.1) (NN=H %))
+            (PP (IN=H in)
+            (NP
+            (NP=H (JJ NATRECOR-treated) (NNS=H patients))
+            (PP (VBN=H compared)
+            (PP (TO=H to)
+            (NP
+            (NP=H (CD 4.0) (NN=H %))
+            (PP (IN=H in)
+            (NP
+            (NP=H (JJ placebo-treated) (NNS=H patients))
+            (PP (IN=H on)
+            (NP
+            (NP=H (DT a) (NN=H background))
+            (PP (IN=H of)
+            (NP (JJ standard) (NN=H care))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="661-902" id="S11">
+        <text xml:space="preserve">The risk of hypotension may be increased by the concomitant use of NATRECOR with drugs affecting the renin-angiotensin system (i.e., angiotensin receptor blockers and/or angiotensin-converting enzyme inhibitors) or other afterload reducers. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="661-664" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="665-669" text="risk" lemma="risk"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="670-672" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="673-684" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_5" POS="MD" charOffset="685-688" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_6" POS="VB" charOffset="689-691" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_7" POS="VBN" charOffset="692-701" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="702-704" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="705-708" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="709-720" text="concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="721-724" text="use" lemma="use"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="725-727" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_13" POS="NN" charOffset="728-736" text="NATRECOR" lemma="natrecor"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="737-741" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_15" POS="NNS" charOffset="742-747" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_16" POS="VBG" charOffset="748-757" text="affecting" lemma="affect"/>
+            <token xml:space="preserve" id="stt_17" POS="DT" charOffset="758-761" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_18" POS="JJ" charOffset="762-779" text="renin-angiotensin" lemma="renin-angiotensin"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="780-786" text="system" lemma="system"/>
+            <token xml:space="preserve" id="stt_20" POS="-LRB-" charOffset="787-788" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_21" POS="FW" charOffset="788-792" text="i.e." lemma="i.e."/>
+            <token xml:space="preserve" id="stt_22" POS="," charOffset="792-793" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="794-805" text="angiotensin" lemma="angiotensin"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="806-814" text="receptor" lemma="receptor"/>
+            <token xml:space="preserve" id="stt_25" POS="NNS" charOffset="815-823" text="blockers" lemma="blocker"/>
+            <token xml:space="preserve" id="stt_26" POS="CC" charOffset="824-830" text="and/or" lemma="and/or"/>
+            <token xml:space="preserve" id="stt_27" POS="JJ" charOffset="831-853" text="angiotensin-converting" lemma="angiotensin-converting"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="854-860" text="enzyme" lemma="enzyme"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="861-871" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_30" POS="-RRB-" charOffset="871-872" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_31" POS="CC" charOffset="873-875" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_32" POS="JJ" charOffset="876-881" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_33" POS="JJ" charOffset="882-891" text="afterload" lemma="afterload"/>
+            <token xml:space="preserve" id="stt_34" POS="NNS" charOffset="892-900" text="reducers" lemma="reducer"/>
+            <token xml:space="preserve" id="stt_35" POS="." charOffset="900-901" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_5" type="aux"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="auxpass"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_11" type="agent"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_15" type="prep_with"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_13" type="prep_of"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_16" type="vmod"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_34" type="dobj"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_19" type="dobj"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_17" type="det"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_18" type="amod"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_34" type="conj_or"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_21" type="dep"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_25" type="appos"/>
+            <dependency id="stp_19" t1="stt_19" t2="stt_29" type="appos"/>
+            <dependency id="stp_20" t1="stt_25" t2="stt_23" type="nn"/>
+            <dependency id="stp_21" t1="stt_25" t2="stt_24" type="nn"/>
+            <dependency id="stp_22" t1="stt_25" t2="stt_29" type="conj_and/or"/>
+            <dependency id="stp_23" t1="stt_29" t2="stt_27" type="amod"/>
+            <dependency id="stp_24" t1="stt_29" t2="stt_28" type="nn"/>
+            <dependency id="stp_25" t1="stt_34" t2="stt_32" type="amod"/>
+            <dependency id="stp_26" t1="stt_34" t2="stt_33" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN=H risk))
+            (PP (IN=H of)
+            (NP (NN=H hypotension))))
+            (VP=H (MD=H may)
+            (VP (VB=H be)
+            (VP (VBN=H increased)
+            (PP (IN=H by)
+            (NP
+            (NP=H (DT the) (JJ concomitant) (NN=H use))
+            (PP (IN=H of)
+            (NP (NN=H NATRECOR)))))
+            (PP (IN=H with)
+            (NP
+            (NP=H (NNS=H drugs))
+            (VP (VBG=H affecting)
+            (NP
+            (NP=H
+            (NP=H (DT the) (JJ renin-angiotensin) (NN=H system))
+            (-LRB- -LRB-)
+            (NP (FW=H i.e.))
+            (, ,)
+            (NP
+            (NP=H (NN angiotensin) (NN receptor) (NNS=H blockers))
+            (CC and/or)
+            (NP (JJ angiotensin-converting) (NN enzyme) (NNS=H inhibitors)))
+            (-RRB- -RRB-))
+            (CC or)
+            (NP (JJ other) (JJ afterload) (NNS=H reducers)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="902-1160" id="S12">
+        <text xml:space="preserve">In the VMAC trial, in patients given the recommended dose (2 mcg/kg bolus followed by a 0.01 mcg/kg/min infusion) or the adjustable dose, the incidence of symptomatic hypotension in the first 24 hours was similar for NATRECOR (4%) and IV nitroglycerin (5%). </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="902-904" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="905-908" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="909-913" text="VMAC" lemma="vmac"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="914-919" text="trial" lemma="trial"/>
+            <token xml:space="preserve" id="stt_5" POS="," charOffset="919-920" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="921-923" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="924-932" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_8" POS="VBN" charOffset="933-938" text="given" lemma="give"/>
+            <token xml:space="preserve" id="stt_9" POS="DT" charOffset="939-942" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_10" POS="VBN" charOffset="943-954" text="recommended" lemma="recommend"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="955-959" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_12" POS="-LRB-" charOffset="960-961" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_13" POS="CD" charOffset="961-962" text="2" lemma="2"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="963-969" text="mcg/kg" lemma="mcg/kg"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="970-975" text="bolus" lemma="bolus"/>
+            <token xml:space="preserve" id="stt_16" POS="VBN" charOffset="976-984" text="followed" lemma="follow"/>
+            <token xml:space="preserve" id="stt_17" POS="IN" charOffset="985-987" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_18" POS="DT" charOffset="988-989" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="990-994" text="0.01" lemma="0.01"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="995-1005" text="mcg/kg/min" lemma="mcg/kg/min"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1006-1014" text="infusion" lemma="infusion"/>
+            <token xml:space="preserve" id="stt_22" POS="-RRB-" charOffset="1014-1015" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_23" POS="CC" charOffset="1016-1018" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_24" POS="DT" charOffset="1019-1022" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="1023-1033" text="adjustable" lemma="adjustable"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1034-1038" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_27" POS="," charOffset="1038-1039" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_28" POS="DT" charOffset="1040-1043" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="1044-1053" text="incidence" lemma="incidence"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="1054-1056" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_31" POS="JJ" charOffset="1057-1068" text="symptomatic" lemma="symptomatic"/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="1069-1080" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_33" POS="IN" charOffset="1081-1083" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_34" POS="DT" charOffset="1084-1087" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_35" POS="JJ" charOffset="1088-1093" text="first" lemma="first"/>
+            <token xml:space="preserve" id="stt_36" POS="CD" charOffset="1094-1096" text="24" lemma="24"/>
+            <token xml:space="preserve" id="stt_37" POS="NNS" charOffset="1097-1102" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_38" POS="VBD" charOffset="1103-1106" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_39" POS="JJ" charOffset="1107-1114" text="similar" lemma="similar"/>
+            <token xml:space="preserve" id="stt_40" POS="IN" charOffset="1115-1118" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_41" POS="NNP" charOffset="1119-1127" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_42" POS="-LRB-" charOffset="1128-1129" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_43" POS="CD" charOffset="1129-1130" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_44" POS="NN" charOffset="1130-1131" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_45" POS="-RRB-" charOffset="1131-1132" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_46" POS="CC" charOffset="1133-1136" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_47" POS="CD" charOffset="1137-1139" text="IV" lemma="iv"/>
+            <token xml:space="preserve" id="stt_48" POS="NN" charOffset="1140-1153" text="nitroglycerin" lemma="nitroglycerin"/>
+            <token xml:space="preserve" id="stt_49" POS="-LRB-" charOffset="1154-1155" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_50" POS="CD" charOffset="1155-1156" text="5" lemma="5"/>
+            <token xml:space="preserve" id="stt_51" POS="NN" charOffset="1156-1157" text="%" lemma="%"/>
+            <token xml:space="preserve" id="stt_52" POS="-RRB-" charOffset="1157-1158" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_53" POS="." charOffset="1158-1159" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_2" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="nn"/>
+            <dependency id="stp_3" t1="stt_7" t2="stt_8" type="prep"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_26" type="dep"/>
+            <dependency id="stp_5" t1="stt_8" t2="stt_11" type="dep"/>
+            <dependency id="stp_6" t1="stt_11" t2="stt_9" type="det"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_26" type="conj_or"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_15" type="dep"/>
+            <dependency id="stp_10" t1="stt_15" t2="stt_16" type="vmod"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_13" type="num"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_14" type="nn"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_21" type="agent"/>
+            <dependency id="stp_14" t1="stt_21" t2="stt_18" type="det"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_19" type="num"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_20" type="amod"/>
+            <dependency id="stp_17" t1="stt_26" t2="stt_24" type="det"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_25" type="amod"/>
+            <dependency id="stp_19" t1="stt_29" t2="stt_32" type="prep_of"/>
+            <dependency id="stp_20" t1="stt_29" t2="stt_28" type="det"/>
+            <dependency id="stp_21" t1="stt_32" t2="stt_37" type="prep_in"/>
+            <dependency id="stp_22" t1="stt_32" t2="stt_31" type="amod"/>
+            <dependency id="stp_23" t1="stt_37" t2="stt_34" type="det"/>
+            <dependency id="stp_24" t1="stt_37" t2="stt_35" type="amod"/>
+            <dependency id="stp_25" t1="stt_37" t2="stt_36" type="num"/>
+            <dependency id="stp_26" t1="stt_39" t2="stt_48" type="prep_for"/>
+            <dependency id="stp_27" t1="stt_39" t2="stt_4" type="prep_in"/>
+            <dependency id="stp_28" t1="stt_39" t2="stt_38" type="cop"/>
+            <dependency id="stp_29" t1="stt_39" t2="stt_7" type="prep_in"/>
+            <dependency id="stp_30" t1="stt_39" t2="stt_41" type="prep_for"/>
+            <dependency id="stp_31" t1="stt_39" t2="stt_29" type="nsubj"/>
+            <dependency id="stp_32" t1="stt_41" t2="stt_48" type="conj_and"/>
+            <dependency id="stp_33" t1="stt_41" t2="stt_51" type="appos"/>
+            <dependency id="stp_34" t1="stt_41" t2="stt_44" type="appos"/>
+            <dependency id="stp_35" t1="stt_44" t2="stt_43" type="num"/>
+            <dependency id="stp_36" t1="stt_48" t2="stt_47" type="num"/>
+            <dependency id="stp_37" t1="stt_51" t2="stt_50" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP (DT the) (NN VMAC) (NN=H trial)))
+            (, ,)
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (VBN=H given)
+            (NP
+            (NP=H
+            (NP=H (DT the) (VBN recommended) (NN=H dose))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (CD 2) (NN mcg/kg) (NN=H bolus))
+            (VP (VBN=H followed)
+            (PP (IN=H by)
+            (NP (DT a) (CD 0.01) (JJ mcg/kg/min) (NN=H infusion)))))
+            (-RRB- -RRB-)))
+            (CC or)
+            (NP (DT the) (JJ adjustable) (NN=H dose))))))
+            (, ,)
+            (NP
+            (NP=H (DT the) (NN=H incidence))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ symptomatic) (NN=H hypotension))
+            (PP (IN=H in)
+            (NP (DT the) (JJ first) (CD 24) (NNS=H hours))))))
+            (VP=H (VBD=H was)
+            (ADJP (JJ=H similar)
+            (PP (IN=H for)
+            (NP
+            (NP=H (NNP=H NATRECOR))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD 4) (NN=H %))
+            (-RRB- -RRB-))
+            (CC and)
+            (NP (CD IV) (NN=H nitroglycerin))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD 5) (NN=H %))
+            (-RRB- -RRB-))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1160-1347" id="S13">
+        <text xml:space="preserve">When hypotension occurred, however, the duration of symptomatic hypotension was longer with NATRECOR (mean duration was 2.2 hours) than with nitroglycerin (mean duration was 0.7 hours).
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="WRB" charOffset="1160-1164" text="When" lemma="when"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1165-1176" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_3" POS="VBD" charOffset="1177-1185" text="occurred" lemma="occur"/>
+            <token xml:space="preserve" id="stt_4" POS="," charOffset="1185-1186" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_5" POS="RB" charOffset="1187-1194" text="however" lemma="however"/>
+            <token xml:space="preserve" id="stt_6" POS="," charOffset="1194-1195" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_7" POS="DT" charOffset="1196-1199" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1200-1208" text="duration" lemma="duration"/>
+            <token xml:space="preserve" id="stt_9" POS="IN" charOffset="1209-1211" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_10" POS="JJ" charOffset="1212-1223" text="symptomatic" lemma="symptomatic"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="1224-1235" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_12" POS="VBD" charOffset="1236-1239" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_13" POS="RBR" charOffset="1240-1246" text="longer" lemma="longer"/>
+            <token xml:space="preserve" id="stt_14" POS="IN" charOffset="1247-1251" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_15" POS="NNP" charOffset="1252-1260" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_16" POS="-LRB-" charOffset="1261-1262" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_17" POS="VB" charOffset="1262-1266" text="mean" lemma="mean"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1267-1275" text="duration" lemma="duration"/>
+            <token xml:space="preserve" id="stt_19" POS="VBD" charOffset="1276-1279" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_20" POS="CD" charOffset="1280-1283" text="2.2" lemma="2.2"/>
+            <token xml:space="preserve" id="stt_21" POS="NNS" charOffset="1284-1289" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_22" POS="-RRB-" charOffset="1289-1290" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="1291-1295" text="than" lemma="than"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="1296-1300" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="1301-1314" text="nitroglycerin" lemma="nitroglycerin"/>
+            <token xml:space="preserve" id="stt_26" POS="-LRB-" charOffset="1315-1316" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_27" POS="NN" charOffset="1316-1320" text="mean" lemma="mean"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="1321-1329" text="duration" lemma="duration"/>
+            <token xml:space="preserve" id="stt_29" POS="VBD" charOffset="1330-1333" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_30" POS="CD" charOffset="1334-1337" text="0.7" lemma="0.7"/>
+            <token xml:space="preserve" id="stt_31" POS="NNS" charOffset="1338-1343" text="hours" lemma="hour"/>
+            <token xml:space="preserve" id="stt_32" POS="-RRB-" charOffset="1343-1344" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_33" POS="." charOffset="1344-1345" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_8" t2="stt_7" type="det"/>
+            <dependency id="stp_4" t1="stt_8" t2="stt_11" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_11" t2="stt_10" type="amod"/>
+            <dependency id="stp_6" t1="stt_12" t2="stt_17" type="parataxis"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_3" type="advcl"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_5" type="advmod"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_23" type="prep"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_8" type="nsubj"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_13" type="advmod"/>
+            <dependency id="stp_12" t1="stt_12" t2="stt_15" type="prep_with"/>
+            <dependency id="stp_13" t1="stt_12" t2="stt_31" type="parataxis"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_21" type="ccomp"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_18" type="nsubj"/>
+            <dependency id="stp_16" t1="stt_21" t2="stt_19" type="cop"/>
+            <dependency id="stp_17" t1="stt_21" t2="stt_20" type="num"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_24" type="pcomp"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_25" type="pobj"/>
+            <dependency id="stp_20" t1="stt_28" t2="stt_27" type="nn"/>
+            <dependency id="stp_21" t1="stt_31" t2="stt_28" type="nsubj"/>
+            <dependency id="stp_22" t1="stt_31" t2="stt_29" type="cop"/>
+            <dependency id="stp_23" t1="stt_31" t2="stt_30" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR
+            (WHADVP=H (WRB=H When))
+            (S
+            (NP (NN=H hypotension))
+            (VP=H (VBD=H occurred))))
+            (, ,)
+            (ADVP (RB=H however))
+            (, ,)
+            (NP
+            (NP=H (DT the) (NN=H duration))
+            (PP (IN=H of)
+            (NP (JJ symptomatic) (NN=H hypotension))))
+            (VP=H
+            (VP=H (VBD=H was)
+            (PP
+            (ADVP (RBR=H longer))
+            (IN=H with)
+            (NP (NNP=H NATRECOR)))
+            (PRN (-LRB- -LRB-)
+            (S=H
+            (VP=H (VB=H mean)
+            (SBAR
+            (S=H
+            (NP (NN=H duration))
+            (VP=H (VBD=H was)
+            (NP (CD 2.2) (NNS=H hours)))))))
+            (-RRB- -RRB-))
+            (PP (IN=H than)
+            (PP (IN=H with)
+            (NP (NN=H nitroglycerin)))))
+            (PRN (-LRB- -LRB-)
+            (S=H
+            (NP (NN mean) (NN=H duration))
+            (VP=H (VBD=H was)
+            (NP (CD 0.7) (NNS=H hours))))
+            (-RRB- -RRB-)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1347-1468" id="S14">
+        <text xml:space="preserve">Administer NATRECOR only in settings where blood pressure can be monitored closely and hypotension aggressively treated. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VB" charOffset="1347-1357" text="Administer" lemma="administer"/>
+            <token xml:space="preserve" id="stt_2" POS="NNP" charOffset="1358-1366" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="1367-1371" text="only" lemma="only"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1372-1374" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="1375-1383" text="settings" lemma="setting"/>
+            <token xml:space="preserve" id="stt_6" POS="WRB" charOffset="1384-1389" text="where" lemma="where"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="1390-1395" text="blood" lemma="blood"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="1396-1404" text="pressure" lemma="pressure"/>
+            <token xml:space="preserve" id="stt_9" POS="MD" charOffset="1405-1408" text="can" lemma="can"/>
+            <token xml:space="preserve" id="stt_10" POS="VB" charOffset="1409-1411" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="1412-1421" text="monitored" lemma="monitor"/>
+            <token xml:space="preserve" id="stt_12" POS="RB" charOffset="1422-1429" text="closely" lemma="closely"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="1430-1433" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="1434-1445" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_15" POS="RB" charOffset="1446-1458" text="aggressively" lemma="aggressively"/>
+            <token xml:space="preserve" id="stt_16" POS="VBN" charOffset="1459-1466" text="treated" lemma="treat"/>
+            <token xml:space="preserve" id="stt_17" POS="." charOffset="1466-1467" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_3" type="advmod"/>
+            <dependency id="stp_3" t1="stt_1" t2="stt_5" type="prep_in"/>
+            <dependency id="stp_4" t1="stt_1" t2="stt_14" type="prep_in"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_11" type="rcmod"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_7" t1="stt_8" t2="stt_7" type="nn"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_6" type="advmod"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_8" type="nsubjpass"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_9" type="aux"/>
+            <dependency id="stp_11" t1="stt_11" t2="stt_10" type="auxpass"/>
+            <dependency id="stp_12" t1="stt_11" t2="stt_12" type="advmod"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_16" type="vmod"/>
+            <dependency id="stp_14" t1="stt_16" t2="stt_15" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (VB=H Administer)
+            (NP (NNP=H NATRECOR))
+            (ADVP (RB=H only))
+            (PP (IN=H in)
+            (NP
+            (NP=H
+            (NP=H (NNS=H settings))
+            (SBAR
+            (WHADVP=H (WRB=H where))
+            (S
+            (NP (NN blood) (NN=H pressure))
+            (VP=H (MD=H can)
+            (VP (VB=H be)
+            (VP (VBN=H monitored)
+            (ADVP (RB=H closely))))))))
+            (CC and)
+            (NP
+            (NP=H (NN=H hypotension))
+            (VP
+            (ADVP (RB=H aggressively))
+            (VBN=H treated))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1468-1587" id="S15">
+        <text xml:space="preserve">Reduce the dose of or discontinue NATRECOR in patients who develop hypotension [see Dosage and Administration (2.2)].
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VB" charOffset="1468-1474" text="Reduce" lemma="reduce"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="1475-1478" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="1479-1483" text="dose" lemma="dose"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="1484-1486" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_5" POS="CC" charOffset="1487-1489" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_6" POS="VB" charOffset="1490-1501" text="discontinue" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_7" POS="NNP" charOffset="1502-1510" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="1511-1513" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="1514-1522" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_10" POS="WP" charOffset="1523-1526" text="who" lemma="who"/>
+            <token xml:space="preserve" id="stt_11" POS="VBP" charOffset="1527-1534" text="develop" lemma="develop"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="1535-1546" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_13" POS="-LRB-" charOffset="1547-1548" text="[" lemma="["/>
+            <token xml:space="preserve" id="stt_14" POS="VB" charOffset="1548-1551" text="see" lemma="see"/>
+            <token xml:space="preserve" id="stt_15" POS="NNP" charOffset="1552-1558" text="Dosage" lemma="Dosage"/>
+            <token xml:space="preserve" id="stt_16" POS="CC" charOffset="1559-1562" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_17" POS="NNP" charOffset="1563-1577" text="Administration" lemma="Administration"/>
+            <token xml:space="preserve" id="stt_18" POS="-LRB-" charOffset="1578-1579" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="1579-1582" text="2.2" lemma="2.2"/>
+            <token xml:space="preserve" id="stt_20" POS="-RRB-" charOffset="1582-1583" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_21" POS="-RRB-" charOffset="1583-1584" text="]" lemma="]"/>
+            <token xml:space="preserve" id="stt_22" POS="." charOffset="1584-1585" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="conj_or"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_2" type="det"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_4" type="prep"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_7" type="dobj"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_9" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_11" type="rcmod"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="nsubj"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_12" type="dobj"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_14" type="dep"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_17" type="dobj"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_21" type="advmod"/>
+            <dependency id="stp_13" t1="stt_14" t2="stt_13" type="punct"/>
+            <dependency id="stp_14" t1="stt_14" t2="stt_15" type="dobj"/>
+            <dependency id="stp_15" t1="stt_15" t2="stt_17" type="conj_and"/>
+            <dependency id="stp_16" t1="stt_15" t2="stt_19" type="appos"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H
+            (VP=H (VB=H Reduce)
+            (NP
+            (NP=H (DT the) (NN=H dose))
+            (PP (IN=H of))))
+            (CC or)
+            (VP (VB=H discontinue)
+            (NP
+            (NP=H (NNP=H NATRECOR))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (SBAR
+            (WHNP=H (WP=H who))
+            (S
+            (VP=H (VBP=H develop)
+            (NP (NN=H hypotension))
+            (S
+            (VP=H (-LRB- -LSB-)
+            (VP=H (VB=H see)
+            (NP
+            (NP=H (NNP=H Dosage)
+            (CC and)
+            (NNP Administration))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD=H 2.2))
+            (-RRB- -RRB-)))
+            (ADVP (-RRB-=H -RSB-)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1587-1703" id="S16">
+        <text xml:space="preserve">Avoid administration of NATRECOR in patients suspected of having, or known to have, low cardiac filling pressures.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="VB" charOffset="1587-1592" text="Avoid" lemma="avoid"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="1593-1607" text="administration" lemma="administration"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="1608-1610" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NNP" charOffset="1611-1619" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1620-1622" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="1623-1631" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_7" POS="VBN" charOffset="1632-1641" text="suspected" lemma="suspect"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="1642-1644" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_9" POS="VBG" charOffset="1645-1651" text="having" lemma="have"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="1651-1652" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="CC" charOffset="1653-1655" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="1656-1661" text="known" lemma="know"/>
+            <token xml:space="preserve" id="stt_13" POS="TO" charOffset="1662-1664" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_14" POS="VB" charOffset="1665-1669" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="1669-1670" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="1671-1674" text="low" lemma="low"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="1675-1682" text="cardiac" lemma="cardiac"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="1683-1690" text="filling" lemma="filling"/>
+            <token xml:space="preserve" id="stt_19" POS="NNS" charOffset="1691-1700" text="pressures" lemma="pressure"/>
+            <token xml:space="preserve" id="stt_20" POS="." charOffset="1700-1701" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dobj"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_6" type="prep_in"/>
+            <dependency id="stp_3" t1="stt_2" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_7" type="vmod"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_9" type="prepc_of"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_12" type="ccomp"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_18" type="dep"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_11" type="cc"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_14" type="xcomp"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_13" type="aux"/>
+            <dependency id="stp_11" t1="stt_18" t2="stt_16" type="dep"/>
+            <dependency id="stp_12" t1="stt_18" t2="stt_17" type="amod"/>
+            <dependency id="stp_13" t1="stt_18" t2="stt_19" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (VP=H (VB=H Avoid)
+            (NP
+            (NP=H (NN=H administration))
+            (PP (IN=H of)
+            (NP (NNP=H NATRECOR))))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (VP (VBN=H suspected)
+            (PP (IN=H of)
+            (S
+            (VP=H (VBG=H having)
+            (S
+            (VP=H
+            (VP=H (, ,)
+            (S=H
+            (VP=H (CC or)
+            (VP=H (VBN=H known)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H have))))))))
+            (PRN (, ,)
+            (ADVP (JJ=H low))
+            (NP=H
+            (NP=H (JJ cardiac) (NN=H filling))
+            (NP (NNS=H pressures)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="1703-2111" id="S17">
+        <text xml:space="preserve">NATRECOR is not recommended for patients for whom vasodilating agents are not appropriate, such as patients with significant valvular stenosis, restrictive or obstructive cardiomyopathy, constrictive pericarditis, pericardial tamponade, or other conditions in which cardiac output is dependent upon venous return, or for patients suspected to have low cardiac filling pressures [see Contraindications (4)].
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="1703-1711" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_2" POS="VBZ" charOffset="1712-1714" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="1715-1718" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="1719-1730" text="recommended" lemma="recommend"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="1731-1734" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="1735-1743" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="1744-1747" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_8" POS="WP" charOffset="1748-1752" text="whom" lemma="whom"/>
+            <token xml:space="preserve" id="stt_9" POS="VBG" charOffset="1753-1765" text="vasodilating" lemma="vasodilate"/>
+            <token xml:space="preserve" id="stt_10" POS="NNS" charOffset="1766-1772" text="agents" lemma="agent"/>
+            <token xml:space="preserve" id="stt_11" POS="VBP" charOffset="1773-1776" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_12" POS="RB" charOffset="1777-1780" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_13" POS="JJ" charOffset="1781-1792" text="appropriate" lemma="appropriate"/>
+            <token xml:space="preserve" id="stt_14" POS="," charOffset="1792-1793" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="1794-1798" text="such" lemma="such"/>
+            <token xml:space="preserve" id="stt_16" POS="IN" charOffset="1799-1801" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="1802-1810" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_18" POS="IN" charOffset="1811-1815" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_19" POS="JJ" charOffset="1816-1827" text="significant" lemma="significant"/>
+            <token xml:space="preserve" id="stt_20" POS="JJ" charOffset="1828-1836" text="valvular" lemma="valvular"/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="1837-1845" text="stenosis" lemma="stenosis"/>
+            <token xml:space="preserve" id="stt_22" POS="," charOffset="1845-1846" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_23" POS="JJ" charOffset="1847-1858" text="restrictive" lemma="restrictive"/>
+            <token xml:space="preserve" id="stt_24" POS="CC" charOffset="1859-1861" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="1862-1873" text="obstructive" lemma="obstructive"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="1874-1888" text="cardiomyopathy" lemma="cardiomyopathy"/>
+            <token xml:space="preserve" id="stt_27" POS="," charOffset="1888-1889" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_28" POS="JJ" charOffset="1890-1902" text="constrictive" lemma="constrictive"/>
+            <token xml:space="preserve" id="stt_29" POS="NN" charOffset="1903-1915" text="pericarditis" lemma="pericarditis"/>
+            <token xml:space="preserve" id="stt_30" POS="," charOffset="1915-1916" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_31" POS="JJ" charOffset="1917-1928" text="pericardial" lemma="pericardial"/>
+            <token xml:space="preserve" id="stt_32" POS="NN" charOffset="1929-1938" text="tamponade" lemma="tamponade"/>
+            <token xml:space="preserve" id="stt_33" POS="," charOffset="1938-1939" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_34" POS="CC" charOffset="1940-1942" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_35" POS="JJ" charOffset="1943-1948" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_36" POS="NNS" charOffset="1949-1959" text="conditions" lemma="condition"/>
+            <token xml:space="preserve" id="stt_37" POS="IN" charOffset="1960-1962" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_38" POS="WDT" charOffset="1963-1968" text="which" lemma="which"/>
+            <token xml:space="preserve" id="stt_39" POS="JJ" charOffset="1969-1976" text="cardiac" lemma="cardiac"/>
+            <token xml:space="preserve" id="stt_40" POS="NN" charOffset="1977-1983" text="output" lemma="output"/>
+            <token xml:space="preserve" id="stt_41" POS="VBZ" charOffset="1984-1986" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_42" POS="JJ" charOffset="1987-1996" text="dependent" lemma="dependent"/>
+            <token xml:space="preserve" id="stt_43" POS="IN" charOffset="1997-2001" text="upon" lemma="upon"/>
+            <token xml:space="preserve" id="stt_44" POS="JJ" charOffset="2002-2008" text="venous" lemma="venous"/>
+            <token xml:space="preserve" id="stt_45" POS="NN" charOffset="2009-2015" text="return" lemma="return"/>
+            <token xml:space="preserve" id="stt_46" POS="," charOffset="2015-2016" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_47" POS="CC" charOffset="2017-2019" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_48" POS="IN" charOffset="2020-2023" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_49" POS="NNS" charOffset="2024-2032" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_50" POS="VBN" charOffset="2033-2042" text="suspected" lemma="suspect"/>
+            <token xml:space="preserve" id="stt_51" POS="TO" charOffset="2043-2045" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_52" POS="VB" charOffset="2046-2050" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_53" POS="JJ" charOffset="2051-2054" text="low" lemma="low"/>
+            <token xml:space="preserve" id="stt_54" POS="JJ" charOffset="2055-2062" text="cardiac" lemma="cardiac"/>
+            <token xml:space="preserve" id="stt_55" POS="NN" charOffset="2063-2070" text="filling" lemma="filling"/>
+            <token xml:space="preserve" id="stt_56" POS="NNS" charOffset="2071-2080" text="pressures" lemma="pressure"/>
+            <token xml:space="preserve" id="stt_57" POS="-LRB-" charOffset="2081-2082" text="[" lemma="["/>
+            <token xml:space="preserve" id="stt_58" POS="VB" charOffset="2082-2085" text="see" lemma="see"/>
+            <token xml:space="preserve" id="stt_59" POS="NNS" charOffset="2086-2103" text="Contraindications" lemma="contraindication"/>
+            <token xml:space="preserve" id="stt_60" POS="-LRB-" charOffset="2104-2105" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_61" POS="CD" charOffset="2105-2106" text="4" lemma="4"/>
+            <token xml:space="preserve" id="stt_62" POS="-RRB-" charOffset="2106-2107" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_63" POS="-RRB-" charOffset="2107-2108" text="]" lemma="]"/>
+            <token xml:space="preserve" id="stt_64" POS="." charOffset="2108-2109" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_32" type="prep_for"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_49" type="prep_for"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_2" type="auxpass"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_3" type="neg"/>
+            <dependency id="stp_6" t1="stt_4" t2="stt_36" type="prep_for"/>
+            <dependency id="stp_7" t1="stt_4" t2="stt_6" type="prep_for"/>
+            <dependency id="stp_8" t1="stt_4" t2="stt_26" type="prep_for"/>
+            <dependency id="stp_9" t1="stt_4" t2="stt_29" type="prep_for"/>
+            <dependency id="stp_10" t1="stt_6" t2="stt_32" type="conj_or"/>
+            <dependency id="stp_11" t1="stt_6" t2="stt_17" type="prep_such_as"/>
+            <dependency id="stp_12" t1="stt_6" t2="stt_49" type="conj_or"/>
+            <dependency id="stp_13" t1="stt_6" t2="stt_36" type="conj_or"/>
+            <dependency id="stp_14" t1="stt_6" t2="stt_26" type="conj_or"/>
+            <dependency id="stp_15" t1="stt_6" t2="stt_13" type="prepc_for"/>
+            <dependency id="stp_16" t1="stt_6" t2="stt_29" type="conj_or"/>
+            <dependency id="stp_17" t1="stt_10" t2="stt_9" type="amod"/>
+            <dependency id="stp_18" t1="stt_13" t2="stt_8" type="dobj"/>
+            <dependency id="stp_19" t1="stt_13" t2="stt_10" type="nsubj"/>
+            <dependency id="stp_20" t1="stt_13" t2="stt_11" type="cop"/>
+            <dependency id="stp_21" t1="stt_13" t2="stt_12" type="neg"/>
+            <dependency id="stp_22" t1="stt_17" t2="stt_21" type="prep_with"/>
+            <dependency id="stp_23" t1="stt_21" t2="stt_19" type="amod"/>
+            <dependency id="stp_24" t1="stt_21" t2="stt_20" type="amod"/>
+            <dependency id="stp_25" t1="stt_23" t2="stt_25" type="conj_or"/>
+            <dependency id="stp_26" t1="stt_26" t2="stt_23" type="amod"/>
+            <dependency id="stp_27" t1="stt_26" t2="stt_25" type="amod"/>
+            <dependency id="stp_28" t1="stt_29" t2="stt_28" type="amod"/>
+            <dependency id="stp_29" t1="stt_32" t2="stt_31" type="amod"/>
+            <dependency id="stp_30" t1="stt_36" t2="stt_35" type="amod"/>
+            <dependency id="stp_31" t1="stt_36" t2="stt_42" type="rcmod"/>
+            <dependency id="stp_32" t1="stt_40" t2="stt_39" type="amod"/>
+            <dependency id="stp_33" t1="stt_42" t2="stt_38" type="prep_in"/>
+            <dependency id="stp_34" t1="stt_42" t2="stt_40" type="nsubj"/>
+            <dependency id="stp_35" t1="stt_42" t2="stt_41" type="cop"/>
+            <dependency id="stp_36" t1="stt_42" t2="stt_45" type="prep_upon"/>
+            <dependency id="stp_37" t1="stt_45" t2="stt_44" type="amod"/>
+            <dependency id="stp_38" t1="stt_49" t2="stt_50" type="vmod"/>
+            <dependency id="stp_39" t1="stt_50" t2="stt_52" type="xcomp"/>
+            <dependency id="stp_40" t1="stt_52" t2="stt_51" type="aux"/>
+            <dependency id="stp_41" t1="stt_52" t2="stt_58" type="ccomp"/>
+            <dependency id="stp_42" t1="stt_56" t2="stt_53" type="amod"/>
+            <dependency id="stp_43" t1="stt_56" t2="stt_54" type="amod"/>
+            <dependency id="stp_44" t1="stt_56" t2="stt_55" type="nn"/>
+            <dependency id="stp_45" t1="stt_58" t2="stt_56" type="nsubj"/>
+            <dependency id="stp_46" t1="stt_58" t2="stt_57" type="punct"/>
+            <dependency id="stp_47" t1="stt_58" t2="stt_59" type="dobj"/>
+            <dependency id="stp_48" t1="stt_58" t2="stt_63" type="advmod"/>
+            <dependency id="stp_49" t1="stt_59" t2="stt_61" type="appos"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H NATRECOR))
+            (VP=H (VBZ=H is) (RB not)
+            (VP (VBN=H recommended)
+            (PP
+            (PP=H (IN=H for)
+            (NP
+            (NP=H
+            (NP=H (NNS=H patients))
+            (PP (IN=H for)
+            (SBAR
+            (WHNP=H (WP=H whom))
+            (S
+            (NP (VBG vasodilating) (NNS=H agents))
+            (VP=H (VBP=H are) (RB not)
+            (ADJP (JJ=H appropriate))))))
+            (, ,)
+            (PP (JJ such) (IN=H as)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP (JJ significant) (JJ valvular) (NN=H stenosis))))))
+            (, ,)
+            (NP
+            (ADJP (JJ=H restrictive)
+            (CC or)
+            (JJ obstructive))
+            (NN=H cardiomyopathy))
+            (, ,)
+            (NP (JJ constrictive) (NN=H pericarditis))
+            (, ,)
+            (NP (JJ pericardial) (NN=H tamponade))
+            (, ,)
+            (CC or)
+            (NP
+            (NP=H (JJ other) (NNS=H conditions))
+            (SBAR
+            (WHPP=H (IN=H in)
+            (WHNP (WDT=H which)))
+            (S
+            (NP (JJ cardiac) (NN=H output))
+            (VP=H (VBZ=H is)
+            (ADJP (JJ=H dependent)
+            (PP (IN=H upon)
+            (NP (JJ venous) (NN=H return))))))))))
+            (, ,)
+            (CC or)
+            (PP (IN=H for)
+            (NP
+            (NP=H (NNS=H patients))
+            (VP (VBN=H suspected)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H have)
+            (S
+            (NP (JJ low) (JJ cardiac) (NN filling) (NNS=H pressures))
+            (VP=H (-LRB- -LSB-)
+            (VP=H (VB=H see)
+            (NP
+            (NP=H (NNS=H Contraindications))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD=H 4))
+            (-RRB- -RRB-)))
+            (ADVP (-RRB-=H -RSB-))))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2111-2144" id="S18">
+        <text xml:space="preserve">5.2 Worsening of Renal Function
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="2111-2114" text="5.2" lemma="5.2"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="2115-2124" text="Worsening" lemma="worsening"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="2125-2127" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="2128-2133" text="Renal" lemma="renal"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2134-2142" text="Function" lemma="function"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_2" type="dep"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_5" type="prep_of"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_4" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (CD=H 5.2))
+            (NP
+            (NP=H (JJ=H Worsening))
+            (PP (IN=H of)
+            (NP (JJ Renal) (NN=H Function))))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2144-2225" id="S19">
+        <text xml:space="preserve">NATRECOR may decrease renal function as judged by increases in serum creatinine. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="2144-2152" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_2" POS="MD" charOffset="2153-2156" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_3" POS="VB" charOffset="2157-2165" text="decrease" lemma="decrease"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="2166-2171" text="renal" lemma="renal"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2172-2180" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2181-2183" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_7" POS="VBN" charOffset="2184-2190" text="judged" lemma="judge"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="2191-2193" text="by" lemma="by"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="2194-2203" text="increases" lemma="increase"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="2204-2206" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="2207-2212" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="2213-2223" text="creatinine" lemma="creatinine"/>
+            <token xml:space="preserve" id="stt_13" POS="." charOffset="2223-2224" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nsubj"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="aux"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="dobj"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_7" type="advcl"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_4" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_6" type="mark"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_9" type="prep_by"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (NNP=H NATRECOR))
+            (VP=H (MD=H may)
+            (VP (VB=H decrease)
+            (NP (JJ renal) (NN=H function))
+            (SBAR (IN=H as)
+            (S
+            (VP=H (VBN=H judged)
+            (PP (IN=H by)
+            (NP
+            (NP=H (NNS=H increases))
+            (PP (IN=H in)
+            (NP (NN serum) (NN=H creatinine))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2225-2300" id="S20">
+        <text xml:space="preserve">Monitor serum creatinine both during and after therapy has been completed. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="2225-2232" text="Monitor" lemma="Monitor"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2233-2238" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2239-2249" text="creatinine" lemma="creatinine"/>
+            <token xml:space="preserve" id="stt_4" POS="CC" charOffset="2250-2254" text="both" lemma="both"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="2255-2261" text="during" lemma="during"/>
+            <token xml:space="preserve" id="stt_6" POS="CC" charOffset="2262-2265" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="2266-2271" text="after" lemma="after"/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="2272-2279" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_9" POS="VBZ" charOffset="2280-2283" text="has" lemma="have"/>
+            <token xml:space="preserve" id="stt_10" POS="VBN" charOffset="2284-2288" text="been" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="2289-2298" text="completed" lemma="complete"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="2298-2299" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_2" t1="stt_1" t2="stt_3" type="dep"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_4" t1="stt_3" t2="stt_3" type="conj_and"/>
+            <dependency id="stp_5" t1="stt_3" t2="stt_4" type="preconj"/>
+            <dependency id="stp_6" t1="stt_3" t2="stt_8" type="prep_after"/>
+            <dependency id="stp_7" t1="stt_3" t2="stt_8" type="prep_during"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_1" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_9" type="aux"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNP=H Monitor))
+            (VP
+            (NP=H (NN serum) (NN=H creatinine))
+            (PP (CC both)
+            (IN=H during)
+            (CC and)
+            (IN after)
+            (NP (NN=H therapy)))))
+            (VP=H (VBZ=H has)
+            (VP (VBN=H been)
+            (VP (VBN=H completed))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2300-2355" id="S21">
+        <text xml:space="preserve">Monitor serum creatinine until values have stabilized. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="NNP" charOffset="2300-2307" text="Monitor" lemma="Monitor"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2308-2313" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_3" POS="NN" charOffset="2314-2324" text="creatinine" lemma="creatinine"/>
+            <token xml:space="preserve" id="stt_4" POS="IN" charOffset="2325-2330" text="until" lemma="until"/>
+            <token xml:space="preserve" id="stt_5" POS="NNS" charOffset="2331-2337" text="values" lemma="value"/>
+            <token xml:space="preserve" id="stt_6" POS="VBP" charOffset="2338-2342" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_7" POS="VBN" charOffset="2343-2353" text="stabilized" lemma="stabilize"/>
+            <token xml:space="preserve" id="stt_8" POS="." charOffset="2353-2354" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="nn"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_until"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_3" type="nsubj"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_6" type="aux"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (NNP Monitor) (NN serum) (NN=H creatinine))
+            (PP (IN=H until)
+            (NP (NNS=H values))))
+            (VP=H (VBP=H have)
+            (VP (VBN=H stabilized)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2355-2543" id="S22">
+        <text xml:space="preserve">In patients with severe heart failure whose renal function may depend on the activity of the renin-angiotensin aldosterone system, treatment with NATRECOR may be associated with azotemia. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="2355-2357" text="In" lemma="in"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="2358-2366" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="2367-2371" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_4" POS="JJ" charOffset="2372-2378" text="severe" lemma="severe"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2379-2384" text="heart" lemma="heart"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="2385-2392" text="failure" lemma="failure"/>
+            <token xml:space="preserve" id="stt_7" POS="WP$" charOffset="2393-2398" text="whose" lemma="whose"/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="2399-2404" text="renal" lemma="renal"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="2405-2413" text="function" lemma="function"/>
+            <token xml:space="preserve" id="stt_10" POS="MD" charOffset="2414-2417" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_11" POS="VB" charOffset="2418-2424" text="depend" lemma="depend"/>
+            <token xml:space="preserve" id="stt_12" POS="IN" charOffset="2425-2427" text="on" lemma="on"/>
+            <token xml:space="preserve" id="stt_13" POS="DT" charOffset="2428-2431" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="2432-2440" text="activity" lemma="activity"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="2441-2443" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="2444-2447" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="JJ" charOffset="2448-2465" text="renin-angiotensin" lemma="renin-angiotensin"/>
+            <token xml:space="preserve" id="stt_18" POS="NN" charOffset="2466-2477" text="aldosterone" lemma="aldosterone"/>
+            <token xml:space="preserve" id="stt_19" POS="NN" charOffset="2478-2484" text="system" lemma="system"/>
+            <token xml:space="preserve" id="stt_20" POS="," charOffset="2484-2485" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_21" POS="NN" charOffset="2486-2495" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_22" POS="IN" charOffset="2496-2500" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="2501-2509" text="NATRECOR" lemma="natrecor"/>
+            <token xml:space="preserve" id="stt_24" POS="MD" charOffset="2510-2513" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_25" POS="VB" charOffset="2514-2516" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_26" POS="VBN" charOffset="2517-2527" text="associated" lemma="associate"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="2528-2532" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="2533-2541" text="azotemia" lemma="azotemia"/>
+            <token xml:space="preserve" id="stt_29" POS="." charOffset="2541-2542" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_4" type="amod"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_5" type="nn"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_11" type="rcmod"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_7" type="poss"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_7" t1="stt_11" t2="stt_9" type="nsubj"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="aux"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_14" type="prep_on"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_19" type="prep_of"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_13" type="det"/>
+            <dependency id="stp_12" t1="stt_19" t2="stt_16" type="det"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_17" type="amod"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_18" type="nn"/>
+            <dependency id="stp_15" t1="stt_21" t2="stt_23" type="prep_with"/>
+            <dependency id="stp_16" t1="stt_26" t2="stt_2" type="prep_in"/>
+            <dependency id="stp_17" t1="stt_26" t2="stt_21" type="nsubjpass"/>
+            <dependency id="stp_18" t1="stt_26" t2="stt_24" type="aux"/>
+            <dependency id="stp_19" t1="stt_26" t2="stt_25" type="auxpass"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_28" type="prep_with"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (PP (IN=H In)
+            (NP
+            (NP=H (NNS=H patients))
+            (PP (IN=H with)
+            (NP
+            (NP=H (JJ severe) (NN heart) (NN=H failure))
+            (SBAR
+            (WHNP=H (WP$=H whose) (JJ renal) (NN function))
+            (S
+            (VP=H (MD=H may)
+            (VP (VB=H depend)
+            (PP (IN=H on)
+            (NP
+            (NP=H (DT the) (NN=H activity))
+            (PP (IN=H of)
+            (NP (DT the) (JJ renin-angiotensin) (NN aldosterone) (NN=H system)))))))))))))
+            (, ,)
+            (NP
+            (NP=H (NN=H treatment))
+            (PP (IN=H with)
+            (NP (NN=H NATRECOR))))
+            (VP=H (MD=H may)
+            (VP (VB=H be)
+            (VP (VBN=H associated)
+            (PP (IN=H with)
+            (NP (NN=H azotemia))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2543-2825" id="S23">
+        <text xml:space="preserve">When NATRECOR was initiated at doses higher than 0.01 mcg/kg/min (0.015 and 0.03 mcg/kg/min), there was an increased rate of elevated serum creatinine over baseline compared with standard therapies, although the rate of acute renal failure and need for dialysis was not increased.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="WRB" charOffset="2543-2547" text="When" lemma="when"/>
+            <token xml:space="preserve" id="stt_2" POS="NNP" charOffset="2548-2556" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_3" POS="VBD" charOffset="2557-2560" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_4" POS="VBN" charOffset="2561-2570" text="initiated" lemma="initiate"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="2571-2573" text="at" lemma="at"/>
+            <token xml:space="preserve" id="stt_6" POS="NNS" charOffset="2574-2579" text="doses" lemma="dose"/>
+            <token xml:space="preserve" id="stt_7" POS="JJR" charOffset="2580-2586" text="higher" lemma="higher"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="2587-2591" text="than" lemma="than"/>
+            <token xml:space="preserve" id="stt_9" POS="CD" charOffset="2592-2596" text="0.01" lemma="0.01"/>
+            <token xml:space="preserve" id="stt_10" POS="NN" charOffset="2597-2607" text="mcg/kg/min" lemma="mcg/kg/min"/>
+            <token xml:space="preserve" id="stt_11" POS="-LRB-" charOffset="2608-2609" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_12" POS="CD" charOffset="2609-2614" text="0.015" lemma="0.015"/>
+            <token xml:space="preserve" id="stt_13" POS="CC" charOffset="2615-2618" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_14" POS="CD" charOffset="2619-2623" text="0.03" lemma="0.03"/>
+            <token xml:space="preserve" id="stt_15" POS="NN" charOffset="2624-2634" text="mcg/kg/min" lemma="mcg/kg/min"/>
+            <token xml:space="preserve" id="stt_16" POS="-RRB-" charOffset="2634-2635" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_17" POS="," charOffset="2635-2636" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_18" POS="EX" charOffset="2637-2642" text="there" lemma="there"/>
+            <token xml:space="preserve" id="stt_19" POS="VBD" charOffset="2643-2646" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="2647-2649" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_21" POS="VBN" charOffset="2650-2659" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="2660-2664" text="rate" lemma="rate"/>
+            <token xml:space="preserve" id="stt_23" POS="IN" charOffset="2665-2667" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_24" POS="JJ" charOffset="2668-2676" text="elevated" lemma="elevated"/>
+            <token xml:space="preserve" id="stt_25" POS="NN" charOffset="2677-2682" text="serum" lemma="serum"/>
+            <token xml:space="preserve" id="stt_26" POS="NN" charOffset="2683-2693" text="creatinine" lemma="creatinine"/>
+            <token xml:space="preserve" id="stt_27" POS="IN" charOffset="2694-2698" text="over" lemma="over"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="2699-2707" text="baseline" lemma="baseline"/>
+            <token xml:space="preserve" id="stt_29" POS="VBN" charOffset="2708-2716" text="compared" lemma="compare"/>
+            <token xml:space="preserve" id="stt_30" POS="IN" charOffset="2717-2721" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_31" POS="JJ" charOffset="2722-2730" text="standard" lemma="standard"/>
+            <token xml:space="preserve" id="stt_32" POS="NNS" charOffset="2731-2740" text="therapies" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_33" POS="," charOffset="2740-2741" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_34" POS="IN" charOffset="2742-2750" text="although" lemma="although"/>
+            <token xml:space="preserve" id="stt_35" POS="DT" charOffset="2751-2754" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_36" POS="NN" charOffset="2755-2759" text="rate" lemma="rate"/>
+            <token xml:space="preserve" id="stt_37" POS="IN" charOffset="2760-2762" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_38" POS="JJ" charOffset="2763-2768" text="acute" lemma="acute"/>
+            <token xml:space="preserve" id="stt_39" POS="JJ" charOffset="2769-2774" text="renal" lemma="renal"/>
+            <token xml:space="preserve" id="stt_40" POS="NN" charOffset="2775-2782" text="failure" lemma="failure"/>
+            <token xml:space="preserve" id="stt_41" POS="CC" charOffset="2783-2786" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_42" POS="VB" charOffset="2787-2791" text="need" lemma="need"/>
+            <token xml:space="preserve" id="stt_43" POS="IN" charOffset="2792-2795" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_44" POS="NN" charOffset="2796-2804" text="dialysis" lemma="dialysis"/>
+            <token xml:space="preserve" id="stt_45" POS="VBD" charOffset="2805-2808" text="was" lemma="be"/>
+            <token xml:space="preserve" id="stt_46" POS="RB" charOffset="2809-2812" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_47" POS="VBN" charOffset="2813-2822" text="increased" lemma="increase"/>
+            <token xml:space="preserve" id="stt_48" POS="." charOffset="2822-2823" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="advmod"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="auxpass"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_6" type="prep_at"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_7" type="amod"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_10" type="prep_than"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_12" type="dep"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_15" type="dep"/>
+            <dependency id="stp_9" t1="stt_10" t2="stt_9" type="num"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_15" type="conj_and"/>
+            <dependency id="stp_11" t1="stt_15" t2="stt_14" type="num"/>
+            <dependency id="stp_12" t1="stt_19" t2="stt_18" type="expl"/>
+            <dependency id="stp_13" t1="stt_19" t2="stt_4" type="advcl"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_22" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_47" type="advcl"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_32" type="pobj"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_20" type="det"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_21" type="amod"/>
+            <dependency id="stp_19" t1="stt_22" t2="stt_26" type="prep_of"/>
+            <dependency id="stp_20" t1="stt_22" t2="stt_30" type="prepc_compared_with"/>
+            <dependency id="stp_21" t1="stt_26" t2="stt_24" type="amod"/>
+            <dependency id="stp_22" t1="stt_26" t2="stt_25" type="nn"/>
+            <dependency id="stp_23" t1="stt_26" t2="stt_28" type="prep_over"/>
+            <dependency id="stp_24" t1="stt_32" t2="stt_31" type="amod"/>
+            <dependency id="stp_25" t1="stt_36" t2="stt_35" type="det"/>
+            <dependency id="stp_26" t1="stt_36" t2="stt_40" type="prep_of"/>
+            <dependency id="stp_27" t1="stt_36" t2="stt_42" type="prep_of"/>
+            <dependency id="stp_28" t1="stt_40" t2="stt_38" type="amod"/>
+            <dependency id="stp_29" t1="stt_40" t2="stt_39" type="amod"/>
+            <dependency id="stp_30" t1="stt_40" t2="stt_42" type="conj_and"/>
+            <dependency id="stp_31" t1="stt_42" t2="stt_44" type="prep_for"/>
+            <dependency id="stp_32" t1="stt_47" t2="stt_34" type="mark"/>
+            <dependency id="stp_33" t1="stt_47" t2="stt_36" type="nsubjpass"/>
+            <dependency id="stp_34" t1="stt_47" t2="stt_45" type="auxpass"/>
+            <dependency id="stp_35" t1="stt_47" t2="stt_46" type="neg"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR
+            (WHADVP=H (WRB=H When))
+            (S
+            (NP (NNP=H NATRECOR))
+            (VP=H (VBD=H was)
+            (VP (VBN=H initiated)
+            (PP (IN=H at)
+            (NP
+            (NP=H (NNS=H doses))
+            (ADJP
+            (ADJP=H (JJR=H higher)
+            (PP (IN=H than)
+            (NP (CD 0.01) (NN=H mcg/kg/min))))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H (CD=H 0.015))
+            (CC and)
+            (NP (CD 0.03) (NN=H mcg/kg/min)))
+            (-RRB- -RRB-)))))))))
+            (, ,)
+            (NP (EX=H there))
+            (VP=H (VBD=H was)
+            (NP
+            (NP=H (DT an) (VBN increased) (NN=H rate))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ elevated) (NN serum) (NN=H creatinine))
+            (PP (IN=H over)
+            (NP (NN=H baseline)))))
+            (PP (VBN=H compared)
+            (PP (IN=H with)
+            (NP (JJ standard) (NNS=H therapies)))))
+            (, ,)
+            (SBAR (IN=H although)
+            (S
+            (NP
+            (NP=H (DT the) (NN=H rate))
+            (PP (IN=H of)
+            (NP
+            (NP=H (JJ acute) (JJ renal) (NN=H failure))
+            (CC and)
+            (S
+            (VP=H (VB=H need)
+            (PP (IN=H for)
+            (NP (NN=H dialysis))))))))
+            (VP=H (VBD=H was) (RB not)
+            (VP (VBN=H increased))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2825-2847" id="S24">
+        <text xml:space="preserve">5.3 Hypersensitivity
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="2825-2828" text="5.3" lemma="5.3"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="2829-2845" text="Hypersensitivity" lemma="hypersensitivity"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H (CD 5.3) (NN=H Hypersensitivity)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2847-2949" id="S25">
+        <text xml:space="preserve">Serious hypersensitivity/allergic reactions following administration of NATRECOR have been reported.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="JJ" charOffset="2847-2854" text="Serious" lemma="serious"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="2855-2880" text="hypersensitivity/allergic" lemma="hypersensitivity/allergic"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="2881-2890" text="reactions" lemma="reaction"/>
+            <token xml:space="preserve" id="stt_4" POS="VBG" charOffset="2891-2900" text="following" lemma="follow"/>
+            <token xml:space="preserve" id="stt_5" POS="NN" charOffset="2901-2915" text="administration" lemma="administration"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="2916-2918" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_7" POS="NNP" charOffset="2919-2927" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_8" POS="VBP" charOffset="2928-2932" text="have" lemma="have"/>
+            <token xml:space="preserve" id="stt_9" POS="VBN" charOffset="2933-2937" text="been" lemma="be"/>
+            <token xml:space="preserve" id="stt_10" POS="VBN" charOffset="2938-2946" text="reported" lemma="report"/>
+            <token xml:space="preserve" id="stt_11" POS="." charOffset="2946-2947" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="amod"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_3" t2="stt_5" type="prep_following"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_7" type="prep_of"/>
+            <dependency id="stp_5" t1="stt_10" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_6" t1="stt_10" t2="stt_8" type="aux"/>
+            <dependency id="stp_7" t1="stt_10" t2="stt_9" type="auxpass"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (JJ Serious) (JJ hypersensitivity/allergic) (NNS=H reactions))
+            (PP (VBG=H following)
+            (NP
+            (NP=H (NN=H administration))
+            (PP (IN=H of)
+            (NP (NNP=H NATRECOR))))))
+            (VP=H (VBP=H have)
+            (VP (VBN=H been)
+            (VP (VBN=H reported))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="2949-3060" id="S26">
+        <text xml:space="preserve">These reactions are more likely to occur in individuals with a history of sensitivity to recombinant peptides. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="2949-2954" text="These" lemma="these"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="2955-2964" text="reactions" lemma="reaction"/>
+            <token xml:space="preserve" id="stt_3" POS="VBP" charOffset="2965-2968" text="are" lemma="be"/>
+            <token xml:space="preserve" id="stt_4" POS="RBR" charOffset="2969-2973" text="more" lemma="more"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="2974-2980" text="likely" lemma="likely"/>
+            <token xml:space="preserve" id="stt_6" POS="TO" charOffset="2981-2983" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_7" POS="VB" charOffset="2984-2989" text="occur" lemma="occur"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="2990-2992" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_9" POS="NNS" charOffset="2993-3004" text="individuals" lemma="individual"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="3005-3009" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_11" POS="DT" charOffset="3010-3011" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="3012-3019" text="history" lemma="history"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="3020-3022" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_14" POS="NN" charOffset="3023-3034" text="sensitivity" lemma="sensitivity"/>
+            <token xml:space="preserve" id="stt_15" POS="TO" charOffset="3035-3037" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="3038-3049" text="recombinant" lemma="recombinant"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="3050-3058" text="peptides" lemma="peptide"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="3058-3059" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_5" t2="stt_2" type="nsubj"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="cop"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="advmod"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_7" type="xcomp"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_17" type="prep_to"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_6" type="aux"/>
+            <dependency id="stp_8" t1="stt_7" t2="stt_9" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_9" t2="stt_12" type="prep_with"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_11" type="det"/>
+            <dependency id="stp_11" t1="stt_12" t2="stt_14" type="prep_of"/>
+            <dependency id="stp_12" t1="stt_17" t2="stt_16" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT These) (NNS=H reactions))
+            (VP=H (VBP=H are)
+            (ADJP (RBR more) (JJ=H likely)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H occur)
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H individuals))
+            (PP (IN=H with)
+            (NP
+            (NP=H (DT a) (NN=H history))
+            (PP (IN=H of)
+            (NP (NN=H sensitivity)))))))
+            (PP (TO=H to)
+            (NP (JJ recombinant) (NNS=H peptides))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3060-3244" id="S27">
+        <text xml:space="preserve">Before therapy with NATRECOR is instituted, careful inquiry should be made to determine whether the patient has had a previous hypersensitivity reaction to other recombinant peptides. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="3060-3066" text="Before" lemma="before"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="3067-3074" text="therapy" lemma="therapy"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="3075-3079" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_4" POS="NNP" charOffset="3080-3088" text="NATRECOR" lemma="NATRECOR"/>
+            <token xml:space="preserve" id="stt_5" POS="VBZ" charOffset="3089-3091" text="is" lemma="be"/>
+            <token xml:space="preserve" id="stt_6" POS="VBN" charOffset="3092-3102" text="instituted" lemma="institute"/>
+            <token xml:space="preserve" id="stt_7" POS="," charOffset="3102-3103" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_8" POS="JJ" charOffset="3104-3111" text="careful" lemma="careful"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="3112-3119" text="inquiry" lemma="inquiry"/>
+            <token xml:space="preserve" id="stt_10" POS="MD" charOffset="3120-3126" text="should" lemma="should"/>
+            <token xml:space="preserve" id="stt_11" POS="VB" charOffset="3127-3129" text="be" lemma="be"/>
+            <token xml:space="preserve" id="stt_12" POS="VBN" charOffset="3130-3134" text="made" lemma="make"/>
+            <token xml:space="preserve" id="stt_13" POS="TO" charOffset="3135-3137" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_14" POS="VB" charOffset="3138-3147" text="determine" lemma="determine"/>
+            <token xml:space="preserve" id="stt_15" POS="IN" charOffset="3148-3155" text="whether" lemma="whether"/>
+            <token xml:space="preserve" id="stt_16" POS="DT" charOffset="3156-3159" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_17" POS="NN" charOffset="3160-3167" text="patient" lemma="patient"/>
+            <token xml:space="preserve" id="stt_18" POS="VBZ" charOffset="3168-3171" text="has" lemma="have"/>
+            <token xml:space="preserve" id="stt_19" POS="VBN" charOffset="3172-3175" text="had" lemma="have"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="3176-3177" text="a" lemma="a"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="3178-3186" text="previous" lemma="previous"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="3187-3203" text="hypersensitivity" lemma="hypersensitivity"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="3204-3212" text="reaction" lemma="reaction"/>
+            <token xml:space="preserve" id="stt_24" POS="TO" charOffset="3213-3215" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="3216-3221" text="other" lemma="other"/>
+            <token xml:space="preserve" id="stt_26" POS="JJ" charOffset="3222-3233" text="recombinant" lemma="recombinant"/>
+            <token xml:space="preserve" id="stt_27" POS="NNS" charOffset="3234-3242" text="peptides" lemma="peptide"/>
+            <token xml:space="preserve" id="stt_28" POS="." charOffset="3242-3243" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_4" type="prep_with"/>
+            <dependency id="stp_2" t1="stt_6" t2="stt_1" type="mark"/>
+            <dependency id="stp_3" t1="stt_6" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_5" type="auxpass"/>
+            <dependency id="stp_5" t1="stt_9" t2="stt_8" type="amod"/>
+            <dependency id="stp_6" t1="stt_12" t2="stt_6" type="advcl"/>
+            <dependency id="stp_7" t1="stt_12" t2="stt_9" type="nsubjpass"/>
+            <dependency id="stp_8" t1="stt_12" t2="stt_10" type="aux"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="auxpass"/>
+            <dependency id="stp_10" t1="stt_12" t2="stt_14" type="xcomp"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_19" type="ccomp"/>
+            <dependency id="stp_12" t1="stt_14" t2="stt_13" type="aux"/>
+            <dependency id="stp_13" t1="stt_17" t2="stt_16" type="det"/>
+            <dependency id="stp_14" t1="stt_19" t2="stt_17" type="nsubj"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_18" type="aux"/>
+            <dependency id="stp_16" t1="stt_19" t2="stt_23" type="dobj"/>
+            <dependency id="stp_17" t1="stt_19" t2="stt_27" type="prep_to"/>
+            <dependency id="stp_18" t1="stt_19" t2="stt_15" type="mark"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_20" type="det"/>
+            <dependency id="stp_20" t1="stt_23" t2="stt_21" type="amod"/>
+            <dependency id="stp_21" t1="stt_23" t2="stt_22" type="nn"/>
+            <dependency id="stp_22" t1="stt_27" t2="stt_25" type="amod"/>
+            <dependency id="stp_23" t1="stt_27" t2="stt_26" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR (IN=H Before)
+            (S
+            (NP
+            (NP=H (NN=H therapy))
+            (PP (IN=H with)
+            (NP (NNP=H NATRECOR))))
+            (VP=H (VBZ=H is)
+            (VP (VBN=H instituted)))))
+            (, ,)
+            (NP (JJ careful) (NN=H inquiry))
+            (VP=H (MD=H should)
+            (VP (VB=H be)
+            (VP (VBN=H made)
+            (S
+            (VP=H (TO=H to)
+            (VP (VB=H determine)
+            (SBAR (IN=H whether)
+            (S
+            (NP (DT the) (NN=H patient))
+            (VP=H (VBZ=H has)
+            (VP (VBN=H had)
+            (NP (DT a) (JJ previous) (NN hypersensitivity) (NN=H reaction))
+            (PP (TO=H to)
+            (NP (JJ other) (JJ recombinant) (NNS=H peptides)))))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3244-3310" id="S28">
+        <text xml:space="preserve">If an allergic reaction to NATRECOR occurs, discontinue the drug. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="IN" charOffset="3244-3246" text="If" lemma="if"/>
+            <token xml:space="preserve" id="stt_2" POS="DT" charOffset="3247-3249" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="3250-3258" text="allergic" lemma="allergic"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="3259-3267" text="reaction" lemma="reaction"/>
+            <token xml:space="preserve" id="stt_5" POS="TO" charOffset="3268-3270" text="to" lemma="to"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="3271-3279" text="NATRECOR" lemma="natrecor"/>
+            <token xml:space="preserve" id="stt_7" POS="VBZ" charOffset="3280-3286" text="occurs" lemma="occur"/>
+            <token xml:space="preserve" id="stt_8" POS="," charOffset="3286-3287" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_9" POS="VB" charOffset="3288-3299" text="discontinue" lemma="discontinue"/>
+            <token xml:space="preserve" id="stt_10" POS="DT" charOffset="3300-3303" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="3304-3308" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_12" POS="." charOffset="3308-3309" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_2" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_6" type="prep_to"/>
+            <dependency id="stp_4" t1="stt_7" t2="stt_1" type="mark"/>
+            <dependency id="stp_5" t1="stt_7" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_6" t1="stt_9" t2="stt_7" type="advcl"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_11" type="dobj"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_10" type="det"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (SBAR (IN=H If)
+            (S
+            (NP
+            (NP=H (DT an) (JJ allergic) (NN=H reaction))
+            (PP (TO=H to)
+            (NP (NN=H NATRECOR))))
+            (VP=H (VBZ=H occurs))))
+            (, ,)
+            (VP=H (VB=H discontinue)
+            (NP (DT the) (NN=H drug)))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3310-3515" id="S29">
+        <text xml:space="preserve">Some serious hypersensitivity/allergic reactions may require treatment with epinephrine, oxygen, IV fluids, antihistamines, corticosteroids, pressor amines and airway management, as clinically indicated.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="3310-3314" text="Some" lemma="some"/>
+            <token xml:space="preserve" id="stt_2" POS="JJ" charOffset="3315-3322" text="serious" lemma="serious"/>
+            <token xml:space="preserve" id="stt_3" POS="JJ" charOffset="3323-3348" text="hypersensitivity/allergic" lemma="hypersensitivity/allergic"/>
+            <token xml:space="preserve" id="stt_4" POS="NNS" charOffset="3349-3358" text="reactions" lemma="reaction"/>
+            <token xml:space="preserve" id="stt_5" POS="MD" charOffset="3359-3362" text="may" lemma="may"/>
+            <token xml:space="preserve" id="stt_6" POS="VB" charOffset="3363-3370" text="require" lemma="require"/>
+            <token xml:space="preserve" id="stt_7" POS="NN" charOffset="3371-3380" text="treatment" lemma="treatment"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="3381-3385" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="3386-3397" text="epinephrine" lemma="epinephrine"/>
+            <token xml:space="preserve" id="stt_10" POS="," charOffset="3397-3398" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_11" POS="NN" charOffset="3399-3405" text="oxygen" lemma="oxygen"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="3405-3406" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="CD" charOffset="3407-3409" text="IV" lemma="iv"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="3410-3416" text="fluids" lemma="fluid"/>
+            <token xml:space="preserve" id="stt_15" POS="," charOffset="3416-3417" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_16" POS="NNS" charOffset="3418-3432" text="antihistamines" lemma="antihistamine"/>
+            <token xml:space="preserve" id="stt_17" POS="," charOffset="3432-3433" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_18" POS="NNS" charOffset="3434-3449" text="corticosteroids" lemma="corticosteroid"/>
+            <token xml:space="preserve" id="stt_19" POS="," charOffset="3449-3450" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="3451-3458" text="pressor" lemma="pressor"/>
+            <token xml:space="preserve" id="stt_21" POS="NNS" charOffset="3459-3465" text="amines" lemma="amine"/>
+            <token xml:space="preserve" id="stt_22" POS="CC" charOffset="3466-3469" text="and" lemma="and"/>
+            <token xml:space="preserve" id="stt_23" POS="NN" charOffset="3470-3476" text="airway" lemma="airway"/>
+            <token xml:space="preserve" id="stt_24" POS="NN" charOffset="3477-3487" text="management" lemma="management"/>
+            <token xml:space="preserve" id="stt_25" POS="," charOffset="3487-3488" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_26" POS="IN" charOffset="3489-3491" text="as" lemma="as"/>
+            <token xml:space="preserve" id="stt_27" POS="RB" charOffset="3492-3502" text="clinically" lemma="clinically"/>
+            <token xml:space="preserve" id="stt_28" POS="VBN" charOffset="3503-3512" text="indicated" lemma="indicate"/>
+            <token xml:space="preserve" id="stt_29" POS="." charOffset="3512-3513" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_4" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_4" t2="stt_2" type="amod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="amod"/>
+            <dependency id="stp_4" t1="stt_6" t2="stt_16" type="prep_with"/>
+            <dependency id="stp_5" t1="stt_6" t2="stt_18" type="prep_with"/>
+            <dependency id="stp_6" t1="stt_6" t2="stt_4" type="nsubj"/>
+            <dependency id="stp_7" t1="stt_6" t2="stt_5" type="aux"/>
+            <dependency id="stp_8" t1="stt_6" t2="stt_21" type="prep_with"/>
+            <dependency id="stp_9" t1="stt_6" t2="stt_7" type="dobj"/>
+            <dependency id="stp_10" t1="stt_6" t2="stt_24" type="prep_with"/>
+            <dependency id="stp_11" t1="stt_6" t2="stt_9" type="prep_with"/>
+            <dependency id="stp_12" t1="stt_6" t2="stt_11" type="prep_with"/>
+            <dependency id="stp_13" t1="stt_6" t2="stt_28" type="advcl"/>
+            <dependency id="stp_14" t1="stt_6" t2="stt_14" type="prep_with"/>
+            <dependency id="stp_15" t1="stt_9" t2="stt_16" type="conj_and"/>
+            <dependency id="stp_16" t1="stt_9" t2="stt_18" type="conj_and"/>
+            <dependency id="stp_17" t1="stt_9" t2="stt_21" type="conj_and"/>
+            <dependency id="stp_18" t1="stt_9" t2="stt_24" type="conj_and"/>
+            <dependency id="stp_19" t1="stt_9" t2="stt_11" type="conj_and"/>
+            <dependency id="stp_20" t1="stt_9" t2="stt_14" type="conj_and"/>
+            <dependency id="stp_21" t1="stt_14" t2="stt_13" type="num"/>
+            <dependency id="stp_22" t1="stt_21" t2="stt_20" type="nn"/>
+            <dependency id="stp_23" t1="stt_24" t2="stt_23" type="nn"/>
+            <dependency id="stp_24" t1="stt_28" t2="stt_26" type="mark"/>
+            <dependency id="stp_25" t1="stt_28" t2="stt_27" type="advmod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT Some) (JJ serious) (JJ hypersensitivity/allergic) (NNS=H reactions))
+            (VP=H (MD=H may)
+            (VP (VB=H require)
+            (NP (NN=H treatment))
+            (PP (IN=H with)
+            (NP
+            (NP=H (NN=H epinephrine))
+            (, ,)
+            (NP (NN=H oxygen))
+            (, ,)
+            (NP (CD IV) (NNS=H fluids))
+            (, ,)
+            (NP (NNS=H antihistamines))
+            (, ,)
+            (NP (NNS=H corticosteroids))
+            (, ,)
+            (NP (NN pressor) (NNS=H amines))
+            (CC and)
+            (NP (NN airway) (NN=H management))))
+            (, ,)
+            (SBAR (IN=H as)
+            (S
+            (ADVP (RB=H clinically))
+            (VP=H (VBN=H indicated))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3515-3536" id="S30">
+        <text xml:space="preserve">7 DRUG INTERACTIONS
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="CD" charOffset="3515-3516" text="7" lemma="7"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="3517-3521" text="DRUG" lemma="drug"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="3522-3534" text="INTERACTIONS" lemma="interaction"/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="num"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_3" type="dep"/>
+        </dependencies>
+        <tree>(ROOT
+            (NP=H
+            (NP=H (CD 7) (NN=H DRUG))
+            (NP (NNS=H INTERACTIONS))))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3536-3746" id="S31">
+        <text xml:space="preserve">No trials specifically examining potential drug interactions with NATRECOR were conducted, although many concomitant drugs (including IV nitroglycerin) were used in clinical trials [see Clinical Studies (14)]. </text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="3536-3538" text="No" lemma="no"/>
+            <token xml:space="preserve" id="stt_2" POS="NNS" charOffset="3539-3545" text="trials" lemma="trial"/>
+            <token xml:space="preserve" id="stt_3" POS="RB" charOffset="3546-3558" text="specifically" lemma="specifically"/>
+            <token xml:space="preserve" id="stt_4" POS="VBG" charOffset="3559-3568" text="examining" lemma="examine"/>
+            <token xml:space="preserve" id="stt_5" POS="JJ" charOffset="3569-3578" text="potential" lemma="potential"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="3579-3583" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_7" POS="NNS" charOffset="3584-3596" text="interactions" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_8" POS="IN" charOffset="3597-3601" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="3602-3610" text="NATRECOR" lemma="natrecor"/>
+            <token xml:space="preserve" id="stt_10" POS="VBD" charOffset="3611-3615" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_11" POS="VBN" charOffset="3616-3625" text="conducted" lemma="conduct"/>
+            <token xml:space="preserve" id="stt_12" POS="," charOffset="3625-3626" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="3627-3635" text="although" lemma="although"/>
+            <token xml:space="preserve" id="stt_14" POS="JJ" charOffset="3636-3640" text="many" lemma="many"/>
+            <token xml:space="preserve" id="stt_15" POS="JJ" charOffset="3641-3652" text="concomitant" lemma="concomitant"/>
+            <token xml:space="preserve" id="stt_16" POS="NNS" charOffset="3653-3658" text="drugs" lemma="drug"/>
+            <token xml:space="preserve" id="stt_17" POS="-LRB-" charOffset="3659-3660" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_18" POS="VBG" charOffset="3660-3669" text="including" lemma="include"/>
+            <token xml:space="preserve" id="stt_19" POS="CD" charOffset="3670-3672" text="IV" lemma="iv"/>
+            <token xml:space="preserve" id="stt_20" POS="NN" charOffset="3673-3686" text="nitroglycerin" lemma="nitroglycerin"/>
+            <token xml:space="preserve" id="stt_21" POS="-RRB-" charOffset="3686-3687" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_22" POS="VBD" charOffset="3688-3692" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_23" POS="VBN" charOffset="3693-3697" text="used" lemma="use"/>
+            <token xml:space="preserve" id="stt_24" POS="IN" charOffset="3698-3700" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_25" POS="JJ" charOffset="3701-3709" text="clinical" lemma="clinical"/>
+            <token xml:space="preserve" id="stt_26" POS="NNS" charOffset="3710-3716" text="trials" lemma="trial"/>
+            <token xml:space="preserve" id="stt_27" POS="-LRB-" charOffset="3717-3718" text="[" lemma="["/>
+            <token xml:space="preserve" id="stt_28" POS="VB" charOffset="3718-3721" text="see" lemma="see"/>
+            <token xml:space="preserve" id="stt_29" POS="JJ" charOffset="3722-3730" text="Clinical" lemma="clinical"/>
+            <token xml:space="preserve" id="stt_30" POS="NNS" charOffset="3731-3738" text="Studies" lemma="study"/>
+            <token xml:space="preserve" id="stt_31" POS="-LRB-" charOffset="3739-3740" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_32" POS="CD" charOffset="3740-3742" text="14" lemma="14"/>
+            <token xml:space="preserve" id="stt_33" POS="-RRB-" charOffset="3742-3743" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_34" POS="-RRB-" charOffset="3743-3744" text="]" lemma="]"/>
+            <token xml:space="preserve" id="stt_35" POS="." charOffset="3744-3745" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_2" t2="stt_4" type="vmod"/>
+            <dependency id="stp_3" t1="stt_4" t2="stt_3" type="advmod"/>
+            <dependency id="stp_4" t1="stt_4" t2="stt_7" type="dobj"/>
+            <dependency id="stp_5" t1="stt_4" t2="stt_9" type="prep_with"/>
+            <dependency id="stp_6" t1="stt_7" t2="stt_5" type="amod"/>
+            <dependency id="stp_7" t1="stt_7" t2="stt_6" type="nn"/>
+            <dependency id="stp_8" t1="stt_11" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_9" t1="stt_11" t2="stt_23" type="advcl"/>
+            <dependency id="stp_10" t1="stt_11" t2="stt_10" type="auxpass"/>
+            <dependency id="stp_11" t1="stt_16" t2="stt_20" type="prep_including"/>
+            <dependency id="stp_12" t1="stt_16" t2="stt_14" type="amod"/>
+            <dependency id="stp_13" t1="stt_16" t2="stt_15" type="amod"/>
+            <dependency id="stp_14" t1="stt_20" t2="stt_19" type="num"/>
+            <dependency id="stp_15" t1="stt_23" t2="stt_16" type="nsubjpass"/>
+            <dependency id="stp_16" t1="stt_23" t2="stt_22" type="auxpass"/>
+            <dependency id="stp_17" t1="stt_23" t2="stt_26" type="prep_in"/>
+            <dependency id="stp_18" t1="stt_23" t2="stt_28" type="ccomp"/>
+            <dependency id="stp_19" t1="stt_23" t2="stt_13" type="mark"/>
+            <dependency id="stp_20" t1="stt_26" t2="stt_25" type="amod"/>
+            <dependency id="stp_21" t1="stt_28" t2="stt_34" type="advmod"/>
+            <dependency id="stp_22" t1="stt_28" t2="stt_27" type="punct"/>
+            <dependency id="stp_23" t1="stt_28" t2="stt_30" type="dobj"/>
+            <dependency id="stp_24" t1="stt_30" t2="stt_32" type="appos"/>
+            <dependency id="stp_25" t1="stt_30" t2="stt_29" type="amod"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT No) (NNS=H trials))
+            (VP
+            (ADVP (RB=H specifically))
+            (VBG=H examining)
+            (NP (JJ potential) (NN drug) (NNS=H interactions))
+            (PP (IN=H with)
+            (NP (NN=H NATRECOR)))))
+            (VP=H (VBD=H were)
+            (VP (VBN=H conducted) (, ,)
+            (SBAR (IN=H although)
+            (S
+            (NP
+            (NP=H (JJ many) (JJ concomitant) (NNS=H drugs))
+            (PRN (-LRB- -LRB-)
+            (PP=H (VBG=H including)
+            (NP (CD IV) (NN=H nitroglycerin)))
+            (-RRB- -RRB-)))
+            (VP=H (VBD=H were)
+            (VP (VBN=H used)
+            (PP (IN=H in)
+            (NP (JJ clinical) (NNS=H trials)))
+            (S
+            (VP=H (-LRB- -LSB-)
+            (VP=H (VB=H see)
+            (NP
+            (NP=H (JJ Clinical) (NNS=H Studies))
+            (PRN (-LRB- -LRB-)
+            (NP=H (CD=H 14))
+            (-RRB- -RRB-)))
+            (ADVP (-RRB-=H -RSB-)))))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3746-3951" id="S32">
+        <text xml:space="preserve">No drug interactions were detected except for an increase in symptomatic hypotension in patients receiving afterload reducers or affecting the renin-angiotensin system (i.e., ARBs and/or ACE inhibitors).
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="3746-3748" text="No" lemma="no"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="3749-3753" text="drug" lemma="drug"/>
+            <token xml:space="preserve" id="stt_3" POS="NNS" charOffset="3754-3766" text="interactions" lemma="interaction"/>
+            <token xml:space="preserve" id="stt_4" POS="VBD" charOffset="3767-3771" text="were" lemma="be"/>
+            <token xml:space="preserve" id="stt_5" POS="VBN" charOffset="3772-3780" text="detected" lemma="detect"/>
+            <token xml:space="preserve" id="stt_6" POS="IN" charOffset="3781-3787" text="except" lemma="except"/>
+            <token xml:space="preserve" id="stt_7" POS="IN" charOffset="3788-3791" text="for" lemma="for"/>
+            <token xml:space="preserve" id="stt_8" POS="DT" charOffset="3792-3794" text="an" lemma="a"/>
+            <token xml:space="preserve" id="stt_9" POS="NN" charOffset="3795-3803" text="increase" lemma="increase"/>
+            <token xml:space="preserve" id="stt_10" POS="IN" charOffset="3804-3806" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_11" POS="JJ" charOffset="3807-3818" text="symptomatic" lemma="symptomatic"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="3819-3830" text="hypotension" lemma="hypotension"/>
+            <token xml:space="preserve" id="stt_13" POS="IN" charOffset="3831-3833" text="in" lemma="in"/>
+            <token xml:space="preserve" id="stt_14" POS="NNS" charOffset="3834-3842" text="patients" lemma="patient"/>
+            <token xml:space="preserve" id="stt_15" POS="VBG" charOffset="3843-3852" text="receiving" lemma="receive"/>
+            <token xml:space="preserve" id="stt_16" POS="JJ" charOffset="3853-3862" text="afterload" lemma="afterload"/>
+            <token xml:space="preserve" id="stt_17" POS="NNS" charOffset="3863-3871" text="reducers" lemma="reducer"/>
+            <token xml:space="preserve" id="stt_18" POS="CC" charOffset="3872-3874" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_19" POS="VBG" charOffset="3875-3884" text="affecting" lemma="affect"/>
+            <token xml:space="preserve" id="stt_20" POS="DT" charOffset="3885-3888" text="the" lemma="the"/>
+            <token xml:space="preserve" id="stt_21" POS="JJ" charOffset="3889-3906" text="renin-angiotensin" lemma="renin-angiotensin"/>
+            <token xml:space="preserve" id="stt_22" POS="NN" charOffset="3907-3913" text="system" lemma="system"/>
+            <token xml:space="preserve" id="stt_23" POS="-LRB-" charOffset="3914-3915" text="(" lemma="("/>
+            <token xml:space="preserve" id="stt_24" POS="FW" charOffset="3915-3919" text="i.e." lemma="i.e."/>
+            <token xml:space="preserve" id="stt_25" POS="," charOffset="3919-3920" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_26" POS="NNS" charOffset="3921-3925" text="ARBs" lemma="arb"/>
+            <token xml:space="preserve" id="stt_27" POS="CC" charOffset="3926-3932" text="and/or" lemma="and/or"/>
+            <token xml:space="preserve" id="stt_28" POS="NN" charOffset="3933-3936" text="ACE" lemma="ace"/>
+            <token xml:space="preserve" id="stt_29" POS="NNS" charOffset="3937-3947" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_30" POS="-RRB-" charOffset="3947-3948" text=")" lemma=")"/>
+            <token xml:space="preserve" id="stt_31" POS="." charOffset="3948-3949" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_3" t2="stt_1" type="det"/>
+            <dependency id="stp_2" t1="stt_3" t2="stt_2" type="nn"/>
+            <dependency id="stp_3" t1="stt_5" t2="stt_3" type="nsubjpass"/>
+            <dependency id="stp_4" t1="stt_5" t2="stt_4" type="auxpass"/>
+            <dependency id="stp_5" t1="stt_5" t2="stt_9" type="prep_except_for"/>
+            <dependency id="stp_6" t1="stt_5" t2="stt_14" type="prep_in"/>
+            <dependency id="stp_7" t1="stt_9" t2="stt_8" type="det"/>
+            <dependency id="stp_8" t1="stt_9" t2="stt_12" type="prep_in"/>
+            <dependency id="stp_9" t1="stt_12" t2="stt_11" type="amod"/>
+            <dependency id="stp_10" t1="stt_14" t2="stt_19" type="dep"/>
+            <dependency id="stp_11" t1="stt_14" t2="stt_15" type="dep"/>
+            <dependency id="stp_12" t1="stt_15" t2="stt_17" type="dobj"/>
+            <dependency id="stp_13" t1="stt_15" t2="stt_19" type="conj_or"/>
+            <dependency id="stp_14" t1="stt_17" t2="stt_16" type="amod"/>
+            <dependency id="stp_15" t1="stt_19" t2="stt_22" type="dobj"/>
+            <dependency id="stp_16" t1="stt_22" t2="stt_20" type="det"/>
+            <dependency id="stp_17" t1="stt_22" t2="stt_21" type="amod"/>
+            <dependency id="stp_18" t1="stt_22" t2="stt_24" type="dep"/>
+            <dependency id="stp_19" t1="stt_24" t2="stt_26" type="appos"/>
+            <dependency id="stp_20" t1="stt_24" t2="stt_28" type="appos"/>
+            <dependency id="stp_21" t1="stt_24" t2="stt_29" type="dep"/>
+            <dependency id="stp_22" t1="stt_26" t2="stt_28" type="conj_and/or"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP (DT No) (NN drug) (NNS=H interactions))
+            (VP=H (VBD=H were)
+            (VP (VBN=H detected)
+            (PP (IN except) (IN=H for)
+            (NP
+            (NP=H (DT an) (NN=H increase))
+            (PP (IN=H in)
+            (NP (JJ symptomatic) (NN=H hypotension)))))
+            (PP (IN=H in)
+            (NP
+            (NP=H (NNS=H patients))
+            (VP
+            (VP=H (VBG=H receiving)
+            (NP (JJ afterload) (NNS=H reducers)))
+            (CC or)
+            (VP (VBG=H affecting)
+            (NP
+            (NP=H (DT the) (JJ renin-angiotensin) (NN=H system))
+            (PRN (-LRB- -LRB-)
+            (NP=H
+            (NP=H
+            (NP=H (FW=H i.e.))
+            (, ,)
+            (NP
+            (NP=H (NNS=H ARBs))
+            (CC and/or)
+            (NP (NN=H ACE))))
+            (NP (NNS=H inhibitors)))
+            (-RRB- -RRB-)))))))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <sentence charOffset="3951-4062" id="S33">
+        <text xml:space="preserve">The co-administration of NATRECOR with nitroprusside, milrinone, or IV ACE inhibitors has not been evaluated.
+
+</text>
+        <tokens>
+            <token xml:space="preserve" id="stt_1" POS="DT" charOffset="3951-3954" text="The" lemma="the"/>
+            <token xml:space="preserve" id="stt_2" POS="NN" charOffset="3955-3972" text="co-administration" lemma="co-administration"/>
+            <token xml:space="preserve" id="stt_3" POS="IN" charOffset="3973-3975" text="of" lemma="of"/>
+            <token xml:space="preserve" id="stt_4" POS="NN" charOffset="3976-3984" text="NATRECOR" lemma="natrecor"/>
+            <token xml:space="preserve" id="stt_5" POS="IN" charOffset="3985-3989" text="with" lemma="with"/>
+            <token xml:space="preserve" id="stt_6" POS="NN" charOffset="3990-4003" text="nitroprusside" lemma="nitroprusside"/>
+            <token xml:space="preserve" id="stt_7" POS="," charOffset="4003-4004" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_8" POS="NN" charOffset="4005-4014" text="milrinone" lemma="milrinone"/>
+            <token xml:space="preserve" id="stt_9" POS="," charOffset="4014-4015" text="," lemma=","/>
+            <token xml:space="preserve" id="stt_10" POS="CC" charOffset="4016-4018" text="or" lemma="or"/>
+            <token xml:space="preserve" id="stt_11" POS="CD" charOffset="4019-4021" text="IV" lemma="iv"/>
+            <token xml:space="preserve" id="stt_12" POS="NN" charOffset="4022-4025" text="ACE" lemma="ace"/>
+            <token xml:space="preserve" id="stt_13" POS="NNS" charOffset="4026-4036" text="inhibitors" lemma="inhibitor"/>
+            <token xml:space="preserve" id="stt_14" POS="VBZ" charOffset="4037-4040" text="has" lemma="have"/>
+            <token xml:space="preserve" id="stt_15" POS="RB" charOffset="4041-4044" text="not" lemma="not"/>
+            <token xml:space="preserve" id="stt_16" POS="VBN" charOffset="4045-4049" text="been" lemma="be"/>
+            <token xml:space="preserve" id="stt_17" POS="VBN" charOffset="4050-4059" text="evaluated" lemma="evaluate"/>
+            <token xml:space="preserve" id="stt_18" POS="." charOffset="4059-4060" text="." lemma="."/>
+        </tokens>
+        <dependencies>
+            <dependency id="stp_1" t1="stt_17" t2="stt_16" type="auxpass"/>
+            <dependency id="stp_2" t1="stt_17" t2="stt_2" type="nsubjpass"/>
+            <dependency id="stp_3" t1="stt_17" t2="stt_14" type="aux"/>
+            <dependency id="stp_4" t1="stt_17" t2="stt_15" type="neg"/>
+            <dependency id="stp_5" t1="stt_2" t2="stt_1" type="det"/>
+            <dependency id="stp_6" t1="stt_2" t2="stt_4" type="prep_of"/>
+            <dependency id="stp_7" t1="stt_4" t2="stt_6" type="prep_with"/>
+            <dependency id="stp_8" t1="stt_4" t2="stt_8" type="prep_with"/>
+            <dependency id="stp_9" t1="stt_4" t2="stt_13" type="prep_with"/>
+            <dependency id="stp_10" t1="stt_6" t2="stt_8" type="conj_or"/>
+            <dependency id="stp_11" t1="stt_6" t2="stt_13" type="conj_or"/>
+            <dependency id="stp_12" t1="stt_13" t2="stt_11" type="num"/>
+            <dependency id="stp_13" t1="stt_13" t2="stt_12" type="nn"/>
+        </dependencies>
+        <tree>(ROOT
+            (S=H
+            (NP
+            (NP=H (DT The) (NN=H co-administration))
+            (PP (IN=H of)
+            (NP
+            (NP=H (NN=H NATRECOR))
+            (PP (IN=H with)
+            (NP
+            (NP=H (NN=H nitroprusside))
+            (, ,)
+            (NP (NN=H milrinone))
+            (, ,)
+            (CC or)
+            (NP (CD IV) (NN ACE) (NNS=H inhibitors)))))))
+            (VP=H (VBZ=H has) (RB not)
+            (VP (VBN=H been)
+            (VP (VBN=H evaluated))))
+            (. .)))
+            
+            </tree>
+    </sentence>
+    <Term xml:space="preserve" id="T2" type="Drug" charOffset="728-736" headOffset="728-736" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T3" type="Drug_Class" charOffset="742-786" headOffset="780-786" text="drugs affecting the renin-angiotensin system"/>
+    <Term xml:space="preserve" id="T4" type="Drug_Class" charOffset="794-823" headOffset="815-823" text="angiotensin receptor blockers"/>
+    <Term xml:space="preserve" id="T5" type="Drug_Class" charOffset="831-871" headOffset="861-871" text="angiotensin-converting enzyme inhibitors"/>
+    <Term xml:space="preserve" id="T6" type="Drug_Class" charOffset="882-900" headOffset="892-900" text="afterload reducers"/>
+    <Term xml:space="preserve" id="T8" type="Drug_Class" charOffset="3853-3871" headOffset="3863-3871" text="afterload reducers"/>
+    <Term xml:space="preserve" id="T9" type="Drug_Class" charOffset="3875-3913" headOffset="3907-3913" text="affecting the renin-angiotensin system"/>
+    <Term xml:space="preserve" id="T10" type="Drug_Class" charOffset="3921-3925" headOffset="3921-3925" text="ARBs"/>
+    <Term xml:space="preserve" id="T11" type="Drug_Class" charOffset="3933-3947" headOffset="3937-3947" text="ACE inhibitors"/>
+    <Term xml:space="preserve" id="T12" type="Drug" charOffset="3602-3610" headOffset="3602-3610" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T13" type="Drug_Class" charOffset="4022-4036" headOffset="4026-4036" text="ACE inhibitors"/>
+    <Term xml:space="preserve" id="T14" type="Drug_Class" charOffset="3451-3465" headOffset="3459-3465" text="pressor amines"/>
+    <Term xml:space="preserve" id="T15" type="Drug_Class" charOffset="1753-1772" headOffset="1766-1772" text="vasodilating agents"/>
+    <Term xml:space="preserve" id="T16" type="Drug_Class" charOffset="3434-3449" headOffset="3434-3449" text="corticosteroids"/>
+    <Term xml:space="preserve" id="T17" type="Drug" charOffset="1140-1153" headOffset="1140-1153" text="nitroglycerin"/>
+    <Term xml:space="preserve" id="T18" type="Drug" charOffset="1301-1314" headOffset="1301-1314" text="nitroglycerin"/>
+    <Term xml:space="preserve" id="T19" type="Drug" charOffset="3673-3686" headOffset="3673-3686" text="nitroglycerin"/>
+    <Term xml:space="preserve" id="T20" type="Drug" charOffset="3386-3397" headOffset="3386-3397" text="epinephrine"/>
+    <Term xml:space="preserve" id="T21" type="Drug" charOffset="0-8" headOffset="0-8" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T22" type="Drug" charOffset="90-98" headOffset="90-98" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T23" type="Drug" charOffset="447-455" headOffset="447-455" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T24" type="Drug" charOffset="556-564" headOffset="556-564" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T25" type="Drug" charOffset="1119-1127" headOffset="1119-1127" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T26" type="Drug" charOffset="1252-1260" headOffset="1252-1260" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T27" type="Drug" charOffset="1358-1366" headOffset="1358-1366" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T28" type="Drug" charOffset="1502-1510" headOffset="1502-1510" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T29" type="Drug" charOffset="1611-1619" headOffset="1611-1619" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T30" type="Drug" charOffset="1703-1711" headOffset="1703-1711" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T31" type="Drug" charOffset="2144-2152" headOffset="2144-2152" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T32" type="Drug" charOffset="2501-2509" headOffset="2501-2509" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T33" type="Drug" charOffset="2548-2556" headOffset="2548-2556" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T34" type="Drug" charOffset="2919-2927" headOffset="2919-2927" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T35" type="Drug" charOffset="3080-3088" headOffset="3080-3088" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T36" type="Drug" charOffset="3271-3279" headOffset="3271-3279" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T37" type="Drug" charOffset="3976-3984" headOffset="3976-3984" text="NATRECOR"/>
+    <Term xml:space="preserve" id="T38" type="Drug" charOffset="3990-4003" headOffset="3990-4003" text="nitroprusside"/>
+    <Term xml:space="preserve" id="T39" type="Drug_Class" charOffset="3418-3432" headOffset="3418-3432" text="antihistamines"/>
+    <Relation id="R1" type="Anaphora">
+        <Anaphor idref="T1"/>
+        <Antecedent idref="T22"/>
+    </Relation>
+    <Relation id="R2" type="Anaphora">
+        <Anaphor idref="T7"/>
+        <Antecedent idref="T36"/>
+    </Relation>
+    <Term xml:space="preserve" id="T1" type="PossessivePronoun" charOffset="329-332" headOffset="329-332" text="its"/>
+    <Term xml:space="preserve" id="T7" type="DefiniteNP" charOffset="3300-3308" headOffset="3304-3308" text="the drug"/>
+</document>

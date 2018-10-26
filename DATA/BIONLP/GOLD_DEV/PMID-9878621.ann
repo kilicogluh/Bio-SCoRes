@@ -1,0 +1,31 @@
+T1	Protein 14 31	interleukin-1beta
+T2	Protein 325 342	interleukin-1beta
+T3	Protein 344 352	IL-1beta
+T4	Protein 460 468	IL-1beta
+T5	Protein 484 492	IL-1beta
+T6	Protein 664 672	IL-1beta
+T7	Protein 706 731	latent membrane protein-1
+T8	Protein 863 871	IL-1beta
+T9	Protein 1488 1513	latent membrane protein-1
+T10	Protein 1577 1585	IL-1beta
+T11	Protein 1644 1652	IL-1beta
+T12	Exp 77 104	a number of latent proteins	96 104	proteins
+T13	Exp 109 114	their
+T14	Exp 408 438	the individual latent proteins	430 438	proteins
+T15	Exp 859 880	the IL-1beta promoter	872 880	promoter
+T16	Exp 882 887	which
+T17	Exp 1050 1078	EBV nuclear proteins 3 and 6
+T18	Exp 1096 1110	these proteins	1102 1110	proteins
+T19	Exp 1120 1123	RBP
+T20	Exp 1129 1132	its
+T21	Exp 1521 1544	activation of NF-kappaB	1521 1531	activation
+T22	Exp 1545 1549	that
+T23	Exp 1683 1697	RBP, NF-kappaB
+T24	Exp 1702 1706	both
+R1	Coref Anaphora:T13 Antecedent:T12
+R2	Coref Anaphora:T14 Antecedent:T12
+R3	Coref Anaphora:T16 Antecedent:T15	[T8]
+R4	Coref Anaphora:T18 Antecedent:T17
+R5	Coref Anaphora:T20 Antecedent:T19
+R6	Coref Anaphora:T22 Antecedent:T21
+R7	Coref Anaphora:T24 Antecedent:T23
