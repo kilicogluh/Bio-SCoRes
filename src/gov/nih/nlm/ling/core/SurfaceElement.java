@@ -56,15 +56,13 @@ public interface SurfaceElement extends Node, Comparable<SurfaceElement> {
 	
 	public String getPos();
 	public void setPos(String p);
-<<<<<<< HEAD
 	
 	public char getChunkRole();
 	public void setChunkRole(char role);
 	
 	public Chunk getChunk();
 	public void setChunk(Chunk chunk);
-=======
->>>>>>> a0d464071f0a2fc70f49df999ef26e0a14fe1d90
+
 		
 	/**
 	 * Returns a higher-level POS category.<p>
