@@ -34,6 +34,8 @@ public abstract class AbstractSurfaceElement implements SurfaceElement {
 	protected SpanList span;
 	protected LinkedHashSet<SemanticItem> semantics;
 	protected Sentence sentence;
+	protected Chunk chunk;
+	protected char chunkRole;
 	
 	public AbstractSurfaceElement() {}
 	
@@ -97,6 +99,22 @@ public abstract class AbstractSurfaceElement implements SurfaceElement {
 	
 	public void setSemantics(LinkedHashSet<SemanticItem> semantics) {
 		this.semantics = semantics;
+	}
+	
+	public char getChunkRole() {
+		return this.chunkRole;
+	}
+	
+	public void setChunkRole(char role) {
+		this.chunkRole = role;
+	}
+	
+	public Chunk getChunk() {
+		return this.chunk;
+	}
+	
+	public void setChunk(Chunk chunk) {
+		this.chunk = chunk;
 	}
 	
 	public void addSemantics(SemanticItem so) {
