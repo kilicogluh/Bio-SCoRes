@@ -120,7 +120,7 @@ public class TermAnnotation extends AbstractAnnotation {
 	// TODO Make reference an option
 	public String toStandoffAnnotation() {
 		StringBuffer buf = new StringBuffer();
-		buf.append(id + "\t" + type + " " + span.toStandoffAnnotation() + "\t" + text + "\n");
+		buf.append(id + "\t" + type + " " + span.toStandoffAnnotation() + "\t" + text);
 /*		for (Reference r: references) {
 			buf.append(r.toResolvedString());
 		}*/

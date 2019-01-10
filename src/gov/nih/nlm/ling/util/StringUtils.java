@@ -88,4 +88,25 @@ public class StringUtils {
 	    }
 	    return false;
 	}
+	
+	  /**
+	   * Indicates if the given string is init-cap.
+	   * 
+	   * @param str	the string to check
+	   * @return true if <var>str</var> is init-cap.
+	   */
+	  public static boolean isInitCap(final String str) {
+	    if (str.length() == 0) {
+	      return false;
+	    }
+	    if (Character.isUpperCase(str.charAt(0)) == false) {
+	      return false;
+	    }
+	    for (int i = 1; i < str.length(); i++) {
+	      if (Character.isLowerCase(str.charAt(i)) == false) {
+	        return false;
+	      }
+	    }
+	    return true;
+	  }
 }

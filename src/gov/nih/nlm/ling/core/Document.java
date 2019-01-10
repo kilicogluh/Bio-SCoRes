@@ -1075,7 +1075,7 @@ public class Document {
 			}
 //			return section;
 		}
-		// The section has subsections, but this span is in the main paragraphs of the section, and not the subsectiosn
+		// The section has subsections, but this span is in the main paragraphs of the section, and not the subsections
 		if ((section.getTitleSpan() != null && Span.subsume(section.getTitleSpan(), sp)) ||
 				(section.getTextSpan() != null && Span.subsume(section.getTextSpan(), sp)))
 				return section;
