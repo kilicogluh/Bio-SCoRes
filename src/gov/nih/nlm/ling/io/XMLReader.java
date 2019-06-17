@@ -350,15 +350,30 @@ public class XMLReader {
 			Term ent = (Term)annReader.read(termEl, doc);
 			if (ent != null) termSpans.put(spt, ent);
 		}
-		Elements relEls = docEl.getChildElements("Modification");
-		for (int i=0; i < relEls.size(); i++) {
-			Element relEl = relEls.get(i);
-			String semtype = relEl.getAttributeValue("type");
+		Elements modEls = docEl.getChildElements("Modification");
+		for (int i=0; i < modEls.size(); i++) {
+			Element modEl = modEls.get(i);
+			String semtype = modEl.getAttributeValue("type");
 			XMLRelationReader annReader = null;
 			readers = parseWithMultiple(semtype,annotationTypes);
 			for (XMLSemanticItemReader reader: readers) {
 				try {
 					annReader = (XMLRelationReader)reader;
+				} catch (ClassCastException cce) {
+				}
+			}
+			if (annReader == null) continue;
+			annReader.read(modEl,doc,ignoreArgTypes,equivMap);
+		}
+		Elements relEls = docEl.getChildElements("Relation");
+		for (int i=0; i < relEls.size(); i++) {
+			Element relEl = relEls.get(i);
+			String semtype = relEl.getAttributeValue("type");
+			XMLImplicitRelationReader annReader = null;
+			readers = parseWithMultiple(semtype,annotationTypes);
+			for (XMLSemanticItemReader reader: readers) {
+				try {
+					annReader = (XMLImplicitRelationReader)reader;
 				} catch (ClassCastException cce) {
 				}
 			}

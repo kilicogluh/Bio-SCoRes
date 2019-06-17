@@ -157,5 +157,22 @@ public class Section {
 		}
 		return false;
 	}
+	
+	public boolean equals(Object obj) {
+		if (obj == null) return false;
+		if (this == obj) return true;
+		if (getClass() != obj.getClass()) return false;
+		Section s = (Section)obj;
+		return (this.document.equals(s.getDocument()) &&
+		        this.titleSpan.equals(s.getTitleSpan()) &&
+		        this.textSpan.equals(s.getTextSpan()));
+	}
+
+	public int hashCode() {
+	    return
+	    ((document  == null ? 187 : document.hashCode()) ^ 
+	     (titleSpan == null ? 131 : titleSpan.hashCode()) ^
+ 	     (textSpan == null ? 139 : textSpan.hashCode()));
+	}
 
 }
