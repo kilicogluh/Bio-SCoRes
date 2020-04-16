@@ -83,5 +83,5 @@ Stanford CoreNLP model jar file that is needed for processing raw text for lexic
 
 ## Contact
 
-- Halil Kilicoglu:      [kilicogluh@mail.nih.gov](mailto:halil@illinois.edu)
+- Halil Kilicoglu:      [halil@illinois.edu](mailto:halil@illinois.edu)
 
